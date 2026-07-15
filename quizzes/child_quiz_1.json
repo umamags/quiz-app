@@ -1,0 +1,25 @@
+{
+  "quizTitle": "Child Quiz 1",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "Which animal is this?",
+      "centralImage": "https://loremflickr.com/500/350/cheetah",
+      "choiceType": "text",
+      "choices": ["Leopard", "Cheetah", "Tiger", "Panther"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which is the fastest animal?",
+      "centralImage": "https://loremflickr.com/500/350/speed,animal",
+      "choiceType": "image",
+      "choices": [
+        "https://loremflickr.com/300/300/lion",
+        "https://loremflickr.com/300/300/tiger",
+        "https://loremflickr.com/300/300/deer",
+        "https://loremflickr.com/300/300/buffalo"
+      ],
+      "correctAnswer": "c"
+    }
+  ]
+}

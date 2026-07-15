@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<style>
+  :root {
+    --primary: #4361ee;
+    --primary-dark: #2f3fb0;
+    --green: #2e7d32;
+    --green-bg: #e8f5e9;
+    --red: #c62828;
+    --red-bg: #fdecea;
+    --bg: #f4f5fb;
+    --card: #ffffff;
+    --border: #e0e0e8;
+    --text: #23252b;
+    --muted: #6b6f7a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .app {
+    width: 100%;
+    max-width: 560px;
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+    padding: 32px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
+  .screen { flex: 1; display: flex; flex-direction: column; }
+  .hidden { display: none !important; }
+
+  /* Menu screen */
+  .menu-list { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+  .menu-item {
+    padding: 16px 20px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #fafbff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .menu-item:hover { background: #eef1ff; border-color: var(--primary); }
+
+  /* Quiz screen */
+  .progress {
+    font-size: 13px;
+    color: var(--muted);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+  }
+  .question-text { font-size: 19px; font-weight: 600; margin: 4px 0 16px; }
+  .central-image-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .central-image {
+    max-width: 100%;
+    max-height: 220px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 1px solid var(--border);
+  }
+  .choices { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+  .choices.image-choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+  .choice {
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .choice:hover { border-color: var(--primary); }
+  .choice.selected { border-color: var(--primary); background: #eef1ff; }
+  .choice input { display: none; }
+  .choice.image-choice {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 8px;
+  }
+  .choice.image-choice img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  .choice-letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--border);
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .choice.selected .choice-letter { background: var(--primary); color: #fff; }
+
+  .feedback {
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    font-size: 15px;
+  }
+  .feedback.correct { background: var(--green-bg); color: var(--green); }
+  .feedback.incorrect { background: var(--red-bg); color: var(--red); }
+
+  .spacer { flex: 1; }
+
+  .nav-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 16px;
+  }
+  button {
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background 0.15s, opacity 0.15s;
+  }
+  .btn-primary { background: var(--primary); color: #fff; }
+  .btn-primary:hover { background: var(--primary-dark); }
+  .btn-primary:disabled { opacity: 0.45; cursor: not-allowed; }
+  .btn-secondary { background: #eceef5; color: var(--text); }
+  .btn-secondary:hover { background: #dfe2ee; }
+  .hint { font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+
+  /* Results screen */
+  .score-display {
+    text-align: center;
+    margin: 24px 0;
+  }
+  .score-number { font-size: 48px; font-weight: 800; color: var(--primary); }
+  .score-label { font-size: 15px; color: var(--muted); margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- MENU SCREEN -->
+  <div id="screen-menu" class="screen">
+    <h1>Quiz App</h1>
+    <h2>Choose a quiz to begin</h2>
+    <div id="menu-list" class="menu-list"></div>
+    <div id="menu-error" class="hint hidden"></div>
+  </div>
+
+  <!-- QUIZ SCREEN -->
+  <div id="screen-quiz" class="screen hidden">
+    <div class="progress" id="progress-label"></div>
+    <div class="question-text" id="question-text"></div>
+    <div class="central-image-wrap">
+      <img id="central-image" class="central-image" src="" alt="question image">
+    </div>
+    <div id="feedback" class="feedback hidden"></div>
+    <div id="choices" class="choices"></div>
+    <div class="spacer"></div>
+    <div class="nav-row">
+      <button class="btn-secondary" id="btn-back">Back</button>
+      <button class="btn-primary" id="btn-submit">Submit</button>
+      <button class="btn-primary hidden" id="btn-next">Next Question</button>
+    </div>
+  </div>
+
+  <!-- RESULTS SCREEN -->
+  <div id="screen-results" class="screen hidden">
+    <h1 id="results-title">Quiz Complete</h1>
+    <div class="score-display">
+      <div class="score-number" id="score-number">0 / 0</div>
+      <div class="score-label">questions answered correctly</div>
+    </div>
+    <div class="spacer"></div>
+    <div class="nav-row">
+      <button class="btn-secondary" id="btn-results-back">Back</button>
+      <button class="btn-primary" id="btn-results-menu">Back to Menu</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  const LETTERS = ['a', 'b', 'c', 'd'];
+
+  const state = {
+    manifest: null,
+    quiz: null,
+    quizFile: null,
+    currentIndex: 0,
+    answers: [],       // stored final answer letter per question index, or null
+    selectedNow: null  // radio selection not yet submitted
+  };
+
+  const el = (id) => document.getElementById(id);
+  const screens = {
+    menu: el('screen-menu'),
+    quiz: el('screen-quiz'),
+    results: el('screen-results')
+  };
+
+  function showScreen(name) {
+    Object.values(screens).forEach(s => s.classList.add('hidden'));
+    screens[name].classList.remove('hidden');
+  }
+
+  // ---------- MENU ----------
+  function loadManifest() {
+    fetch('quizzes/manifest.json')
+      .then(r => {
+        if (!r.ok) throw new Error('manifest not found');
+        return r.json();
+      })
+      .then(data => {
+        state.manifest = data;
+        renderMenu();
+      })
+      .catch(err => {
+        const errEl = el('menu-error');
+        errEl.classList.remove('hidden');
+        errEl.textContent = 'Could not load quizzes/manifest.json. If you opened this file directly by double-clicking it, browsers block loading local JSON files for security reasons. Please run a simple local server instead (see README.md) and open the app via http://localhost.';
+      });
+  }
+
+  function renderMenu() {
+    const list = el('menu-list');
+    list.innerHTML = '';
+    state.manifest.quizzes.forEach(q => {
+      const btn = document.createElement('button');
+      btn.className = 'menu-item';
+      btn.textContent = q.title;
+      btn.addEventListener('click', () => startQuiz(q.file));
+      list.appendChild(btn);
+    });
+  }
+
+  // ---------- QUIZ ----------
+  function startQuiz(file) {
+    fetch(file)
+      .then(r => r.json())
+      .then(data => {
+        state.quiz = data;
+        state.quizFile = file;
+        state.answers = new Array(data.questions.length).fill(null);
+        state.currentIndex = 0;
+        showScreen('quiz');
+        renderQuestion();
+      })
+      .catch(() => {
+        alert('Could not load quiz file: ' + file);
+      });
+  }
+
+  function showCorrectAnswerEnabled() {
+    return String(state.quiz.showCorrectAnswer).toUpperCase() === 'Y';
+  }
+
+  function renderQuestion() {
+    const q = state.quiz.questions[state.currentIndex];
+    const total = state.quiz.questions.length;
+    const storedAnswer = state.answers[state.currentIndex];
+
+    state.selectedNow = storedAnswer;
+
+    el('progress-label').textContent = 'Question ' + (state.currentIndex + 1) + ' of ' + total;
+    el('question-text').textContent = q.questionText;
+    el('central-image').src = q.centralImage;
+    el('central-image').alt = q.questionText;
+
+    // Choices
+    const choicesEl = el('choices');
+    choicesEl.innerHTML = '';
+    const isImageChoice = q.choiceType === 'image';
+    choicesEl.className = 'choices' + (isImageChoice ? ' image-choices' : '');
+
+    q.choices.forEach((choice, i) => {
+      const letter = LETTERS[i];
+      const wrap = document.createElement('div');
+      wrap.className = 'choice' + (isImageChoice ? ' image-choice' : '') + (storedAnswer === letter ? ' selected' : '');
+      wrap.dataset.letter = letter;
+
+      if (isImageChoice) {
+        const img = document.createElement('img');
+        img.src = choice;
+        img.alt = 'choice ' + letter;
+        wrap.appendChild(img);
+        const label = document.createElement('div');
+        label.style.display = 'flex';
+        label.style.alignItems = 'center';
+        label.style.gap = '8px';
+        label.style.marginTop = '6px';
+        const badge = document.createElement('span');
+        badge.className = 'choice-letter';
+        badge.textContent = letter.toUpperCase();
+        label.appendChild(badge);
+        wrap.appendChild(label);
+      } else {
+        const badge = document.createElement('span');
+        badge.className = 'choice-letter';
+        badge.textContent = letter.toUpperCase();
+        wrap.appendChild(badge);
+        const text = document.createElement('span');
+        text.textContent = choice;
+        wrap.appendChild(text);
+      }
+
+      wrap.addEventListener('click', () => selectChoice(letter));
+      choicesEl.appendChild(wrap);
+    });
+
+    // Feedback + button state depends on whether this question already has a
+    // resolved stored answer.
+    const feedbackEl = el('feedback');
+    feedbackEl.classList.add('hidden');
+    feedbackEl.textContent = '';
+
+    const submitBtn = el('btn-submit');
+    const nextBtn = el('btn-next');
+
+    const isLast = state.currentIndex === total - 1;
+    nextBtn.textContent = isLast ? 'See Results' : 'Next Question';
+
+    if (storedAnswer !== null && showCorrectAnswerEnabled() && storedAnswer === q.correctAnswer) {
+      // Already correctly answered (e.g. user navigated back to review it).
+      feedbackEl.classList.remove('hidden');
+      feedbackEl.classList.remove('incorrect');
+      feedbackEl.classList.add('correct');
+      feedbackEl.textContent = 'Great job!';
+      submitBtn.classList.add('hidden');
+      nextBtn.classList.remove('hidden');
+    } else {
+      submitBtn.classList.remove('hidden');
+      nextBtn.classList.add('hidden');
+    }
+
+    el('btn-back').disabled = false;
+  }
+
+  function selectChoice(letter) {
+    state.selectedNow = letter;
+    document.querySelectorAll('#choices .choice').forEach(c => {
+      c.classList.toggle('selected', c.dataset.letter === letter);
+    });
+  }
+
+  function submitAnswer() {
+    if (!state.selectedNow) {
+      const feedbackEl = el('feedback');
+      feedbackEl.classList.remove('hidden', 'correct');
+      feedbackEl.classList.add('incorrect');
+      feedbackEl.textContent = 'Please select an answer first.';
+      return;
+    }
+
+    const q = state.quiz.questions[state.currentIndex];
+    state.answers[state.currentIndex] = state.selectedNow;
+    const isCorrect = state.selectedNow === q.correctAnswer;
+
+    if (!showCorrectAnswerEnabled()) {
+      // Silent scoring: no message, move straight on.
+      goNext();
+      return;
+    }
+
+    const feedbackEl = el('feedback');
+    feedbackEl.classList.remove('hidden');
+    if (isCorrect) {
+      feedbackEl.classList.remove('incorrect');
+      feedbackEl.classList.add('correct');
+      feedbackEl.textContent = 'Great job!';
+      el('btn-submit').classList.add('hidden');
+      el('btn-next').classList.remove('hidden');
+    } else {
+      feedbackEl.classList.remove('correct');
+      feedbackEl.classList.add('incorrect');
+      feedbackEl.textContent = 'Incorrect. Please choose again.';
+    }
+  }
+
+  function goNext() {
+    const total = state.quiz.questions.length;
+    if (state.currentIndex < total - 1) {
+      state.currentIndex += 1;
+      renderQuestion();
+    } else {
+      showResults();
+    }
+  }
+
+  function goBack() {
+    if (state.currentIndex > 0) {
+      state.currentIndex -= 1;
+      renderQuestion();
+    } else {
+      showScreen('menu');
+    }
+  }
+
+  // ---------- RESULTS ----------
+  function computeScore() {
+    let score = 0;
+    state.quiz.questions.forEach((q, i) => {
+      if (state.answers[i] === q.correctAnswer) score += 1;
+    });
+    return { score, total: state.quiz.questions.length };
+  }
+
+  function showResults() {
+    const { score, total } = computeScore();
+    el('results-title').textContent = state.quiz.quizTitle + ' - Complete';
+    el('score-number').textContent = score + ' / ' + total;
+    showScreen('results');
+  }
+
+  function resultsBack() {
+    state.currentIndex = state.quiz.questions.length - 1;
+    showScreen('quiz');
+    renderQuestion();
+  }
+
+  // ---------- WIRE UP ----------
+  el('btn-submit').addEventListener('click', submitAnswer);
+  el('btn-next').addEventListener('click', goNext);
+  el('btn-back').addEventListener('click', goBack);
+  el('btn-results-menu').addEventListener('click', () => showScreen('menu'));
+  el('btn-results-back').addEventListener('click', resultsBack);
+
+  loadManifest();
+})();
+</script>
+
+</body>
+</html>
