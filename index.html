@@ -229,7 +229,8 @@
     quizFile: null,
     currentIndex: 0,
     answers: [],       // stored final answer letter per question index, or null
-    selectedNow: null  // radio selection not yet submitted
+    selectedNow: null, // radio selection not yet submitted
+    settings: { sound: 'on' }
   };
 
   const el = (id) => document.getElementById(id);
@@ -242,6 +243,70 @@
   function showScreen(name) {
     Object.values(screens).forEach(s => s.classList.add('hidden'));
     screens[name].classList.remove('hidden');
+  }
+
+  // ---------- SOUND ----------
+  let audioCtx = null;
+
+  function soundEnabled() {
+    return String(state.settings.sound).toUpperCase() === 'ON';
+  }
+
+  function getAudioContext() {
+    if (!audioCtx) {
+      const Ctx = window.AudioContext || window.webkitAudioContext;
+      audioCtx = new Ctx();
+    }
+    return audioCtx;
+  }
+
+  // Chrome creates a new AudioContext suspended, and its currentTime stays
+  // frozen at 0 until resume() actually completes. Scheduling tones before
+  // that finishes is the classic "first click makes no sound" bug, so we
+  // await it here before reading currentTime.
+  async function ensureAudioRunning() {
+    const ctx = getAudioContext();
+    if (ctx.state === 'suspended') {
+      try { await ctx.resume(); } catch (e) { /* ignore */ }
+    }
+    return ctx;
+  }
+
+  function playTone(ctx, freq, startTime, duration, type, gainPeak) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = type;
+    osc.frequency.setValueAtTime(freq, startTime);
+    gain.gain.setValueAtTime(0, startTime);
+    gain.gain.linearRampToValueAtTime(gainPeak, startTime + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(startTime);
+    osc.stop(startTime + duration + 0.02);
+  }
+
+  async function playHappySound() {
+    const ctx = await ensureAudioRunning();
+    const now = ctx.currentTime;
+    playTone(ctx, 523.25, now, 0.12, 'triangle', 0.2);        // C5
+    playTone(ctx, 659.25, now + 0.1, 0.12, 'triangle', 0.2);  // E5
+    playTone(ctx, 783.99, now + 0.2, 0.22, 'triangle', 0.22); // G5
+  }
+
+  async function playUhOhSound() {
+    const ctx = await ensureAudioRunning();
+    const now = ctx.currentTime;
+    playTone(ctx, 311.13, now, 0.18, 'sawtooth', 0.18);        // Eb4
+    playTone(ctx, 233.08, now + 0.16, 0.28, 'sawtooth', 0.18); // Bb3
+  }
+
+  // ---------- SETTINGS ----------
+  function loadSettings() {
+    return fetch('config/settings.json')
+      .then(r => r.ok ? r.json() : { sound: 'on' })
+      .then(data => { state.settings = data; })
+      .catch(() => { state.settings = { sound: 'on' }; });
   }
 
   // ---------- MENU ----------
@@ -396,6 +461,10 @@
     state.answers[state.currentIndex] = state.selectedNow;
     const isCorrect = state.selectedNow === q.correctAnswer;
 
+    if (soundEnabled()) {
+      if (isCorrect) playHappySound(); else playUhOhSound();
+    }
+
     if (!showCorrectAnswerEnabled()) {
       // Silent scoring: no message, move straight on.
       goNext();
@@ -465,7 +534,7 @@
   el('btn-results-menu').addEventListener('click', () => showScreen('menu'));
   el('btn-results-back').addEventListener('click', resultsBack);
 
-  loadManifest();
+  loadSettings().then(loadManifest);
 })();
 </script>
 

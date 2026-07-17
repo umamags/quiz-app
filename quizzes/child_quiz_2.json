@@ -4,20 +4,20 @@
   "questions": [
     {
       "questionText": "Which shape has three sides?",
-      "centralImage": "https://loremflickr.com/500/350/triangle,shape",
+      "centralImage": "images/triangle_shape_500_350.jpg",
       "choiceType": "text",
       "choices": ["Square", "Triangle", "Circle", "Pentagon"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which fruit is this?",
-      "centralImage": "https://loremflickr.com/500/350/banana",
+      "centralImage": "images/banana_500_350.jpg",
       "choiceType": "image",
       "choices": [
-        "https://loremflickr.com/300/300/apple",
-        "https://loremflickr.com/300/300/orange",
-        "https://loremflickr.com/300/300/banana",
-        "https://loremflickr.com/300/300/grapes"
+        "images/apple_300_300.jpg",
+        "images/orange_300_300.jpg",
+        "images/banana_300_300.jpg",
+        "images/grapes_300_300.jpg"
       ],
       "correctAnswer": "c"
     }
