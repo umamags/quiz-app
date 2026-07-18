@@ -4,14 +4,22 @@
   "questions": [
     {
       "questionText": "Which animal is this?",
-      "centralImage": "images/cheetah_500_350.jpg",
+      "centralImage": [
+        "images/cheetah_500_350.jpg",
+        "images/cheetah_500_350.jpg",
+        "images/cheetah_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Leopard", "Cheetah", "Tiger", "Panther"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which is the fastest animal?",
-      "centralImage": "images/speed_animal_500_350.jpg",
+      "centralImage": [
+        "images/speed_animal_500_350.jpg",
+        "images/speed_animal_500_350.jpg",
+        "images/speed_animal_500_350.jpg"
+      ],
       "choiceType": "image",
       "choices": [
         "images/lion_300_300.jpg",
@@ -23,105 +31,165 @@
     },
     {
       "questionText": "Which animal is this?",
-      "centralImage": "images/lion_500_350.jpg",
+      "centralImage": [
+        "images/lion_500_350.jpg",
+        "images/lion_500_350.jpg",
+        "images/lion_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Tiger", "Lion", "Elephant", "Horse"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which animal has a long trunk?",
-      "centralImage": "images/elephant_500_350.jpg",
+      "centralImage": [
+        "images/elephant_500_350.jpg",
+        "images/elephant_500_350.jpg",
+        "images/elephant_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Dog", "Cat", "Elephant", "Rabbit"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which animal is known as the tallest land animal?",
-      "centralImage": "images/giraffe_500_350.jpg",
+      "centralImage": [
+        "images/giraffe_500_350.jpg",
+        "images/giraffe_500_350.jpg",
+        "images/giraffe_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Horse", "Giraffe", "Zebra", "Bear"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which animal has black and white stripes?",
-      "centralImage": "images/zebra_500_350.jpg",
+      "centralImage": [
+        "images/zebra_500_350.jpg",
+        "images/zebra_500_350.jpg",
+        "images/zebra_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Tiger", "Cow", "Zebra", "Goat"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which animal says 'Woof'?",
-      "centralImage": "images/dog_500_350.jpg",
+      "centralImage": [
+        "images/dog_500_350.jpg",
+        "images/dog_500_350.jpg",
+        "images/dog_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Cat", "Dog", "Horse", "Pig"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which sea animal is this?",
-      "centralImage": "images/dolphin_500_350.jpg",
+      "centralImage": [
+        "images/dolphin_500_350.jpg",
+        "images/dolphin_500_350.jpg",
+        "images/dolphin_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Shark", "Whale", "Dolphin", "Seal"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which sea animal has eight arms?",
-      "centralImage": "images/octopus_500_350.jpg",
+      "centralImage": [
+        "images/octopus_500_350.jpg",
+        "images/octopus_500_350.jpg",
+        "images/octopus_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Fish", "Crab", "Octopus", "Starfish"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which sea animal is shaped like a star?",
-      "centralImage": "images/starfish_500_350.jpg",
+      "centralImage": [
+        "images/starfish_500_350.jpg",
+        "images/starfish_500_350.jpg",
+        "images/starfish_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Jellyfish", "Seahorse", "Starfish", "Whale"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which is the biggest sea animal?",
-      "centralImage": "images/blue-whale_500_350.jpg",
+      "centralImage": [
+        "images/blue-whale_500_350.jpg",
+        "images/blue-whale_500_350.jpg",
+        "images/blue-whale_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Shark", "Blue Whale", "Seal", "Dolphin"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which sea animal has a hard shell and walks sideways?",
-      "centralImage": "images/crab_500_350.jpg",
+      "centralImage": [
+        "images/crab_500_350.jpg",
+        "images/crab_500_350.jpg",
+        "images/crab_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Fish", "Crab", "Octopus", "Whale"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which reptile is this?",
-      "centralImage": "images/crocodile_500_350.jpg",
+      "centralImage": [
+        "images/crocodile_500_350.jpg",
+        "images/crocodile_500_350.jpg",
+        "images/crocodile_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Lizard", "Snake", "Crocodile", "Frog"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which reptile has a shell?",
-      "centralImage": "images/turtle_500_350.jpg",
+      "centralImage": [
+        "images/turtle_500_350.jpg",
+        "images/turtle_500_350.jpg",
+        "images/turtle_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Snake", "Lizard", "Turtle", "Crocodile"],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which reptile has no legs?",
-      "centralImage": "images/snake_500_350.jpg",
+      "centralImage": [
+        "images/snake_500_350.jpg",
+        "images/snake_500_350.jpg",
+        "images/snake_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Snake", "Lizard", "Turtle", "Crocodile"],
       "correctAnswer": "a"
     },
     {
       "questionText": "Which reptile can climb walls?",
-      "centralImage": "images/gecko_500_350.jpg",
+      "centralImage": [
+        "images/gecko_500_350.jpg",
+        "images/gecko_500_350.jpg",
+        "images/gecko_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Gecko", "Snake", "Turtle", "Crocodile"],
       "correctAnswer": "a"
     },
     {
       "questionText": "Which reptile changes its color?",
-      "centralImage": "images/chameleon_500_350.jpg",
+      "centralImage": [
+        "images/chameleon_500_350.jpg",
+        "images/chameleon_500_350.jpg",
+        "images/chameleon_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Iguana", "Chameleon", "Snake", "Turtle"],
       "correctAnswer": "b"

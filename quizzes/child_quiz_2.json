@@ -4,14 +4,22 @@
   "questions": [
     {
       "questionText": "Which shape has three sides?",
-      "centralImage": "images/triangle_shape_500_350.jpg",
+      "centralImage": [
+        "images/triangle_shape_500_350.jpg",
+        "images/triangle_shape_500_350.jpg",
+        "images/triangle_shape_500_350.jpg"
+      ],
       "choiceType": "text",
       "choices": ["Square", "Triangle", "Circle", "Pentagon"],
       "correctAnswer": "b"
     },
     {
       "questionText": "Which fruit is this?",
-      "centralImage": "images/banana_500_350.jpg",
+      "centralImage": [
+        "images/banana_500_350.jpg",
+        "images/banana_500_350.jpg",
+        "images/banana_500_350.jpg"
+      ],
       "choiceType": "image",
       "choices": [
         "images/apple_300_300.jpg",

@@ -32,7 +32,7 @@
   }
   .app {
     width: 100%;
-    max-width: 560px;
+    max-width: 1400px;
     background: var(--card);
     border-radius: 16px;
     box-shadow: 0 8px 30px rgba(0,0,0,0.08);
@@ -74,10 +74,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
     margin-bottom: 20px;
   }
   .central-image {
-    max-width: 100%;
+    flex: 0 1 340px;
+    max-width: 340px;
     max-height: 220px;
     border-radius: 12px;
     object-fit: cover;
@@ -190,9 +193,7 @@
   <div id="screen-quiz" class="screen hidden">
     <div class="progress" id="progress-label"></div>
     <div class="question-text" id="question-text"></div>
-    <div class="central-image-wrap">
-      <img id="central-image" class="central-image" src="" alt="question image">
-    </div>
+    <div class="central-image-wrap" id="central-image-wrap"></div>
     <div id="feedback" class="feedback hidden"></div>
     <div id="choices" class="choices"></div>
     <div class="spacer"></div>
@@ -360,6 +361,19 @@
     return String(state.quiz.showCorrectAnswer).toUpperCase() === 'Y';
   }
 
+  function renderCentralImages(q) {
+    const wrap = el('central-image-wrap');
+    wrap.innerHTML = '';
+    const images = Array.isArray(q.centralImage) ? q.centralImage : [q.centralImage];
+    images.forEach(src => {
+      const img = document.createElement('img');
+      img.className = 'central-image';
+      img.src = src;
+      img.alt = q.questionText;
+      wrap.appendChild(img);
+    });
+  }
+
   function renderQuestion() {
     const q = state.quiz.questions[state.currentIndex];
     const total = state.quiz.questions.length;
@@ -369,8 +383,7 @@
 
     el('progress-label').textContent = 'Question ' + (state.currentIndex + 1) + ' of ' + total;
     el('question-text').textContent = q.questionText;
-    el('central-image').src = q.centralImage;
-    el('central-image').alt = q.questionText;
+    renderCentralImages(q);
 
     // Choices
     const choicesEl = el('choices');
