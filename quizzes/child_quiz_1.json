@@ -14,22 +14,6 @@
       "correctAnswer": "b"
     },
     {
-      "questionText": "Which is the fastest animal?",
-      "centralImage": [
-        "images_downloaded/animals/cheetah_1_bcJUbYd5gTo.jpg",
-        "images_downloaded/animals/cheetah_2_0SsN7jfCXps.jpg",
-        "images_downloaded/animals/cheetah_3_lFMIQ6AiiW8.jpg"
-      ],
-      "choiceType": "image",
-      "choices": [
-        "images/lion_300_300.jpg",
-        "images/tiger_300_300.jpg",
-        "images/deer_300_300.jpg",
-        "images/buffalo_300_300.jpg"
-      ],
-      "correctAnswer": "c"
-    },
-    {
       "questionText": "Which animal is this?",
       "centralImage": [
         "images_downloaded/animals/lion_1_6BrJCTEAT5M.jpg",
