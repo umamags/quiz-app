@@ -1,0 +1,52 @@
+{
+  "quizTitle": "Child Quiz 4: Mix & Match",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg",
+        "images_downloaded/fruits/apple_2_gDPaDDy6_WE.jpg",
+        "images_downloaded/fruits/apple_3_wXuzS9xR49M.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Apple", "Pear", "Peach", "Guava"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/banana_1_Kl3467edwsE.jpg",
+        "images_downloaded/fruits/banana_2_0v_1TPz1uXw.jpg",
+        "images_downloaded/fruits/banana_3_fczCr7MdE7U.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Papaya", "Banana", "Mango", "Pineapple"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each big cat to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Lion", "right": "images_downloaded/animals/lion_1_6BrJCTEAT5M.jpg" },
+        { "left": "Tiger", "right": "images/tiger_300_300.jpg" },
+        { "left": "Leopard", "right": "images/leopard_300_300.jpg" },
+        { "left": "Panther", "right": "images/panther_300_300.jpg" }
+      ]
+    },
+    {
+      "questionText": "Match each item to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Carrot", "right": "images_downloaded/vegetables/carrot_1_GHRT9j21m2M.jpg" },
+        { "left": "Lemon", "right": "images_downloaded/fruits/lemon_1_enNffryKuQI.jpg" },
+        { "left": "Apple", "right": "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg" },
+        { "left": "Cabbage", "right": "images_downloaded/vegetables/cabbage_1_ujh4hU9S-KA.jpg" }
+      ]
+    }
+  ]
+}

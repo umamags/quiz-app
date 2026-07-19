@@ -1,6 +1,7 @@
 {
   "quizzes": [
     { "title": "Quiz 1: Animals", "file": "quizzes/child_quiz_1.json" },
-    { "title": "Quiz 3: Fruits & Vegetables", "file": "quizzes/child_quiz_3.json" }
+    { "title": "Quiz 2: Fruits & Vegetables", "file": "quizzes/child_quiz_3.json" },
+    { "title": "Quiz 3: Mix & Match", "file": "quizzes/child_quiz_4.json" }
   ]
 }
