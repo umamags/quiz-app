@@ -3,28 +3,6 @@
   "showCorrectAnswer": "Y",
   "questions": [
     {
-      "questionText": "Which fruit is this?",
-      "centralImage": [
-        "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg",
-        "images_downloaded/fruits/apple_2_gDPaDDy6_WE.jpg",
-        "images_downloaded/fruits/apple_3_wXuzS9xR49M.jpg"
-      ],
-      "choiceType": "text",
-      "choices": ["Apple", "Pear", "Peach", "Guava"],
-      "correctAnswer": "a"
-    },
-    {
-      "questionText": "Which fruit is this?",
-      "centralImage": [
-        "images_downloaded/fruits/banana_1_Kl3467edwsE.jpg",
-        "images_downloaded/fruits/banana_2_0v_1TPz1uXw.jpg",
-        "images_downloaded/fruits/banana_3_fczCr7MdE7U.jpg"
-      ],
-      "choiceType": "text",
-      "choices": ["Papaya", "Banana", "Mango", "Pineapple"],
-      "correctAnswer": "b"
-    },
-    {
       "questionText": "Match each big cat to its picture",
       "choiceType": "match",
       "leftType": "text",
@@ -47,6 +25,209 @@
         { "left": "Apple", "right": "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg" },
         { "left": "Cabbage", "right": "images_downloaded/vegetables/cabbage_1_ujh4hU9S-KA.jpg" }
       ]
+    },
+    {
+      "questionText": "Match each dinosaur to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Triceratops", "right": "images_downloaded/dinosaurs/triceratops_1_tYGyFKx7Deo.jpg" },
+        { "left": "Stegosaurus", "right": "images_downloaded/dinosaurs/stegosaurus_1_fwULOOEWHto.jpg" },
+        { "left": "Tyrannosaurus Rex", "right": "images_downloaded/dinosaurs/tyrannosaurus_rex_1_hYKG311mff8.jpg" },
+        { "left": "Velociraptor", "right": "images_downloaded/dinosaurs/velociraptor_1_4EU2Zlh8F08.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which dinosaur is this?",
+      "centralImage": [
+        "images_downloaded/dinosaurs/brachiosaurus_1_yqC4CN7_I68.jpg",
+        "images_downloaded/dinosaurs/brachiosaurus_2_IJVxB1gSL6o.jpg",
+        "images_downloaded/dinosaurs/brachiosaurus_3_eDFKxCMN5cg.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Brachiosaurus", "Diplodocus", "Brontosaurus", "Stegosaurus"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/mango_1_7CMH2a9Vumo.jpg",
+        "images_downloaded/fruits/mango_2_McxsrN3WW48.jpg",
+        "images_downloaded/fruits/mango_3_vxtBBfMTMZ0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Papaya", "Mango", "Peach", "Apricot"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/carrot_1_GHRT9j21m2M.jpg",
+        "images_downloaded/vegetables/carrot_2_ZgDHMMd72I8.jpg",
+        "images_downloaded/vegetables/carrot_3_IZq1FV87qpM.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Parsnip", "Carrot", "Turnip", "Radish"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/iguana_1_CxayZniisNA.jpg",
+        "images_downloaded/reptiles/iguana_2_xro6zbGewnc.jpg",
+        "images_downloaded/reptiles/iguana_3_DO0lQFlzGeM.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Chameleon", "Iguana", "Gecko", "Lizard"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each fish to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Clownfish", "right": "images_downloaded/fishes/clownfish_1_V7SKRhXskv8.jpg" },
+        { "left": "Seahorse", "right": "images_downloaded/fishes/seahorse_1_fG1fdervp1E.jpg" },
+        { "left": "Shark", "right": "images_downloaded/fishes/shark_1_GBDkr3k96DE.jpg" },
+        { "left": "Swordfish", "right": "images_downloaded/fishes/swordfish_1_7hrNYNE7x44.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which shape is this?",
+      "centralImage": [
+        "images_downloaded/shapes/hexagon_1_o-D3p035Ou0.jpg",
+        "images_downloaded/shapes/hexagon_2_VUnjE00FRSA.jpg",
+        "images_downloaded/shapes/hexagon_3_Uj_g1ZSzPoY.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Pentagon", "Hexagon", "Octagon", "Heptagon"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which dinosaur could fly?",
+      "centralImage": [
+        "images_downloaded/dinosaurs/pterodactyl_1_OJPgnE6CwL0.jpg",
+        "images_downloaded/dinosaurs/pterodactyl_2_UdyyTpg2a2I.jpg",
+        "images_downloaded/dinosaurs/pterodactyl_3_VZFzOPNqQNQ.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Triceratops", "Stegosaurus", "Pterodactyl", "Ankylosaurus"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/kiwi_1_p5Ljx_H2F8o.jpg",
+        "images_downloaded/fruits/kiwi_2_jPVcZsxRGJo.jpg",
+        "images_downloaded/fruits/kiwi_3_VCa_6OdVV2w.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Kiwi", "Lime", "Fig", "Guava"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each fruit to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Banana", "right": "images_downloaded/fruits/banana_1_Kl3467edwsE.jpg" },
+        { "left": "Grape", "right": "images_downloaded/fruits/grape_1_qtwlKiu6VHg.jpg" },
+        { "left": "Strawberry", "right": "images_downloaded/fruits/strawberry_1_xnRg3xDcNnE.jpg" },
+        { "left": "Pineapple", "right": "images_downloaded/fruits/pineapple_1_yx3-a7ualMM.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/broccoli_1_TL6bTnQWMbk.jpg",
+        "images_downloaded/vegetables/broccoli_2_4fTaeH37eH0.jpg",
+        "images_downloaded/vegetables/broccoli_3_bRdRUUtbxO0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Broccoli", "Cauliflower", "Cabbage", "Kale"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/crocodile_1_YppMBEPyfFQ.jpg",
+        "images_downloaded/reptiles/crocodile_2_YOX8ZMTo7hk.jpg",
+        "images_downloaded/reptiles/crocodile_3_R3sgrDvXz3I.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Alligator", "Crocodile", "Caiman", "Gharial"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each shape to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Circle", "right": "images_downloaded/shapes/circle_1_HLhvZ9HRAwo.jpg" },
+        { "left": "Square", "right": "images_downloaded/shapes/square_1_LTDuGUByp6Y.jpg" },
+        { "left": "Triangle", "right": "images_downloaded/shapes/triangle_1_dxGTQArsC3M.jpg" },
+        { "left": "Star", "right": "images_downloaded/shapes/star_1_Q_RBVFFXR_g.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which shape is this?",
+      "centralImage": [
+        "images_downloaded/shapes/oval_1_zTocsCXBQmI.jpg",
+        "images_downloaded/shapes/oval_2_OYcO1xSyrQ0.jpg",
+        "images_downloaded/shapes/oval_3_dH3N_36fhsk.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Circle", "Oval", "Rhombus", "Crescent"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which dinosaur had a sail on its back?",
+      "centralImage": [
+        "images_downloaded/dinosaurs/spinosaurus_1_IJVxB1gSL6o.jpg",
+        "images_downloaded/dinosaurs/spinosaurus_2_CiT4hrqUm0I.jpg",
+        "images_downloaded/dinosaurs/spinosaurus_3_Iw6MghQqVG0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Spinosaurus", "Triceratops", "Brachiosaurus", "Velociraptor"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each animal to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Elephant", "right": "images_downloaded/animals/elephant_1_QJbyG6O0ick.jpg" },
+        { "left": "Giraffe", "right": "images_downloaded/animals/giraffe_1_NVXY8_M1n40.jpg" },
+        { "left": "Zebra", "right": "images_downloaded/animals/zebra_1_UgidX4V13Gc.jpg" },
+        { "left": "Panda", "right": "images_downloaded/animals/panda_1_s-fD5Tpew2k.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/dragon_fruit_1_yPI38imbQSI.jpg",
+        "images_downloaded/fruits/dragon_fruit_2_Ndutfk-jjLc.jpg",
+        "images_downloaded/fruits/dragon_fruit_3_1EjWR3oagkg.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Kiwano", "Dragon Fruit", "Passion Fruit", "Papaya"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/pumpkin_1_CC6X_13kuFQ.jpg",
+        "images_downloaded/vegetables/pumpkin_2_MYRG0ptGh50.jpg",
+        "images_downloaded/vegetables/pumpkin_3_zeInZepl_Hw.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Pumpkin", "Zucchini", "Cantaloupe", "Watermelon"],
+      "correctAnswer": "a"
     }
   ]
 }
