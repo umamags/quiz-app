@@ -1,0 +1,226 @@
+{
+  "quizTitle": "Child Quiz 3: Fruits & Vegetables",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg",
+        "images_downloaded/fruits/apple_2_gDPaDDy6_WE.jpg",
+        "images_downloaded/fruits/apple_3_wXuzS9xR49M.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Apple", "Pear", "Peach", "Guava"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/banana_1_Kl3467edwsE.jpg",
+        "images_downloaded/fruits/banana_2_0v_1TPz1uXw.jpg",
+        "images_downloaded/fruits/banana_3_fczCr7MdE7U.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Papaya", "Banana", "Mango", "Pineapple"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/orange_1_U1iYwZ8Dx7k.jpg",
+        "images_downloaded/fruits/orange_2_8ZGgg6rhzxs.jpg",
+        "images_downloaded/fruits/orange_3_A4BBdJQu2co.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Lemon", "Grapefruit", "Orange", "Tangerine"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/strawberry_1_xnRg3xDcNnE.jpg",
+        "images_downloaded/fruits/strawberry_2_I497Uc8xWXQ.jpg",
+        "images_downloaded/fruits/strawberry_3_VyRmCBnDj5g.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Strawberry", "Raspberry", "Cherry", "Blueberry"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/pineapple_1_yx3-a7ualMM.jpg",
+        "images_downloaded/fruits/pineapple_2_nAOZCYcLND8.jpg",
+        "images_downloaded/fruits/pineapple_3_Cr9hZrpC1Oc.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Watermelon", "Pineapple", "Papaya", "Mango"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/watermelon_1_izi5AnlbRIA.jpg",
+        "images_downloaded/fruits/watermelon_2_aFUHu9WNO3Q.jpg",
+        "images_downloaded/fruits/watermelon_3_euqiHwS38Rw.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Cantaloupe", "Honeydew", "Watermelon", "Pumpkin"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/mango_1_7CMH2a9Vumo.jpg",
+        "images_downloaded/fruits/mango_2_McxsrN3WW48.jpg",
+        "images_downloaded/fruits/mango_3_vxtBBfMTMZ0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Peach", "Apricot", "Mango", "Papaya"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/kiwi_1_p5Ljx_H2F8o.jpg",
+        "images_downloaded/fruits/kiwi_2_jPVcZsxRGJo.jpg",
+        "images_downloaded/fruits/kiwi_3_VCa_6OdVV2w.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Kiwi", "Lime", "Avocado", "Fig"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/peach_1_dAjYxJrcdd8.jpg",
+        "images_downloaded/fruits/peach_2_H4QpChoce7I.jpg",
+        "images_downloaded/fruits/peach_3_ofRrymNhmvI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Plum", "Peach", "Nectarine", "Apricot"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which fruit is this?",
+      "centralImage": [
+        "images_downloaded/fruits/pear_1_haSJEJYzl5A.jpg",
+        "images_downloaded/fruits/pear_2_aD7Y2yL646Q.jpg",
+        "images_downloaded/fruits/pear_3_bLPjs4Kw9JU.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Apple", "Guava", "Pear", "Quince"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/carrot_1_GHRT9j21m2M.jpg",
+        "images_downloaded/vegetables/carrot_2_ZgDHMMd72I8.jpg",
+        "images_downloaded/vegetables/carrot_3_IZq1FV87qpM.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Parsnip", "Carrot", "Turnip", "Radish"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/broccoli_1_TL6bTnQWMbk.jpg",
+        "images_downloaded/vegetables/broccoli_2_4fTaeH37eH0.jpg",
+        "images_downloaded/vegetables/broccoli_3_bRdRUUtbxO0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Broccoli", "Cauliflower", "Cabbage", "Kale"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/tomato_1_OlXUUQedQyM.jpg",
+        "images_downloaded/vegetables/tomato_2_eb26eV-ys_k.jpg",
+        "images_downloaded/vegetables/tomato_3_sgmS2e95QO0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Bell Pepper", "Eggplant", "Tomato", "Onion"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/onion_1_D9h2-RxM1rE.jpg",
+        "images_downloaded/vegetables/onion_2_0_fkPHulv-M.jpg",
+        "images_downloaded/vegetables/onion_3_bC1fXU1v98U.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Garlic", "Leek", "Shallot", "Onion"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/potato_1_B0s3Xndk6tw.jpg",
+        "images_downloaded/vegetables/potato_2_h3AkzboxK4Q.jpg",
+        "images_downloaded/vegetables/potato_3_jJUuF4hqCQM.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Potato", "Sweet Potato", "Yam", "Turnip"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/eggplant_1_Ox_u9F-UqPI.jpg",
+        "images_downloaded/vegetables/eggplant_2_yZu-4my7mP0.jpg",
+        "images_downloaded/vegetables/eggplant_3_d6I1ZNZJcNo.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Zucchini", "Eggplant", "Cucumber", "Pumpkin"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/cauliflower_1_zNsSGYXaeP8.jpg",
+        "images_downloaded/vegetables/cauliflower_2_hnEp8wnCj4g.jpg",
+        "images_downloaded/vegetables/cauliflower_3_r5oZ-DJ2E8I.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Broccoli", "Cabbage", "Cauliflower", "Lettuce"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which vegetable is this?",
+      "centralImage": [
+        "images_downloaded/vegetables/mushroom_1_-Vp8y5L2fKg.jpg",
+        "images_downloaded/vegetables/mushroom_2_3qDOU8wxpKE.jpg",
+        "images_downloaded/vegetables/mushroom_3_UMaGtammiSI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Mushroom", "Onion", "Garlic", "Potato"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which fruit is known for being one of the sweetest?",
+      "centralImage": [
+        "images_downloaded/fruits/mango_3_vxtBBfMTMZ0.jpg",
+        "images_downloaded/fruits/mango_4_CqPjQBJOXWA.jpg",
+        "images_downloaded/fruits/mango_5_7iLlgS5o09c.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Lemon", "Kiwi", "Mango", "Grapefruit"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which vegetable grows under the ground?",
+      "centralImage": [
+        "images_downloaded/vegetables/potato_3_jJUuF4hqCQM.jpg",
+        "images_downloaded/vegetables/potato_4_O9p8KIv39gA.jpg",
+        "images_downloaded/vegetables/potato_5_52DMHPBAvXY.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Potato", "Broccoli", "Tomato", "Bell Pepper"],
+      "correctAnswer": "a"
+    }
+  ]
+}
