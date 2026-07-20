@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { filterLearnItems } from '../quizState.js';
 
 function capitalize(word) {
@@ -15,7 +16,7 @@ function LearnVideo({ video }) {
   );
 }
 
-function LearnCard({ item }) {
+function LearnCard({ item, onImageClick }) {
   return (
     <div className="learn-card">
       <div className="learn-card-header">
@@ -26,7 +27,14 @@ function LearnCard({ item }) {
       {item.images?.length > 0 && (
         <div className="learn-card-images">
           {item.images.map(src => (
-            <img key={src} className="learn-card-image" src={src} alt={item.name} />
+            <button
+              key={src}
+              type="button"
+              className="learn-image-button"
+              onClick={() => onImageClick(src, item.name)}
+            >
+              <img className="learn-card-image" src={src} alt={item.name} />
+            </button>
           ))}
         </div>
       )}
@@ -49,6 +57,17 @@ export default function LearnScreen({
   learnSearch,
   dispatch,
 }) {
+  const [lightbox, setLightbox] = useState(null); // { src, alt } | null
+
+  useEffect(() => {
+    if (!lightbox) return;
+    function onKeyDown(e) {
+      if (e.key === 'Escape') setLightbox(null);
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [lightbox]);
+
   if (learnManifestError) {
     return <div className="hint">{learnManifestError}</div>;
   }
@@ -89,10 +108,33 @@ export default function LearnScreen({
 
       <div className="learn-card-list">
         {results.map(item => (
-          <LearnCard key={item.category + item.name} item={item} />
+          <LearnCard
+            key={item.category + item.name}
+            item={item}
+            onImageClick={(src, name) => setLightbox({ src, alt: name })}
+          />
         ))}
         {results.length === 0 && <div className="hint">No matches found.</div>}
       </div>
+
+      {lightbox && (
+        <div className="lightbox-overlay" onClick={() => setLightbox(null)}>
+          <button
+            type="button"
+            className="lightbox-close"
+            aria-label="Close"
+            onClick={() => setLightbox(null)}
+          >
+            &times;
+          </button>
+          <img
+            className="lightbox-image"
+            src={lightbox.src}
+            alt={lightbox.alt}
+            onClick={e => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 }

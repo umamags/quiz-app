@@ -107,13 +107,54 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
 }
 .learn-card-description { margin: 8px 0 14px; color: var(--muted); font-size: 14px; }
 .learn-card-images { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+.learn-image-button {
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 8px;
+  cursor: zoom-in;
+}
 .learn-card-image {
   width: 120px;
   height: 90px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid var(--border);
+  display: block;
 }
+
+/* Image lightbox */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+.lightbox-image {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  cursor: default;
+}
+.lightbox-close {
+  position: fixed;
+  top: 20px;
+  right: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  line-height: 1;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.lightbox-close:hover { color: #ccc; }
 .learn-video-list { display: flex; flex-wrap: wrap; gap: 12px; }
 .learn-video-player {
   width: 200px;

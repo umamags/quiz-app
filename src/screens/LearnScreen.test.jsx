@@ -96,3 +96,43 @@ describe('LearnScreen', () => {
     expect(screen.queryByText('Dog')).not.toBeInTheDocument();
   });
 });
+
+describe('LearnScreen image lightbox', () => {
+  it('opens a blown-up version of an image when it is clicked', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    expect(document.querySelector('.lightbox-overlay')).not.toBeInTheDocument();
+
+    await user.click(screen.getByAltText('dog'));
+
+    const lightboxImage = document.querySelector('.lightbox-image');
+    expect(lightboxImage).toBeInTheDocument();
+    expect(lightboxImage).toHaveAttribute('src', 'images_downloaded/animals/dog_1.jpg');
+  });
+
+  it('closes the lightbox via the close button, the overlay, or Escape', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+
+    await user.click(screen.getByAltText('dog'));
+    await user.click(screen.getByRole('button', { name: 'Close' }));
+    expect(document.querySelector('.lightbox-overlay')).not.toBeInTheDocument();
+
+    await user.click(screen.getByAltText('dog'));
+    await user.click(document.querySelector('.lightbox-overlay'));
+    expect(document.querySelector('.lightbox-overlay')).not.toBeInTheDocument();
+
+    await user.click(screen.getByAltText('dog'));
+    await user.keyboard('{Escape}');
+    expect(document.querySelector('.lightbox-overlay')).not.toBeInTheDocument();
+  });
+
+  it('clicking the enlarged image itself does not close the lightbox', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+
+    await user.click(screen.getByAltText('dog'));
+    await user.click(document.querySelector('.lightbox-image'));
+    expect(document.querySelector('.lightbox-overlay')).toBeInTheDocument();
+  });
+});
