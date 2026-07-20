@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { computeScore, initialState, quizReducer, showCorrectAnswerEnabled } from './quizState.js';
+import { computeScore, filterLearnItems, initialState, quizReducer, showCorrectAnswerEnabled } from './quizState.js';
 
 const textQuiz = {
   quizTitle: 'Text Quiz',
@@ -86,6 +86,53 @@ describe('quizReducer', () => {
     state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 0 });
     const again = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 0 });
     expect(again.matchState[1]).toEqual([0]);
+  });
+});
+
+describe('Learn tab reducer cases', () => {
+  it('SET_HOME_TAB switches between quiz and learn', () => {
+    const state = quizReducer(initialState, { type: 'SET_HOME_TAB', tab: 'learn' });
+    expect(state.homeTab).toBe('learn');
+  });
+
+  it('LEARN_ITEMS_LOADED stores the flattened items list', () => {
+    const items = [{ category: 'Animals', name: 'dog', description: 'd' }];
+    const state = quizReducer(initialState, { type: 'LEARN_ITEMS_LOADED', items });
+    expect(state.learnItems).toBe(items);
+  });
+
+  it('LEARN_CATEGORY_SELECTED and LEARN_SEARCH_CHANGED update their respective fields independently', () => {
+    let state = quizReducer(initialState, { type: 'LEARN_CATEGORY_SELECTED', category: 'Animals' });
+    expect(state.learnCategory).toBe('Animals');
+    state = quizReducer(state, { type: 'LEARN_SEARCH_CHANGED', query: 'dog' });
+    expect(state.learnSearch).toBe('dog');
+    expect(state.learnCategory).toBe('Animals');
+  });
+});
+
+describe('filterLearnItems', () => {
+  const items = [
+    { category: 'Animals', name: 'dog', description: 'A loyal pet that barks.' },
+    { category: 'Animals', name: 'cat', description: 'An independent pet that meows.' },
+    { category: 'Dinosaurs', name: 'triceratops', description: 'A plant-eating dinosaur with three horns.' },
+  ];
+
+  it('returns everything when there is no category filter or search query', () => {
+    expect(filterLearnItems(items, null, '')).toHaveLength(3);
+  });
+
+  it('filters by category', () => {
+    const result = filterLearnItems(items, 'Dinosaurs', '');
+    expect(result.map(i => i.name)).toEqual(['triceratops']);
+  });
+
+  it('filters by a case-insensitive match against name or description', () => {
+    expect(filterLearnItems(items, null, 'DOG').map(i => i.name)).toEqual(['dog']);
+    expect(filterLearnItems(items, null, 'pet').map(i => i.name).sort()).toEqual(['cat', 'dog']);
+  });
+
+  it('combines category and search filters', () => {
+    expect(filterLearnItems(items, 'Animals', 'horns')).toEqual([]);
   });
 });
 

@@ -11,6 +11,7 @@ function shuffled(arr) {
 
 export const initialState = {
   screen: 'menu', // 'menu' | 'quiz' | 'results'
+  homeTab: 'quiz', // 'quiz' | 'learn'
   manifest: null,
   manifestError: null,
   settings: { sound: 'on' },
@@ -20,6 +21,11 @@ export const initialState = {
   answers: [],       // stored final answer letter per question index, or null, or 'matched'
   matchState: {},     // question index -> array of correctly-matched pair indices
   matchOrder: {},      // question index -> shuffled display order of pair indices (right column)
+  learnManifest: null,
+  learnManifestError: null,
+  learnItems: null,     // flattened array of { category, ...item } across every learn category, once loaded
+  learnCategory: null,   // selected category title filter, or null for "all"
+  learnSearch: '',        // free-text filter, matched against name + description
 };
 
 export function showCorrectAnswerEnabled(quiz) {
@@ -28,6 +34,15 @@ export function showCorrectAnswerEnabled(quiz) {
 
 export function soundEnabled(settings) {
   return String(settings.sound).toUpperCase() === 'ON';
+}
+
+export function filterLearnItems(items, category, query) {
+  const q = query.trim().toLowerCase();
+  return (items || []).filter(item => {
+    if (category && item.category !== category) return false;
+    if (!q) return true;
+    return item.name.toLowerCase().includes(q) || item.description.toLowerCase().includes(q);
+  });
 }
 
 export function computeScore(quiz, answers, matchState) {
@@ -56,6 +71,24 @@ export function quizReducer(state, action) {
 
     case 'MANIFEST_ERROR':
       return { ...state, manifestError: action.message };
+
+    case 'SET_HOME_TAB':
+      return { ...state, homeTab: action.tab };
+
+    case 'LEARN_MANIFEST_LOADED':
+      return { ...state, learnManifest: action.manifest, learnManifestError: null };
+
+    case 'LEARN_MANIFEST_ERROR':
+      return { ...state, learnManifestError: action.message };
+
+    case 'LEARN_ITEMS_LOADED':
+      return { ...state, learnItems: action.items };
+
+    case 'LEARN_CATEGORY_SELECTED':
+      return { ...state, learnCategory: action.category };
+
+    case 'LEARN_SEARCH_CHANGED':
+      return { ...state, learnSearch: action.query };
 
     case 'START_QUIZ': {
       const { quiz, file } = action;

@@ -1,0 +1,172 @@
+[
+  {
+    "name": "tyrannosaurus rex",
+    "description": "Tyrannosaurus rex was a giant meat-eating dinosaur with tiny arms, powerful legs, and a huge mouth full of sharp teeth.",
+    "images": [
+      "images_downloaded/dinosaurs/tyrannosaurus_rex_1_hYKG311mff8.jpg",
+      "images_downloaded/dinosaurs/tyrannosaurus_rex_2_uCjSKIl__0s.jpg",
+      "images_downloaded/dinosaurs/tyrannosaurus_rex_3__qf12443vHg.jpg",
+      "images_downloaded/dinosaurs/tyrannosaurus_rex_4_SByb8Ch9XcQ.jpg",
+      "images_downloaded/dinosaurs/tyrannosaurus_rex_5_loDom-q2mwA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8014669/8014669-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-hand-holding-a-toy-dinosaur-8014669/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/21/82318-577813568_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-82318/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/young-boy-playing-with-a-toy-dinosaur-11438/",
+        "pageUrl": "https://mixkit.co/free-stock-video/young-boy-playing-with-a-toy-dinosaur-11438/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "velociraptor",
+    "description": "Velociraptor was a small, fast dinosaur that hunted in packs and had sharp claws on its feet.",
+    "images": [
+      "images_downloaded/dinosaurs/velociraptor_1_4EU2Zlh8F08.jpg",
+      "images_downloaded/dinosaurs/velociraptor_2_qp6tMGpC3Gk.jpg",
+      "images_downloaded/dinosaurs/velociraptor_3_gzIwOATgorM.jpg",
+      "images_downloaded/dinosaurs/velociraptor_4_uW7114mqSaw.jpg",
+      "images_downloaded/dinosaurs/velociraptor_5_Z4N9Fam2F-A.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8014685/8014685-hd_1280_720_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/person-playing-with-dinosaur-toys-8014685/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/16/81678-576083184_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-81678/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/excavating-dinosaur-bones-with-a-brush-45129/",
+        "pageUrl": "https://mixkit.co/free-stock-video/excavating-dinosaur-bones-with-a-brush-45129/",
+        "durationSeconds": 13
+      }
+    ]
+  },
+  {
+    "name": "triceratops",
+    "description": "Triceratops was a plant-eating dinosaur with three horns on its face and a large bony frill around its neck.",
+    "images": [
+      "images_downloaded/dinosaurs/triceratops_1_tYGyFKx7Deo.jpg",
+      "images_downloaded/dinosaurs/triceratops_2_aavl5e7QWOg.jpg",
+      "images_downloaded/dinosaurs/triceratops_3_-cMe-jWSUuc.jpg",
+      "images_downloaded/dinosaurs/triceratops_4_jhsId678YS8.jpg",
+      "images_downloaded/dinosaurs/triceratops_5_3bu2XpIQV1I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8014671/8014671-hd_1280_720_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-dinosaur-toys-8014671/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/28/83036-581030563_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-83036/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/children-excavating-dinosaur-bones-45131/",
+        "pageUrl": "https://mixkit.co/free-stock-video/children-excavating-dinosaur-bones-45131/",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "name": "stegosaurus",
+    "description": "Stegosaurus was a plant-eating dinosaur with large bony plates along its back and sharp spikes on its tail.",
+    "images": [
+      "images_downloaded/dinosaurs/stegosaurus_1_fwULOOEWHto.jpg",
+      "images_downloaded/dinosaurs/stegosaurus_2_VlBXAe6JO7Q.jpg",
+      "images_downloaded/dinosaurs/stegosaurus_3_mOiR99d4XtQ.jpg",
+      "images_downloaded/dinosaurs/stegosaurus_4_xd17EAbHpB0.jpg",
+      "images_downloaded/dinosaurs/stegosaurus_5_b2HG9h3p_1o.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8014677/8014677-hd_1280_720_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/dinosaur-toys-8014677/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/24/82641-580137829_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-82641/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/paleontologist-studying-a-dinosaur-skull-24297/",
+        "pageUrl": "https://mixkit.co/free-stock-video/paleontologist-studying-a-dinosaur-skull-24297/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "brachiosaurus",
+    "description": "Brachiosaurus was a huge, long-necked dinosaur that ate leaves from the tops of tall trees.",
+    "images": [
+      "images_downloaded/dinosaurs/brachiosaurus_1_yqC4CN7_I68.jpg",
+      "images_downloaded/dinosaurs/brachiosaurus_2_IJVxB1gSL6o.jpg",
+      "images_downloaded/dinosaurs/brachiosaurus_3_eDFKxCMN5cg.jpg",
+      "images_downloaded/dinosaurs/brachiosaurus_4_VlBXAe6JO7Q.jpg",
+      "images_downloaded/dinosaurs/brachiosaurus_5_ZLmc1IFQdHk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8014687/8014687-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/toy-dinosaur-eating-a-toy-tree-8014687/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/18/81955-577880828_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-81955/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/close-up-of-brushing-sand-of-bones-47456/",
+        "pageUrl": "https://mixkit.co/free-stock-video/close-up-of-brushing-sand-of-bones-47456/",
+        "durationSeconds": 15
+      }
+    ]
+  }
+]

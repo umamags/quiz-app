@@ -1,0 +1,12 @@
+{
+  "categories": [
+    {
+      "title": "Animals",
+      "file": "learn/animals.json"
+    },
+    {
+      "title": "Dinosaurs",
+      "file": "learn/dinosaurs.json"
+    }
+  ]
+}

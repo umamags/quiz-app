@@ -36,11 +36,21 @@ const quizB = {
   ],
 };
 
+const learnManifest = {
+  categories: [{ title: 'Animals', file: 'learn/animals.json' }],
+};
+
+const learnAnimals = [
+  { name: 'dog', description: 'A loyal pet that barks.', images: [], videos: [] },
+];
+
 function mockFetch() {
   return vi.fn((url) => {
     const body =
       url.includes('settings.json') ? settings :
-      url.includes('manifest.json') ? manifest :
+      url.includes('learn/manifest.json') ? learnManifest :
+      url.includes('learn/animals.json') ? learnAnimals :
+      url.includes('quizzes/manifest.json') ? manifest :
       url.includes('a.json') ? quizA :
       url.includes('b.json') ? quizB :
       null;
@@ -60,6 +70,18 @@ describe('menu', () => {
     render(<App />);
     expect(await screen.findByText('Quiz A (retry mode)')).toBeInTheDocument();
     expect(screen.getByText('Quiz B (silent mode)')).toBeInTheDocument();
+  });
+});
+
+describe('learn tab', () => {
+  it('switches to the Learn tab and shows items loaded from every category manifest entry', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await screen.findByText('Quiz A (retry mode)');
+
+    await user.click(screen.getByRole('button', { name: 'Learn' }));
+    expect(await screen.findByText('Dog')).toBeInTheDocument();
+    expect(screen.getByText('A loyal pet that barks.')).toBeInTheDocument();
   });
 });
 

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "dog",
+    "description": "A dog is a friendly, loyal pet known for wagging its tail, barking, and loving to play fetch with its family.",
+    "images": [
+      "images_downloaded/animals/dog_1_yihlaRCCvd4.jpg",
+      "images_downloaded/animals/dog_2_Sg3XwuEpybU.jpg",
+      "images_downloaded/animals/dog_3_N04FIfHhv_k.jpg",
+      "images_downloaded/animals/dog_4_mx0DEnfYxic.jpg",
+      "images_downloaded/animals/dog_5_qO-PIF84Vxg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/9314158/9314158-hd_720_1280_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/puppies-running-on-the-grass-9314158/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/03/11/154222-807166890_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-154222/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/dog-standing-on-a-log-1555/",
+        "pageUrl": "https://mixkit.co/free-stock-video/dog-standing-on-a-log-1555/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "cat",
+    "description": "A cat is a small, independent pet with soft fur and sharp eyes, often seen grooming itself or napping in a cozy spot.",
+    "images": [
+      "images_downloaded/animals/cat_1_gKXKBY-C-Dk.jpg",
+      "images_downloaded/animals/cat_2_75715CVEJhI.jpg",
+      "images_downloaded/animals/cat_3_ZCHj_2lJP00.jpg",
+      "images_downloaded/animals/cat_4_mJaD10XeD7w.jpg",
+      "images_downloaded/animals/cat_5_7AIDE8PrvA0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7603588/7603588-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-view-of-a-cat-7603588/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/06/13/167029-835960468_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-167029/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/close-up-of-a-cat-with-green-eyes-47243/",
+        "pageUrl": "https://mixkit.co/free-stock-video/close-up-of-a-cat-with-green-eyes-47243/",
+        "durationSeconds": 15
+      }
+    ]
+  }
+]
