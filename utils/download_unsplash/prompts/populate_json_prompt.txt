@@ -1,0 +1,57 @@
+For every csv in utils/download_unsplash/csv, create an equivalent json file in
+utils/download_unsplash/json. Each csv item will have an equivalent json element.
+For example, animals.csv will have an equivalent animals.json. It will have these
+elements - name (dog), description (description of dog), images - list of images
+from images_downloaded, videos - list of relevant short video links. Use Pexels +
+Mixkit + Pixabay as a reference for getting short videos. Once the json element is
+done, update the 3rd column in csv with a timestamp.
+
+Resolved conventions (from the 2026-07-20 pilot run on animals.csv, dog + cat):
+
+- Video sourcing: use the official Pexels and Pixabay APIs (env vars
+  PEXELS_API_KEY / PIXABAY_API_KEY, same pattern as UNSPLASH_ACCESS_KEY) to get
+  real, verified direct .mp4 file URLs. Prefer shorter clips (roughly <=15s) and
+  generic, kid-appropriate results (skip anything with an obvious brand, human
+  face closeup, or off-topic tag).
+  Mixkit has no public API, so for Mixkit: web-search
+  "site:mixkit.co free stock video <name>", pick a real page URL, and confirm via
+  WebFetch it's a live page. Mixkit does not expose a direct downloadable file URL
+  in the page source, so its video entry only gets a page link.
+  Never fabricate/guess a URL for any of the three sources - only use URLs found
+  via the API responses or a real web search + fetch confirmation.
+
+- Video JSON shape per entry:
+  {
+    "source": "pexels" | "pixabay" | "mixkit",
+    "type": "file" | "page",       // "file" = direct playable url, "page" = view on the source site
+    "url": "...",                   // direct file url for pexels/pixabay, page url for mixkit
+    "pageUrl": "...",               // always the human-viewable page, for attribution
+    "durationSeconds": 10           // null if unknown (e.g. mixkit)
+  }
+  Each item's "videos" array has one entry from each of the three sources (3 total).
+
+- Image paths: relative to public/, e.g.
+  "images_downloaded/animals/dog_1_yihlaRCCvd4.jpg" - pulled from the 5 files
+  already downloaded per item under public/images_downloaded/<category>/.
+
+- description: 1 short, kid-friendly sentence (this is a children's quiz app).
+
+- CSV 3rd column: header "json_generated_ts", added next to the existing
+  "downloaded_ts" column. Only stamp it (current timestamp) for rows whose json
+  element has actually been generated; leave it blank/absent for the rest. Don't
+  touch a CSV's existing 1st/2nd columns or other rows.
+
+- Scope discipline: this is a big task across 9 csv files. Do a small batch at a
+  time (a handful of items, or one file), show the result, and get a go-ahead
+  before continuing to the next batch/file rather than generating everything in
+  one shot - this keeps the video-link verification (API calls + Mixkit
+  websearch/fetch) manageable and reviewable.
+
+- .env: PEXELS_API_KEY and PIXABAY_API_KEY live in utils/download_unsplash/.env
+  (git-ignored). Source it before making API calls:
+    set -a; source utils/download_unsplash/.env; set +a
+
+Status as of 2026-07-20: animals.json created with 2 entries (dog, cat), both
+stamped in animals.csv. Remaining work: the rest of animals.csv, plus all of
+colors.csv, dinosaurs.csv, fishes.csv, fruits.csv, harrypotter.csv, reptiles.csv,
+shapes.csv, vegetables.csv.
