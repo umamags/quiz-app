@@ -1,9 +1,9 @@
-dinosaur,downloaded_ts
-tyrannosaurus rex,2026-07-19 15:33:58
-velociraptor,2026-07-19 15:34:00
-triceratops,2026-07-19 15:34:02
-stegosaurus,2026-07-19 15:34:03
-brachiosaurus,2026-07-19 15:34:05
+dinosaur,downloaded_ts,json_generated_ts
+tyrannosaurus rex,2026-07-19 15:33:58,2026-07-20 16:10:00
+velociraptor,2026-07-19 15:34:00,2026-07-20 16:10:00
+triceratops,2026-07-19 15:34:02,2026-07-20 16:10:00
+stegosaurus,2026-07-19 15:34:03,2026-07-20 16:10:00
+brachiosaurus,2026-07-19 15:34:05,2026-07-20 16:10:00
 diplodocus,2026-07-19 15:34:08
 spinosaurus,2026-07-19 15:34:09
 ankylosaurus,2026-07-19 15:34:09
