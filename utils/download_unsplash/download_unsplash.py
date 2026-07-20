@@ -5,6 +5,7 @@ Usage:
     python utils/download_unsplash.py peacock
     python utils/download_unsplash.py blue peacock
     python utils/download_unsplash.py queries.csv
+    python utils/download_unsplash.py
 
 When the argument is a single .csv file, each data row (from row 2
 onward) is treated as a query pattern in column 1. Images are fetched
@@ -12,7 +13,11 @@ per row, and the file is updated in place with a date/timestamp in
 column 2 once that row is done. Rows that already have a timestamp are
 skipped on subsequent runs, so reprocessing only touches unfinished
 rows. If the given .csv filename has no directory component, it is
-looked up next to this script.
+looked up in this script's csv/ subfolder; a path with a directory
+component is resolved relative to the current folder instead.
+
+With no arguments at all, every .csv file in this script's csv/
+subfolder is processed in turn (alphabetically).
 
 Set your Unsplash Access Key via the UNSPLASH_ACCESS_KEY environment
 variable.
@@ -34,6 +39,7 @@ API_URL = "https://api.unsplash.com/search/photos"
 MAX_IMAGES = int(os.environ.get("UNSPLASH_MAX_IMAGES", "5"))
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IMAGES_DIR = os.path.join(ROOT_DIR, "public", "images_downloaded")
+CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
 
 # Some macOS Python installs (notably python.org's installer) ship without
 # their cert bundle wired up, causing CERTIFICATE_VERIFY_FAILED regardless of
@@ -135,7 +141,7 @@ def is_csv_arg(args):
 def resolve_csv_path(path):
     if os.path.dirname(path):
         return os.path.abspath(path)
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), path)
+    return os.path.join(CSV_DIR, path)
 
 
 def process_csv(csv_path, access_key):
@@ -193,18 +199,32 @@ def write_csv(csv_path, header, data_rows):
         writer.writerows(data_rows)
 
 
-def main():
-    if len(sys.argv) < 2:
-        print("Usage: python utils/download_unsplash.py <query terms...>")
-        print("       python utils/download_unsplash.py <file.csv>")
+def process_all_csvs(access_key):
+    if not os.path.isdir(CSV_DIR):
+        print(f"CSV directory not found: {CSV_DIR}")
         sys.exit(1)
 
+    csv_names = sorted(name for name in os.listdir(CSV_DIR) if name.lower().endswith(".csv"))
+    if not csv_names:
+        print(f"No CSV files found in {CSV_DIR}")
+        return
+
+    for csv_name in csv_names:
+        print(f"=== Processing {csv_name} ===")
+        process_csv(os.path.join(CSV_DIR, csv_name), access_key)
+
+
+def main():
     if not UNSPLASH_ACCESS_KEY:
         print("Error: no Unsplash Access Key configured.")
         print("Set it via: export UNSPLASH_ACCESS_KEY=<your access key>")
         sys.exit(1)
 
     args = sys.argv[1:]
+
+    if not args:
+        process_all_csvs(UNSPLASH_ACCESS_KEY)
+        return
 
     if is_csv_arg(args):
         csv_path = resolve_csv_path(args[0])
