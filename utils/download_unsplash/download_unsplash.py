@@ -37,7 +37,7 @@ UNSPLASH_ACCESS_KEY = os.environ.get("UNSPLASH_ACCESS_KEY")
 
 API_URL = "https://api.unsplash.com/search/photos"
 MAX_IMAGES = int(os.environ.get("UNSPLASH_MAX_IMAGES", "5"))
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 IMAGES_DIR = os.path.join(ROOT_DIR, "public", "images_downloaded")
 CSV_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "csv")
 
