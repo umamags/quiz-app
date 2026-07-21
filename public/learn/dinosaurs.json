@@ -168,5 +168,85 @@
         "durationSeconds": 15
       }
     ]
+  },
+  {
+    "name": "diplodocus",
+    "description": "",
+    "images": [
+      "images_downloaded/dinosaurs/diplodocus_1_W0-3v369lrE.jpg",
+      "images_downloaded/dinosaurs/diplodocus_2_-THnRu6tKnY.jpg",
+      "images_downloaded/dinosaurs/diplodocus_3_49ybMyLB7HM.jpg",
+      "images_downloaded/dinosaurs/diplodocus_4_zXhgtGK1TyY.jpg",
+      "images_downloaded/dinosaurs/diplodocus_5_p8B5uJtHNsI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/12/09/58798-490977370_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-58798/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "spinosaurus",
+    "description": "",
+    "images": [
+      "images_downloaded/dinosaurs/spinosaurus_1_IJVxB1gSL6o.jpg",
+      "images_downloaded/dinosaurs/spinosaurus_2_CiT4hrqUm0I.jpg",
+      "images_downloaded/dinosaurs/spinosaurus_3_Iw6MghQqVG0.jpg",
+      "images_downloaded/dinosaurs/spinosaurus_4_UDWhEik1L1Q.jpg",
+      "images_downloaded/dinosaurs/spinosaurus_5_cwMpQf6mMkw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/6314638/6314638-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-footage-of-spinosaurus-6314638/",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "name": "pterodactyl",
+    "description": "",
+    "images": [
+      "images_downloaded/dinosaurs/pterodactyl_1_OJPgnE6CwL0.jpg",
+      "images_downloaded/dinosaurs/pterodactyl_2_UdyyTpg2a2I.jpg",
+      "images_downloaded/dinosaurs/pterodactyl_3_VZFzOPNqQNQ.jpg",
+      "images_downloaded/dinosaurs/pterodactyl_4_Z4N9Fam2F-A.jpg",
+      "images_downloaded/dinosaurs/pterodactyl_5_sAYgxQfcKYs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/04/21/114652-701748961_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-114652/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "brontosaurus",
+    "description": "",
+    "images": [
+      "images_downloaded/dinosaurs/brontosaurus_1_x-JNASSWc34.jpg",
+      "images_downloaded/dinosaurs/brontosaurus_2_XfQ3t7AGTv0.jpg",
+      "images_downloaded/dinosaurs/brontosaurus_3_GKE6i5mQplI.jpg",
+      "images_downloaded/dinosaurs/brontosaurus_4_LT5NvjGYyDc.jpg",
+      "images_downloaded/dinosaurs/brontosaurus_5_uWq_vMNTSU0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/04/24/348653_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-348653/",
+        "durationSeconds": 6
+      }
+    ]
   }
 ]

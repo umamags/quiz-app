@@ -598,5 +598,52 @@
         "durationSeconds": 12
       }
     ]
+  },
+  {
+    "name": "chili pepper",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/chili_pepper_1_nZUQgW0FVnc.jpg",
+      "images_downloaded/vegetables/chili_pepper_2_f1BMuugVyyM.jpg",
+      "images_downloaded/vegetables/chili_pepper_3_dDI3pSF-yK4.jpg",
+      "images_downloaded/vegetables/chili_pepper_4_7Tec2ehoaZw.jpg",
+      "images_downloaded/vegetables/chili_pepper_5_WJ5mej6mWi4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8798276/8798276-hd_1080_2048_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-red-chili-pepper-8798276/",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "name": "mushroom",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/mushroom_1_-Vp8y5L2fKg.jpg",
+      "images_downloaded/vegetables/mushroom_2_3qDOU8wxpKE.jpg",
+      "images_downloaded/vegetables/mushroom_3_UMaGtammiSI.jpg",
+      "images_downloaded/vegetables/mushroom_4_o9JapjMqjfc.jpg",
+      "images_downloaded/vegetables/mushroom_5_fc_tWL1W3TI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5787544/5787544-hd_720_1230_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-shot-of-an-oyster-mushroom-on-a-tree-trunk-5787544/",
+        "durationSeconds": 2
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/27/136768-764934447_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-136768/",
+        "durationSeconds": 8
+      }
+    ]
   }
 ]

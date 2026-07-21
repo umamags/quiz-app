@@ -506,5 +506,906 @@
         "durationSeconds": 3
       }
     ]
+  },
+  {
+    "name": "chinchilla",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/chinchilla_1_pTnsGY06GO0.jpg",
+      "images_downloaded/animals/chinchilla_2_cPrI0tXSXfw.jpg",
+      "images_downloaded/animals/chinchilla_3_6vU-kvHdGRI.jpg",
+      "images_downloaded/animals/chinchilla_4_iUjwdLCTsdE.jpg",
+      "images_downloaded/animals/chinchilla_5_uDnJJlciq0U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8433814/8433814-hd_720_1366_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-chinchilla-on-a-table-8433814/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/04/25/72194-541981517_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-72194/",
+        "durationSeconds": 16
+      }
+    ]
+  },
+  {
+    "name": "ferret",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/ferret_1_hn0AtxarNNw.jpg",
+      "images_downloaded/animals/ferret_2_FnpFMheGjH0.jpg",
+      "images_downloaded/animals/ferret_3_mpbwOtvS8Zc.jpg",
+      "images_downloaded/animals/ferret_4_hwqmbpDZkNI.jpg",
+      "images_downloaded/animals/ferret_5_mxAU9dHVXK8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37649667/15959177_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/adventurous-ferret-exploring-the-wilderness-37649667/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/11/303254_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-303254/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "hippopotamus",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/hippopotamus_1_SBYsc1gsA-M.jpg",
+      "images_downloaded/animals/hippopotamus_2_oZ4d_6Mtwv8.jpg",
+      "images_downloaded/animals/hippopotamus_3_EBT8Cr55YWA.jpg",
+      "images_downloaded/animals/hippopotamus_4_1O1hLL-v7Hc.jpg",
+      "images_downloaded/animals/hippopotamus_5_vmbH3vXxPZ0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30561040/13088714_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/hippopotamus-in-pond-on-a-sunny-day-30561040/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/04/133586-757253052_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-133586/",
+        "durationSeconds": 13
+      }
+    ]
+  },
+  {
+    "name": "rhinoceros",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/rhinoceros_1_jBjQA3LU9Dc.jpg",
+      "images_downloaded/animals/rhinoceros_2_oxRNH9YA22s.jpg",
+      "images_downloaded/animals/rhinoceros_3_KsMD_tAdjg0.jpg",
+      "images_downloaded/animals/rhinoceros_4_Nm32z8au3jk.jpg",
+      "images_downloaded/animals/rhinoceros_5_VOWO7S0wbks.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35809114/15181806_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/resting-rhinoceros-family-in-safari-ii-35809114/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/12/14/142964-781314590_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-142964/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "camel",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/camel_1_B-rnDwqZ_g8.jpg",
+      "images_downloaded/animals/camel_2_YAIGmqV4dFc.jpg",
+      "images_downloaded/animals/camel_3_P3gDo8yUA8g.jpg",
+      "images_downloaded/animals/camel_4_heNpLRaLDNw.jpg",
+      "images_downloaded/animals/camel_5_VPTSmbGba7Q.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35664968/15114102_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/camel-close-up-at-werribee-open-range-zoo-35664968/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/03/27/112043-695204675_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-112043/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "llama",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/llama_1_xgQZ1rXbYa4.jpg",
+      "images_downloaded/animals/llama_2_Hc9G7owDs1s.jpg",
+      "images_downloaded/animals/llama_3_JfR2z3v7w0M.jpg",
+      "images_downloaded/animals/llama_4_yt39XjxwGUE.jpg",
+      "images_downloaded/animals/llama_5_Z5Yha3jIHnc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/17642353/17642353-hd_720_1280_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-llama-standing-in-a-field-with-a-dog-17642353/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/05/04/116027-707531321_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-116027/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "alpaca",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/alpaca_1_xgQZ1rXbYa4.jpg",
+      "images_downloaded/animals/alpaca_2_w2uJboNu9Mo.jpg",
+      "images_downloaded/animals/alpaca_3_ZhF-9SKetvs.jpg",
+      "images_downloaded/animals/alpaca_4_JfR2z3v7w0M.jpg",
+      "images_downloaded/animals/alpaca_5_lpxf698eF6s.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32071728/13671193_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/charming-alpaca-close-ups-at-a-farm-outdoors-32071728/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/06/18/120691-721759791_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-120691/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "pig",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/pig_1_i4XLJmlYit4.jpg",
+      "images_downloaded/animals/pig_2_6y7jACxmhP8.jpg",
+      "images_downloaded/animals/pig_3_CP9GGy_LkIY.jpg",
+      "images_downloaded/animals/pig_4_Y06imaOLycY.jpg",
+      "images_downloaded/animals/pig_5_tlJ_5jVHMF4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10212000/10212000-hd_720_1280_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-pig-is-behind-a-chain-link-fence-10212000/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/07/21/172614-847835453_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-172614/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "sheep",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/sheep_1_GHOiyov2TSQ.jpg",
+      "images_downloaded/animals/sheep_2_qg8ihPPQkKo.jpg",
+      "images_downloaded/animals/sheep_3_nbklTnbXZ68.jpg",
+      "images_downloaded/animals/sheep_4_kSf9S2pDhf8.jpg",
+      "images_downloaded/animals/sheep_5_Bpkdz8nkufU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37302692/15801652_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/resting-sheep-in-rural-farm-setting-37302692/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/19/208560_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-208560/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "goat",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/goat_1_jAMcUbsTvWE.jpg",
+      "images_downloaded/animals/goat_2_xB0e8bDV4ww.jpg",
+      "images_downloaded/animals/goat_3_P_SSMIgqjY0.jpg",
+      "images_downloaded/animals/goat_4_mUtYXnpW1ts.jpg",
+      "images_downloaded/animals/goat_5_bhD6TGRjnWc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7781767/7781767-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/video-of-goat-at-a-farm-7781767/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/04/03/112761-696336252_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-112761/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "cow",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/cow_1_FquDp5N1Gw0.jpg",
+      "images_downloaded/animals/cow_2_4MQtWCxUrYc.jpg",
+      "images_downloaded/animals/cow_3_RxHhxWnXmNs.jpg",
+      "images_downloaded/animals/cow_4_nUCt1PjRNHE.jpg",
+      "images_downloaded/animals/cow_5_CY6MLcLvdX0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37069654/15704079_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/cow-grazing-peacefully-in-green-meadow-37069654/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/08/18/298103_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-298103/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "chicken",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/chicken_1_yEW23jxVsNI.jpg",
+      "images_downloaded/animals/chicken_2_auijD19Byq8.jpg",
+      "images_downloaded/animals/chicken_3_4qJlXK4mYzU.jpg",
+      "images_downloaded/animals/chicken_4_4W8FgDVyUME.jpg",
+      "images_downloaded/animals/chicken_5_9zLa37VNL38.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35719683/15139231_360_640_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/rural-chicken-coop-with-colorful-hens-35719683/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/08/130614-747879918_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-130614/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "duck",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/duck_1_kCZSzqvIei4.jpg",
+      "images_downloaded/animals/duck_2_QKUN1xjwDQA.jpg",
+      "images_downloaded/animals/duck_3_K6Jh8T84J9Q.jpg",
+      "images_downloaded/animals/duck_4_rN3dqzDrhdk.jpg",
+      "images_downloaded/animals/duck_5_JDzoTGfoogA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/3614807/3614807-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-footage-of-a-duck-in-the-water-3614807/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/30/218809_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-218809/",
+        "durationSeconds": 11
+      }
+    ]
+  },
+  {
+    "name": "owl",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/owl_1_oqYHtXrLXLo.jpg",
+      "images_downloaded/animals/owl_2_UTw183oZPf0.jpg",
+      "images_downloaded/animals/owl_3_2VsPnDt2SQs.jpg",
+      "images_downloaded/animals/owl_4_wuDvhtaAYYI.jpg",
+      "images_downloaded/animals/owl_5_TkQjNx6qCTA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33404877/14219307_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/eurasian-eagle-owl-perched-in-forest-33404877/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/04/19/272801_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-272801/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "penguin",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/penguin_1_Ak81Vc-kCf4.jpg",
+      "images_downloaded/animals/penguin_2_9zTafGVsv-c.jpg",
+      "images_downloaded/animals/penguin_3_3Xd5j9-drDA.jpg",
+      "images_downloaded/animals/penguin_4_mlDxrRUuDxc.jpg",
+      "images_downloaded/animals/penguin_5_Y-nyDv3TWm0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/9116140/9116140-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/two-penguin-walking-on-beach-9116140/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/13/303793_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-303793/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "cheetah",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/cheetah_1_bcJUbYd5gTo.jpg",
+      "images_downloaded/animals/cheetah_2_0SsN7jfCXps.jpg",
+      "images_downloaded/animals/cheetah_3_lFMIQ6AiiW8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37343833/15817524_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-relaxing-cheetah-in-sunlight-37343833/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/03/13/264361_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-264361/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "lion",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/lion_1_6BrJCTEAT5M.jpg",
+      "images_downloaded/animals/lion_2_8a7ZTFKax_I.jpg",
+      "images_downloaded/animals/lion_3_ZxNKxnR32Ng.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32420377/13828762_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-african-lion-relaxing-in-the-wild-32420377/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/08/07/225320_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-225320/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "elephant",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/elephant_1_QJbyG6O0ick.jpg",
+      "images_downloaded/animals/elephant_2_P7L5011nD5s.jpg",
+      "images_downloaded/animals/elephant_3_9hSejnboeTY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34785949/14748155_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/asian-elephant-walking-in-australian-zoo-34785949/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/17/81760-577427903_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-81760/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "giraffe",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/giraffe_1_NVXY8_M1n40.jpg",
+      "images_downloaded/animals/giraffe_2_LK4qTPvWdnM.jpg",
+      "images_downloaded/animals/giraffe_3_NEJcmvLFcws.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34361644/14557247_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-giraffe-in-natural-habitat-close-up-34361644/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/05/24/117992-713331266_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-117992/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "zebra",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/zebra_1_UgidX4V13Gc.jpg",
+      "images_downloaded/animals/zebra_2_6VZC1vA-DMc.jpg",
+      "images_downloaded/animals/zebra_3_ZqYPM8i60F8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/6821172/6821172-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-zebra-eating-grass-6821172/",
+        "durationSeconds": 18
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/11/15/139196-771796418_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-139196/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "tiger",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/tiger_1_DJ4vjcD0s0I.jpg",
+      "images_downloaded/animals/tiger_2_-iZV3CqT7LM.jpg",
+      "images_downloaded/animals/tiger_3_66zrT0dJ7Mc.jpg",
+      "images_downloaded/animals/tiger_4_YuQgNYku1M8.jpg",
+      "images_downloaded/animals/tiger_5_gRB4Euk4BYQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5670140/5670140-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/video-of-a-white-tiger-5670140/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/05/21/354038_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-354038/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "leopard",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/leopard_1_oMvtVzcFPlU.jpg",
+      "images_downloaded/animals/leopard_2_0DqYWHY4GpA.jpg",
+      "images_downloaded/animals/leopard_3_9yvADFNcXOc.jpg",
+      "images_downloaded/animals/leopard_4_DGUGTIie8zA.jpg",
+      "images_downloaded/animals/leopard_5_iSUccs7RhsM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27683634/12204096_640_360_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-leopard-sitting-in-the-grass-behind-a-fence-27683634/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/12/29/249471_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-249471/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "jaguar",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/jaguar_1_MpxAiNDevjU.jpg",
+      "images_downloaded/animals/jaguar_2_QIktihNFiYY.jpg",
+      "images_downloaded/animals/jaguar_3_9Up5W9NITQw.jpg",
+      "images_downloaded/animals/jaguar_4_9yvADFNcXOc.jpg",
+      "images_downloaded/animals/jaguar_5_83uG2S0aT_I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30835589/13190156_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-jaguar-resting-in-lush-jungle-habitat-30835589/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/08/22/4762-179741133_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-4762/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "gorilla",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/gorilla_1_j-LQfH_zjX8.jpg",
+      "images_downloaded/animals/gorilla_2_Mn_ZtgoywaI.jpg",
+      "images_downloaded/animals/gorilla_3_XB5E4D-Ipco.jpg",
+      "images_downloaded/animals/gorilla_4_6CgrYMNzdhg.jpg",
+      "images_downloaded/animals/gorilla_5_r5QsqLJ3znU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36081920/15301910_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-gorilla-walking-in-lush-habitat-36081920/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/19/131811-751934490_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-131811/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "chimpanzee",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/chimpanzee_1_pFEKeg4xjUA.jpg",
+      "images_downloaded/animals/chimpanzee_2_8zdEgWg5JAA.jpg",
+      "images_downloaded/animals/chimpanzee_3_yXTr6XeJDV8.jpg",
+      "images_downloaded/animals/chimpanzee_4_xttQG4YyJ6I.jpg",
+      "images_downloaded/animals/chimpanzee_5_XQZv-zYOFyM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30318458/12996596_360_640_29fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-chimpanzee-in-lush-forest-30318458/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/03/10/339338_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-339338/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "deer",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/deer_1_K_Na5gCmh38.jpg",
+      "images_downloaded/animals/deer_2_favQn8WgRyk.jpg",
+      "images_downloaded/animals/deer_3_FGkNt8tO04I.jpg",
+      "images_downloaded/animals/deer_4_iQRKBNKyRpo.jpg",
+      "images_downloaded/animals/deer_5_aJuv14zf-ZY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8553227/8553227-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-deer-grazing-at-sequoia-national-park-8553227/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/02/10/200081-911902219_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-200081/",
+        "durationSeconds": 11
+      }
+    ]
+  },
+  {
+    "name": "moose",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/moose_1_MVIqwQvkwG4.jpg",
+      "images_downloaded/animals/moose_2_fBFy2peBZxE.jpg",
+      "images_downloaded/animals/moose_3_Du8sGaNHVMc.jpg",
+      "images_downloaded/animals/moose_4_hPQtvIFr7d0.jpg",
+      "images_downloaded/animals/moose_5_VUoiPp6ljsk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27117778/12077807_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-moose-grazing-in-a-grassy-field-near-a-river-27117778/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/10/23/18857-297379250_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-18857/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "bison",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/bison_1_FXiHwsskusY.jpg",
+      "images_downloaded/animals/bison_2_7ytKCC9bMYA.jpg",
+      "images_downloaded/animals/bison_3_4Cu9-BA8QoA.jpg",
+      "images_downloaded/animals/bison_4_eVZ8FdhdQzE.jpg",
+      "images_downloaded/animals/bison_5_A91E9kDYeSM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38455053/16330536_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/bison-herd-grazing-on-antelope-island-38455053/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/03/13/264387_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-264387/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "beaver",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/beaver_1_cHVKmOwd0A8.jpg",
+      "images_downloaded/animals/beaver_2_-0gp_EB9Qqg.jpg",
+      "images_downloaded/animals/beaver_3_eP2vzcEbmuU.jpg",
+      "images_downloaded/animals/beaver_4_DqMA8B7f7pQ.jpg",
+      "images_downloaded/animals/beaver_5_s7ZABNRG2bw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32267727/13762156_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/beaver-swimming-in-peaceful-lake-waters-32267727/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/03/25/205662-927672538_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-205662/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "meerkat",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/meerkat_1_OaU35oEP9_E.jpg",
+      "images_downloaded/animals/meerkat_2_HTVUiryU9eo.jpg",
+      "images_downloaded/animals/meerkat_3_ah7KHxYg6Ow.jpg",
+      "images_downloaded/animals/meerkat_4_GUodDiHXmQA.jpg",
+      "images_downloaded/animals/meerkat_5_LaP6I1COyv4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/26631711/11980932_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/meerkat-at-the-zoo-26631711/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/29/214400_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-214400/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "armadillo",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/armadillo_1_JPeXRsEu1NY.jpg",
+      "images_downloaded/animals/armadillo_2_evxQhNi9nm8.jpg",
+      "images_downloaded/animals/armadillo_3_8BNf1xCDShM.jpg",
+      "images_downloaded/animals/armadillo_4_rdi6JtCbdqc.jpg",
+      "images_downloaded/animals/armadillo_5_vCvLfnvUGJw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34425200/14583366_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/armadillo-foraging-in-natural-habitat-footage-34425200/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/03/14/33710-398856425_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-33710/",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "name": "flamingo",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/flamingo_1_25JxltstHSc.jpg",
+      "images_downloaded/animals/flamingo_2_wTPp323zAEw.jpg",
+      "images_downloaded/animals/flamingo_3_dVb-7D18UNc.jpg",
+      "images_downloaded/animals/flamingo_4_OldsbnBMWRg.jpg",
+      "images_downloaded/animals/flamingo_5_hcVtC5pgZTY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32324733/13788208_682_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/elegant-flamingo-in-serene-natural-setting-32324733/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/02/27/109016-683077123_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-109016/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "peacock",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/peacock_1_l0bqFaNb9LM.jpg",
+      "images_downloaded/animals/peacock_2_1e_lMowBFVM.jpg",
+      "images_downloaded/animals/peacock_3_wBhoO5hMlC4.jpg",
+      "images_downloaded/animals/peacock_4_dS28vcrgqhE.jpg",
+      "images_downloaded/animals/peacock_5_GvyyGV2uWns.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28041563/12289862_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-peacock-is-walking-around-in-an-enclosure-28041563/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/03/23/205373-926737246_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-205373/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "dolphin",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/dolphin_1_K6kZKJOmZrk.jpg",
+      "images_downloaded/animals/dolphin_2_UaaHbkk40Ow.jpg",
+      "images_downloaded/animals/dolphin_3_wN6EybHR2x8.jpg",
+      "images_downloaded/animals/dolphin_4_fgKEqVzX5zM.jpg",
+      "images_downloaded/animals/dolphin_5_ixbyBwwv6rk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/28/125906-735656354_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-125906/",
+        "durationSeconds": 6
+      }
+    ]
   }
 ]

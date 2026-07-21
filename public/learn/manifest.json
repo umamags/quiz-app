@@ -5,12 +5,40 @@
       "file": "learn/animals.json"
     },
     {
+      "title": "Butterflies",
+      "file": "learn/butterflies.json"
+    },
+    {
+      "title": "Colors",
+      "file": "learn/colors.json"
+    },
+    {
       "title": "Dinosaurs",
       "file": "learn/dinosaurs.json"
     },
     {
       "title": "Fishes",
       "file": "learn/fishes.json"
+    },
+    {
+      "title": "Flowers",
+      "file": "learn/flowers.json"
+    },
+    {
+      "title": "Fruits",
+      "file": "learn/fruits.json"
+    },
+    {
+      "title": "Harrypotter",
+      "file": "learn/harrypotter.json"
+    },
+    {
+      "title": "Reptiles",
+      "file": "learn/reptiles.json"
+    },
+    {
+      "title": "Shapes",
+      "file": "learn/shapes.json"
     },
     {
       "title": "Vegetables",
