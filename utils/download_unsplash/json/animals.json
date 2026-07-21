@@ -66,5 +66,175 @@
         "durationSeconds": 15
       }
     ]
+  },
+  {
+    "name": "rabbit",
+    "description": "A rabbit is a small, fluffy animal with long ears and strong back legs that let it hop around quickly.",
+    "images": [
+      "images_downloaded/animals/rabbit_1_FQbcl6nGnpU.jpg",
+      "images_downloaded/animals/rabbit_2_u_kMWN-BWyU.jpg",
+      "images_downloaded/animals/rabbit_3_302xfiIGOfE.jpg",
+      "images_downloaded/animals/rabbit_4_e7A-8mxRXJg.jpg",
+      "images_downloaded/animals/rabbit_5_kKAaCeGf5wY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18161989/18161989-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-rabbit-is-eating-grass-in-the-grass-18161989/",
+        "durationSeconds": 14
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/12/05/141719-778319475_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-141719/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/rabbit-walking-through-green-grass-6977/",
+        "pageUrl": "https://mixkit.co/free-stock-video/rabbit-walking-through-green-grass-6977/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "hamster",
+    "description": "A hamster is a tiny, round pet that loves to stuff food in its cheeks and run on its exercise wheel.",
+    "images": [
+      "images_downloaded/animals/hamster_1_adK3Vu70DEQ.jpg",
+      "images_downloaded/animals/hamster_2_D_pXn7cueOs.jpg",
+      "images_downloaded/animals/hamster_3_r149yvhlJ4Q.jpg",
+      "images_downloaded/animals/hamster_4_cgnDJkzWkTg.jpg",
+      "images_downloaded/animals/hamster_5_FOxMZK1VQS8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37830359/16046279_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/adorable-hamsters-in-cage-playing-37830359/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/01/187420-880352445_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-187420/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/pet/",
+        "pageUrl": "https://mixkit.co/free-stock-video/pet/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "squirrel",
+    "description": "A squirrel is a small, bushy-tailed animal that loves climbing trees and collecting nuts for winter.",
+    "images": [
+      "images_downloaded/animals/squirrel_1_S7fRAd0oTPI.jpg",
+      "images_downloaded/animals/squirrel_2_Tk71SYS8UBY.jpg",
+      "images_downloaded/animals/squirrel_3_JpQK_B7THMw.jpg",
+      "images_downloaded/animals/squirrel_4_83JpAxhWRVw.jpg",
+      "images_downloaded/animals/squirrel_5_bKhETeDV1WM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/11653658/11653658-hd_1080_1920_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/squirrel-on-ground-at-park-11653658/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/01/30/63573-506616476_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-63573/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/african-ground-squirrel-eating-grass-11357/",
+        "pageUrl": "https://mixkit.co/free-stock-video/african-ground-squirrel-eating-grass-11357/",
+        "durationSeconds": 19
+      }
+    ]
+  },
+  {
+    "name": "kangaroo",
+    "description": "A kangaroo is a big-footed animal from Australia that hops on strong back legs and carries its baby in a pouch.",
+    "images": [
+      "images_downloaded/animals/kangaroo_1_QnFVTob4HHE.jpg",
+      "images_downloaded/animals/kangaroo_2_2f33ykzzPCU.jpg",
+      "images_downloaded/animals/kangaroo_3_ZtJ55pSpVTw.jpg",
+      "images_downloaded/animals/kangaroo_4_6iTOGV7p5uk.jpg",
+      "images_downloaded/animals/kangaroo_5_FUi0z2mQuRk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5739698/5739698-hd_1280_720_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/kangaroos-on-the-grass-field-with-sunlight-5739698/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/03/24/267194_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-267194/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/kangaroo-jumping-11149/",
+        "pageUrl": "https://mixkit.co/free-stock-video/kangaroo-jumping-11149/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "koala",
+    "description": "A koala is a sleepy, furry animal from Australia that spends most of its day resting and eating eucalyptus leaves in trees.",
+    "images": [
+      "images_downloaded/animals/koala_1_6rW-AcbSnTA.jpg",
+      "images_downloaded/animals/koala_2_P3sEj29SHD8.jpg",
+      "images_downloaded/animals/koala_3_EerxztHCjM8.jpg",
+      "images_downloaded/animals/koala_4_ZYtHybjelmw.jpg",
+      "images_downloaded/animals/koala_5_4xNDhf0nA-Y.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37701061/15985655_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/koala-resting-on-tree-branch-in-natural-habitat-37701061/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/03/21/341430_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-341430/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/koala-hanging-on-a-tree-branch-11112/",
+        "pageUrl": "https://mixkit.co/free-stock-video/koala-hanging-on-a-tree-branch-11112/",
+        "durationSeconds": 25
+      }
+    ]
   }
 ]

@@ -1,0 +1,342 @@
+[
+  {
+    "name": "blue whale",
+    "description": "The blue whale is the biggest animal on Earth, so huge it can be longer than three school buses lined up!",
+    "images": [
+      "images_downloaded/fishes/blue_whale_1_P19iVmm7XUA.jpg",
+      "images_downloaded/fishes/blue_whale_2_lwACYK8ScmA.jpg",
+      "images_downloaded/fishes/blue_whale_3_wXt0DiISf38.jpg",
+      "images_downloaded/fishes/blue_whale_4_8t9uyncwnHc.jpg",
+      "images_downloaded/fishes/blue_whale_5_WPXxp36tkHQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/11279748/11279748-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/view-from-above-on-humpbacks-11279748/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/27/125737-735655957_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-125737/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/ocean/",
+        "pageUrl": "https://mixkit.co/free-stock-video/ocean/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "shark",
+    "description": "A shark is a powerful fish with rows of sharp teeth that has been swimming in the ocean since before dinosaurs existed.",
+    "images": [
+      "images_downloaded/fishes/shark_1_GBDkr3k96DE.jpg",
+      "images_downloaded/fishes/shark_2_LotoIFYVn6Q.jpg",
+      "images_downloaded/fishes/shark_3_o3r7oVPZnZI.jpg",
+      "images_downloaded/fishes/shark_4_87iHGEPAJsg.jpg",
+      "images_downloaded/fishes/shark_5_ev_Hk-10Km0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31683428/13498550_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/graceful-movement-of-a-shark-underwater-31683428/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/12/06/6681-194868557_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-6681/",
+        "durationSeconds": 24
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/small-shark-swimming-4406/",
+        "pageUrl": "https://mixkit.co/free-stock-video/small-shark-swimming-4406/",
+        "durationSeconds": 15
+      }
+    ]
+  },
+  {
+    "name": "salmon",
+    "description": "A salmon is a fish famous for leaping up rushing waterfalls and rivers to swim back to where it was born.",
+    "images": [
+      "images_downloaded/fishes/salmon_1_kC9KUtSiflw.jpg",
+      "images_downloaded/fishes/salmon_2_bpPTlXWTOvg.jpg",
+      "images_downloaded/fishes/salmon_3_ThkMexbvyyI.jpg",
+      "images_downloaded/fishes/salmon_4_enPHTN3OPRw.jpg",
+      "images_downloaded/fishes/salmon_5_5biIvW0rZnc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/11354883/11354883-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/fish-jumping-up-over-waterfall-11354883/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2015/10/09/931-141984111_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-931/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/fishing/",
+        "pageUrl": "https://mixkit.co/free-stock-video/fishing/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "tuna",
+    "description": "Tuna is a large, fast-swimming fish built like a torpedo that can zoom through the ocean at amazing speeds.",
+    "images": [
+      "images_downloaded/fishes/tuna_1_aK8dFJswcKE.jpg",
+      "images_downloaded/fishes/tuna_2__w-VVA8PrC0.jpg",
+      "images_downloaded/fishes/tuna_3_BRnnJ6vVNdY.jpg",
+      "images_downloaded/fishes/tuna_4_C5x61gUUF-4.jpg",
+      "images_downloaded/fishes/tuna_5_eJlYVMkyPXI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35381450/14991388_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/bluefin-tuna-school-swimming-underwater-35381450/",
+        "durationSeconds": 13
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/08/15/127970-739712442_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-127970/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/fish/",
+        "pageUrl": "https://mixkit.co/free-stock-video/fish/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "trout",
+    "description": "A trout is a freshwater fish with speckled scales that likes to swim in cool, clear rivers and streams.",
+    "images": [
+      "images_downloaded/fishes/trout_1_E8AabnQlTlQ.jpg",
+      "images_downloaded/fishes/trout_2_XV5VJzeHFTM.jpg",
+      "images_downloaded/fishes/trout_3_i1aaOj95ZFk.jpg",
+      "images_downloaded/fishes/trout_4_-B0PDKjZ63o.jpg",
+      "images_downloaded/fishes/trout_5_QGIJUqnEpCY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30598008/13101394_640_360_120fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/underwater-view-of-swimming-trout-fish-school-30598008/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/04/130224-746395319_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-130224/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/river/",
+        "pageUrl": "https://mixkit.co/free-stock-video/river/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "catfish",
+    "description": "A catfish is a whiskered fish that uses its long feelers, called barbels, to find food on muddy riverbeds and ponds.",
+    "images": [
+      "images_downloaded/fishes/catfish_1_aOQ4hX4KCyk.jpg",
+      "images_downloaded/fishes/catfish_2_uWLvruHp8kY.jpg",
+      "images_downloaded/fishes/catfish_3_ixJGjixar3g.jpg",
+      "images_downloaded/fishes/catfish_4_z5gwXaKYuF8.jpg",
+      "images_downloaded/fishes/catfish_5_Ka8nBxFNk7I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37278785/15792336_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/catfish-swimming-in-calm-aquarium-waters-37278785/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/10/28/93644-641767347_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-93644/",
+        "durationSeconds": 17
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/fish/",
+        "pageUrl": "https://mixkit.co/free-stock-video/fish/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "goldfish",
+    "description": "A goldfish is a small, bright orange pet fish that people often keep swimming in bowls or garden ponds.",
+    "images": [
+      "images_downloaded/fishes/goldfish_1_V7SKRhXskv8.jpg",
+      "images_downloaded/fishes/goldfish_2_nCz_ZgnbtaE.jpg",
+      "images_downloaded/fishes/goldfish_3_RAifY0OJe4w.jpg",
+      "images_downloaded/fishes/goldfish_4_h_4fe8fmb1E.jpg",
+      "images_downloaded/fishes/goldfish_5_VIsT7ne7H0Y.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34651435/14687108_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/colorful-goldfish-in-aquarium-tank-video-34651435/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/10/10/52015-467145152_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-52015/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/goldfish-swimming-8350/",
+        "pageUrl": "https://mixkit.co/free-stock-video/goldfish-swimming-8350/",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "name": "clownfish",
+    "description": "A clownfish is a small, bright orange and white fish that lives safely among the stinging arms of a sea anemone.",
+    "images": [
+      "images_downloaded/fishes/clownfish_1_V7SKRhXskv8.jpg",
+      "images_downloaded/fishes/clownfish_2_rEM3cK8F1pk.jpg",
+      "images_downloaded/fishes/clownfish_3_poly_hmhwJs.jpg",
+      "images_downloaded/fishes/clownfish_4_HDVmdzQxAds.jpg",
+      "images_downloaded/fishes/clownfish_5_adbfKShsFfI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/14401910/14401910-hd_1280_720_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-clown-fish-is-in-the-water-with-a-coral-14401910/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/05/03/276516_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-276516/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/clown-fish-in-the-reef-7255/",
+        "pageUrl": "https://mixkit.co/free-stock-video/clown-fish-in-the-reef-7255/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "swordfish",
+    "description": "A swordfish is a fast ocean hunter with a long, flat, pointed bill on its face that looks just like a sword.",
+    "images": [
+      "images_downloaded/fishes/swordfish_1_7hrNYNE7x44.jpg",
+      "images_downloaded/fishes/swordfish_2_RmrJhJ0oprU.jpg",
+      "images_downloaded/fishes/swordfish_3_vWJAe_eiKfI.jpg",
+      "images_downloaded/fishes/swordfish_4_fEHCNueQt0A.jpg",
+      "images_downloaded/fishes/swordfish_5_bNwN_p10Kxs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19495924/19495924-hd_720_1280_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/big-fish-19495924/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/01/11/251966_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-251966/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/fish/",
+        "pageUrl": "https://mixkit.co/free-stock-video/fish/",
+        "durationSeconds": null
+      }
+    ]
+  },
+  {
+    "name": "marlin",
+    "description": "A marlin is a huge, speedy ocean fish with a long spear-like bill, known for making spectacular leaps out of the water.",
+    "images": [
+      "images_downloaded/fishes/marlin_1_HhQh5DyA4Ys.jpg",
+      "images_downloaded/fishes/marlin_2_GCRXe8EAoRE.jpg",
+      "images_downloaded/fishes/marlin_3_fBT4XgROMEU.jpg",
+      "images_downloaded/fishes/marlin_4_sV-eHy_pFss.jpg",
+      "images_downloaded/fishes/marlin_5_yR2Lu_3X4kg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19721568/19721568-hd_720_1280_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/big-fish-19721568/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/01/11/251966_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-251966/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "mixkit",
+        "type": "page",
+        "url": "https://mixkit.co/free-stock-video/ocean/",
+        "pageUrl": "https://mixkit.co/free-stock-video/ocean/",
+        "durationSeconds": null
+      }
+    ]
+  }
+]
