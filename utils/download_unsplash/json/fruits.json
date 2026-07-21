@@ -1,0 +1,535 @@
+[
+  {
+    "name": "apple",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/apple_1_zLCR7RsxYGs.jpg",
+      "images_downloaded/fruits/apple_2_gDPaDDy6_WE.jpg",
+      "images_downloaded/fruits/apple_3_wXuzS9xR49M.jpg",
+      "images_downloaded/fruits/apple_4_rxN2MRdFJVg.jpg",
+      "images_downloaded/fruits/apple_5_3D6yReT06p0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/2351184/2351184-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/water-trickling-on-an-apple-2351184/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/10/12/27833-366185174_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-27833/",
+        "durationSeconds": 13
+      }
+    ]
+  },
+  {
+    "name": "banana",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/banana_1_Kl3467edwsE.jpg",
+      "images_downloaded/fruits/banana_2_0v_1TPz1uXw.jpg",
+      "images_downloaded/fruits/banana_3_fczCr7MdE7U.jpg",
+      "images_downloaded/fruits/banana_4_DkTuGvgPotA.jpg",
+      "images_downloaded/fruits/banana_5_1jyRHJPkpz8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7199067/7199067-hd_720_1280_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/person-getting-a-banana-7199067/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/09/05/18091-288458770_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-18091/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "orange",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/orange_1_U1iYwZ8Dx7k.jpg",
+      "images_downloaded/fruits/orange_2_8ZGgg6rhzxs.jpg",
+      "images_downloaded/fruits/orange_3_A4BBdJQu2co.jpg",
+      "images_downloaded/fruits/orange_4_nibgG33H0F8.jpg",
+      "images_downloaded/fruits/orange_5_9002s2VnOAY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/3614809/3614809-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/an-orange-fruit-unharvested-on-its-tree-3614809/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/19/208630_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-208630/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "grape",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/grape_1_qtwlKiu6VHg.jpg",
+      "images_downloaded/fruits/grape_2_RdI-YMBLhNY.jpg",
+      "images_downloaded/fruits/grape_3_qUXN6xWTh98.jpg",
+      "images_downloaded/fruits/grape_4_s1zqrPUpNzs.jpg",
+      "images_downloaded/fruits/grape_5_NMkWw9Hq9Sg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/16/176238-855196254_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-176238/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "pear",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/pear_1_haSJEJYzl5A.jpg",
+      "images_downloaded/fruits/pear_2_aD7Y2yL646Q.jpg",
+      "images_downloaded/fruits/pear_3_bLPjs4Kw9JU.jpg",
+      "images_downloaded/fruits/pear_4_P-S2zNn0Q0g.jpg",
+      "images_downloaded/fruits/pear_5_fCe-CPkGGdY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10526026/10526026-hd_1080_2048_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-person-placing-a-pear-on-a-plate-10526026/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/12/28/144555-784867402_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-144555/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "strawberry",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/strawberry_1_xnRg3xDcNnE.jpg",
+      "images_downloaded/fruits/strawberry_2_I497Uc8xWXQ.jpg",
+      "images_downloaded/fruits/strawberry_3_VyRmCBnDj5g.jpg",
+      "images_downloaded/fruits/strawberry_4_bULD0lNVXOA.jpg",
+      "images_downloaded/fruits/strawberry_5_gkANpt2K2Hk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7033625/7033625-hd_1080_1920_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/closeup-video-of-a-strawberry-7033625/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/22/190318-887815645_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-190318/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "lemon",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/lemon_1_enNffryKuQI.jpg",
+      "images_downloaded/fruits/lemon_2_TFqjlTmkeyY.jpg",
+      "images_downloaded/fruits/lemon_3_7WAGthfGJ9w.jpg",
+      "images_downloaded/fruits/lemon_4_HzswivUN-tI.jpg",
+      "images_downloaded/fruits/lemon_5_FaMBWkmvPyY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7199044/7199044-hd_720_1280_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/holding-a-lemon-fruit-7199044/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/25/223122_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-223122/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "mango",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/mango_1_7CMH2a9Vumo.jpg",
+      "images_downloaded/fruits/mango_2_McxsrN3WW48.jpg",
+      "images_downloaded/fruits/mango_3_vxtBBfMTMZ0.jpg",
+      "images_downloaded/fruits/mango_4_CqPjQBJOXWA.jpg",
+      "images_downloaded/fruits/mango_5_7iLlgS5o09c.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/20054254/20054254-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/green-mango-20054254/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/01/26/198194-906869559_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-198194/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "pineapple",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/pineapple_1_yx3-a7ualMM.jpg",
+      "images_downloaded/fruits/pineapple_2_nAOZCYcLND8.jpg",
+      "images_downloaded/fruits/pineapple_3_Cr9hZrpC1Oc.jpg",
+      "images_downloaded/fruits/pineapple_4_OKT6Ce9fwqI.jpg",
+      "images_downloaded/fruits/pineapple_5_ZkG4JdoMANM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7199149/7199149-hd_720_1280_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-person-laying-a-pineapple-for-a-flat-lay-7199149/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/26/306556_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-306556/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "watermelon",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/watermelon_1_izi5AnlbRIA.jpg",
+      "images_downloaded/fruits/watermelon_2_aFUHu9WNO3Q.jpg",
+      "images_downloaded/fruits/watermelon_3_euqiHwS38Rw.jpg",
+      "images_downloaded/fruits/watermelon_4_13PBliWTDng.jpg",
+      "images_downloaded/fruits/watermelon_5_ynp_0R23rQ4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27517848/12157772_360_682_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-woman-is-standing-in-front-of-a-table-with-trays-of-watermelon-27517848/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/10/31/28537-370317158_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-28537/",
+        "durationSeconds": 11
+      }
+    ]
+  },
+  {
+    "name": "kiwi",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/kiwi_1_p5Ljx_H2F8o.jpg",
+      "images_downloaded/fruits/kiwi_2_jPVcZsxRGJo.jpg",
+      "images_downloaded/fruits/kiwi_3_VCa_6OdVV2w.jpg",
+      "images_downloaded/fruits/kiwi_4_Zaj2mlKhtmA.jpg",
+      "images_downloaded/fruits/kiwi_5_GAMExm6pQI0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8328575/8328575-hd_1080_1920_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-woman-covering-her-eyes-with-slices-of-kiwi-8328575/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/11/07/55288-499594202_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-55288/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "peach",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/peach_1_dAjYxJrcdd8.jpg",
+      "images_downloaded/fruits/peach_2_H4QpChoce7I.jpg",
+      "images_downloaded/fruits/peach_3_ofRrymNhmvI.jpg",
+      "images_downloaded/fruits/peach_4_IDs8ajdEUjg.jpg",
+      "images_downloaded/fruits/peach_5_O3TlS547j7k.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32610952/13906632_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/efficient-peach-packaging-process-in-orchard-32610952/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/04/05/157513-815095185_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-157513/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "plum",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/plum_1_mjP6MQz834E.jpg",
+      "images_downloaded/fruits/plum_2_vRJ7y64ZwUs.jpg",
+      "images_downloaded/fruits/plum_3_cNPRpLn-vA8.jpg",
+      "images_downloaded/fruits/plum_4_flGDJzwp8xk.jpg",
+      "images_downloaded/fruits/plum_5_sB3MbmRPTSY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5944934/5944934-hd_720_1280_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-person-getting-a-bowl-of-slices-of-plum-5944934/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/05/13/74047-549754733_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-74047/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "cherry",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/cherry_1_INprSEBbfG4.jpg",
+      "images_downloaded/fruits/cherry_2_lFTtQqVfx6g.jpg",
+      "images_downloaded/fruits/cherry_3_McsNra2VRQQ.jpg",
+      "images_downloaded/fruits/cherry_4_NMLv5HQZnK4.jpg",
+      "images_downloaded/fruits/cherry_5_OseN2JZdcY4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4863141/4863141-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/an-abundant-cherry-tree-4863141/",
+        "durationSeconds": 17
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/03/03/66823-520427407_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-66823/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "blueberry",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/blueberry_1_usE0kpV_yLo.jpg",
+      "images_downloaded/fruits/blueberry_2_4qujjbj3srs.jpg",
+      "images_downloaded/fruits/blueberry_3_6MynOBZgig0.jpg",
+      "images_downloaded/fruits/blueberry_4_TdDtTu2rv4s.jpg",
+      "images_downloaded/fruits/blueberry_5_i4Uq6zMLTNs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7677639/7677639-hd_1080_1920_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-video-of-a-blueberry-7677639/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/07/21/3924-175860790_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-3924/",
+        "durationSeconds": 16
+      }
+    ]
+  },
+  {
+    "name": "raspberry",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/raspberry_1_t0A2NCMhXRQ.jpg",
+      "images_downloaded/fruits/raspberry_2_KEhCDbyObvY.jpg",
+      "images_downloaded/fruits/raspberry_3_jHcKq383ibg.jpg",
+      "images_downloaded/fruits/raspberry_4_aJqfBkJdlR4.jpg",
+      "images_downloaded/fruits/raspberry_5_gQyTxSrctvw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/1236873/1236873-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/raspberry-bush-with-fruit-1236873/",
+        "durationSeconds": 13
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/22/190318-887815645_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-190318/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "blackberry",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/blackberry_1_mlbjZzxg3_g.jpg",
+      "images_downloaded/fruits/blackberry_2_UJ51NmhiHn8.jpg",
+      "images_downloaded/fruits/blackberry_3_l1uVrvjZrsQ.jpg",
+      "images_downloaded/fruits/blackberry_4_2t3qRfVNL40.jpg",
+      "images_downloaded/fruits/blackberry_5_4k8xEFW4_3Q.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7930827/7930827-hd_1080_1920_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-blueberry-fruit-and-a-blackberry-smoothie-7930827/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/06/20/42673-432087063_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-42673/",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "name": "papaya",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/papaya_1_Ooj1c6fhdFM.jpg",
+      "images_downloaded/fruits/papaya_2_yPI38imbQSI.jpg",
+      "images_downloaded/fruits/papaya_3_ipmkJx06XFM.jpg",
+      "images_downloaded/fruits/papaya_4_2-nA5KasEoE.jpg",
+      "images_downloaded/fruits/papaya_5_hGC5TQtjzFw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4718792/4718792-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/sliced-papaya-fruit-on-display-4718792/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/07/130539-747472750_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-130539/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "guava",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/guava_1_74Jt5kp0R9s.jpg",
+      "images_downloaded/fruits/guava_2_oPiT4nceNdw.jpg",
+      "images_downloaded/fruits/guava_3_vUlr2F01z-o.jpg",
+      "images_downloaded/fruits/guava_4_c-RJoTVGlc4.jpg",
+      "images_downloaded/fruits/guava_5_dSb8R7QAeLM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18688929/18688929-hd_1280_720_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/guava-harvest-18688929/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/11/175546-853897058_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-175546/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "pomegranate",
+    "description": "",
+    "images": [
+      "images_downloaded/fruits/pomegranate_1_Ws4axEMbsvY.jpg",
+      "images_downloaded/fruits/pomegranate_2_jXIyWb5K5b4.jpg",
+      "images_downloaded/fruits/pomegranate_3_Vs5aLVkgcRk.jpg",
+      "images_downloaded/fruits/pomegranate_4_l9TIcOkWq0s.jpg",
+      "images_downloaded/fruits/pomegranate_5_XiWQbLEhFyo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7033626/7033626-hd_720_1280_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-macro-shot-of-pomegranate-seeds-7033626/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/12/07/99907-659832294_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-99907/",
+        "durationSeconds": 10
+      }
+    ]
+  }
+]

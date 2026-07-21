@@ -1,0 +1,237 @@
+[
+  {
+    "name": "monarch",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/monarch_1_Ho93gVTRWW8.jpg",
+      "images_downloaded/butterflies/monarch_2_mC2mAodvrws.jpg",
+      "images_downloaded/butterflies/monarch_3_PBlsPZugQpA.jpg",
+      "images_downloaded/butterflies/monarch_4_16oqzpFRMqs.jpg",
+      "images_downloaded/butterflies/monarch_5_LGaneK6yG9M.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30777896/13165349_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/monarch-butterfly-on-vibrant-purple-flowers-30777896/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2017/05/01/8907-215617506_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-8907/",
+        "durationSeconds": 2
+      }
+    ]
+  },
+  {
+    "name": "swallowtail",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/swallowtail_1_YQowAT4WV5w.jpg",
+      "images_downloaded/butterflies/swallowtail_2_BalQoga3b_w.jpg",
+      "images_downloaded/butterflies/swallowtail_3_5gNILi5JePo.jpg",
+      "images_downloaded/butterflies/swallowtail_4_C-8_-w8qshw.jpg",
+      "images_downloaded/butterflies/swallowtail_5_wTMyELLeV38.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32335624/13793911_640_360_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/swallowtail-butterfly-resting-on-a-hand-32335624/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/07/02/17018-278400955_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-17018/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "painted lady",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/painted_lady_1_lodFdan_V48.jpg",
+      "images_downloaded/butterflies/painted_lady_2_4PP8zWjaH0g.jpg",
+      "images_downloaded/butterflies/painted_lady_3_zLzAN9uAa1g.jpg",
+      "images_downloaded/butterflies/painted_lady_4_f0NDBst8ukM.jpg",
+      "images_downloaded/butterflies/painted_lady_5_M36c777yZ3g.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38606627/16397190_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-painted-lady-butterfly-on-flower-38606627/",
+        "durationSeconds": 23
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2015/08/10/216-135853979_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-216/",
+        "durationSeconds": 4
+      }
+    ]
+  },
+  {
+    "name": "red admiral",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/red_admiral_1_hB3y60FU4j4.jpg",
+      "images_downloaded/butterflies/red_admiral_2_cm3XU_fvxuo.jpg",
+      "images_downloaded/butterflies/red_admiral_3_c_Za4PzP9Bk.jpg",
+      "images_downloaded/butterflies/red_admiral_4_apRqUXvKYVA.jpg",
+      "images_downloaded/butterflies/red_admiral_5_DP-SzkcMjdo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/05/28/282218_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-282218/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "cabbage white",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/cabbage_white_1_anuYvnFtdq4.jpg",
+      "images_downloaded/butterflies/cabbage_white_2_P6DTdO4Y25w.jpg",
+      "images_downloaded/butterflies/cabbage_white_3_KW8-gMUc75U.jpg",
+      "images_downloaded/butterflies/cabbage_white_4_t0x8EKQSeaY.jpg",
+      "images_downloaded/butterflies/cabbage_white_5__o-C5lEbADI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/11/13/138826-770534989_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-138826/",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "name": "gulf fritillary",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/gulf_fritillary_1_U6g-EK-RuhU.jpg",
+      "images_downloaded/butterflies/gulf_fritillary_2_0eRFFHUYvEY.jpg",
+      "images_downloaded/butterflies/gulf_fritillary_3_mdNha1K0Qq0.jpg",
+      "images_downloaded/butterflies/gulf_fritillary_4_MwJsJESMdJA.jpg",
+      "images_downloaded/butterflies/gulf_fritillary_5_QuSLjXP3Q2U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/03/301603_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-301603/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "question mark",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/question_mark_1_oZuBNC-6E2s.jpg",
+      "images_downloaded/butterflies/question_mark_2_49uySSA678U.jpg",
+      "images_downloaded/butterflies/question_mark_3_IVGZ6NsmyBI.jpg",
+      "images_downloaded/butterflies/question_mark_4_tVkdGtEe2C4.jpg",
+      "images_downloaded/butterflies/question_mark_5_81PkOTYkN2Y.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8620172/8620172-hd_1920_1080_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-post-it-with-a-question-mark-on-it-8620172/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2015/08/24/545-137110823_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-545/",
+        "durationSeconds": 3
+      }
+    ]
+  },
+  {
+    "name": "comma",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/comma_1_S7GcgdI7WjQ.jpg",
+      "images_downloaded/butterflies/comma_2_e5ueEisVV-8.jpg",
+      "images_downloaded/butterflies/comma_3_Im5YEa1h5j8.jpg",
+      "images_downloaded/butterflies/comma_4_OV-ByVfwpAU.jpg",
+      "images_downloaded/butterflies/comma_5_lYw-Z2i3lKI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/03/27/22408-327640017_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-22408/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "black swallowtail",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/black_swallowtail_1_BalQoga3b_w.jpg",
+      "images_downloaded/butterflies/black_swallowtail_2_5gNILi5JePo.jpg",
+      "images_downloaded/butterflies/black_swallowtail_3_apPOczNpX6g.jpg",
+      "images_downloaded/butterflies/black_swallowtail_4_Lho6KBa9cPQ.jpg",
+      "images_downloaded/butterflies/black_swallowtail_5_DI5fCEnAeIM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/13158520/13158520-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-black-swallowtail-caterpillar-on-a-garden-plant-13158520/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/06/28/43325-436041442_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-43325/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "spicebush swallowtail",
+    "description": "",
+    "images": [
+      "images_downloaded/butterflies/spicebush_swallowtail_1_BalQoga3b_w.jpg",
+      "images_downloaded/butterflies/spicebush_swallowtail_2_5gNILi5JePo.jpg",
+      "images_downloaded/butterflies/spicebush_swallowtail_3_C-8_-w8qshw.jpg",
+      "images_downloaded/butterflies/spicebush_swallowtail_4_apPOczNpX6g.jpg",
+      "images_downloaded/butterflies/spicebush_swallowtail_5_WtNWdT7eSMY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/06/28/43325-436041442_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-43325/",
+        "durationSeconds": 9
+      }
+    ]
+  }
+]

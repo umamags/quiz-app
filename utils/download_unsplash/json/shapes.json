@@ -1,0 +1,257 @@
+[
+  {
+    "name": "circle",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/circle_1_HLhvZ9HRAwo.jpg",
+      "images_downloaded/shapes/circle_2_uCOZHr4C0nc.jpg",
+      "images_downloaded/shapes/circle_3_UgNjyPkphtU.jpg",
+      "images_downloaded/shapes/circle_4_vqTWfa4DjEk.jpg",
+      "images_downloaded/shapes/circle_5_1Kqc8ymfMKY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/08/08/225489_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-225489/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "triangle",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/triangle_1_dxGTQArsC3M.jpg",
+      "images_downloaded/shapes/triangle_2_9-dkDEXWGzI.jpg",
+      "images_downloaded/shapes/triangle_3_PbC0AkpoIZM.jpg",
+      "images_downloaded/shapes/triangle_4_40w3HuwLM0I.jpg",
+      "images_downloaded/shapes/triangle_5_nc11Hg2ja-s.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/6950945/6950945-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/man-wearing-cyberpunk-outfit-holding-triangle-shaped-neon-light-6950945/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2015/11/24/1357-147055403_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-1357/",
+        "durationSeconds": 3
+      }
+    ]
+  },
+  {
+    "name": "square",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/square_1_LTDuGUByp6Y.jpg",
+      "images_downloaded/shapes/square_2_Fk-vMfM0krQ.jpg",
+      "images_downloaded/shapes/square_3_VIhBOwitqu8.jpg",
+      "images_downloaded/shapes/square_4_N9UuFddi7hs.jpg",
+      "images_downloaded/shapes/square_5_nc11Hg2ja-s.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/16003144/16003144-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-green-and-orange-square-pattern-on-a-green-background-16003144/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/07/03/169871-841936965_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-169871/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "rectangle",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/rectangle_1_Ye8mxE9Vdcs.jpg",
+      "images_downloaded/shapes/rectangle_2_GvdZO8abOQ4.jpg",
+      "images_downloaded/shapes/rectangle_3_h3ki3bbJWk0.jpg",
+      "images_downloaded/shapes/rectangle_4_BY66BwIa9Bg.jpg",
+      "images_downloaded/shapes/rectangle_5_iJ-h6mBoASI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/08/02/4139-177676892_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-4139/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "pentagon",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/pentagon_1_jNx7P5a8DpE.jpg",
+      "images_downloaded/shapes/pentagon_2_y76jSuLQ91U.jpg",
+      "images_downloaded/shapes/pentagon_3_DFikj5KXD6Y.jpg",
+      "images_downloaded/shapes/pentagon_4_XwUFjQ-L4bE.jpg",
+      "images_downloaded/shapes/pentagon_5_9kuxTeTkv74.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/03/24/34159-400233611_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-34159/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "hexagon",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/hexagon_1_o-D3p035Ou0.jpg",
+      "images_downloaded/shapes/hexagon_2_VUnjE00FRSA.jpg",
+      "images_downloaded/shapes/hexagon_3_Uj_g1ZSzPoY.jpg",
+      "images_downloaded/shapes/hexagon_4_AZuhLLBG6iw.jpg",
+      "images_downloaded/shapes/hexagon_5_9AslAzMcMVU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29448642/12676877_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/abstract-white-hexagon-background-29448642/",
+        "durationSeconds": 20
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/02/04/21161-315224572_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-21161/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "octagon",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/octagon_1_VWUzEiSp8NU.jpg",
+      "images_downloaded/shapes/octagon_2_sJMusTMXOg0.jpg",
+      "images_downloaded/shapes/octagon_3_573Z3MNyooA.jpg",
+      "images_downloaded/shapes/octagon_4_dsntVcJ1pZI.jpg",
+      "images_downloaded/shapes/octagon_5_vmuphOURHyw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/08/302732_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-302732/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "oval",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/oval_1_zTocsCXBQmI.jpg",
+      "images_downloaded/shapes/oval_2_OYcO1xSyrQ0.jpg",
+      "images_downloaded/shapes/oval_3_dH3N_36fhsk.jpg",
+      "images_downloaded/shapes/oval_4_BbpEbkAy818.jpg",
+      "images_downloaded/shapes/oval_5_xTv7HFeP3FE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36747621/15573737_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/aerial-view-of-adelaide-oval-stadium-36747621/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/06/27/288225_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-288225/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "rhombus",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/rhombus_1_DyK3daCNVTU.jpg",
+      "images_downloaded/shapes/rhombus_2_7pr9GJfdWM8.jpg",
+      "images_downloaded/shapes/rhombus_3_JqYnAkdM-8M.jpg",
+      "images_downloaded/shapes/rhombus_4_-NwokFtFawo.jpg",
+      "images_downloaded/shapes/rhombus_5_PAZEFjUDaFU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/03/05/153237-804925051_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-153237/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "star",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/star_1_Q_RBVFFXR_g.jpg",
+      "images_downloaded/shapes/star_2_lcT_p8kLCsc.jpg",
+      "images_downloaded/shapes/star_3_oMpAz-DN-9I.jpg",
+      "images_downloaded/shapes/star_4_asuyh-_ZX54.jpg",
+      "images_downloaded/shapes/star_5_fsH1KjbdjE8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/27/218487_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-218487/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "crescent",
+    "description": "",
+    "images": [
+      "images_downloaded/shapes/crescent_1_CVWm_qnxyVA.jpg",
+      "images_downloaded/shapes/crescent_2_TRXSkmJb40c.jpg",
+      "images_downloaded/shapes/crescent_3_wlXN8kRyD7M.jpg",
+      "images_downloaded/shapes/crescent_4_NWIOx1BKZrc.jpg",
+      "images_downloaded/shapes/crescent_5_gxMY0mUvi_U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31775304/13536388_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/crescent-moon-above-pine-trees-at-twilight-31775304/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/08/06/126924-737187450_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-126924/",
+        "durationSeconds": 10
+      }
+    ]
+  }
+]

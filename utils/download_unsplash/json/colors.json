@@ -1,0 +1,486 @@
+[
+  {
+    "name": "green",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/green_1_OOE4xAnBhKo.jpg",
+      "images_downloaded/colors/green_2_2GpLuy__erQ.jpg",
+      "images_downloaded/colors/green_3_aL7SA1ASVdQ.jpg",
+      "images_downloaded/colors/green_4_HEMIBJ8QQuA.jpg",
+      "images_downloaded/colors/green_5_ucYWe5mzTMU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31447876/13411698_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/lush-green-jungle-with-dense-foliage-31447876/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/12/14/321952_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-321952/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "yellow",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/yellow_1_YIy1cd3xN4w.jpg",
+      "images_downloaded/colors/yellow_2_RiGGe25WUw4.jpg",
+      "images_downloaded/colors/yellow_3_cVJsVGkxCoo.jpg",
+      "images_downloaded/colors/yellow_4_F4i5l_HY1E8.jpg",
+      "images_downloaded/colors/yellow_5_vC8wj_Kphak.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38668138/16425031_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/yellow-throated-woodpecker-on-tree-trunk-38668138/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/11/06/28746-371345147_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-28746/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "blue",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/blue_1_g0eRErPBoTA.jpg",
+      "images_downloaded/colors/blue_2_OzfD79w8ptA.jpg",
+      "images_downloaded/colors/blue_3_kXVogATbFgA.jpg",
+      "images_downloaded/colors/blue_4_qD9xzm7yK9U.jpg",
+      "images_downloaded/colors/blue_5_2pnozU26QBo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30358742/13012828_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-blue-jellyfish-in-dark-water-30358742/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/03/18/111179-689949805_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-111179/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "red",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/red_1_YpDkIh137ws.jpg",
+      "images_downloaded/colors/red_2_HyBXy5PHQR8.jpg",
+      "images_downloaded/colors/red_3_Ar6eXpQaCwk.jpg",
+      "images_downloaded/colors/red_4_ioJBsYQ-pPM.jpg",
+      "images_downloaded/colors/red_5_YFb2dmUQ0Qo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4858602/4858602-hd_2048_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-red-and-black-button-with-the-word-subscribe-4858602/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/03/06/14840-258992148_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-14840/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "orange",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/orange_1_U1iYwZ8Dx7k.jpg",
+      "images_downloaded/colors/orange_2_8ZGgg6rhzxs.jpg",
+      "images_downloaded/colors/orange_3_A4BBdJQu2co.jpg",
+      "images_downloaded/colors/orange_4_nibgG33H0F8.jpg",
+      "images_downloaded/colors/orange_5_9002s2VnOAY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/3614809/3614809-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/an-orange-fruit-unharvested-on-its-tree-3614809/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/19/208630_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-208630/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "purple",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/purple_1_eICUFSeirc0.jpg",
+      "images_downloaded/colors/purple_2_r8AFUpRp0J0.jpg",
+      "images_downloaded/colors/purple_3_Vey6fioB1eI.jpg",
+      "images_downloaded/colors/purple_4_cfKwE7k9qqA.jpg",
+      "images_downloaded/colors/purple_5_ln5drpv_ImI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/12920706/12920706-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/purple-dots-in-darkness-12920706/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/04/04/112836-697207951_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-112836/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "pink",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/pink_1_4ma0W4q9xTo.jpg",
+      "images_downloaded/colors/pink_2_OrwkD-iWgqg.jpg",
+      "images_downloaded/colors/pink_3_d7iIvTyzccY.jpg",
+      "images_downloaded/colors/pink_4_OuzrCCdCcnw.jpg",
+      "images_downloaded/colors/pink_5_6Oyd_q79z2M.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/16029662/16029662-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-pink-and-yellow-poster-with-the-words-the-art-of-the-pop-up-book-16029662/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/03/30/34573-402634109_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-34573/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "brown",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/brown_1_m9h_7B6RBiM.jpg",
+      "images_downloaded/colors/brown_2_xJkTCbtuqAY.jpg",
+      "images_downloaded/colors/brown_3_beBBYVJ_4MM.jpg",
+      "images_downloaded/colors/brown_4_hxk3iYQyjG0.jpg",
+      "images_downloaded/colors/brown_5__HwGcoyr5Gk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/01/10/251873_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-251873/",
+        "durationSeconds": 13
+      }
+    ]
+  },
+  {
+    "name": "black",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/black_1__GH9LwhlSO4.jpg",
+      "images_downloaded/colors/black_2_YkXdt3429hc.jpg",
+      "images_downloaded/colors/black_3_CEtIM994vaI.jpg",
+      "images_downloaded/colors/black_4_zE-MrTmjzd4.jpg",
+      "images_downloaded/colors/black_5_ZV79vhL6ppk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29668392/12762271_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/abstract-black-scratched-texture-loop-29668392/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/09/05/4948-181538478_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-4948/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "white",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/white_1_kUHfMW8awpE.jpg",
+      "images_downloaded/colors/white_2_R53t-Tg6J4c.jpg",
+      "images_downloaded/colors/white_3_UiiHVEyxtyA.jpg",
+      "images_downloaded/colors/white_4_R9OueKOtGGU.jpg",
+      "images_downloaded/colors/white_5_GJKx5lhwU3M.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30653723/13118674_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/crumpled-white-paper-texture-background-30653723/",
+        "durationSeconds": 20
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/03/18/111179-689949805_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-111179/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "gray",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/gray_1_yI3weKNBRTc.jpg",
+      "images_downloaded/colors/gray_2_6a3nqQ1YwBw.jpg",
+      "images_downloaded/colors/gray_3_PtJDCD4fTI4.jpg",
+      "images_downloaded/colors/gray_4_06t5GTd8KBQ.jpg",
+      "images_downloaded/colors/gray_5_hM08wZJBlK4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/01/09/145934-788094509_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-145934/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "turquoise",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/turquoise_1_LVnJlyfa7Zk.jpg",
+      "images_downloaded/colors/turquoise_2_KWpm9MmEo2s.jpg",
+      "images_downloaded/colors/turquoise_3_Oz2ZQ2j8We8.jpg",
+      "images_downloaded/colors/turquoise_4_Q3Ea7QQQ6MA.jpg",
+      "images_downloaded/colors/turquoise_5_UCIZh0-OYPw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31546638/13444818_684_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/aerial-view-of-turquoise-ocean-waters-31546638/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/11/04/28707-371213524_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-28707/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "teal",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/teal_1_jUCQRQeRs3k.jpg",
+      "images_downloaded/colors/teal_2_UK62OOxGn0E.jpg",
+      "images_downloaded/colors/teal_3_h9m8Xsy-n0Q.jpg",
+      "images_downloaded/colors/teal_4_848z7lbCjoo.jpg",
+      "images_downloaded/colors/teal_5_kj8_P9d5tpo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/12/07/320453_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-320453/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "cyan",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/cyan_1_YuJm-d7k2Jg.jpg",
+      "images_downloaded/colors/cyan_2_5SjAaqqCCmY.jpg",
+      "images_downloaded/colors/cyan_3_xtgONQzGgOE.jpg",
+      "images_downloaded/colors/cyan_4_-vcE6c-UP9E.jpg",
+      "images_downloaded/colors/cyan_5_Th2MisvdKr0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2017/04/21/8797-214209731_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-8797/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "magenta",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/magenta_1_YKb3Onjn7us.jpg",
+      "images_downloaded/colors/magenta_2_tkah2xF1zsg.jpg",
+      "images_downloaded/colors/magenta_3_j9SiblcRa6k.jpg",
+      "images_downloaded/colors/magenta_4_pxZcdXkypz0.jpg",
+      "images_downloaded/colors/magenta_5_HLtusvRaJ5s.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/12/20/143678-784129658_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-143678/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "maroon",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/maroon_1_lpo3y90Yuig.jpg",
+      "images_downloaded/colors/maroon_2_jimGvAMRlWk.jpg",
+      "images_downloaded/colors/maroon_3_6x8mBPAIBrk.jpg",
+      "images_downloaded/colors/maroon_4_MarUl1lTEj8.jpg",
+      "images_downloaded/colors/maroon_5_im8y4BO2hso.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/06/25/168826-839864591_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-168826/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "navy",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/navy_1_BQgAYwERXhs.jpg",
+      "images_downloaded/colors/navy_2_8dJM0LwzsfU.jpg",
+      "images_downloaded/colors/navy_3_CzAEShfOCoU.jpg",
+      "images_downloaded/colors/navy_4_prMn9KINLtI.jpg",
+      "images_downloaded/colors/navy_5_fY6czqJNoa0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/02/18/200994-914924519_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-200994/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "olive",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/olive_1_RuqOeMvPlzQ.jpg",
+      "images_downloaded/colors/olive_2_uOBApnN_K7w.jpg",
+      "images_downloaded/colors/olive_3_Gt4FnWPbjfo.jpg",
+      "images_downloaded/colors/olive_4_xWijL2q3xAM.jpg",
+      "images_downloaded/colors/olive_5_RD0iQoLCkPo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7116421/7116421-hd_1080_1920_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-view-of-olive-fruits-7116421/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/07/18/172022-846482721_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-172022/",
+        "durationSeconds": 11
+      }
+    ]
+  },
+  {
+    "name": "lime",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/lime_1_7WAGthfGJ9w.jpg",
+      "images_downloaded/colors/lime_2_huUI0y0ERMM.jpg",
+      "images_downloaded/colors/lime_3_UFrsHcCi21A.jpg",
+      "images_downloaded/colors/lime_4_c5_N5ak_kJU.jpg",
+      "images_downloaded/colors/lime_5_ZyJ_KuMlesQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32953313/14044610_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/automated-lime-sorting-process-in-factory-32953313/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/11/29/140881-776415273_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-140881/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "indigo",
+    "description": "",
+    "images": [
+      "images_downloaded/colors/indigo_1_g0eRErPBoTA.jpg",
+      "images_downloaded/colors/indigo_2_A4rqd2g-eLo.jpg",
+      "images_downloaded/colors/indigo_3_ygWWGI61yeo.jpg",
+      "images_downloaded/colors/indigo_4_Pz8O67wagn0.jpg",
+      "images_downloaded/colors/indigo_5_WX2N2DFXzM0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/02/11/21296-316701410_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-21296/",
+        "durationSeconds": 5
+      }
+    ]
+  }
+]

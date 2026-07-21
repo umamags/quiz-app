@@ -1,0 +1,263 @@
+[
+  {
+    "name": "Phoenix",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/phoenix_1_RcDEbNQsjHU.jpg",
+      "images_downloaded/harrypotter/phoenix_2_akE66HU-_Kg.jpg",
+      "images_downloaded/harrypotter/phoenix_3_qcofFqnGjww.jpg",
+      "images_downloaded/harrypotter/phoenix_4_BaDrWEr794Q.jpg",
+      "images_downloaded/harrypotter/phoenix_5_fdrykjZSoyU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15822615/15822615-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/downtown-phoenix-az-drone-footage-15822615/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/06/174927-852215352_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-174927/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "Dragon",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/dragon_1_F6920BvzrZE.jpg",
+      "images_downloaded/harrypotter/dragon_2_zQMN9fLJehM.jpg",
+      "images_downloaded/harrypotter/dragon_3_WsBtj3RL0fs.jpg",
+      "images_downloaded/harrypotter/dragon_4_EqodlcRMZOY.jpg",
+      "images_downloaded/harrypotter/dragon_5_B5PNmw5XSpk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38537738/16367815_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/intricate-stone-dragon-relief-in-sunlight-38537738/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/20/82209-578691544_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-82209/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "Werewolf",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/werewolf_1_tauPAnOIGvE.jpg",
+      "images_downloaded/harrypotter/werewolf_2_i6yrDhfZ-XQ.jpg",
+      "images_downloaded/harrypotter/werewolf_3_QZ2EQuPpQJs.jpg",
+      "images_downloaded/harrypotter/werewolf_4_mk2chAKaZR4.jpg",
+      "images_downloaded/harrypotter/werewolf_5_kR1Aer8c_WI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/06/133825-758327956_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-133825/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "Troll",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/troll_1_mx94V7uE1eU.jpg",
+      "images_downloaded/harrypotter/troll_2_iQjkQtyXGYY.jpg",
+      "images_downloaded/harrypotter/troll_3_yKkQK20iXaU.jpg",
+      "images_downloaded/harrypotter/troll_4_FZX_L3hOx9E.jpg",
+      "images_downloaded/harrypotter/troll_5_4yK152OHwgs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/05/28/164884-831315174_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-164884/",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "name": "Unicorn",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/unicorn_1_U2TjtLJe4Z0.jpg",
+      "images_downloaded/harrypotter/unicorn_2_Geu-i5VvI1A.jpg",
+      "images_downloaded/harrypotter/unicorn_3_Jr8byYZmTTU.jpg",
+      "images_downloaded/harrypotter/unicorn_4_KTYjVDmN4A4.jpg",
+      "images_downloaded/harrypotter/unicorn_5_9Rc00n8ie-Y.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/11/09/6301-190925730_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-6301/",
+        "durationSeconds": 20
+      }
+    ]
+  },
+  {
+    "name": "Wand",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/wand_1_4Zaq5xY5M_c.jpg",
+      "images_downloaded/harrypotter/wand_2_0tgMnMIYQ9Y.jpg",
+      "images_downloaded/harrypotter/wand_3_u7VDgNGb78w.jpg",
+      "images_downloaded/harrypotter/wand_4_yI3weKNBRTc.jpg",
+      "images_downloaded/harrypotter/wand_5_hQ3WZnY3yZ0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8115989/8115989-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/man-and-woman-playing-magic-wand-8115989/",
+        "durationSeconds": 15
+      }
+    ]
+  },
+  {
+    "name": "Broomstick",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/broomstick_1_tDF0AY7ECXY.jpg",
+      "images_downloaded/harrypotter/broomstick_2_V0cSTljC92k.jpg",
+      "images_downloaded/harrypotter/broomstick_3_f5VsfkJdN-8.jpg",
+      "images_downloaded/harrypotter/broomstick_4_YEUJcQvIKVU.jpg",
+      "images_downloaded/harrypotter/broomstick_5_77La8Of1F9g.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/04/02/34821-405202995_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-34821/",
+        "durationSeconds": 16
+      }
+    ]
+  },
+  {
+    "name": "Sorting Hat",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/sorting_hat_1_vU2MmvDCmUo.jpg",
+      "images_downloaded/harrypotter/sorting_hat_2_ioqjZtUZz0s.jpg",
+      "images_downloaded/harrypotter/sorting_hat_3_fvm-SIqxw6I.jpg",
+      "images_downloaded/harrypotter/sorting_hat_4_TVllFyGaLEA.jpg",
+      "images_downloaded/harrypotter/sorting_hat_5_CgHNmQ0c2w4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8115657/8115657-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/children-in-harry-potter-costume-playing-with-the-sorting-hat-8115657/",
+        "durationSeconds": 22
+      }
+    ]
+  },
+  {
+    "name": "Hogwarts",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/hogwarts_1_HAl6CKxM3xU.jpg",
+      "images_downloaded/harrypotter/hogwarts_2_5qUJfO4NU4o.jpg",
+      "images_downloaded/harrypotter/hogwarts_3_tS-jh0M6JoA.jpg",
+      "images_downloaded/harrypotter/hogwarts_4_b7MUFydsU64.jpg",
+      "images_downloaded/harrypotter/hogwarts_5_0bw12lrFV3E.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/12/13/246490_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-246490/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "Cauldron",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/cauldron_1_juPg5avdAHs.jpg",
+      "images_downloaded/harrypotter/cauldron_2_sQx553-lSB0.jpg",
+      "images_downloaded/harrypotter/cauldron_3_M8nK_TNUxZA.jpg",
+      "images_downloaded/harrypotter/cauldron_4_Cxy8r_zq504.jpg",
+      "images_downloaded/harrypotter/cauldron_5_I7D9qbzfwaY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/16/131544-750733762_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-131544/",
+        "durationSeconds": 24
+      }
+    ]
+  },
+  {
+    "name": "Owl",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/owl_1_oqYHtXrLXLo.jpg",
+      "images_downloaded/harrypotter/owl_2_UTw183oZPf0.jpg",
+      "images_downloaded/harrypotter/owl_3_2VsPnDt2SQs.jpg",
+      "images_downloaded/harrypotter/owl_4_wuDvhtaAYYI.jpg",
+      "images_downloaded/harrypotter/owl_5_TkQjNx6qCTA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33404877/14219307_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/eurasian-eagle-owl-perched-in-forest-33404877/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/04/19/272801_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-272801/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "Hogwarts Express",
+    "description": "",
+    "images": [
+      "images_downloaded/harrypotter/hogwarts_express_1_HAl6CKxM3xU.jpg",
+      "images_downloaded/harrypotter/hogwarts_express_2_wtLn23YbuTE.jpg",
+      "images_downloaded/harrypotter/hogwarts_express_3_v-IkXXcQ0Eo.jpg",
+      "images_downloaded/harrypotter/hogwarts_express_4_54-l-o0OJGY.jpg",
+      "images_downloaded/harrypotter/hogwarts_express_5_P_SHQgwKFaQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/13/175888-854230237_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-175888/",
+        "durationSeconds": 17
+      }
+    ]
+  }
+]

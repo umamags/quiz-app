@@ -1,0 +1,485 @@
+[
+  {
+    "name": "crocodile",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/crocodile_1_YppMBEPyfFQ.jpg",
+      "images_downloaded/reptiles/crocodile_2_YOX8ZMTo7hk.jpg",
+      "images_downloaded/reptiles/crocodile_3_R3sgrDvXz3I.jpg",
+      "images_downloaded/reptiles/crocodile_4_yk6admGBUjI.jpg",
+      "images_downloaded/reptiles/crocodile_5__-2hCDbHtNQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5299981/5299981-hd_1920_1080_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/video-of-a-crocodile-under-water-5299981/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/06/06/166060-833909374_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-166060/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "turtle",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/turtle_1_L-2p8fapOA8.jpg",
+      "images_downloaded/reptiles/turtle_2_N5ByCirHVqw.jpg",
+      "images_downloaded/reptiles/turtle_3_M8xxVih_V_U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34922194/14792956_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/tropical-underwater-turtle-exploration-34922194/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/08/19/85661-591865476_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-85661/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "snake",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/snake_1_2EzQsIkPnKc.jpg",
+      "images_downloaded/reptiles/snake_2_SBc-Ruru7yk.jpg",
+      "images_downloaded/reptiles/snake_3_EPLrqHHu2WI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8083244/8083244-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/snake-on-the-ground-8083244/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/29/214346_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-214346/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "gecko",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/gecko_1_i3T8gp9dUVk.jpg",
+      "images_downloaded/reptiles/gecko_2_pNT0nNKTiYk.jpg",
+      "images_downloaded/reptiles/gecko_3_cHP9WBFKm9o.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/03/11/339569_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-339569/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "chameleon",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/chameleon_1_N_GrR8c2EMk.jpg",
+      "images_downloaded/reptiles/chameleon_2_WBCefg9hYo4.jpg",
+      "images_downloaded/reptiles/chameleon_3_K3QQLUlqVVg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5088506/5088506-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/chameleon-on-a-branch-5088506/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/02/219153_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-219153/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "iguana",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/iguana_1_CxayZniisNA.jpg",
+      "images_downloaded/reptiles/iguana_2_xro6zbGewnc.jpg",
+      "images_downloaded/reptiles/iguana_3_DO0lQFlzGeM.jpg",
+      "images_downloaded/reptiles/iguana_4__YCUANSCaO4.jpg",
+      "images_downloaded/reptiles/iguana_5_ssAcdlJRsI4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36543010/15494774_360_640_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/closeup-of-green-iguana-in-natural-habitat-36543010/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/01/13/104235-665837343_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-104235/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "komodo dragon",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/komodo_dragon_1_j1RbkaDVWSw.jpg",
+      "images_downloaded/reptiles/komodo_dragon_2_VCzNXhMoyBw.jpg",
+      "images_downloaded/reptiles/komodo_dragon_3_o-S8EiQVo_g.jpg",
+      "images_downloaded/reptiles/komodo_dragon_4_eE1Q8oqhYRE.jpg",
+      "images_downloaded/reptiles/komodo_dragon_5_AamaZnTgzRo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/12715035/12715035-hd_1366_720_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-komodo-dragon-lying-in-the-sand-12715035/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/06/15/167283-837765337_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-167283/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "alligator",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/alligator_1_YppMBEPyfFQ.jpg",
+      "images_downloaded/reptiles/alligator_2_YOX8ZMTo7hk.jpg",
+      "images_downloaded/reptiles/alligator_3_POKb4uUOizU.jpg",
+      "images_downloaded/reptiles/alligator_4_qdg2Hxyjz4M.jpg",
+      "images_downloaded/reptiles/alligator_5_nChHk8s-HSk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28635280/12437036_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-alligator-on-wooden-platform-28635280/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/06/06/166060-833909374_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-166060/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "tortoise",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/tortoise_1_L-2p8fapOA8.jpg",
+      "images_downloaded/reptiles/tortoise_2_M8xxVih_V_U.jpg",
+      "images_downloaded/reptiles/tortoise_3_N5ByCirHVqw.jpg",
+      "images_downloaded/reptiles/tortoise_4__NgSXe2cJPk.jpg",
+      "images_downloaded/reptiles/tortoise_5_o5LcQ9GkT6A.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19412133/19412133-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-tortoise-is-walking-on-the-grass-in-front-of-a-building-19412133/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/05/28/164820-831084971_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-164820/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "lizard",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/lizard_1_uTj6-eZeHto.jpg",
+      "images_downloaded/reptiles/lizard_2_5DB3cYe7Nxk.jpg",
+      "images_downloaded/reptiles/lizard_3_7xm5J9FbZmw.jpg",
+      "images_downloaded/reptiles/lizard_4_cqlI1Xpki8E.jpg",
+      "images_downloaded/reptiles/lizard_5_ocpdTb_VPFs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10897503/10897503-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-on-lizard-lying-down-10897503/",
+        "durationSeconds": 2
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/01/13/104235-665837343_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-104235/",
+        "durationSeconds": 6
+      }
+    ]
+  },
+  {
+    "name": "skink",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/skink_1_VRbSu5_jaIM.jpg",
+      "images_downloaded/reptiles/skink_2_A6CAToA5Mfg.jpg",
+      "images_downloaded/reptiles/skink_3_vHb9RX6G3vo.jpg",
+      "images_downloaded/reptiles/skink_4_gpMM_jj8pL8.jpg",
+      "images_downloaded/reptiles/skink_5_Ugs-o2pIAs8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29713295/12776265_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/skink-on-log-in-lush-greenery-29713295/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/02/28/261598_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-261598/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "monitor lizard",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/monitor_lizard_1_tD5iUvvsALY.jpg",
+      "images_downloaded/reptiles/monitor_lizard_2_VCzNXhMoyBw.jpg",
+      "images_downloaded/reptiles/monitor_lizard_3_OVxfmbKtzaA.jpg",
+      "images_downloaded/reptiles/monitor_lizard_4_YM-MTdT3alg.jpg",
+      "images_downloaded/reptiles/monitor_lizard_5_kq1gU_xolXI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37501757/15887921_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/monitor-lizard-by-the-riverbank-in-thailand-37501757/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/01/15/327926_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-327926/",
+        "durationSeconds": 13
+      }
+    ]
+  },
+  {
+    "name": "anole",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/anole_1_Lq3U1XC3Low.jpg",
+      "images_downloaded/reptiles/anole_2_sR8hpZQvZtE.jpg",
+      "images_downloaded/reptiles/anole_3_zjUAdQ1MYvY.jpg",
+      "images_downloaded/reptiles/anole_4_7BQUlV6kHe0.jpg",
+      "images_downloaded/reptiles/anole_5_rhyvjnokGT8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/04/215198_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-215198/",
+        "durationSeconds": 15
+      }
+    ]
+  },
+  {
+    "name": "bearded dragon",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/bearded_dragon_1_F3a24w6yWnI.jpg",
+      "images_downloaded/reptiles/bearded_dragon_2_kc2aSNS6Duo.jpg",
+      "images_downloaded/reptiles/bearded_dragon_3_NSBC81u-TKA.jpg",
+      "images_downloaded/reptiles/bearded_dragon_4_Ox4FhyQAs9Y.jpg",
+      "images_downloaded/reptiles/bearded_dragon_5_haU65hfAi8k.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32383496/13812555_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-a-bearded-dragon-lizard-in-nature-32383496/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "horned lizard",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/horned_lizard_1_YBJqVEYlLqw.jpg",
+      "images_downloaded/reptiles/horned_lizard_2_JkzJ0jq6nAI.jpg",
+      "images_downloaded/reptiles/horned_lizard_3_KF459ab578Q.jpg",
+      "images_downloaded/reptiles/horned_lizard_4_p7vRfowv79s.jpg",
+      "images_downloaded/reptiles/horned_lizard_5_5NJwFWQeTsc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/02/12/334203_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-334203/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "rattlesnake",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/rattlesnake_1_2EzQsIkPnKc.jpg",
+      "images_downloaded/reptiles/rattlesnake_2_f1q4NlVRYSc.jpg",
+      "images_downloaded/reptiles/rattlesnake_3_l6aAMUH_oW8.jpg",
+      "images_downloaded/reptiles/rattlesnake_4_s5u6Ky9gNSQ.jpg",
+      "images_downloaded/reptiles/rattlesnake_5_WZJzWOHg6n0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28288550/12351647_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-timble-rattlesnake-uncoils-into-a-more-defensive-position-28288550/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "cobra",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/cobra_1_sazD8ZHV_VI.jpg",
+      "images_downloaded/reptiles/cobra_2_JxtGLEQ-p-Q.jpg",
+      "images_downloaded/reptiles/cobra_3__GrV6d0Vibg.jpg",
+      "images_downloaded/reptiles/cobra_4_F27znIDT1l0.jpg",
+      "images_downloaded/reptiles/cobra_5_iZA3J_uLRu4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35786469/15172140_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-cobra-in-a-tire-displaying-its-hood-35786469/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/06/210902_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-210902/",
+        "durationSeconds": 11
+      }
+    ]
+  },
+  {
+    "name": "python",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/python_1_4hbJ-eymZ1o.jpg",
+      "images_downloaded/reptiles/python_2_ZIPFteu-R8k.jpg",
+      "images_downloaded/reptiles/python_3_8qEB0fTe9Vw.jpg",
+      "images_downloaded/reptiles/python_4_ieic5Tq8YMk.jpg",
+      "images_downloaded/reptiles/python_5_vpOeXr5wmR4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31702138/13507597_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/python-snake-in-natural-habitat-on-rocks-31702138/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/04/01/343855_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-343855/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "viper",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/viper_1_l2FFRAkSq3Y.jpg",
+      "images_downloaded/reptiles/viper_2_MGOgj6IU1Vw.jpg",
+      "images_downloaded/reptiles/viper_3_HG8WwAE42eE.jpg",
+      "images_downloaded/reptiles/viper_4_d8hfch9P-AA.jpg",
+      "images_downloaded/reptiles/viper_5_HaGwCk2AD84.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/07/174968-852541153_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-174968/",
+        "durationSeconds": 8
+      }
+    ]
+  },
+  {
+    "name": "anaconda",
+    "description": "",
+    "images": [
+      "images_downloaded/reptiles/anaconda_1_vec5yfUvCGs.jpg",
+      "images_downloaded/reptiles/anaconda_2_EPLrqHHu2WI.jpg",
+      "images_downloaded/reptiles/anaconda_3_9X5mfoq8yOo.jpg",
+      "images_downloaded/reptiles/anaconda_4_stUzQAzchig.jpg",
+      "images_downloaded/reptiles/anaconda_5_7bu2umh_abs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/18/212433_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-212433/",
+        "durationSeconds": 11
+      }
+    ]
+  }
+]
