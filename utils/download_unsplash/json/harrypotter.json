@@ -1,7 +1,7 @@
 [
   {
     "name": "Phoenix",
-    "description": "",
+    "description": "The phoenix is a legendary immortal bird that cyclically regenerates or is otherwise born again.",
     "images": [
       "images_downloaded/harrypotter/phoenix_1_RcDEbNQsjHU.jpg",
       "images_downloaded/harrypotter/phoenix_2_akE66HU-_Kg.jpg",
@@ -28,7 +28,7 @@
   },
   {
     "name": "Dragon",
-    "description": "",
+    "description": "A dragon is a mythical creature found in the folklore of cultures throughout the world.",
     "images": [
       "images_downloaded/harrypotter/dragon_1_F6920BvzrZE.jpg",
       "images_downloaded/harrypotter/dragon_2_zQMN9fLJehM.jpg",
@@ -55,7 +55,7 @@
   },
   {
     "name": "Werewolf",
-    "description": "",
+    "description": "In Slavic mythology, a werewolf is a human-shapeshifter who temporarily takes the form of a wolf.",
     "images": [
       "images_downloaded/harrypotter/werewolf_1_tauPAnOIGvE.jpg",
       "images_downloaded/harrypotter/werewolf_2_i6yrDhfZ-XQ.jpg",
@@ -75,7 +75,7 @@
   },
   {
     "name": "Troll",
-    "description": "",
+    "description": "A troll is a being in Nordic folklore, including Norse mythology.",
     "images": [
       "images_downloaded/harrypotter/troll_1_mx94V7uE1eU.jpg",
       "images_downloaded/harrypotter/troll_2_iQjkQtyXGYY.jpg",
@@ -95,7 +95,7 @@
   },
   {
     "name": "Unicorn",
-    "description": "",
+    "description": "The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.",
     "images": [
       "images_downloaded/harrypotter/unicorn_1_U2TjtLJe4Z0.jpg",
       "images_downloaded/harrypotter/unicorn_2_Geu-i5VvI1A.jpg",
@@ -115,7 +115,7 @@
   },
   {
     "name": "Wand",
-    "description": "",
+    "description": "A wand is a thin, light-weight rod that is held with one hand, and is traditionally made of wood, but may also be made of other materials, such as metal, bone or stone.",
     "images": [
       "images_downloaded/harrypotter/wand_1_4Zaq5xY5M_c.jpg",
       "images_downloaded/harrypotter/wand_2_0tgMnMIYQ9Y.jpg",
@@ -135,7 +135,7 @@
   },
   {
     "name": "Broomstick",
-    "description": "",
+    "description": "A broom, also known as a broomstick, is a cleaning tool, consisting of usually stiff fibers attached to, and roughly parallel to, a cylindrical handle, the broomstick.",
     "images": [
       "images_downloaded/harrypotter/broomstick_1_tDF0AY7ECXY.jpg",
       "images_downloaded/harrypotter/broomstick_2_V0cSTljC92k.jpg",
@@ -175,7 +175,7 @@
   },
   {
     "name": "Hogwarts",
-    "description": "",
+    "description": "Hogwarts School of Witchcraft and Wizardry is a fictional boarding school of magic in the Harry Potter series by J. K. Rowling.",
     "images": [
       "images_downloaded/harrypotter/hogwarts_1_HAl6CKxM3xU.jpg",
       "images_downloaded/harrypotter/hogwarts_2_5qUJfO4NU4o.jpg",
@@ -195,7 +195,7 @@
   },
   {
     "name": "Cauldron",
-    "description": "",
+    "description": "A cauldron is a large pot or kettle used for cooking or boiling, typically over an open fire.",
     "images": [
       "images_downloaded/harrypotter/cauldron_1_juPg5avdAHs.jpg",
       "images_downloaded/harrypotter/cauldron_2_sQx553-lSB0.jpg",
@@ -215,7 +215,7 @@
   },
   {
     "name": "Owl",
-    "description": "",
+    "description": "Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
     "images": [
       "images_downloaded/harrypotter/owl_1_oqYHtXrLXLo.jpg",
       "images_downloaded/harrypotter/owl_2_UTw183oZPf0.jpg",
@@ -242,7 +242,7 @@
   },
   {
     "name": "Hogwarts Express",
-    "description": "",
+    "description": "5972 Olton Hall is a preserved Hall class 4-6-0 steam locomotive, made famous for its role hauling the Hogwarts Express in the Harry Potter film series.",
     "images": [
       "images_downloaded/harrypotter/hogwarts_express_1_HAl6CKxM3xU.jpg",
       "images_downloaded/harrypotter/hogwarts_express_2_wtLn23YbuTE.jpg",

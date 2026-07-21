@@ -1,7 +1,7 @@
 [
   {
     "name": "green",
-    "description": "",
+    "description": "Green is the color between cyan and yellow on the visible spectrum.",
     "images": [
       "images_downloaded/colors/green_1_OOE4xAnBhKo.jpg",
       "images_downloaded/colors/green_2_2GpLuy__erQ.jpg",
@@ -28,7 +28,7 @@
   },
   {
     "name": "yellow",
-    "description": "",
+    "description": "Yellow is a color between green and orange on the spectrum of light.",
     "images": [
       "images_downloaded/colors/yellow_1_YIy1cd3xN4w.jpg",
       "images_downloaded/colors/yellow_2_RiGGe25WUw4.jpg",
@@ -55,7 +55,7 @@
   },
   {
     "name": "blue",
-    "description": "",
+    "description": "Blue is one of the three primary colours in the RGB (additive) colour model, as well as in the RYB colour model.",
     "images": [
       "images_downloaded/colors/blue_1_g0eRErPBoTA.jpg",
       "images_downloaded/colors/blue_2_OzfD79w8ptA.jpg",
@@ -82,7 +82,7 @@
   },
   {
     "name": "red",
-    "description": "",
+    "description": "Red is the color at the long wavelength end of the visible spectrum of light, next to orange and opposite violet.",
     "images": [
       "images_downloaded/colors/red_1_YpDkIh137ws.jpg",
       "images_downloaded/colors/red_2_HyBXy5PHQR8.jpg",
@@ -109,7 +109,7 @@
   },
   {
     "name": "orange",
-    "description": "",
+    "description": "Orange is the colour between yellow and red on the spectrum of visible light.",
     "images": [
       "images_downloaded/colors/orange_1_U1iYwZ8Dx7k.jpg",
       "images_downloaded/colors/orange_2_8ZGgg6rhzxs.jpg",
@@ -136,7 +136,7 @@
   },
   {
     "name": "purple",
-    "description": "",
+    "description": "Purple is a color similar in appearance to violet light.",
     "images": [
       "images_downloaded/colors/purple_1_eICUFSeirc0.jpg",
       "images_downloaded/colors/purple_2_r8AFUpRp0J0.jpg",
@@ -163,7 +163,7 @@
   },
   {
     "name": "pink",
-    "description": "",
+    "description": "Pink is a pale tint of red or rose, the color of the pink flower.",
     "images": [
       "images_downloaded/colors/pink_1_4ma0W4q9xTo.jpg",
       "images_downloaded/colors/pink_2_OrwkD-iWgqg.jpg",
@@ -190,7 +190,7 @@
   },
   {
     "name": "brown",
-    "description": "",
+    "description": "Brown is a color.",
     "images": [
       "images_downloaded/colors/brown_1_m9h_7B6RBiM.jpg",
       "images_downloaded/colors/brown_2_xJkTCbtuqAY.jpg",
@@ -210,7 +210,7 @@
   },
   {
     "name": "black",
-    "description": "",
+    "description": "Black is a color that results from the absence or complete absorption of visible light.",
     "images": [
       "images_downloaded/colors/black_1__GH9LwhlSO4.jpg",
       "images_downloaded/colors/black_2_YkXdt3429hc.jpg",
@@ -237,7 +237,7 @@
   },
   {
     "name": "white",
-    "description": "",
+    "description": "White is the lightest color and is achromatic.",
     "images": [
       "images_downloaded/colors/white_1_kUHfMW8awpE.jpg",
       "images_downloaded/colors/white_2_R53t-Tg6J4c.jpg",
@@ -264,7 +264,7 @@
   },
   {
     "name": "gray",
-    "description": "",
+    "description": "Grey or gray is an intermediate color between black and white.",
     "images": [
       "images_downloaded/colors/gray_1_yI3weKNBRTc.jpg",
       "images_downloaded/colors/gray_2_6a3nqQ1YwBw.jpg",
@@ -284,7 +284,7 @@
   },
   {
     "name": "turquoise",
-    "description": "",
+    "description": "Turquoise is an opaque, blue-to-green mineral that is a hydrous phosphate of copper and aluminium, with the chemical formula CuAl6(PO4)4(OH)8\u00b74H2O.",
     "images": [
       "images_downloaded/colors/turquoise_1_LVnJlyfa7Zk.jpg",
       "images_downloaded/colors/turquoise_2_KWpm9MmEo2s.jpg",
@@ -311,7 +311,7 @@
   },
   {
     "name": "teal",
-    "description": "",
+    "description": "Teal is a dark cyan color.",
     "images": [
       "images_downloaded/colors/teal_1_jUCQRQeRs3k.jpg",
       "images_downloaded/colors/teal_2_UK62OOxGn0E.jpg",
@@ -331,7 +331,7 @@
   },
   {
     "name": "cyan",
-    "description": "",
+    "description": "Cyan is the color between blue and green on the visible spectrum of light.",
     "images": [
       "images_downloaded/colors/cyan_1_YuJm-d7k2Jg.jpg",
       "images_downloaded/colors/cyan_2_5SjAaqqCCmY.jpg",
@@ -351,7 +351,7 @@
   },
   {
     "name": "magenta",
-    "description": "",
+    "description": "Magenta is a purplish-red color.",
     "images": [
       "images_downloaded/colors/magenta_1_YKb3Onjn7us.jpg",
       "images_downloaded/colors/magenta_2_tkah2xF1zsg.jpg",
@@ -371,7 +371,7 @@
   },
   {
     "name": "maroon",
-    "description": "",
+    "description": "Maroon is a brownish red color that takes its name from the French word marron, meaning chestnut.",
     "images": [
       "images_downloaded/colors/maroon_1_lpo3y90Yuig.jpg",
       "images_downloaded/colors/maroon_2_jimGvAMRlWk.jpg",
@@ -391,7 +391,7 @@
   },
   {
     "name": "navy",
-    "description": "",
+    "description": "Navy blue, also known simply as navy, is a dark shade of the color blue.",
     "images": [
       "images_downloaded/colors/navy_1_BQgAYwERXhs.jpg",
       "images_downloaded/colors/navy_2_8dJM0LwzsfU.jpg",
@@ -411,7 +411,7 @@
   },
   {
     "name": "olive",
-    "description": "",
+    "description": "Olive, also called olive green, is a dark shade of yellowish green, like that of unripe or green olives.",
     "images": [
       "images_downloaded/colors/olive_1_RuqOeMvPlzQ.jpg",
       "images_downloaded/colors/olive_2_uOBApnN_K7w.jpg",
@@ -438,7 +438,7 @@
   },
   {
     "name": "lime",
-    "description": "",
+    "description": "Lime is a color that is a shade of yellow-green, so named because it is a representation of the color of the citrus fruit lime.",
     "images": [
       "images_downloaded/colors/lime_1_7WAGthfGJ9w.jpg",
       "images_downloaded/colors/lime_2_huUI0y0ERMM.jpg",
@@ -465,7 +465,7 @@
   },
   {
     "name": "indigo",
-    "description": "",
+    "description": "Indigo is a term used for a number of hues in the region of blue.",
     "images": [
       "images_downloaded/colors/indigo_1_g0eRErPBoTA.jpg",
       "images_downloaded/colors/indigo_2_A4rqd2g-eLo.jpg",
@@ -485,7 +485,7 @@
   },
   {
     "name": "violet",
-    "description": "",
+    "description": "Violet is the color of light at the short wavelength end of the visible spectrum.",
     "images": [
       "images_downloaded/colors/violet_1_DqN0niGVZ1w.jpg",
       "images_downloaded/colors/violet_2_nEczFlV-GMI.jpg",
@@ -512,7 +512,7 @@
   },
   {
     "name": "gold",
-    "description": "",
+    "description": "Gold, also called golden, is a color tone resembling the chemical element gold.",
     "images": [
       "images_downloaded/colors/gold_1_Em96eDRJPD8.jpg",
       "images_downloaded/colors/gold_2_iYsrkq5qq0Q.jpg",
@@ -539,7 +539,7 @@
   },
   {
     "name": "silver",
-    "description": "",
+    "description": "Silver or metallic gray is a color tone resembling gray that is a representation of the color of polished silver.",
     "images": [
       "images_downloaded/colors/silver_1_7Wjmy3m6Nlo.jpg",
       "images_downloaded/colors/silver_2_Em96eDRJPD8.jpg",
@@ -566,7 +566,7 @@
   },
   {
     "name": "beige",
-    "description": "",
+    "description": "Beige is variously described as a pale sandy fawn color, a grayish tan, a light-grayish yellowish brown, or a pale to grayish yellow.",
     "images": [
       "images_downloaded/colors/beige_1_HZm2XR0whdw.jpg",
       "images_downloaded/colors/beige_2_q-3pnV8MKWE.jpg",
@@ -586,7 +586,7 @@
   },
   {
     "name": "tan",
-    "description": "",
+    "description": "Tan is a pale tone of brown.",
     "images": [
       "images_downloaded/colors/tan_1_dCQU4AO_qag.jpg",
       "images_downloaded/colors/tan_2_k9x2sIOrbf4.jpg",
@@ -606,7 +606,7 @@
   },
   {
     "name": "coral",
-    "description": "",
+    "description": "Corals are colonial marine invertebrates within the subphylum Anthozoa of the phylum Cnidaria.",
     "images": [
       "images_downloaded/colors/coral_1_0G01UI1MQhg.jpg",
       "images_downloaded/colors/coral_2_2xuiab6o-qc.jpg",
@@ -633,7 +633,7 @@
   },
   {
     "name": "salmon",
-    "description": "",
+    "description": "Salmon is a warm color ranging from light orange to pink, named after the color of salmon flesh.",
     "images": [
       "images_downloaded/colors/salmon_1_kC9KUtSiflw.jpg",
       "images_downloaded/colors/salmon_2_bpPTlXWTOvg.jpg",
@@ -660,7 +660,7 @@
   },
   {
     "name": "crimson",
-    "description": "",
+    "description": "Crimson is a rich, deep red color, inclining to purple.",
     "images": [
       "images_downloaded/colors/crimson_1_plEueXFrX00.jpg",
       "images_downloaded/colors/crimson_2_YF-nygeNGR8.jpg",
@@ -680,7 +680,7 @@
   },
   {
     "name": "burgundy",
-    "description": "",
+    "description": "Burgundy is a purplish, dark-red color.",
     "images": [
       "images_downloaded/colors/burgundy_1_GP2sJoqnuXI.jpg",
       "images_downloaded/colors/burgundy_2_ZwvqNPDDlqU.jpg",
@@ -707,7 +707,7 @@
   },
   {
     "name": "lavender",
-    "description": "",
+    "description": "Lavender is a light shade of purple or violet.",
     "images": [
       "images_downloaded/colors/lavender_1_SavQfLRm4Do.jpg",
       "images_downloaded/colors/lavender_2_NrflUuJJK0I.jpg",
@@ -734,7 +734,7 @@
   },
   {
     "name": "mint",
-    "description": "",
+    "description": "Linux Mint is a community-developed Linux distribution based on Ubuntu.",
     "images": [
       "images_downloaded/colors/mint_1_bHWRSq8fUUE.jpg",
       "images_downloaded/colors/mint_2_VP2lo1s02Bc.jpg",
@@ -761,7 +761,7 @@
   },
   {
     "name": "peach",
-    "description": "",
+    "description": "Peach is a color that is named for the pale color of the interior flesh of the peach fruit.",
     "images": [
       "images_downloaded/colors/peach_1_dAjYxJrcdd8.jpg",
       "images_downloaded/colors/peach_2_H4QpChoce7I.jpg",
@@ -788,7 +788,7 @@
   },
   {
     "name": "ivory",
-    "description": "",
+    "description": "Ivory is an off-white color named after, and derived from, the material made from the tusks and teeth of certain animals, such as the elephant and the walrus.",
     "images": [
       "images_downloaded/colors/ivory_1_1yqi8hfIZj4.jpg",
       "images_downloaded/colors/ivory_2_J33o16cP0SA.jpg",
@@ -808,7 +808,7 @@
   },
   {
     "name": "charcoal",
-    "description": "",
+    "description": "Charcoal is a lightweight black residue made of carbon that is produced by strongly heating wood in minimal oxygen to remove all water and volatile constituents.",
     "images": [
       "images_downloaded/colors/charcoal_1_AfLKsOCP0S4.jpg",
       "images_downloaded/colors/charcoal_2__8hGFBxWD0A.jpg",
@@ -835,7 +835,7 @@
   },
   {
     "name": "khaki",
-    "description": "",
+    "description": "The color khaki is a light shade of tan with a slight yellowish tinge.",
     "images": [
       "images_downloaded/colors/khaki_1_iiXyEE-HVXQ.jpg",
       "images_downloaded/colors/khaki_2_IjSCl9bDieE.jpg",
@@ -855,7 +855,7 @@
   },
   {
     "name": "mustard",
-    "description": "",
+    "description": "Mustard is a dull/dark yellow color that resembles culinary mustard.",
     "images": [
       "images_downloaded/colors/mustard_1_Wcw3xd5Nk78.jpg",
       "images_downloaded/colors/mustard_2_LBPpGIKzXok.jpg",
@@ -882,7 +882,7 @@
   },
   {
     "name": "rust",
-    "description": "",
+    "description": "Rust is an iron oxide, a usually reddish-brown oxide formed by the reaction of iron and oxygen in the catalytic presence of water or air moisture.",
     "images": [
       "images_downloaded/colors/rust_1_K0N0-QiDF8g.jpg",
       "images_downloaded/colors/rust_2_SiflIx5IlRI.jpg",
@@ -902,7 +902,7 @@
   },
   {
     "name": "plum",
-    "description": "",
+    "description": "Plum is a purple color with a brownish-gray tinge, like that shown on the right, or a reddish purple, which is a close representation of the average color of the plum fruit.",
     "images": [
       "images_downloaded/colors/plum_1_mjP6MQz834E.jpg",
       "images_downloaded/colors/plum_2_vRJ7y64ZwUs.jpg",
@@ -929,7 +929,7 @@
   },
   {
     "name": "orchid",
-    "description": "",
+    "description": "Orchid is a bright rich purple color that resembles the color which various orchids often exhibit.",
     "images": [
       "images_downloaded/colors/orchid_1_FP2Kf5DsSo8.jpg",
       "images_downloaded/colors/orchid_2_PN8Un1ywbE8.jpg",
@@ -956,7 +956,7 @@
   },
   {
     "name": "fuchsia",
-    "description": "",
+    "description": "Fuchsia is a vivid pinkish\u2013red color, named after the color of the flower of the fuchsia plant, which was named by a French botanist, Charles Plumier, after the 16th-century German botanist Leonhart Fuchs.",
     "images": [
       "images_downloaded/colors/fuchsia_1_yV4vOZpKWyw.jpg",
       "images_downloaded/colors/fuchsia_2_8LCXKkH7Onk.jpg",
@@ -983,7 +983,7 @@
   },
   {
     "name": "amber",
-    "description": "",
+    "description": "Amber is fossilized tree resin.",
     "images": [
       "images_downloaded/colors/amber_1_OFoeCueYHyA.jpg",
       "images_downloaded/colors/amber_2_u37SOLQkxfw.jpg",
@@ -1003,7 +1003,7 @@
   },
   {
     "name": "emerald",
-    "description": "",
+    "description": "Emerald is a gemstone and a variety of the mineral beryl (Be3Al2(SiO3)6) colored green by trace amounts of chromium or sometimes vanadium.",
     "images": [
       "images_downloaded/colors/emerald_1_cOiEJ9aupbU.jpg",
       "images_downloaded/colors/emerald_2_ASgjGlruKCo.jpg",
@@ -1023,7 +1023,7 @@
   },
   {
     "name": "sapphire",
-    "description": "",
+    "description": "Sapphire is a precious gemstone, a variety of the mineral corundum, consisting of aluminium oxide (\u03b1-Al2O3) with trace amounts of elements such as iron, titanium, cobalt, lead, chromium, vanadium, magnesium, boron, and silicon.",
     "images": [
       "images_downloaded/colors/sapphire_1_agsdDgRW2Ps.jpg",
       "images_downloaded/colors/sapphire_2_GFUOgmXXxzU.jpg",
@@ -1043,7 +1043,7 @@
   },
   {
     "name": "ruby",
-    "description": "",
+    "description": "Ruby is a color that is a representation of the color of the cut and polished ruby gemstone and is a shade of red or pink.",
     "images": [
       "images_downloaded/colors/ruby_1_VKLJ-BJlszE.jpg",
       "images_downloaded/colors/ruby_2_JKRXPwUoFt0.jpg",
@@ -1090,7 +1090,7 @@
   },
   {
     "name": "aqua",
-    "description": "",
+    "description": "Aqua is a variation of the color cyan.",
     "images": [
       "images_downloaded/colors/aqua_1_BRkikoNP0KQ.jpg",
       "images_downloaded/colors/aqua_2_3Ik7xWYJv3U.jpg",
@@ -1110,7 +1110,7 @@
   },
   {
     "name": "periwinkle",
-    "description": "",
+    "description": "Periwinkle is a color in the blue and violet family.",
     "images": [
       "images_downloaded/colors/periwinkle_1_Wage1_mWLt4.jpg",
       "images_downloaded/colors/periwinkle_2_18KayuP7HcY.jpg",
@@ -1137,7 +1137,7 @@
   },
   {
     "name": "mauve",
-    "description": "",
+    "description": "Mauve is a pale purple color named after the mallow flower.",
     "images": [
       "images_downloaded/colors/mauve_1_ShmRLyRv-S0.jpg",
       "images_downloaded/colors/mauve_2_9XngoIpxcEo.jpg",
@@ -1157,7 +1157,7 @@
   },
   {
     "name": "copper",
-    "description": "",
+    "description": "Copper is a reddish brown color that resembles the metal copper.",
     "images": [
       "images_downloaded/colors/copper_1_Uwq_F5G4yOo.jpg",
       "images_downloaded/colors/copper_2_67gCKFVYh7s.jpg",
@@ -1184,7 +1184,7 @@
   },
   {
     "name": "bronze",
-    "description": "",
+    "description": "Bronze is a metallic brown color which resembles the metal alloy bronze.",
     "images": [
       "images_downloaded/colors/bronze_1_Q1WzWSkoQF0.jpg",
       "images_downloaded/colors/bronze_2_r4gqCg1iies.jpg",
@@ -1211,7 +1211,7 @@
   },
   {
     "name": "slate",
-    "description": "",
+    "description": "Slate is a fine-grained, foliated, homogeneous, metamorphic rock derived from an original shale-type sedimentary rock composed of clay or volcanic ash through low-grade, regional metamorphism.",
     "images": [
       "images_downloaded/colors/slate_1_i1O_Hr6cbWc.jpg",
       "images_downloaded/colors/slate_2_XXuVXLy5gHU.jpg",
@@ -1231,7 +1231,7 @@
   },
   {
     "name": "rose",
-    "description": "",
+    "description": "Rose is the color halfway between red and magenta, whose hue corresponds to an angle of 330 degrees on the HSV/HSL color wheel.",
     "images": [
       "images_downloaded/colors/rose_1_gcWd0ts4RCo.jpg",
       "images_downloaded/colors/rose_2_90srujjpqP4.jpg",
