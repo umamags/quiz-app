@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import LearnScreen from './LearnScreen.jsx';
 
@@ -49,8 +49,8 @@ function renderScreen(overrides = {}) {
 describe('LearnScreen', () => {
   it('renders every item across all categories by default', () => {
     renderScreen();
-    expect(screen.getByText('Dog')).toBeInTheDocument();
-    expect(screen.getByText('Triceratops')).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Dog', level: 3 })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Triceratops', level: 3 })).toBeInTheDocument();
   });
 
   it('shows a playable video for file-type entries and a link for page-type entries', () => {
@@ -75,14 +75,14 @@ describe('LearnScreen', () => {
 
   it('only shows items in the selected category', () => {
     renderScreen({ learnCategory: 'Dinosaurs' });
-    expect(screen.getByText('Triceratops')).toBeInTheDocument();
-    expect(screen.queryByText('Dog')).not.toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Triceratops', level: 3 })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Dog', level: 3 })).not.toBeInTheDocument();
   });
 
   it('filters by search query against name and description, across all categories', () => {
     renderScreen({ learnSearch: 'horns' });
-    expect(screen.getByText('Triceratops')).toBeInTheDocument();
-    expect(screen.queryByText('Dog')).not.toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Triceratops', level: 3 })).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Dog', level: 3 })).not.toBeInTheDocument();
   });
 
   it('shows a "no matches" hint when nothing matches', () => {
@@ -94,6 +94,54 @@ describe('LearnScreen', () => {
     renderScreen({ learnManifestError: 'Could not load learn/manifest.json.' });
     expect(screen.getByText('Could not load learn/manifest.json.')).toBeInTheDocument();
     expect(screen.queryByText('Dog')).not.toBeInTheDocument();
+  });
+
+  it('shows a hint that clicking an image enlarges it', () => {
+    renderScreen();
+    expect(screen.getByText('Tip: clicking on an image enlarges it.')).toBeInTheDocument();
+  });
+});
+
+describe('LearnScreen search clear button', () => {
+  it('is disabled when the search box is empty', () => {
+    renderScreen({ learnSearch: '' });
+    expect(screen.getByRole('button', { name: 'Clear' })).toBeDisabled();
+  });
+
+  it('is enabled and clears the search when clicked', async () => {
+    const user = userEvent.setup();
+    const dispatch = renderScreen({ learnSearch: 'dog' });
+    const clearButton = screen.getByRole('button', { name: 'Clear' });
+    expect(clearButton).toBeEnabled();
+    await user.click(clearButton);
+    expect(dispatch).toHaveBeenCalledWith({ type: 'LEARN_SEARCH_CHANGED', query: '' });
+  });
+});
+
+describe('LearnScreen per-group jump links', () => {
+  it('lists a jump link for every item in each visible category group', () => {
+    renderScreen();
+    const animalsGroup = screen.getByRole('heading', { name: 'Animals', level: 2 }).closest('.learn-group');
+    expect(within(animalsGroup).getByRole('link', { name: 'Dog' })).toBeInTheDocument();
+
+    const dinosaursGroup = screen.getByRole('heading', { name: 'Dinosaurs', level: 2 }).closest('.learn-group');
+    expect(within(dinosaursGroup).getByRole('link', { name: 'Triceratops' })).toBeInTheDocument();
+  });
+
+  it('a jump link points at its card via a matching #anchor id', () => {
+    renderScreen();
+    const link = screen.getByRole('link', { name: 'Dog' });
+    const href = link.getAttribute('href');
+    expect(href).toMatch(/^#/);
+    const card = document.querySelector(href);
+    expect(card).toHaveClass('learn-card');
+    expect(within(card).getByRole('heading', { name: 'Dog', level: 3 })).toBeInTheDocument();
+  });
+
+  it('only lists jump links for categories present in the filtered results', () => {
+    renderScreen({ learnCategory: 'Dinosaurs' });
+    expect(screen.queryByRole('heading', { name: 'Animals', level: 2 })).not.toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: 'Dinosaurs', level: 2 })).toBeInTheDocument();
   });
 });
 

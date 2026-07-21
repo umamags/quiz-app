@@ -1,0 +1,127 @@
+[
+  {
+    "name": "cabbage",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/cabbage_1_ujh4hU9S-KA.jpg",
+      "images_downloaded/vegetables/cabbage_2_7iRMOXXxH7c.jpg",
+      "images_downloaded/vegetables/cabbage_3_gofXEm3c_Ho.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35536429/15054829_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-fresh-cabbage-with-water-droplets-35536429/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/26/125579-733826806_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-125579/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "lettuce",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/lettuce_1_5MU_4hPl67Y.jpg",
+      "images_downloaded/vegetables/lettuce_2_YLeRHRiRgts.jpg",
+      "images_downloaded/vegetables/lettuce_3_Oc3fP0FXJbU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5765755/5765755-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/lettuce-in-the-field-5765755/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/06/12/41849-431406640_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-41849/",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  {
+    "name": "carrot",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/carrot_1_GHRT9j21m2M.jpg",
+      "images_downloaded/vegetables/carrot_2_ZgDHMMd72I8.jpg",
+      "images_downloaded/vegetables/carrot_3_IZq1FV87qpM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/856994/856994-hd_1280_720_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/sprouted-carrot-856994/",
+        "durationSeconds": 20
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/10/31/94008-641767669_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-94008/",
+        "durationSeconds": 18
+      }
+    ]
+  },
+  {
+    "name": "beetroot",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/beetroot_1_lFxgx7Snyfw.jpg",
+      "images_downloaded/vegetables/beetroot_2_v-8GWPhPQfI.jpg",
+      "images_downloaded/vegetables/beetroot_3_TmjyLCUpcDY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7048659/7048659-hd_720_1248_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/red-cabbage-and-beetroot-7048659/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/30/223870_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-223870/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "cauliflower",
+    "description": "",
+    "images": [
+      "images_downloaded/vegetables/cauliflower_1_zNsSGYXaeP8.jpg",
+      "images_downloaded/vegetables/cauliflower_2_hnEp8wnCj4g.jpg",
+      "images_downloaded/vegetables/cauliflower_3_r5oZ-DJ2E8I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5765578/5765578-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/footage-of-a-cauliflower-5765578/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/08/08/225515_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-225515/",
+        "durationSeconds": 21
+      }
+    ]
+  }
+]

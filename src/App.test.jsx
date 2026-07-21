@@ -80,7 +80,7 @@ describe('learn tab', () => {
     await screen.findByText('Quiz A (retry mode)');
 
     await user.click(screen.getByRole('button', { name: 'Learn' }));
-    expect(await screen.findByText('Dog')).toBeInTheDocument();
+    expect(await screen.findByRole('heading', { name: 'Dog', level: 3 })).toBeInTheDocument();
     expect(screen.getByText('A loyal pet that barks.')).toBeInTheDocument();
   });
 });

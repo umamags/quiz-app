@@ -236,5 +236,275 @@
         "durationSeconds": 25
       }
     ]
+  },
+  {
+    "name": "panda",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/panda_1_s-fD5Tpew2k.jpg",
+      "images_downloaded/animals/panda_2_e3mu-MTj7Xk.jpg",
+      "images_downloaded/animals/panda_3_ScdnaKVtPIA.jpg",
+      "images_downloaded/animals/panda_4_qgpLJ1T8KeA.jpg",
+      "images_downloaded/animals/panda_5__9a-3NO5KJE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/9359735/9359735-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/panda-s-playing-at-the-zoo-9359735/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/29/137015-765458070_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-137015/",
+        "durationSeconds": 38
+      }
+    ]
+  },
+  {
+    "name": "red panda",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/red_panda_1_OyO5NDiRPMM.jpg",
+      "images_downloaded/animals/red_panda_2_HKyOAZkFzRM.jpg",
+      "images_downloaded/animals/red_panda_3_OApeDBma_zY.jpg",
+      "images_downloaded/animals/red_panda_4_3rQyUimQAEU.jpg",
+      "images_downloaded/animals/red_panda_5_e8t9o3eJ36o.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38457297/16331432_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/calm-red-panda-resting-in-enclosure-38457297/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/03/06/14840-258992148_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-14840/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "sloth",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/sloth_1_GTXvpZ2eTdA.jpg",
+      "images_downloaded/animals/sloth_2_na--v-QNl0M.jpg",
+      "images_downloaded/animals/sloth_3_-di56twomhU.jpg",
+      "images_downloaded/animals/sloth_4_VcRbMldAFU8.jpg",
+      "images_downloaded/animals/sloth_5_qbsdrZZ0M4c.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/13899360/13899360-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-curious-sloth-hanging-from-a-tree-branch-13899360/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/01/11/327056_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-327056/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "otter",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/otter_1_X9cBHEPO6LU.jpg",
+      "images_downloaded/animals/otter_2_n8IOzK96bN4.jpg",
+      "images_downloaded/animals/otter_3_8o1W2BzGSSY.jpg",
+      "images_downloaded/animals/otter_4_mhXop68UAGk.jpg",
+      "images_downloaded/animals/otter_5_9DqdOsVUC10.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34945107/14802698_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/playful-sea-otter-resting-on-rock-34945107/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/01/10/251835_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-251835/",
+        "durationSeconds": 10
+      }
+    ]
+  },
+  {
+    "name": "raccoon",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/raccoon_1_6GMq7AGxNbE.jpg",
+      "images_downloaded/animals/raccoon_2_IWKIHuzl-tU.jpg",
+      "images_downloaded/animals/raccoon_3_C1BjxQCqba0.jpg",
+      "images_downloaded/animals/raccoon_4_gWo-hfRotrI.jpg",
+      "images_downloaded/animals/raccoon_5_FmkGIDLRDuI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5501957/5501957-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-raccoon-walking-in-the-zoo-5501957/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/08/28/228543_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-228543/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "fox",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/fox_1_xUUZcpQlqpM.jpg",
+      "images_downloaded/animals/fox_2_2z3FbIm5hgs.jpg",
+      "images_downloaded/animals/fox_3_mEdKuPYJe1I.jpg",
+      "images_downloaded/animals/fox_4_nOsJYzXEG98.jpg",
+      "images_downloaded/animals/fox_5_tIfrzHxhPYQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18366078/18366078-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-fox-is-standing-on-top-of-rocks-in-the-zoo-18366078/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/04/12/70862-536317071_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-70862/",
+        "durationSeconds": 9
+      }
+    ]
+  },
+  {
+    "name": "wolf",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/wolf_1_tauPAnOIGvE.jpg",
+      "images_downloaded/animals/wolf_2_QZ2EQuPpQJs.jpg",
+      "images_downloaded/animals/wolf_3_i6yrDhfZ-XQ.jpg",
+      "images_downloaded/animals/wolf_4_mk2chAKaZR4.jpg",
+      "images_downloaded/animals/wolf_5_iUA1cea8QiY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8462000/8462000-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-wolf-in-its-natural-habitat-8462000/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/07/14/171549-845606438_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-171549/",
+        "durationSeconds": 7
+      }
+    ]
+  },
+  {
+    "name": "bear",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/bear_1_qQWV91TTBrE.jpg",
+      "images_downloaded/animals/bear_2_y421kXlUOQk.jpg",
+      "images_downloaded/animals/bear_3__QG2C0q6J-s.jpg",
+      "images_downloaded/animals/bear_4__r6w0R6SueQ.jpg",
+      "images_downloaded/animals/bear_5_rGPDLlMNFF4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19808613/19808613-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/orsetto-19808613/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/09/19/89031-610952476_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-89031/",
+        "durationSeconds": 14
+      }
+    ]
+  },
+  {
+    "name": "polar bear",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/polar_bear_1_qQWV91TTBrE.jpg",
+      "images_downloaded/animals/polar_bear_2_Ec_ygZTIv_0.jpg",
+      "images_downloaded/animals/polar_bear_3_KgRKlQXmHR0.jpg",
+      "images_downloaded/animals/polar_bear_4_NL1vH0hnIbQ.jpg",
+      "images_downloaded/animals/polar_bear_5_bySoVNCijy4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35371465/14986712_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/polar-bear-resting-in-snowy-enclosure-35371465/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/05/13/352513_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-352513/",
+        "durationSeconds": 5
+      }
+    ]
+  },
+  {
+    "name": "hedgehog",
+    "description": "",
+    "images": [
+      "images_downloaded/animals/hedgehog_1_OMCgkp1oZ3Q.jpg",
+      "images_downloaded/animals/hedgehog_2_D09Nooc3XQw.jpg",
+      "images_downloaded/animals/hedgehog_3_GXMr7BadXQo.jpg",
+      "images_downloaded/animals/hedgehog_4_RbN8pwcYCyM.jpg",
+      "images_downloaded/animals/hedgehog_5_eHMLxD3W_m4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37923770/16092358_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/adorable-hedgehog-foraging-in-lush-garden-37923770/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/07/18/3877-175343097_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-3877/",
+        "durationSeconds": 3
+      }
+    ]
   }
 ]

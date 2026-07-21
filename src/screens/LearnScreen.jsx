@@ -5,6 +5,25 @@ function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
 
+function anchorId(category, name) {
+  return `learn-item-${category}-${name}`.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+}
+
+function groupByCategory(items) {
+  const groups = [];
+  const byCategory = new Map();
+  for (const item of items) {
+    let group = byCategory.get(item.category);
+    if (!group) {
+      group = { category: item.category, items: [] };
+      byCategory.set(item.category, group);
+      groups.push(group);
+    }
+    group.items.push(item);
+  }
+  return groups;
+}
+
 function LearnVideo({ video }) {
   if (video.type === 'file') {
     return <video className="learn-video-player" controls preload="none" src={video.url} />;
@@ -18,7 +37,7 @@ function LearnVideo({ video }) {
 
 function LearnCard({ item, onImageClick }) {
   return (
-    <div className="learn-card">
+    <div className="learn-card" id={anchorId(item.category, item.name)}>
       <div className="learn-card-header">
         <h3 className="learn-card-title">{capitalize(item.name)}</h3>
         <span className="category-tag">{item.category}</span>
@@ -45,6 +64,24 @@ function LearnCard({ item, onImageClick }) {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+function LearnGroup({ group, onImageClick }) {
+  return (
+    <div className="learn-group">
+      <h2 className="learn-group-title">{group.category}</h2>
+      <div className="learn-jump-row">
+        {group.items.map(item => (
+          <a key={item.name} className="learn-jump-link" href={`#${anchorId(item.category, item.name)}`}>
+            {capitalize(item.name)}
+          </a>
+        ))}
+      </div>
+      {group.items.map(item => (
+        <LearnCard key={item.name} item={item} onImageClick={onImageClick} />
+      ))}
     </div>
   );
 }
@@ -77,16 +114,29 @@ export default function LearnScreen({
   }
 
   const results = filterLearnItems(learnItems, learnCategory, learnSearch);
+  const groups = groupByCategory(results);
 
   return (
     <div className="learn-screen">
-      <input
-        className="search-input"
-        type="text"
-        placeholder="Search by name or description..."
-        value={learnSearch}
-        onChange={e => dispatch({ type: 'LEARN_SEARCH_CHANGED', query: e.target.value })}
-      />
+      <div className="search-row">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="Search by name or description..."
+          value={learnSearch}
+          onChange={e => dispatch({ type: 'LEARN_SEARCH_CHANGED', query: e.target.value })}
+        />
+        <button
+          type="button"
+          className="btn-secondary search-clear"
+          onClick={() => dispatch({ type: 'LEARN_SEARCH_CHANGED', query: '' })}
+          disabled={!learnSearch}
+        >
+          Clear
+        </button>
+      </div>
+
+      <div className="hint">Tip: clicking on an image enlarges it.</div>
 
       <div className="category-chip-row">
         <button
@@ -107,10 +157,10 @@ export default function LearnScreen({
       </div>
 
       <div className="learn-card-list">
-        {results.map(item => (
-          <LearnCard
-            key={item.category + item.name}
-            item={item}
+        {groups.map(group => (
+          <LearnGroup
+            key={group.category}
+            group={group}
             onImageClick={(src, name) => setLightbox({ src, alt: name })}
           />
         ))}

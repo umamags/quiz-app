@@ -11,6 +11,10 @@
     {
       "title": "Fishes",
       "file": "learn/fishes.json"
+    },
+    {
+      "title": "Vegetables",
+      "file": "learn/vegetables.json"
     }
   ]
 }
