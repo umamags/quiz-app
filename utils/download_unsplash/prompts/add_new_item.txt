@@ -1,0 +1,2 @@
+Create a new birds.csv file. Populate it with 50 birds. Also populate the description. 
+Run the scripts to populate the images, videos and audio.

@@ -5,6 +5,10 @@
       "file": "learn/animals.json"
     },
     {
+      "title": "Birds",
+      "file": "learn/birds.json"
+    },
+    {
       "title": "Butterflies",
       "file": "learn/butterflies.json"
     },

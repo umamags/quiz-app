@@ -1,16 +1,25 @@
-import { describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import LearnScreen from './LearnScreen.jsx';
 
+// Deliberately out of alphabetical order, to prove the screen sorts these
+// itself rather than relying on the manifest/items already being sorted.
 const learnManifest = {
   categories: [
-    { title: 'Animals', file: 'learn/animals.json' },
     { title: 'Dinosaurs', file: 'learn/dinosaurs.json' },
+    { title: 'Animals', file: 'learn/animals.json' },
   ],
 };
 
 const learnItems = [
+  {
+    category: 'Animals',
+    name: 'zebra',
+    description: 'A striped horse-like animal.',
+    images: ['images_downloaded/animals/zebra_1.jpg'],
+    videos: [],
+  },
   {
     category: 'Animals',
     name: 'dog',
@@ -20,6 +29,14 @@ const learnItems = [
       { source: 'pexels', type: 'file', url: 'https://videos.pexels.com/dog.mp4', pageUrl: 'https://pexels.com/dog', durationSeconds: 9 },
       { source: 'mixkit', type: 'page', url: 'https://mixkit.co/dog', pageUrl: 'https://mixkit.co/dog', durationSeconds: null },
     ],
+    audio_desc: 'audio/animals/dog.mp3',
+  },
+  {
+    category: 'Animals',
+    name: 'ant',
+    description: 'A tiny, hardworking insect that lives in colonies.',
+    images: ['images_downloaded/animals/ant_1.jpg'],
+    videos: [],
   },
   {
     category: 'Dinosaurs',
@@ -29,6 +46,13 @@ const learnItems = [
     videos: [],
   },
 ];
+
+beforeEach(() => {
+  vi.stubGlobal('Audio', vi.fn().mockImplementation(function (src) {
+    this.src = src;
+    this.play = vi.fn();
+  }));
+});
 
 function renderScreen(overrides = {}) {
   const dispatch = vi.fn();
@@ -135,6 +159,28 @@ describe('LearnScreen search clear button', () => {
   });
 });
 
+describe('LearnScreen alphabetical sorting', () => {
+  it('sorts category chips alphabetically regardless of manifest order', () => {
+    renderScreen();
+    const chipRow = document.querySelector('.category-chip-row');
+    const labels = within(chipRow).getAllByRole('button').map(btn => btn.textContent);
+    expect(labels).toEqual(['All', 'Animals', 'Dinosaurs']);
+  });
+
+  it('sorts item names alphabetically within a group, regardless of source order', () => {
+    renderScreen({ learnCategory: 'Animals' });
+    const titles = screen.getAllByRole('heading', { level: 3 }).map(h => h.textContent);
+    expect(titles).toEqual(['Ant', 'Dog', 'Zebra']);
+  });
+
+  it('sorts the per-group jump links alphabetically too', () => {
+    renderScreen({ learnCategory: 'Animals' });
+    const jumpRow = document.querySelector('.learn-jump-row');
+    const labels = within(jumpRow).getAllByRole('link').map(a => a.textContent);
+    expect(labels).toEqual(['Ant', 'Dog', 'Zebra']);
+  });
+});
+
 describe('LearnScreen per-group jump links', () => {
   it('lists a jump link for every item in each visible category group', () => {
     renderScreen({ learnSearch: 'o' });
@@ -159,6 +205,39 @@ describe('LearnScreen per-group jump links', () => {
     renderScreen({ learnCategory: 'Dinosaurs' });
     expect(screen.queryByRole('heading', { name: 'Animals', level: 2 })).not.toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Dinosaurs', level: 2 })).toBeInTheDocument();
+  });
+});
+
+describe('LearnScreen back to top link', () => {
+  it('renders a "Back to top" link next to each item name, pointing at the top of the page', () => {
+    renderScreen({ learnCategory: 'Dinosaurs' }); // single item (triceratops) -> exactly one link
+    const links = screen.getAllByRole('link', { name: 'Back to top' });
+    expect(links).toHaveLength(1);
+    expect(links[0]).toHaveAttribute('href', '#learn-top');
+  });
+
+  it('the target of "Back to top" exists at the top of the screen', () => {
+    renderScreen({ learnSearch: 'o' });
+    expect(document.getElementById('learn-top')).toHaveClass('learn-screen');
+  });
+});
+
+describe('LearnScreen sound icon', () => {
+  it('shows a sound icon for an item with audio_desc, and plays that file when clicked', async () => {
+    const user = userEvent.setup();
+    renderScreen({ learnCategory: 'Animals' });
+
+    const button = screen.getByRole('button', { name: 'Play audio for dog' });
+    await user.click(button);
+
+    expect(Audio).toHaveBeenCalledWith('audio/animals/dog.mp3');
+    const instance = Audio.mock.results[0].value;
+    expect(instance.play).toHaveBeenCalled();
+  });
+
+  it('does not show a sound icon for an item with no audio_desc', () => {
+    renderScreen({ learnCategory: 'Dinosaurs' });
+    expect(screen.queryByRole('button', { name: /Play audio for/ })).not.toBeInTheDocument();
   });
 });
 

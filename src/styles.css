@@ -115,7 +115,15 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
   background: #fafbff;
 }
 .learn-card-header { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.learn-card-title-row { display: flex; align-items: baseline; gap: 10px; }
 .learn-card-title { margin: 0; font-size: 18px; }
+.back-to-top-link {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  text-decoration: underline;
+}
+.back-to-top-link:hover { color: var(--primary); }
 .category-tag {
   font-size: 11px;
   font-weight: 700;
@@ -127,7 +135,21 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
   border-radius: 6px;
   flex-shrink: 0;
 }
-.learn-card-description { margin: 8px 0 14px; color: var(--muted); font-size: 14px; }
+.learn-card-description-row { display: flex; align-items: flex-start; gap: 8px; margin: 8px 0 14px; }
+.learn-card-description { margin: 0; color: var(--muted); font-size: 14px; }
+.audio-play-button {
+  flex-shrink: 0;
+  padding: 0;
+  width: 26px;
+  height: 26px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  background: #fff;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+}
+.audio-play-button:hover { border-color: var(--primary); background: #eef1ff; }
 .learn-card-images { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
 .learn-image-button {
   padding: 0;

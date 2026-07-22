@@ -23,6 +23,10 @@ function groupByCategory(items) {
     }
     group.items.push(item);
   }
+  for (const group of groups) {
+    group.items.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  groups.sort((a, b) => a.category.localeCompare(b.category));
   return groups;
 }
 
@@ -38,13 +42,32 @@ function LearnVideo({ video }) {
 }
 
 function LearnCard({ item, onImageClick }) {
+  function playAudio() {
+    new Audio(item.audio_desc).play();
+  }
+
   return (
     <div className="learn-card" id={anchorId(item.category, item.name)}>
       <div className="learn-card-header">
-        <h3 className="learn-card-title">{capitalize(item.name)}</h3>
+        <div className="learn-card-title-row">
+          <h3 className="learn-card-title">{capitalize(item.name)}</h3>
+          <a href="#learn-top" className="back-to-top-link">Back to top</a>
+        </div>
         <span className="category-tag">{item.category}</span>
       </div>
-      <p className="learn-card-description">{item.description}</p>
+      <div className="learn-card-description-row">
+        <p className="learn-card-description">{item.description}</p>
+        {item.audio_desc && (
+          <button
+            type="button"
+            className="audio-play-button"
+            aria-label={`Play audio for ${item.name}`}
+            onClick={playAudio}
+          >
+            🔊
+          </button>
+        )}
+      </div>
       {item.images?.length > 0 && (
         <div className="learn-card-images">
           {item.images.map(src => (
@@ -139,7 +162,7 @@ export default function LearnScreen({
   const groups = groupByCategory(results);
 
   return (
-    <div className="learn-screen">
+    <div className="learn-screen" id="learn-top">
       <div className="search-row">
         <input
           className="search-input"
@@ -167,7 +190,7 @@ export default function LearnScreen({
         >
           All
         </button>
-        {learnManifest?.categories.map(c => (
+        {[...(learnManifest?.categories ?? [])].sort((a, b) => a.title.localeCompare(b.title)).map(c => (
           <button
             key={c.file}
             className={`category-chip${learnCategory === c.title ? ' active' : ''}`}

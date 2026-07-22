@@ -1,0 +1,1338 @@
+[
+  {
+    "name": "chicken",
+    "description": "The world's most numerous bird, descended from the wild jungle fowl of Southeast Asia. Chickens have a strict social 'pecking order,' can recognize over 100 individual faces, and communicate with more than 20 distinct calls.",
+    "images": [
+      "images_downloaded/birds/chicken_1_yEW23jxVsNI.jpg",
+      "images_downloaded/birds/chicken_2_auijD19Byq8.jpg",
+      "images_downloaded/birds/chicken_3_4qJlXK4mYzU.jpg",
+      "images_downloaded/birds/chicken_4_4W8FgDVyUME.jpg",
+      "images_downloaded/birds/chicken_5_9zLa37VNL38.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35719683/15139231_360_640_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/rural-chicken-coop-with-colorful-hens-35719683/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/08/130614-747879918_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-130614/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/chicken.mp3"
+  },
+  {
+    "name": "duck",
+    "description": "A waterbird with waterproof feathers kept oiled by a gland near the tail, and webbed feet with no nerves or blood vessels so they don't feel the cold. Ducklings imprint on the first moving thing they see, usually their mother.",
+    "images": [
+      "images_downloaded/birds/duck_1_kCZSzqvIei4.jpg",
+      "images_downloaded/birds/duck_2_QKUN1xjwDQA.jpg",
+      "images_downloaded/birds/duck_3_K6Jh8T84J9Q.jpg",
+      "images_downloaded/birds/duck_4_rN3dqzDrhdk.jpg",
+      "images_downloaded/birds/duck_5_JDzoTGfoogA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/3614807/3614807-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-footage-of-a-duck-in-the-water-3614807/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/30/218809_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-218809/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/birds/duck.mp3"
+  },
+  {
+    "name": "owl",
+    "description": "A silent-flying nocturnal raptor whose fringed feathers muffle sound and whose asymmetrical ears pinpoint prey by hearing alone. An owl cannot move its fixed eyes, so it rotates its head up to 270 degrees to look around.",
+    "images": [
+      "images_downloaded/birds/owl_1_oqYHtXrLXLo.jpg",
+      "images_downloaded/birds/owl_2_UTw183oZPf0.jpg",
+      "images_downloaded/birds/owl_3_2VsPnDt2SQs.jpg",
+      "images_downloaded/birds/owl_4_wuDvhtaAYYI.jpg",
+      "images_downloaded/birds/owl_5_TkQjNx6qCTA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33404877/14219307_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/eurasian-eagle-owl-perched-in-forest-33404877/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/04/19/272801_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-272801/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/birds/owl.mp3"
+  },
+  {
+    "name": "penguin",
+    "description": "A flightless seabird of the Southern Hemisphere whose wings evolved into flippers for 'flying' underwater after fish. Penguins huddle by the thousands for warmth and many species mate with the same partner across seasons.",
+    "images": [
+      "images_downloaded/birds/penguin_1_Ak81Vc-kCf4.jpg",
+      "images_downloaded/birds/penguin_2_9zTafGVsv-c.jpg",
+      "images_downloaded/birds/penguin_3_3Xd5j9-drDA.jpg",
+      "images_downloaded/birds/penguin_4_mlDxrRUuDxc.jpg",
+      "images_downloaded/birds/penguin_5_Y-nyDv3TWm0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/9116140/9116140-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/two-penguin-walking-on-beach-9116140/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/13/303793_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-303793/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/penguin.mp3"
+  },
+  {
+    "name": "flamingo",
+    "description": "A tall wading bird that feeds head-down, filtering tiny algae and shrimp from shallow water with a specially shaped bill. Its pink color comes entirely from pigments in that food, and flamingos often stand on one leg to conserve body heat.",
+    "images": [
+      "images_downloaded/birds/flamingo_1_25JxltstHSc.jpg",
+      "images_downloaded/birds/flamingo_2_wTPp323zAEw.jpg",
+      "images_downloaded/birds/flamingo_3_dVb-7D18UNc.jpg",
+      "images_downloaded/birds/flamingo_4_OldsbnBMWRg.jpg",
+      "images_downloaded/birds/flamingo_5_hcVtC5pgZTY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32324733/13788208_682_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/elegant-flamingo-in-serene-natural-setting-32324733/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/02/27/109016-683077123_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-109016/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/birds/flamingo.mp3"
+  },
+  {
+    "name": "peacock",
+    "description": "The male of the peafowl species, famous for a shimmering train of iridescent 'eye' feathers it fans and rattles to court females. The colors come from microscopic crystal-like structures that bend light rather than from pigment.",
+    "images": [
+      "images_downloaded/birds/peacock_1_l0bqFaNb9LM.jpg",
+      "images_downloaded/birds/peacock_2_1e_lMowBFVM.jpg",
+      "images_downloaded/birds/peacock_3_wBhoO5hMlC4.jpg",
+      "images_downloaded/birds/peacock_4_dS28vcrgqhE.jpg",
+      "images_downloaded/birds/peacock_5_GvyyGV2uWns.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28041563/12289862_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-peacock-is-walking-around-in-an-enclosure-28041563/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/03/23/205373-926737246_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-205373/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/birds/peacock.mp3"
+  },
+  {
+    "name": "eagle",
+    "description": "A powerful bird of prey with eyesight several times sharper than a human's, letting it spot prey from over a mile away. Eagles build the largest nests of any bird, some growing to weigh over a ton after years of reuse.",
+    "images": [
+      "images_downloaded/birds/eagle_1_dJb4w5hy0OA.jpg",
+      "images_downloaded/birds/eagle_2_OjQgsR1oyEw.jpg",
+      "images_downloaded/birds/eagle_3_ID48ekBTlDo.jpg",
+      "images_downloaded/birds/eagle_4_EAJ1L4ZjrB4.jpg",
+      "images_downloaded/birds/eagle_5_NEvS5lHyrlk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35282480/14947116_640_360_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-eagle-soars-over-tropical-palm-trees-35282480/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/10/17/236810_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-236810/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/birds/eagle.mp3"
+  },
+  {
+    "name": "hawk",
+    "description": "A sharp-eyed daytime hunter that soars on broad wings, scanning the ground for small mammals and other birds. Hawks can spot a mouse from nearly a mile up and dive at speeds that make them among the fastest hunters in the sky.",
+    "images": [
+      "images_downloaded/birds/hawk_1_bD5nxfyBo84.jpg",
+      "images_downloaded/birds/hawk_2_i4Y9hr5dxKc.jpg",
+      "images_downloaded/birds/hawk_3_7IshdvLrKnA.jpg",
+      "images_downloaded/birds/hawk_4_IZfFGVDrdgM.jpg",
+      "images_downloaded/birds/hawk_5_fmCOUAj1QHk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36221445/15360718_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/hawk-soaring-through-clear-blue-sky-36221445/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/07/08/362782_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-362782/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/hawk.mp3"
+  },
+  {
+    "name": "falcon",
+    "description": "A streamlined raptor built for speed, with pointed wings that let it change direction in an instant while chasing prey mid-air. The peregrine falcon, the fastest animal on Earth, can dive at over 240 mph to strike other birds.",
+    "images": [
+      "images_downloaded/birds/falcon_1_0wKrAKRVzBE.jpg",
+      "images_downloaded/birds/falcon_2_oT5F4u7A9cw.jpg",
+      "images_downloaded/birds/falcon_3_NzkjR1pw0Lc.jpg",
+      "images_downloaded/birds/falcon_4_B925oWk9cXw.jpg",
+      "images_downloaded/birds/falcon_5_FJzZ1fGD5Js.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/12633232/12633232-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/falcon-feeding-on-a-prey-12633232/",
+        "durationSeconds": 25
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/09/10/87995-602894784_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-87995/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/birds/falcon.mp3"
+  },
+  {
+    "name": "robin",
+    "description": "A familiar backyard songbird with a warm orange-red breast, often seen tugging earthworms from the ground at dawn. Robins can sense the Earth's magnetic field, which helps guide their long seasonal migrations.",
+    "images": [
+      "images_downloaded/birds/robin_1_3lGi0BXJ1W0.jpg",
+      "images_downloaded/birds/robin_2_yGHXM2zg8Jw.jpg",
+      "images_downloaded/birds/robin_3_OjhSUsHUIYM.jpg",
+      "images_downloaded/birds/robin_4_7LsuYqkvIUM.jpg",
+      "images_downloaded/birds/robin_5_ZeIFgSO3MAU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29977820/12863860_640_360_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/charming-robin-resting-on-tree-branch-in-nature-29977820/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/02/20/65801-515379581_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-65801/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/birds/robin.mp3"
+  },
+  {
+    "name": "sparrow",
+    "description": "A small, adaptable songbird found on nearly every continent, thriving in cities as easily as in open fields. Sparrows bathe in dust as well as water, fluffing dirt through their feathers to keep parasites away.",
+    "images": [
+      "images_downloaded/birds/sparrow_1_Eb_2ItJvcI8.jpg",
+      "images_downloaded/birds/sparrow_2_i-7HDFvmI6E.jpg",
+      "images_downloaded/birds/sparrow_3_ic-13C3QhAI.jpg",
+      "images_downloaded/birds/sparrow_4_5iFZBM7qgWc.jpg",
+      "images_downloaded/birds/sparrow_5_SpY5raN68PM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31947240/13610746_360_640_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/sparrow-perched-on-rooftop-singing-in-nature-31947240/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/02/21/65917-516089030_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-65917/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/sparrow.mp3"
+  },
+  {
+    "name": "cardinal",
+    "description": "A brilliant red songbird whose males use their color to attract mates and defend territory, while females wear softer brown tones for camouflage on the nest. Cardinals are one of the few female songbirds that sing, often duetting with their mate.",
+    "images": [
+      "images_downloaded/birds/cardinal_1_Yu_ejF2s_dI.jpg",
+      "images_downloaded/birds/cardinal_2__aNtQKnffAA.jpg",
+      "images_downloaded/birds/cardinal_3_R8hYlT-tNco.jpg",
+      "images_downloaded/birds/cardinal_4_2ixxqL99yGk.jpg",
+      "images_downloaded/birds/cardinal_5_oKTGgL5qRwA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32131947/13699434_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vivid-cardinal-perched-in-lush-green-foliage-32131947/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/03/22/111579-692612971_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-111579/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/birds/cardinal.mp3"
+  },
+  {
+    "name": "blue jay",
+    "description": "A bold, intelligent songbird known for its bright blue crest and loud, varied calls, including an uncanny impression of hawks to scare off rivals. Blue jays cache thousands of acorns each fall and forget many of them, accidentally planting new oak trees.",
+    "images": [
+      "images_downloaded/birds/blue_jay_1_q_bx5FSjSqc.jpg",
+      "images_downloaded/birds/blue_jay_2_27YWPxPruMc.jpg",
+      "images_downloaded/birds/blue_jay_3_STNTLW1nHpc.jpg",
+      "images_downloaded/birds/blue_jay_4_wL1qwZzCLX0.jpg",
+      "images_downloaded/birds/blue_jay_5_G7ZYCNes298.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35431653/15011441_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/blue-jay-feasting-at-winter-bird-feeder-35431653/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/14/207936_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-207936/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/birds/blue_jay.mp3"
+  },
+  {
+    "name": "crow",
+    "description": "A highly intelligent black bird that can recognize individual human faces and remember them for years. Crows make and use simple tools, and some have been observed solving multi-step puzzles for food.",
+    "images": [
+      "images_downloaded/birds/crow_1_d-vBDK5rqR0.jpg",
+      "images_downloaded/birds/crow_2_T5Ye7puWZxo.jpg",
+      "images_downloaded/birds/crow_3_iBER-hi4DyU.jpg",
+      "images_downloaded/birds/crow_4_TEjATSCI2A4.jpg",
+      "images_downloaded/birds/crow_5_JF3mWUArulg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5065230/5065230-hd_1280_720_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/crow-walking-at-the-park-5065230/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/20/135784-765445512_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-135784/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/crow.mp3"
+  },
+  {
+    "name": "raven",
+    "description": "A large, glossy black bird closely related to the crow, known across cultures and mythology for its intelligence and deep, croaking call. Ravens can mimic human speech and other animal sounds, and they've been seen sliding down snowy roofs seemingly just for fun.",
+    "images": [
+      "images_downloaded/birds/raven_1_d-vBDK5rqR0.jpg",
+      "images_downloaded/birds/raven_2_7iwKvbL3-UE.jpg",
+      "images_downloaded/birds/raven_3_TEjATSCI2A4.jpg",
+      "images_downloaded/birds/raven_4_-gJqD3dtluU.jpg",
+      "images_downloaded/birds/raven_5_T5Ye7puWZxo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31679776/13497054_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/raven-resting-on-tree-branch-in-kyoto-31679776/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/17/189421-885786058_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-189421/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/raven.mp3"
+  },
+  {
+    "name": "hummingbird",
+    "description": "A tiny, jewel-colored bird whose wings beat up to 80 times per second, letting it hover in place and even fly backward. Hummingbirds have the fastest metabolism of any animal and must eat roughly every ten minutes while awake to survive.",
+    "images": [
+      "images_downloaded/birds/hummingbird_1_K_RlYhnKoh8.jpg",
+      "images_downloaded/birds/hummingbird_2_9APFPoNb9iw.jpg",
+      "images_downloaded/birds/hummingbird_3_hjmED1qivmc.jpg",
+      "images_downloaded/birds/hummingbird_4_p-DDK9lOmmE.jpg",
+      "images_downloaded/birds/hummingbird_5_l23EsqKgDts.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30252367/12969886_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/colorful-hummingbird-feeding-in-trinidad-garden-30252367/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/09/17/26973-361107938_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-26973/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/hummingbird.mp3"
+  },
+  {
+    "name": "woodpecker",
+    "description": "A bird built to drum on tree trunks at up to 20 times a second, using a shock-absorbing skull and a long, barbed tongue to pull out hidden insects. Woodpeckers also drum to communicate, and their old nesting holes later shelter owls, squirrels, and other animals.",
+    "images": [
+      "images_downloaded/birds/woodpecker_1_5B_ItUbsXz8.jpg",
+      "images_downloaded/birds/woodpecker_2_1SbVQub_TyI.jpg",
+      "images_downloaded/birds/woodpecker_3_z3F0JjC8Ars.jpg",
+      "images_downloaded/birds/woodpecker_4_NdLv05F0ESQ.jpg",
+      "images_downloaded/birds/woodpecker_5_STU20Wc03nU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35565250/15069512_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/stunning-woodpecker-clinging-to-tree-trunk-35565250/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/27/306602_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-306602/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/woodpecker.mp3"
+  },
+  {
+    "name": "parrot",
+    "description": "A colorful, highly intelligent bird capable of mimicking human speech and solving problems that stump many mammals. Parrots can live 60 years or more, form lifelong pair bonds, and some species use tools to crack open tough nuts.",
+    "images": [
+      "images_downloaded/birds/parrot_1_OlKkCmToXEs.jpg",
+      "images_downloaded/birds/parrot_2_3osGqRRtQBE.jpg",
+      "images_downloaded/birds/parrot_3_lylCw4zcA7I.jpg",
+      "images_downloaded/birds/parrot_4_aeNg4YA41P8.jpg",
+      "images_downloaded/birds/parrot_5_uH7YCla3oVE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34917994/14791315_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-parrot-resting-inside-zoo-exhibit-34917994/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/05/12/116781-709887681_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-116781/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/parrot.mp3"
+  },
+  {
+    "name": "macaw",
+    "description": "A large, vividly colored parrot native to Central and South American rainforests, known for its loud calls and powerful curved beak. Macaws mate for life and are sometimes seen eating riverbank clay, which may help neutralize toxins in their diet.",
+    "images": [
+      "images_downloaded/birds/macaw_1_vzVWYIr6F8U.jpg",
+      "images_downloaded/birds/macaw_2_uH7YCla3oVE.jpg",
+      "images_downloaded/birds/macaw_3_P4n7NQNOmFU.jpg",
+      "images_downloaded/birds/macaw_4_0UKyrKCoutM.jpg",
+      "images_downloaded/birds/macaw_5_lylCw4zcA7I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29579469/12731635_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-blue-macaw-in-natural-habitat-29579469/",
+        "durationSeconds": 18
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/05/12/116781-709887681_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-116781/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/macaw.mp3"
+  },
+  {
+    "name": "cockatoo",
+    "description": "A crested parrot known for raising its expressive head feathers when excited or alarmed, and for forming close, decades-long bonds with its flock or owner. Cockatoos are skilled problem-solvers that have even been filmed inventing tools to reach food.",
+    "images": [
+      "images_downloaded/birds/cockatoo_1_qvI3wvjSoHE.jpg",
+      "images_downloaded/birds/cockatoo_2_SPohPN5Nc5I.jpg",
+      "images_downloaded/birds/cockatoo_3_56-Zpos58M0.jpg",
+      "images_downloaded/birds/cockatoo_4_S7tuc4_JYKU.jpg",
+      "images_downloaded/birds/cockatoo_5_D5b7Hj5KNEA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/12715015/12715015-hd_720_1366_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-white-cockatoo-perched-on-a-tree-branch-12715015/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/08/31/48731-455833747_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-48731/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/birds/cockatoo.mp3"
+  },
+  {
+    "name": "toucan",
+    "description": "A tropical bird famous for its enormous, colorful bill, which is mostly hollow and surprisingly lightweight, made of a spongy bone-like material. Toucans use their long bill to reach fruit at the end of thin branches and to help regulate their body heat.",
+    "images": [
+      "images_downloaded/birds/toucan_1_eqXiLNfZDc0.jpg",
+      "images_downloaded/birds/toucan_2_vjFC9OjrOtA.jpg",
+      "images_downloaded/birds/toucan_3_XUFMiGkv-60.jpg",
+      "images_downloaded/birds/toucan_4_jfWHzG7gIRw.jpg",
+      "images_downloaded/birds/toucan_5_bV3RXy9Upqg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33257187/14169050_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-toucan-feeding-in-natural-habitat-33257187/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/11/03/94468-643067856_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-94468/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/birds/toucan.mp3"
+  },
+  {
+    "name": "swan",
+    "description": "A large, graceful waterbird known for its long curved neck and pure white feathers, though some species are black. Swans mate for life, can be fiercely protective of their nests, and cygnets often ride on a parent's back to rest and stay warm.",
+    "images": [
+      "images_downloaded/birds/swan_1_EhSxbBCjr9A.jpg",
+      "images_downloaded/birds/swan_2_sXwpO-MQV9w.jpg",
+      "images_downloaded/birds/swan_3_AnRH51dbaEY.jpg",
+      "images_downloaded/birds/swan_4_7gq-fU0YOYg.jpg",
+      "images_downloaded/birds/swan_5_-MD5hZCuCQ8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/16284238/16284238-hd_720_1280_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-swan-floating-in-the-water-near-a-bridge-16284238/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/10/01/27454-363961167_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-27454/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/swan.mp3"
+  },
+  {
+    "name": "goose",
+    "description": "A large, loud waterbird that flies in a distinctive V-formation during migration, taking turns at the front to save energy as a flock. Geese mate for life and are famous for their strong homing instinct and loud honking warning calls.",
+    "images": [
+      "images_downloaded/birds/goose_1_4TCx0NyBcmI.jpg",
+      "images_downloaded/birds/goose_2_g_egdHwa5xk.jpg",
+      "images_downloaded/birds/goose_3_WPmPsdX2ySw.jpg",
+      "images_downloaded/birds/goose_4_IWnuBhG_y34.jpg",
+      "images_downloaded/birds/goose_5_YsGtJLKZVgk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18375674/18375674-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-goose-is-floating-in-the-water-18375674/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/12/27/102631-660588571_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-102631/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/birds/goose.mp3"
+  },
+  {
+    "name": "pelican",
+    "description": "A large waterbird with an enormous throat pouch that can scoop up gallons of water and fish in a single plunge before draining out the water. Pelicans sometimes fish cooperatively, herding schools of fish into the shallows together.",
+    "images": [
+      "images_downloaded/birds/pelican_1_fjtNb-lQW9U.jpg",
+      "images_downloaded/birds/pelican_2_bX6_SJbxbO8.jpg",
+      "images_downloaded/birds/pelican_3_Vh0N7-Tme6Y.jpg",
+      "images_downloaded/birds/pelican_4_lmwoves0ZjU.jpg",
+      "images_downloaded/birds/pelican_5_b3ZpqtiSMus.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/17683795/17683795-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/pelican-17683795/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/11/01/137410-766338401_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-137410/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/birds/pelican.mp3"
+  },
+  {
+    "name": "seagull",
+    "description": "A coastal bird found near oceans, rivers, and cities alike, famous for its opportunistic appetite and boldness around people. Gulls can drink both fresh and salt water thanks to special glands above their eyes that filter out excess salt.",
+    "images": [
+      "images_downloaded/birds/seagull_1_Xfkp_sIEs7w.jpg",
+      "images_downloaded/birds/seagull_2_OpCRgInDprc.jpg",
+      "images_downloaded/birds/seagull_3_qrP9Q4ttNLs.jpg",
+      "images_downloaded/birds/seagull_4_9pjS1ROa3Iw.jpg",
+      "images_downloaded/birds/seagull_5_ECaSu6RtxOk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35537381/15055060_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/seagull-perched-on-pier-overlooking-ocean-35537381/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/25/136442-764388102_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-136442/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/seagull.mp3"
+  },
+  {
+    "name": "ostrich",
+    "description": "The largest and heaviest living bird, unable to fly but able to sprint faster than a racehorse on powerful long legs. Ostriches lay the largest eggs of any bird alive today, and a single kick from one can be dangerous even to a lion.",
+    "images": [
+      "images_downloaded/birds/ostrich_1_vhoBocWCxZM.jpg",
+      "images_downloaded/birds/ostrich_2_dMt7O_PwJUU.jpg",
+      "images_downloaded/birds/ostrich_3_qeGHu5Jdy5s.jpg",
+      "images_downloaded/birds/ostrich_4_n_MZ5snB8qk.jpg",
+      "images_downloaded/birds/ostrich_5_JWwvSaZ0A-k.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36368033/15424511_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/african-ostrich-walking-in-grassland-outdoors-36368033/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/07/11/44411-438662218_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-44411/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/ostrich.mp3"
+  },
+  {
+    "name": "emu",
+    "description": "Australia's largest bird, a flightless runner that can sprint nearly 30 mph on long, powerful legs. Uniquely among birds, it's the male emu that incubates the eggs and raises the chicks alone.",
+    "images": [
+      "images_downloaded/birds/emu_1_PU1Yqe9kNpg.jpg",
+      "images_downloaded/birds/emu_2_lpGwZ3fpRIs.jpg",
+      "images_downloaded/birds/emu_3_wEdQ9qMHLPM.jpg",
+      "images_downloaded/birds/emu_4_yP-7oow-Yqg.jpg",
+      "images_downloaded/birds/emu_5_fjpOwAkkvp0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5795265/5795265-hd_1366_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/video-of-an-emu-walking-in-the-farm-5795265/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/15/176204-855196206_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-176204/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/emu.mp3"
+  },
+  {
+    "name": "kiwi",
+    "description": "A small, flightless New Zealand bird with nostrils at the tip of its long beak, an unusual trait that lets it sniff out worms and insects underground. Kiwis lay eggs that can weigh up to a quarter of the mother's body weight, among the largest of any bird relative to size.",
+    "images": [
+      "images_downloaded/birds/kiwi_1_p5Ljx_H2F8o.jpg",
+      "images_downloaded/birds/kiwi_2_jPVcZsxRGJo.jpg",
+      "images_downloaded/birds/kiwi_3_VCa_6OdVV2w.jpg",
+      "images_downloaded/birds/kiwi_4_Zaj2mlKhtmA.jpg",
+      "images_downloaded/birds/kiwi_5_GAMExm6pQI0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8328575/8328575-hd_1080_1920_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-woman-covering-her-eyes-with-slices-of-kiwi-8328575/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/11/07/55288-499594202_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-55288/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/kiwi.mp3"
+  },
+  {
+    "name": "cassowary",
+    "description": "A large, flightless rainforest bird with a tall bony helmet called a casque and powerful legs tipped with dagger-like claws, making it one of the most dangerous birds alive. Cassowaries help their rainforest ecosystem by eating fallen fruit whole and spreading the seeds widely in their droppings.",
+    "images": [
+      "images_downloaded/birds/cassowary_1_n9s-1SoGfyo.jpg",
+      "images_downloaded/birds/cassowary_2_s_ZIYVfmrA4.jpg",
+      "images_downloaded/birds/cassowary_3_3hS38B5X1_s.jpg",
+      "images_downloaded/birds/cassowary_4_Ayc_D1aXFM8.jpg",
+      "images_downloaded/birds/cassowary_5_d6m_ZnRgkbY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28912664/12513916_360_480_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-a-cassowary-in-vibrant-habitat-28912664/",
+        "durationSeconds": 3
+      }
+    ],
+    "audio_desc": "audio/birds/cassowary.mp3"
+  },
+  {
+    "name": "stork",
+    "description": "A tall, long-legged wading bird known for building enormous stick nests on rooftops and poles that families reuse and enlarge for generations. Storks are largely silent birds that communicate by loudly clattering their long bills together.",
+    "images": [
+      "images_downloaded/birds/stork_1_RvHCxzl6wSM.jpg",
+      "images_downloaded/birds/stork_2_biJCd2N-1ms.jpg",
+      "images_downloaded/birds/stork_3__YB9AwDP-yg.jpg",
+      "images_downloaded/birds/stork_4_tDlYxEQMNEo.jpg",
+      "images_downloaded/birds/stork_5_-xt0p7K1Y94.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/20697784/20697784-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/stork-20697784/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/26/223253_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-223253/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/stork.mp3"
+  },
+  {
+    "name": "crane",
+    "description": "A tall, elegant wading bird known for elaborate dancing displays, complete with bowing, leaping, and wing-flapping, used to strengthen pair bonds. Cranes are among the oldest living bird groups, with fossils similar to today's species dating back millions of years.",
+    "images": [
+      "images_downloaded/birds/crane_1_XvNPUh6fWVk.jpg",
+      "images_downloaded/birds/crane_2_WKcwxlUV3iM.jpg",
+      "images_downloaded/birds/crane_3_ER4u3Kr_npI.jpg",
+      "images_downloaded/birds/crane_4_ESZRBtkQ_f8.jpg",
+      "images_downloaded/birds/crane_5_dqVF677zmQk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18563093/18563093-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/an-aerial-view-of-a-construction-site-with-a-crane-18563093/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/11/04/239825_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-239825/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/birds/crane.mp3"
+  },
+  {
+    "name": "heron",
+    "description": "A patient wading bird that stands motionless in shallow water for long stretches before striking prey with a lightning-fast stab of its spear-like bill. Herons often fold their neck into an S-shape while flying, unlike most long-necked birds, which fly with necks outstretched.",
+    "images": [
+      "images_downloaded/birds/heron_1_UexucCEzj-0.jpg",
+      "images_downloaded/birds/heron_2_akfAenvIIsA.jpg",
+      "images_downloaded/birds/heron_3_zlUy_yoKdTU.jpg",
+      "images_downloaded/birds/heron_4_Feft9mrnxV0.jpg",
+      "images_downloaded/birds/heron_5_EysCLgycVgc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32773470/13971080_682_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/white-faced-heron-fishing-in-new-zealand-waters-32773470/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/06/04/356652_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-356652/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/birds/heron.mp3"
+  },
+  {
+    "name": "pigeon",
+    "description": "A stocky city-dwelling bird descended from the wild rock dove, prized for thousands of years for its extraordinary ability to find its way home from hundreds of miles away. Pigeons can recognize themselves in a mirror and were once used to carry emergency messages across battlefields.",
+    "images": [
+      "images_downloaded/birds/pigeon_1_RPUD-n9V6E0.jpg",
+      "images_downloaded/birds/pigeon_2_ic-13C3QhAI.jpg",
+      "images_downloaded/birds/pigeon_3_UbrUGasnm6Q.jpg",
+      "images_downloaded/birds/pigeon_4_6XcziMmkNgQ.jpg",
+      "images_downloaded/birds/pigeon_5_hPOFScEaZcA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4216719/4216719-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/pigeon-on-ground-4216719/",
+        "durationSeconds": 13
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/02/17/258819_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-258819/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/birds/pigeon.mp3"
+  },
+  {
+    "name": "dove",
+    "description": "A gentle, soft-cooing bird closely related to the pigeon and widely recognized as a symbol of peace across many cultures. Doves produce a special 'crop milk' in their throat to feed their chicks, a trait shared by very few birds.",
+    "images": [
+      "images_downloaded/birds/dove_1_6XcziMmkNgQ.jpg",
+      "images_downloaded/birds/dove_2_JhqBxsORuXA.jpg",
+      "images_downloaded/birds/dove_3_qscY0de8YUY.jpg",
+      "images_downloaded/birds/dove_4_aq2u-OMPw4U.jpg",
+      "images_downloaded/birds/dove_5_7RLyun5nlMQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31565120/13452229_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-a-speckled-dove-walking-in-urban-setting-31565120/",
+        "durationSeconds": 14
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2017/07/23/10845-226632921_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-10845/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/birds/dove.mp3"
+  },
+  {
+    "name": "turkey",
+    "description": "A large ground-dwelling bird native to North America, with males fanning colorful tail feathers and gobbling loudly to attract mates. Wild turkeys can run up to 25 mph and burst into short, powerful flight to escape danger, despite their bulk.",
+    "images": [
+      "images_downloaded/birds/turkey_1_kNSREmtaGOE.jpg",
+      "images_downloaded/birds/turkey_2_WA1u0scVLZU.jpg",
+      "images_downloaded/birds/turkey_3_0n0AHB1fgTQ.jpg",
+      "images_downloaded/birds/turkey_4_bBF9e2UUh88.jpg",
+      "images_downloaded/birds/turkey_5_JnLp1kus3Ks.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/7781715/7781715-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/woman-feeding-turkey-7781715/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/01/17/31330-385855499_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-31330/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/birds/turkey.mp3"
+  },
+  {
+    "name": "quail",
+    "description": "A small, round, ground-dwelling bird that prefers running through underbrush to flying, bursting upward in a startling flush only when truly threatened. Quail chicks can leave the nest and start feeding themselves within hours of hatching.",
+    "images": [
+      "images_downloaded/birds/quail_1_WOY8h-olonY.jpg",
+      "images_downloaded/birds/quail_2_WyypW89oAr8.jpg",
+      "images_downloaded/birds/quail_3_rQCuAmgIXU0.jpg",
+      "images_downloaded/birds/quail_4_brDwbvCRQXE.jpg",
+      "images_downloaded/birds/quail_5_MvdYEIJbXV8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/6646827/6646827-hd_720_1280_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/person-holding-quail-egg-6646827/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/02/07/106993-674703610_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-106993/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/quail.mp3"
+  },
+  {
+    "name": "pheasant",
+    "description": "A long-tailed ground bird in which males display brilliantly colored plumage to attract mates, while females stay camouflaged in muted browns for safety on the nest. Pheasants can burst into fast, whirring flight but prefer running from danger when they can.",
+    "images": [
+      "images_downloaded/birds/pheasant_1_JuoE5jHlcHs.jpg",
+      "images_downloaded/birds/pheasant_2_u4_1HuVll5Q.jpg",
+      "images_downloaded/birds/pheasant_3_V4ayVSp3XZo.jpg",
+      "images_downloaded/birds/pheasant_4_pv706vp5msg.jpg",
+      "images_downloaded/birds/pheasant_5_E2o0CzxHRWU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34657862/14690290_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/colorful-golden-pheasant-in-a-cage-34657862/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/05/30/355565_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-355565/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/pheasant.mp3"
+  },
+  {
+    "name": "rooster",
+    "description": "The adult male chicken, easily recognized by his tall red comb, sweeping tail feathers, and famous crow that greets the dawn. Roosters actually have an internal body clock and will crow at any time of day, not only at sunrise, to announce territory.",
+    "images": [
+      "images_downloaded/birds/rooster_1_Fxg394rc6JQ.jpg",
+      "images_downloaded/birds/rooster_2_dxtEFmAfkOk.jpg",
+      "images_downloaded/birds/rooster_3_B5tr-oOXcIo.jpg",
+      "images_downloaded/birds/rooster_4_NbsgQ4Z0A-Y.jpg",
+      "images_downloaded/birds/rooster_5_oSHCmY5bBgA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36279111/15384175_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-rooster-in-serene-countryside-setting-36279111/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/07/28/45789-446791725_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-45789/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/birds/rooster.mp3"
+  },
+  {
+    "name": "vulture",
+    "description": "A large scavenger bird with an incredible sense of smell or sight for finding carrion, playing a vital role in cleaning up ecosystems and stopping disease from spreading. A vulture's bald head isn't a flaw, it stays cleaner while the bird feeds deep inside carcasses.",
+    "images": [
+      "images_downloaded/birds/vulture_1_U1X7HH7ZzyE.jpg",
+      "images_downloaded/birds/vulture_2_X_focRRR0Uw.jpg",
+      "images_downloaded/birds/vulture_3_Pc5Yv7QX4Ts.jpg",
+      "images_downloaded/birds/vulture_4_d5c8vfGzlwQ.jpg",
+      "images_downloaded/birds/vulture_5_s_4tNHp_p3w.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/20667274/20667274-hd_1280_720_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-vulture-is-standing-on-the-ground-with-its-beak-open-20667274/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/03/80027-572853496_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-80027/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/birds/vulture.mp3"
+  },
+  {
+    "name": "condor",
+    "description": "One of the largest flying birds in the world, an enormous scavenger that can soar for hours on rising warm air without flapping its wings. Condors can live 60 years or more and don't reach breeding age until they're around six years old.",
+    "images": [
+      "images_downloaded/birds/condor_1_XRW0ryFeizI.jpg",
+      "images_downloaded/birds/condor_2_lb_WWecVY3M.jpg",
+      "images_downloaded/birds/condor_3_2WW9yK108Q8.jpg",
+      "images_downloaded/birds/condor_4_1X-LtC9sSLE.jpg",
+      "images_downloaded/birds/condor_5_U1X7HH7ZzyE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/11/09/138309-769163794_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-138309/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/birds/condor.mp3"
+  },
+  {
+    "name": "kingfisher",
+    "description": "A small, dagger-billed bird that perches over water and dives headfirst at incredible speed to spear fish, entering the water almost without a splash. Kingfishers' streamlined head and beak shape helped inspire the nose design of high-speed bullet trains.",
+    "images": [
+      "images_downloaded/birds/kingfisher_1_Dytf8JdG66E.jpg",
+      "images_downloaded/birds/kingfisher_2_vUNQaTtZeOo.jpg",
+      "images_downloaded/birds/kingfisher_3_DPXytK8Z59Y.jpg",
+      "images_downloaded/birds/kingfisher_4_7xQW7I9flYk.jpg",
+      "images_downloaded/birds/kingfisher_5_VEXAY4rhnPM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4849093/4849093-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/kingfisher-sitting-on-a-tree-branch-4849093/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/31/214669_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-214669/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/birds/kingfisher.mp3"
+  },
+  {
+    "name": "puffin",
+    "description": "A stocky seabird with a colorful, triangular bill used both to attract mates and to carry dozens of small fish back to its chick at once. Puffins are excellent swimmers that use their wings to 'fly' underwater while chasing fish.",
+    "images": [
+      "images_downloaded/birds/puffin_1_4AmyOdXZAQc.jpg",
+      "images_downloaded/birds/puffin_2_Os5HONI1xf8.jpg",
+      "images_downloaded/birds/puffin_3_mpw37yXc_WQ.jpg",
+      "images_downloaded/birds/puffin_4_bul_3zwYI6E.jpg",
+      "images_downloaded/birds/puffin_5_PCGC-9qW3o4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/01/218930_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-218930/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/puffin.mp3"
+  },
+  {
+    "name": "kookaburra",
+    "description": "A large, stocky kingfisher from Australia famous for a call that sounds exactly like loud, echoing human laughter, often heard at dawn and dusk. Kookaburras hunt snakes, lizards, and insects, killing them by repeatedly whacking prey against a branch.",
+    "images": [
+      "images_downloaded/birds/kookaburra_1_tTPEoQkudT4.jpg",
+      "images_downloaded/birds/kookaburra_2_2EeLyuTYAKM.jpg",
+      "images_downloaded/birds/kookaburra_3_fSD-9Wa5ZBA.jpg",
+      "images_downloaded/birds/kookaburra_4_Pw779GyBLqI.jpg",
+      "images_downloaded/birds/kookaburra_5_RKo5RRicyeQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32518643/13867018_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/kookaburra-perched-on-tree-branch-outdoors-32518643/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/04/30/275843_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-275843/",
+        "durationSeconds": 19
+      }
+    ],
+    "audio_desc": "audio/birds/kookaburra.mp3"
+  },
+  {
+    "name": "magpie",
+    "description": "A striking black-and-white bird known for its intelligence, complex social bonds, and a fondness for collecting shiny objects. Magpies are one of the very few non-mammal species that can recognize themselves in a mirror.",
+    "images": [
+      "images_downloaded/birds/magpie_1_TvJP28LhkLk.jpg",
+      "images_downloaded/birds/magpie_2_WlT9vph1v-8.jpg",
+      "images_downloaded/birds/magpie_3_DFCnzrSYqpQ.jpg",
+      "images_downloaded/birds/magpie_4_IJdCPbgJgKA.jpg",
+      "images_downloaded/birds/magpie_5_Raj8QduQtgc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36480782/15469038_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-magpie-on-mossy-wall-in-forest-36480782/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/05/25/3287-168129563_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-3287/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/birds/magpie.mp3"
+  },
+  {
+    "name": "finch",
+    "description": "A small seed-eating songbird with a short, sturdy beak shaped for cracking husks open. Different finch species famously helped inspire Charles Darwin's theory of evolution, since each island population had evolved a beak shape suited to its own food supply.",
+    "images": [
+      "images_downloaded/birds/finch_1_eTXSu9MgDbY.jpg",
+      "images_downloaded/birds/finch_2_ic-13C3QhAI.jpg",
+      "images_downloaded/birds/finch_3_V2Lr76TaWjU.jpg",
+      "images_downloaded/birds/finch_4_4_Su6bQWpyM.jpg",
+      "images_downloaded/birds/finch_5_HNjQrg3P1q4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32933406/14035643_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-zebra-finch-perched-indoors-32933406/",
+        "durationSeconds": 21
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/05/04/38058-415950717_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-38058/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/birds/finch.mp3"
+  },
+  {
+    "name": "canary",
+    "description": "A small, cheerful songbird originally from the Canary Islands, bred for centuries for its bright color and complex, musical song. Miners once carried caged canaries underground since the birds would grow ill from gas long before it became dangerous to people.",
+    "images": [
+      "images_downloaded/birds/canary_1_Kzd9UqhaMjU.jpg",
+      "images_downloaded/birds/canary_2_U0JqrzpllbQ.jpg",
+      "images_downloaded/birds/canary_3_ETy4pQ0uY-A.jpg",
+      "images_downloaded/birds/canary_4_NY2XW5MaOnc.jpg",
+      "images_downloaded/birds/canary_5_60WkGpWyadY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/16/189327-885344963_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-189327/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/birds/canary.mp3"
+  },
+  {
+    "name": "nightingale",
+    "description": "A small, plain brown songbird famous for an extraordinarily rich, complex song, often sung at night when few other birds are singing. A single nightingale can string together hundreds of distinct musical phrases in one performance.",
+    "images": [
+      "images_downloaded/birds/nightingale_1_v3qc4xwrHoM.jpg",
+      "images_downloaded/birds/nightingale_2_ldp1Ruut9i0.jpg",
+      "images_downloaded/birds/nightingale_3_trkMPRdNkNk.jpg",
+      "images_downloaded/birds/nightingale_4_jXOPG_c0YWw.jpg",
+      "images_downloaded/birds/nightingale_5_VRft1_y6K6M.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/09/134191-760063411_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-134191/",
+        "durationSeconds": 19
+      }
+    ],
+    "audio_desc": "audio/birds/nightingale.mp3"
+  },
+  {
+    "name": "mockingbird",
+    "description": "A gray songbird renowned for mimicking the songs of dozens of other birds, plus car alarms and other sounds it hears, weaving them into its own repertoire. Mockingbirds are fiercely territorial and will dive-bomb animals, including people, that wander too close to the nest.",
+    "images": [
+      "images_downloaded/birds/mockingbird_1_IgmKZwewwp0.jpg",
+      "images_downloaded/birds/mockingbird_2_7oNjHyNMUP4.jpg",
+      "images_downloaded/birds/mockingbird_3_sMQ6Eg7BRlU.jpg",
+      "images_downloaded/birds/mockingbird_4_txX3mtVWtlM.jpg",
+      "images_downloaded/birds/mockingbird_5_v6BG2252IcU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/04/24/348675_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-348675/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/birds/mockingbird.mp3"
+  },
+  {
+    "name": "roadrunner",
+    "description": "A fast-running, ground-dwelling desert bird that can sprint up to 20 mph chasing lizards, snakes, and insects rather than flying. Roadrunners can kill and eat venomous rattlesnakes, and they sunbathe by exposing dark patches of skin on their back to warm up quickly on cold desert mornings.",
+    "images": [
+      "images_downloaded/birds/roadrunner_1_hycXSxTljn4.jpg",
+      "images_downloaded/birds/roadrunner_2_L5i7aQ38fAQ.jpg",
+      "images_downloaded/birds/roadrunner_3_Ke8LZ8EONa4.jpg",
+      "images_downloaded/birds/roadrunner_4_zIERFEbSZjo.jpg",
+      "images_downloaded/birds/roadrunner_5_ZajYkdLAXU4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32143468/13705033_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-roadrunner-on-fence-post-in-green-landscape-32143468/",
+        "durationSeconds": 22
+      }
+    ],
+    "audio_desc": "audio/birds/roadrunner.mp3"
+  },
+  {
+    "name": "albatross",
+    "description": "A giant seabird with the longest wingspan of any living bird, letting it glide over the ocean for hours without a single flap. Albatrosses can live over 60 years and spend most of their lives airborne, only landing to breed.",
+    "images": [
+      "images_downloaded/birds/albatross_1_GNF5Iip6G8A.jpg",
+      "images_downloaded/birds/albatross_2_5IYqAH4ZTrM.jpg",
+      "images_downloaded/birds/albatross_3_U9du6ho0Nvk.jpg",
+      "images_downloaded/birds/albatross_4_y2I7oX158Vk.jpg",
+      "images_downloaded/birds/albatross_5_Qt66bYkH6Po.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/birds/albatross.mp3"
+  }
+]
