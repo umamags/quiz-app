@@ -1,7 +1,7 @@
 [
   {
     "name": "Phoenix",
-    "description": "The phoenix is a legendary immortal bird that cyclically regenerates or is otherwise born again.",
+    "description": "An immortal crimson-and-gold bird that bursts into flame and is reborn from its own ashes, with tears that heal grievous wounds. Dumbledore's phoenix, Fawkes, aided Harry in the Chamber of Secrets, and its tail feathers cored both Harry's and Voldemort's wands.",
     "images": [
       "images_downloaded/harrypotter/phoenix_1_RcDEbNQsjHU.jpg",
       "images_downloaded/harrypotter/phoenix_2_akE66HU-_Kg.jpg",
@@ -24,11 +24,12 @@
         "pageUrl": "https://pixabay.com/videos/id-174927/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/phoenix.mp3"
   },
   {
     "name": "Dragon",
-    "description": "A dragon is a mythical creature found in the folklore of cultures throughout the world.",
+    "description": "A colossal fire-breathing beast and one of the wizarding world's most dangerous creatures, guarded as a class of highly restricted magical animal. Harry faced a Hungarian Horntail in the Triwizard Tournament, and the trio later escaped Gringotts on the back of a blind Ukrainian Ironbelly.",
     "images": [
       "images_downloaded/harrypotter/dragon_1_F6920BvzrZE.jpg",
       "images_downloaded/harrypotter/dragon_2_zQMN9fLJehM.jpg",
@@ -51,11 +52,12 @@
         "pageUrl": "https://pixabay.com/videos/id-82209/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/dragon.mp3"
   },
   {
     "name": "Werewolf",
-    "description": "In Slavic mythology, a werewolf is a human-shapeshifter who temporarily takes the form of a wolf.",
+    "description": "A person cursed to transform into a savage wolf under the full moon, losing all human awareness during the change. Professor Remus Lupin managed his condition with Wolfsbane Potion, while the vicious Fenrir Greyback deliberately spread the affliction.",
     "images": [
       "images_downloaded/harrypotter/werewolf_1_tauPAnOIGvE.jpg",
       "images_downloaded/harrypotter/werewolf_2_i6yrDhfZ-XQ.jpg",
@@ -71,11 +73,12 @@
         "pageUrl": "https://pixabay.com/videos/id-133825/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/werewolf.mp3"
   },
   {
     "name": "Troll",
-    "description": "A troll is a being in Nordic folklore, including Norse mythology.",
+    "description": "A huge, dim-witted and immensely strong creature that reeks and wields a massive club. One was let into Hogwarts on Halloween in Harry's first year, and defeating it together in a bathroom cemented the friendship of Harry, Ron, and Hermione.",
     "images": [
       "images_downloaded/harrypotter/troll_1_mx94V7uE1eU.jpg",
       "images_downloaded/harrypotter/troll_2_iQjkQtyXGYY.jpg",
@@ -91,11 +94,12 @@
         "pageUrl": "https://pixabay.com/videos/id-164884/",
         "durationSeconds": 18
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/troll.mp3"
   },
   {
     "name": "Unicorn",
-    "description": "The unicorn is a legendary creature that has been described since antiquity as a beast with a single large, pointed, spiraling horn projecting from its forehead.",
+    "description": "A pure silver-white horse whose blood can keep a person alive even at death's door, though slaying so innocent a creature brings a terrible curse. In Harry's first year, Voldemort survived by drinking unicorn blood in the Forbidden Forest.",
     "images": [
       "images_downloaded/harrypotter/unicorn_1_U2TjtLJe4Z0.jpg",
       "images_downloaded/harrypotter/unicorn_2_Geu-i5VvI1A.jpg",
@@ -111,11 +115,12 @@
         "pageUrl": "https://pixabay.com/videos/id-6301/",
         "durationSeconds": 20
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/unicorn.mp3"
   },
   {
     "name": "Wand",
-    "description": "A wand is a thin, light-weight rod that is held with one hand, and is traditionally made of wood, but may also be made of other materials, such as metal, bone or stone.",
+    "description": "A witch or wizard's most essential tool, each one uniquely matched to its owner with a magical core such as phoenix feather, dragon heartstring, or unicorn hair. The Ollivanders adage holds that the wand chooses the wizard, and Harry's shares a phoenix-feather core with Voldemort's.",
     "images": [
       "images_downloaded/harrypotter/wand_1_4Zaq5xY5M_c.jpg",
       "images_downloaded/harrypotter/wand_2_0tgMnMIYQ9Y.jpg",
@@ -131,11 +136,12 @@
         "pageUrl": "https://www.pexels.com/video/man-and-woman-playing-magic-wand-8115989/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/wand.mp3"
   },
   {
     "name": "Broomstick",
-    "description": "A broom, also known as a broomstick, is a cleaning tool, consisting of usually stiff fibers attached to, and roughly parallel to, a cylindrical handle, the broomstick.",
+    "description": "The classic mode of wizarding flight and the equipment of Quidditch, ranging from school-issue models to racing brooms. Harry's prized Firebolt, a gift from his godfather Sirius, was among the fastest brooms ever made.",
     "images": [
       "images_downloaded/harrypotter/broomstick_1_tDF0AY7ECXY.jpg",
       "images_downloaded/harrypotter/broomstick_2_V0cSTljC92k.jpg",
@@ -151,11 +157,12 @@
         "pageUrl": "https://pixabay.com/videos/id-34821/",
         "durationSeconds": 16
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/broomstick.mp3"
   },
   {
     "name": "Sorting Hat",
-    "description": "",
+    "description": "The ancient, talking hat of Godric Gryffindor that reads a new student's mind and assigns them to Gryffindor, Slytherin, Hufflepuff, or Ravenclaw. It sings a fresh song each year and controversially considered placing Harry in Slytherin.",
     "images": [
       "images_downloaded/harrypotter/sorting_hat_1_vU2MmvDCmUo.jpg",
       "images_downloaded/harrypotter/sorting_hat_2_ioqjZtUZz0s.jpg",
@@ -171,11 +178,12 @@
         "pageUrl": "https://www.pexels.com/video/children-in-harry-potter-costume-playing-with-the-sorting-hat-8115657/",
         "durationSeconds": 22
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/sorting_hat.mp3"
   },
   {
     "name": "Hogwarts",
-    "description": "Hogwarts School of Witchcraft and Wizardry is a fictional boarding school of magic in the Harry Potter series by J. K. Rowling.",
+    "description": "The centuries-old School of Witchcraft and Wizardry, a vast Scottish castle full of moving staircases, ghosts, and hidden rooms, hidden from Muggles by powerful enchantments. Its four houses were founded by Gryffindor, Slytherin, Hufflepuff, and Ravenclaw.",
     "images": [
       "images_downloaded/harrypotter/hogwarts_1_HAl6CKxM3xU.jpg",
       "images_downloaded/harrypotter/hogwarts_2_5qUJfO4NU4o.jpg",
@@ -191,11 +199,12 @@
         "pageUrl": "https://pixabay.com/videos/id-246490/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/hogwarts.mp3"
   },
   {
     "name": "Cauldron",
-    "description": "A cauldron is a large pot or kettle used for cooking or boiling, typically over an open fire.",
+    "description": "The standard pewter pot in which potions are brewed, a required item for every first-year student. Correct stirring, timing, and ingredients in the cauldron are the difference between a cure and a disaster in Potions class.",
     "images": [
       "images_downloaded/harrypotter/cauldron_1_juPg5avdAHs.jpg",
       "images_downloaded/harrypotter/cauldron_2_sQx553-lSB0.jpg",
@@ -211,11 +220,12 @@
         "pageUrl": "https://pixabay.com/videos/id-131544/",
         "durationSeconds": 24
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/cauldron.mp3"
   },
   {
     "name": "Owl",
-    "description": "Owls are birds from the order Strigiformes, which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight.",
+    "description": "The wizarding world's preferred messenger, delivering letters and parcels reliably across any distance. Harry's snowy owl Hedwig was a loyal companion and his very first birthday gift from Hagrid.",
     "images": [
       "images_downloaded/harrypotter/owl_1_oqYHtXrLXLo.jpg",
       "images_downloaded/harrypotter/owl_2_UTw183oZPf0.jpg",
@@ -238,11 +248,12 @@
         "pageUrl": "https://pixabay.com/videos/id-272801/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/owl.mp3"
   },
   {
     "name": "Hogwarts Express",
-    "description": "5972 Olton Hall is a preserved Hall class 4-6-0 steam locomotive, made famous for its role hauling the Hogwarts Express in the Harry Potter film series.",
+    "description": "The scarlet steam train that carries students from Platform Nine and Three-Quarters to Hogwarts at the start of each school year. Many friendships begin in its compartments, including Harry's first meeting with Ron and Hermione.",
     "images": [
       "images_downloaded/harrypotter/hogwarts_express_1_HAl6CKxM3xU.jpg",
       "images_downloaded/harrypotter/hogwarts_express_2_wtLn23YbuTE.jpg",
@@ -258,6 +269,7 @@
         "pageUrl": "https://pixabay.com/videos/id-175888/",
         "durationSeconds": 17
       }
-    ]
+    ],
+    "audio_desc": "audio/harrypotter/hogwarts_express.mp3"
   }
 ]

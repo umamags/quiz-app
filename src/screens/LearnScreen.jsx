@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import { filterLearnItems } from '../quizState.js';
 
+const SEARCH_DEBOUNCE_MS = 200;
+
 function capitalize(word) {
   return word.charAt(0).toUpperCase() + word.slice(1);
 }
@@ -52,7 +54,7 @@ function LearnCard({ item, onImageClick }) {
               className="learn-image-button"
               onClick={() => onImageClick(src, item.name)}
             >
-              <img className="learn-card-image" src={src} alt={item.name} />
+              <img className="learn-card-image" src={src} alt={item.name} loading="lazy" />
             </button>
           ))}
         </div>
@@ -95,6 +97,7 @@ export default function LearnScreen({
   dispatch,
 }) {
   const [lightbox, setLightbox] = useState(null); // { src, alt } | null
+  const [searchInput, setSearchInput] = useState(learnSearch);
 
   useEffect(() => {
     if (!lightbox) return;
@@ -105,6 +108,24 @@ export default function LearnScreen({
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [lightbox]);
 
+  // Debounce: filtering/re-rendering the full result list on every single
+  // keystroke is what made typing feel slow with hundreds of items on
+  // screen. Keep the input itself instantly responsive (local state) and
+  // only dispatch the expensive part once typing pauses.
+  useEffect(() => {
+    if (searchInput === learnSearch) return;
+    const handle = setTimeout(() => {
+      dispatch({ type: 'LEARN_SEARCH_CHANGED', query: searchInput });
+    }, SEARCH_DEBOUNCE_MS);
+    return () => clearTimeout(handle);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchInput]);
+
+  function clearSearch() {
+    setSearchInput('');
+    dispatch({ type: 'LEARN_SEARCH_CHANGED', query: '' });
+  }
+
   if (learnManifestError) {
     return <div className="hint">{learnManifestError}</div>;
   }
@@ -113,7 +134,8 @@ export default function LearnScreen({
     return <div className="hint">Loading...</div>;
   }
 
-  const results = filterLearnItems(learnItems, learnCategory, learnSearch);
+  const showBrowsePrompt = learnCategory === null && learnSearch.trim() === '';
+  const results = showBrowsePrompt ? [] : filterLearnItems(learnItems, learnCategory, learnSearch);
   const groups = groupByCategory(results);
 
   return (
@@ -123,14 +145,14 @@ export default function LearnScreen({
           className="search-input"
           type="text"
           placeholder="Search by name or description..."
-          value={learnSearch}
-          onChange={e => dispatch({ type: 'LEARN_SEARCH_CHANGED', query: e.target.value })}
+          value={searchInput}
+          onChange={e => setSearchInput(e.target.value)}
         />
         <button
           type="button"
           className="btn-secondary search-clear"
-          onClick={() => dispatch({ type: 'LEARN_SEARCH_CHANGED', query: '' })}
-          disabled={!learnSearch}
+          onClick={clearSearch}
+          disabled={!searchInput}
         >
           Clear
         </button>
@@ -157,14 +179,17 @@ export default function LearnScreen({
       </div>
 
       <div className="learn-card-list">
-        {groups.map(group => (
+        {showBrowsePrompt && (
+          <div className="hint">Choose a category above, or start typing to search.</div>
+        )}
+        {!showBrowsePrompt && groups.map(group => (
           <LearnGroup
             key={group.category}
             group={group}
             onImageClick={(src, name) => setLightbox({ src, alt: name })}
           />
         ))}
-        {results.length === 0 && <div className="hint">No matches found.</div>}
+        {!showBrowsePrompt && results.length === 0 && <div className="hint">No matches found.</div>}
       </div>
 
       {lightbox && (

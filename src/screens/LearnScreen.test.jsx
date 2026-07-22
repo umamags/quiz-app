@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import LearnScreen from './LearnScreen.jsx';
 
@@ -47,23 +47,35 @@ function renderScreen(overrides = {}) {
 }
 
 describe('LearnScreen', () => {
-  it('renders every item across all categories by default', () => {
+  it('shows a browse prompt instead of the full list until a category or search is chosen', () => {
     renderScreen();
+    expect(screen.getByText('Choose a category above, or start typing to search.')).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Dog', level: 3 })).not.toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Triceratops', level: 3 })).not.toBeInTheDocument();
+  });
+
+  it('shows items across every category once a search term is entered, with no category selected', () => {
+    // 'o' matches both fixture items by name (dog, triceratops)
+    renderScreen({ learnSearch: 'o' });
     expect(screen.getByRole('heading', { name: 'Dog', level: 3 })).toBeInTheDocument();
     expect(screen.getByRole('heading', { name: 'Triceratops', level: 3 })).toBeInTheDocument();
   });
 
   it('shows a playable video for file-type entries and a link for page-type entries', () => {
-    renderScreen();
+    renderScreen({ learnCategory: 'Animals' });
     expect(document.querySelector('video.learn-video-player')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: 'Watch on Mixkit ↗' })).toHaveAttribute('href', 'https://mixkit.co/dog');
   });
 
-  it('dispatches LEARN_SEARCH_CHANGED as the user types in the search box', async () => {
+  it('debounces LEARN_SEARCH_CHANGED so it fires once typing settles, not on every keystroke', async () => {
     const user = userEvent.setup();
     const dispatch = renderScreen();
-    await user.type(screen.getByPlaceholderText('Search by name or description...'), 'x');
-    expect(dispatch).toHaveBeenCalledWith({ type: 'LEARN_SEARCH_CHANGED', query: 'x' });
+    const input = screen.getByPlaceholderText('Search by name or description...');
+    await user.type(input, 'x');
+    expect(dispatch).not.toHaveBeenCalledWith({ type: 'LEARN_SEARCH_CHANGED', query: 'x' });
+    await waitFor(() => {
+      expect(dispatch).toHaveBeenCalledWith({ type: 'LEARN_SEARCH_CHANGED', query: 'x' });
+    });
   });
 
   it('dispatches LEARN_CATEGORY_SELECTED when a category chip is clicked', async () => {
@@ -88,6 +100,11 @@ describe('LearnScreen', () => {
   it('shows a "no matches" hint when nothing matches', () => {
     renderScreen({ learnSearch: 'nonexistent' });
     expect(screen.getByText('No matches found.')).toBeInTheDocument();
+  });
+
+  it('lazy-loads card images so off-screen ones do not fetch immediately', () => {
+    renderScreen({ learnCategory: 'Animals' });
+    expect(screen.getByAltText('dog')).toHaveAttribute('loading', 'lazy');
   });
 
   it('shows the manifest error message instead of results, when present', () => {
@@ -120,7 +137,7 @@ describe('LearnScreen search clear button', () => {
 
 describe('LearnScreen per-group jump links', () => {
   it('lists a jump link for every item in each visible category group', () => {
-    renderScreen();
+    renderScreen({ learnSearch: 'o' });
     const animalsGroup = screen.getByRole('heading', { name: 'Animals', level: 2 }).closest('.learn-group');
     expect(within(animalsGroup).getByRole('link', { name: 'Dog' })).toBeInTheDocument();
 
@@ -129,7 +146,7 @@ describe('LearnScreen per-group jump links', () => {
   });
 
   it('a jump link points at its card via a matching #anchor id', () => {
-    renderScreen();
+    renderScreen({ learnSearch: 'o' });
     const link = screen.getByRole('link', { name: 'Dog' });
     const href = link.getAttribute('href');
     expect(href).toMatch(/^#/);
@@ -148,7 +165,7 @@ describe('LearnScreen per-group jump links', () => {
 describe('LearnScreen image lightbox', () => {
   it('opens a blown-up version of an image when it is clicked', async () => {
     const user = userEvent.setup();
-    renderScreen();
+    renderScreen({ learnCategory: 'Animals' });
     expect(document.querySelector('.lightbox-overlay')).not.toBeInTheDocument();
 
     await user.click(screen.getByAltText('dog'));
@@ -160,7 +177,7 @@ describe('LearnScreen image lightbox', () => {
 
   it('closes the lightbox via the close button, the overlay, or Escape', async () => {
     const user = userEvent.setup();
-    renderScreen();
+    renderScreen({ learnCategory: 'Animals' });
 
     await user.click(screen.getByAltText('dog'));
     await user.click(screen.getByRole('button', { name: 'Close' }));
@@ -177,7 +194,7 @@ describe('LearnScreen image lightbox', () => {
 
   it('clicking the enlarged image itself does not close the lightbox', async () => {
     const user = userEvent.setup();
-    renderScreen();
+    renderScreen({ learnCategory: 'Animals' });
 
     await user.click(screen.getByAltText('dog'));
     await user.click(document.querySelector('.lightbox-image'));

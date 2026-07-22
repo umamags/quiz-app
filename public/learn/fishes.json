@@ -1,7 +1,7 @@
 [
   {
     "name": "blue whale",
-    "description": "The blue whale is the biggest animal on Earth, so huge it can be longer than three school buses lined up!",
+    "description": "The largest animal ever known to have lived, longer than a basketball court and heavier than 30 elephants, feeding almost entirely on tiny shrimp-like krill. Its heart is the size of a small car and its low-frequency calls travel hundreds of miles underwater; despite the name it is a mammal, not a fish.",
     "images": [
       "images_downloaded/fishes/blue_whale_1_P19iVmm7XUA.jpg",
       "images_downloaded/fishes/blue_whale_2_lwACYK8ScmA.jpg",
@@ -31,11 +31,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/ocean/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/blue_whale.mp3"
   },
   {
     "name": "shark",
-    "description": "A shark is a powerful fish with rows of sharp teeth that has been swimming in the ocean since before dinosaurs existed.",
+    "description": "A cartilaginous fish whose skeleton is made of flexible cartilage rather than bone, with multiple rows of teeth that are continuously replaced through life. Sharks sense the faint electric fields of prey through pores called ampullae of Lorenzini and predate the dinosaurs by millions of years.",
     "images": [
       "images_downloaded/fishes/shark_1_GBDkr3k96DE.jpg",
       "images_downloaded/fishes/shark_2_LotoIFYVn6Q.jpg",
@@ -65,11 +66,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/small-shark-swimming-4406/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/shark.mp3"
   },
   {
     "name": "salmon",
-    "description": "A salmon is a fish famous for leaping up rushing waterfalls and rivers to swim back to where it was born.",
+    "description": "A migratory fish born in freshwater rivers that journeys to the ocean and, years later, returns to the exact stream of its birth to spawn, navigating by smell and Earth's magnetic field. Many species die shortly after spawning, feeding the whole river ecosystem.",
     "images": [
       "images_downloaded/fishes/salmon_1_kC9KUtSiflw.jpg",
       "images_downloaded/fishes/salmon_2_bpPTlXWTOvg.jpg",
@@ -99,11 +101,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/fishing/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/salmon.mp3"
   },
   {
     "name": "tuna",
-    "description": "Tuna is a large, fast-swimming fish built like a torpedo that can zoom through the ocean at amazing speeds.",
+    "description": "A powerful, warm-blooded open-ocean fish built like a torpedo, capable of bursts over 40 mph and lifelong nonstop swimming to force water over its gills. Bluefin tuna are among the most valuable fish in the world, prized for sushi.",
     "images": [
       "images_downloaded/fishes/tuna_1_aK8dFJswcKE.jpg",
       "images_downloaded/fishes/tuna_2__w-VVA8PrC0.jpg",
@@ -133,11 +136,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/fish/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/tuna.mp3"
   },
   {
     "name": "trout",
-    "description": "A trout is a freshwater fish with speckled scales that likes to swim in cool, clear rivers and streams.",
+    "description": "A cold-water relative of salmon found in clear streams and lakes, whose skin color and spotting shift to match its surroundings. Trout are sensitive to pollution, making their presence a sign of healthy water.",
     "images": [
       "images_downloaded/fishes/trout_1_E8AabnQlTlQ.jpg",
       "images_downloaded/fishes/trout_2_XV5VJzeHFTM.jpg",
@@ -167,11 +171,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/river/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/trout.mp3"
   },
   {
     "name": "catfish",
-    "description": "A catfish is a whiskered fish that uses its long feelers, called barbels, to find food on muddy riverbeds and ponds.",
+    "description": "A bottom-dwelling fish named for the whisker-like barbels around its mouth, which are packed with taste buds it uses to find food in murky water. A catfish's whole body is covered in taste receptors, effectively making it a swimming tongue.",
     "images": [
       "images_downloaded/fishes/catfish_1_aOQ4hX4KCyk.jpg",
       "images_downloaded/fishes/catfish_2_uWLvruHp8kY.jpg",
@@ -201,11 +206,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/fish/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/catfish.mp3"
   },
   {
     "name": "goldfish",
-    "description": "A goldfish is a small, bright orange pet fish that people often keep swimming in bowls or garden ponds.",
+    "description": "A domesticated carp bred in China over a thousand years ago, now the world's most popular aquarium fish. Contrary to the myth, goldfish have months-long memories and can be trained to recognize shapes and sounds.",
     "images": [
       "images_downloaded/fishes/goldfish_1_V7SKRhXskv8.jpg",
       "images_downloaded/fishes/goldfish_2_nCz_ZgnbtaE.jpg",
@@ -235,11 +241,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/goldfish-swimming-8350/",
         "durationSeconds": 22
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/goldfish.mp3"
   },
   {
     "name": "clownfish",
-    "description": "A clownfish is a small, bright orange and white fish that lives safely among the stinging arms of a sea anemone.",
+    "description": "A small reef fish immune to the stinging tentacles of sea anemones, which it lives among for protection while defending the anemone in return. All clownfish are born male, and the dominant one changes sex to become the group's breeding female.",
     "images": [
       "images_downloaded/fishes/clownfish_1_V7SKRhXskv8.jpg",
       "images_downloaded/fishes/clownfish_2_rEM3cK8F1pk.jpg",
@@ -269,11 +276,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/clown-fish-in-the-reef-7255/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/clownfish.mp3"
   },
   {
     "name": "swordfish",
-    "description": "A swordfish is a fast ocean hunter with a long, flat, pointed bill on its face that looks just like a sword.",
+    "description": "A large predatory fish that wields a long, flat bill to slash through schools of prey, and specialized muscles that warm its eyes and brain for sharper vision in cold depths. Swordfish are among the fastest swimmers in the sea.",
     "images": [
       "images_downloaded/fishes/swordfish_1_7hrNYNE7x44.jpg",
       "images_downloaded/fishes/swordfish_2_RmrJhJ0oprU.jpg",
@@ -303,11 +311,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/fish/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/swordfish.mp3"
   },
   {
     "name": "marlin",
-    "description": "A marlin is a huge, speedy ocean fish with a long spear-like bill, known for making spectacular leaps out of the water.",
+    "description": "A massive billfish and one of the ocean's fastest predators, using its spear-like bill to stun fast-moving prey. Blue marlin can exceed 1,000 pounds and are a legendary prize for big-game anglers.",
     "images": [
       "images_downloaded/fishes/marlin_1_HhQh5DyA4Ys.jpg",
       "images_downloaded/fishes/marlin_2_GCRXe8EAoRE.jpg",
@@ -337,11 +346,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/ocean/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/marlin.mp3"
   },
   {
     "name": "pufferfish",
-    "description": "",
+    "description": "A slow-swimming fish that gulps water to inflate into a spiky ball when threatened, and carries tetrodotoxin far deadlier than cyanide. Despite the poison it is served as the delicacy fugu, prepared only by specially licensed chefs.",
     "images": [
       "images_downloaded/fishes/pufferfish_1_HwehA9tWEzw.jpg",
       "images_downloaded/fishes/pufferfish_2_IKFVzqVNGK0.jpg",
@@ -357,11 +367,12 @@
         "pageUrl": "https://www.pexels.com/video/underwater-footage-of-hidden-pufferfish-in-coral-reef-32855632/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/pufferfish.mp3"
   },
   {
     "name": "angelfish",
-    "description": "",
+    "description": "A tall, laterally flattened cichlid from the Amazon, popular in aquariums for its graceful trailing fins. Angelfish pair off for life and both parents guard their eggs against intruders.",
     "images": [
       "images_downloaded/fishes/angelfish_1_t_bRgI89b_U.jpg",
       "images_downloaded/fishes/angelfish_2_YRShYRewi0M.jpg",
@@ -384,11 +395,12 @@
         "pageUrl": "https://pixabay.com/videos/id-232798/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/angelfish.mp3"
   },
   {
     "name": "betta",
-    "description": "",
+    "description": "A brilliantly colored freshwater fish from Southeast Asia, also called the Siamese fighting fish because males flare and battle over territory. Bettas breathe air at the surface using a special labyrinth organ, letting them survive in low-oxygen water.",
     "images": [
       "images_downloaded/fishes/betta_1_ECvYbWrTPNU.jpg",
       "images_downloaded/fishes/betta_2_nCz_ZgnbtaE.jpg",
@@ -411,11 +423,12 @@
         "pageUrl": "https://pixabay.com/videos/id-229520/",
         "durationSeconds": 16
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/betta.mp3"
   },
   {
     "name": "guppy",
-    "description": "",
+    "description": "A tiny, hardy livebearer that gives birth to free-swimming young rather than laying eggs, and breeds so readily it's nicknamed the 'million fish.' Males sport vivid, endlessly varied color patterns to attract mates.",
     "images": [
       "images_downloaded/fishes/guppy_1_1hjesiNcY8Y.jpg",
       "images_downloaded/fishes/guppy_2_OCfSrhLHvcI.jpg",
@@ -438,11 +451,12 @@
         "pageUrl": "https://pixabay.com/videos/id-39489/",
         "durationSeconds": 23
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/guppy.mp3"
   },
   {
     "name": "koi",
-    "description": "",
+    "description": "An ornamental variety of carp bred in Japan for striking color patterns and kept in garden ponds as living art. Koi are remarkably long-lived, with some documented at over 200 years old.",
     "images": [
       "images_downloaded/fishes/koi_1_WupU1u45AbE.jpg",
       "images_downloaded/fishes/koi_2_4QElkUC9sUQ.jpg",
@@ -465,11 +479,12 @@
         "pageUrl": "https://pixabay.com/videos/id-218931/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/koi.mp3"
   },
   {
     "name": "eel",
-    "description": "",
+    "description": "A snake-like fish that begins life as a transparent leaf-shaped larva drifting on ocean currents before transforming. European and American eels famously travel thousands of miles to spawn in the Sargasso Sea and then die.",
     "images": [
       "images_downloaded/fishes/eel_1_yBraeHiDXi8.jpg",
       "images_downloaded/fishes/eel_2_aW4Or866JuE.jpg",
@@ -492,11 +507,12 @@
         "pageUrl": "https://pixabay.com/videos/id-219676/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/eel.mp3"
   },
   {
     "name": "stingray",
-    "description": "",
+    "description": "A flattened relative of sharks that glides along the seafloor and buries in sand to ambush prey, sensing them by electric field. Its whip-like tail carries a venomous, serrated barb used only in self-defense.",
     "images": [
       "images_downloaded/fishes/stingray_1_oQtfZatKi2g.jpg",
       "images_downloaded/fishes/stingray_2_Ky3da6_hgcM.jpg",
@@ -519,11 +535,12 @@
         "pageUrl": "https://pixabay.com/videos/id-13833/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/stingray.mp3"
   },
   {
     "name": "seahorse",
-    "description": "",
+    "description": "An upright-swimming fish that anchors itself to seagrass with a prehensile tail and moves with a rapidly fluttering fin. Uniquely, the male carries the eggs in a belly pouch and gives birth to the young.",
     "images": [
       "images_downloaded/fishes/seahorse_1_fG1fdervp1E.jpg",
       "images_downloaded/fishes/seahorse_2_LkA_BtlPnwE.jpg",
@@ -546,11 +563,12 @@
         "pageUrl": "https://pixabay.com/videos/id-32136/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/seahorse.mp3"
   },
   {
     "name": "barracuda",
-    "description": "",
+    "description": "A sleek, fast ambush predator with a mouthful of dagger-like teeth that strikes prey in sudden bursts. Curious and drawn to shiny objects, large barracuda often shadow divers in tropical waters.",
     "images": [
       "images_downloaded/fishes/barracuda_1_CIV0DPeMc3w.jpg",
       "images_downloaded/fishes/barracuda_2_zkctwC_OxHU.jpg",
@@ -566,11 +584,12 @@
         "pageUrl": "https://www.pexels.com/video/solitary-barracuda-glides-in-the-clear-ocean-33026458/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/barracuda.mp3"
   },
   {
     "name": "snapper",
-    "description": "",
+    "description": "A reef and coastal fish prized for its firm, flavorful flesh, named for the audible snapping sound it makes with its jaws. Red snapper can live over 50 years.",
     "images": [
       "images_downloaded/fishes/snapper_1__O1GUZhxHWE.jpg",
       "images_downloaded/fishes/snapper_2_DJNh2DYYcc4.jpg",
@@ -586,11 +605,12 @@
         "pageUrl": "https://www.pexels.com/video/close-up-footage-of-red-northern-snapper-fishes-8354412/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/snapper.mp3"
   },
   {
     "name": "grouper",
-    "description": "",
+    "description": "A heavy-bodied reef predator that swallows prey whole by suddenly opening its cavernous mouth to create suction. Goliath groupers can reach several hundred pounds and change sex as they mature.",
     "images": [
       "images_downloaded/fishes/grouper_1_iFQE-aCAWPU.jpg",
       "images_downloaded/fishes/grouper_2_yXY16jjngpY.jpg",
@@ -613,11 +633,12 @@
         "pageUrl": "https://pixabay.com/videos/id-207996/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/grouper.mp3"
   },
   {
     "name": "mackerel",
-    "description": "",
+    "description": "A fast, streamlined schooling fish with an oily, omega-3-rich body and vivid iridescent stripes. Mackerel must keep swimming continuously to breathe and are a key food source for larger ocean predators.",
     "images": [
       "images_downloaded/fishes/mackerel_1_2AcwMjihSUw.jpg",
       "images_downloaded/fishes/mackerel_2_3NU0OTivB9E.jpg",
@@ -633,11 +654,12 @@
         "pageUrl": "https://pixabay.com/videos/id-278728/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/mackerel.mp3"
   },
   {
     "name": "sardine",
-    "description": "",
+    "description": "A small, silvery schooling fish that moves in enormous shimmering shoals as protection against predators. Sardines are rich in oils and nutrients and form the base of many marine food webs.",
     "images": [
       "images_downloaded/fishes/sardine_1_3NU0OTivB9E.jpg",
       "images_downloaded/fishes/sardine_2_PzWU7MxVJW8.jpg",
@@ -653,11 +675,12 @@
         "pageUrl": "https://www.pexels.com/video/mesmerizing-sardine-bait-ball-underwater-34046687/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/sardine.mp3"
   },
   {
     "name": "herring",
-    "description": "",
+    "description": "A small silver schooling fish central to ocean food chains and long a staple of human diets. Herring communicate by releasing bursts of bubbles and gather in shoals numbering in the billions.",
     "images": [
       "images_downloaded/fishes/herring_1_E6T7HTsNILw.jpg",
       "images_downloaded/fishes/herring_2_G2SDLsJp3rg.jpg",
@@ -673,11 +696,12 @@
         "pageUrl": "https://www.pexels.com/video/baltic-herring-swiming-underwater-17352382/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/herring.mp3"
   },
   {
     "name": "cod",
-    "description": "",
+    "description": "A cold-water bottom fish with a mild white flesh that shaped the economies and exploration history of the North Atlantic. A single female cod can release millions of eggs in one spawning season.",
     "images": [
       "images_downloaded/fishes/cod_1_QGIJUqnEpCY.jpg",
       "images_downloaded/fishes/cod_2_AnC569NdAJc.jpg",
@@ -693,11 +717,12 @@
         "pageUrl": "https://pixabay.com/videos/id-227893/",
         "durationSeconds": 21
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/cod.mp3"
   },
   {
     "name": "halibut",
-    "description": "",
+    "description": "The largest of the flatfishes, a flounder relative that lies on the ocean floor with both eyes migrated to one side of its body. Halibut can grow to hundreds of pounds and live for decades.",
     "images": [
       "images_downloaded/fishes/halibut_1_KhTywORJC74.jpg",
       "images_downloaded/fishes/halibut_2_-YKznhQ_IVw.jpg",
@@ -713,11 +738,12 @@
         "pageUrl": "https://pixabay.com/videos/id-57644/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/halibut.mp3"
   },
   {
     "name": "flounder",
-    "description": "",
+    "description": "A flatfish that starts life with an eye on each side, then has one eye migrate over as it turns to lie on the seabed. It changes color to blend into the bottom and ambushes passing prey.",
     "images": [
       "images_downloaded/fishes/flounder_1_KhTywORJC74.jpg",
       "images_downloaded/fishes/flounder_2_jS0Yfz-qQLw.jpg",
@@ -740,11 +766,12 @@
         "pageUrl": "https://pixabay.com/videos/id-184348/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/flounder.mp3"
   },
   {
     "name": "piranha",
-    "description": "",
+    "description": "A South American freshwater fish with razor-sharp interlocking teeth and a powerful bite, feeding in groups. Despite their fearsome reputation, most piranhas are opportunistic scavengers rather than aggressive hunters.",
     "images": [
       "images_downloaded/fishes/piranha_1_CVcMZ9FL99k.jpg",
       "images_downloaded/fishes/piranha_2_YjxasB28p_g.jpg",
@@ -760,11 +787,12 @@
         "pageUrl": "https://pixabay.com/videos/id-38526/",
         "durationSeconds": 23
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/piranha.mp3"
   },
   {
     "name": "carp",
-    "description": "",
+    "description": "A hardy, adaptable freshwater fish that thrives in a wide range of conditions and roots through bottom mud for food. Introduced worldwide, carp are prized in some cultures and considered invasive pests in others.",
     "images": [
       "images_downloaded/fishes/carp_1_Pcjf94H451o.jpg",
       "images_downloaded/fishes/carp_2_h_4fe8fmb1E.jpg",
@@ -780,11 +808,12 @@
         "pageUrl": "https://pixabay.com/videos/id-56241/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/carp.mp3"
   },
   {
     "name": "tilapia",
-    "description": "",
+    "description": "A fast-growing, hardy freshwater fish farmed around the world for its mild flesh and tolerance of crowded conditions. Many tilapia are mouthbrooders, sheltering their eggs and young inside the parent's mouth.",
     "images": [
       "images_downloaded/fishes/tilapia_1_mdfEaq1hqnk.jpg",
       "images_downloaded/fishes/tilapia_2_iJMX64kqJZA.jpg",
@@ -807,11 +836,12 @@
         "pageUrl": "https://pixabay.com/videos/id-272896/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/tilapia.mp3"
   },
   {
     "name": "bass",
-    "description": "",
+    "description": "A popular predatory game fish found in fresh and salt water, known for the fierce fight it puts up when hooked. Largemouth bass ambush prey from cover and are among the most sought-after sport fish.",
     "images": [
       "images_downloaded/fishes/bass_1_nUd7uq3i0qs.jpg",
       "images_downloaded/fishes/bass_2_8x_Ki1pdn0A.jpg",
@@ -834,11 +864,12 @@
         "pageUrl": "https://pixabay.com/videos/id-16901/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/bass.mp3"
   },
   {
     "name": "pike",
-    "description": "",
+    "description": "A long, torpedo-shaped freshwater ambush predator with a duck-bill snout full of backward-slanting teeth. Pike lie motionless among weeds before exploding forward to seize fish, frogs, and even ducklings.",
     "images": [
       "images_downloaded/fishes/pike_1__Ot_vuO5yMk.jpg",
       "images_downloaded/fishes/pike_2_pRb79IYtQjg.jpg",
@@ -854,11 +885,12 @@
         "pageUrl": "https://pixabay.com/videos/id-111288/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/pike.mp3"
   },
   {
     "name": "perch",
-    "description": "",
+    "description": "A spiny-finned freshwater fish with distinctive dark vertical bars, common in lakes and rivers and popular with anglers. Perch travel in schools and are prized for their flaky, mild flesh.",
     "images": [
       "images_downloaded/fishes/perch_1_y3ha3M-FDSA.jpg",
       "images_downloaded/fishes/perch_2__hWTUs2JLuI.jpg",
@@ -874,11 +906,12 @@
         "pageUrl": "https://pixabay.com/videos/id-105811/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/perch.mp3"
   },
   {
     "name": "tarpon",
-    "description": "",
+    "description": "A large, silver-scaled coastal game fish famous for leaping high out of the water when hooked. Tarpon can gulp air at the surface to survive in low-oxygen water and may live over 50 years.",
     "images": [
       "images_downloaded/fishes/tarpon_1_B9-8Tu-t2QM.jpg",
       "images_downloaded/fishes/tarpon_2_p3Ho2WIjrCg.jpg",
@@ -894,11 +927,12 @@
         "pageUrl": "https://pixabay.com/videos/id-83184/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/tarpon.mp3"
   },
   {
     "name": "sturgeon",
-    "description": "",
+    "description": "An ancient, armor-plated fish nearly unchanged for over 100 million years, with rows of bony plates instead of scales. Sturgeon can live over a century and are the source of prized caviar.",
     "images": [
       "images_downloaded/fishes/sturgeon_1_w1RhFCJjzqA.jpg",
       "images_downloaded/fishes/sturgeon_2_LEG1wjt4ZF8.jpg",
@@ -914,11 +948,12 @@
         "pageUrl": "https://www.pexels.com/video/a-sturgeon-swimming-6899912/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/sturgeon.mp3"
   },
   {
     "name": "walleye",
-    "description": "",
+    "description": "A freshwater predator named for its large, glassy eyes that gather light, letting it hunt at dawn, dusk, and in murky water. Walleye are a favorite catch for their flaky, mild fillets.",
     "images": [
       "images_downloaded/fishes/walleye_1_KhlolQB-Eqk.jpg",
       "images_downloaded/fishes/walleye_2_dwXNOpWs_rc.jpg",
@@ -934,11 +969,12 @@
         "pageUrl": "https://pixabay.com/videos/id-303618/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/walleye.mp3"
   },
   {
     "name": "mullet",
-    "description": "",
+    "description": "A schooling coastal fish that feeds by sifting algae and detritus from the bottom, and is known for leaping repeatedly from the water. Mullet are a vital baitfish and food source in warm coastal waters.",
     "images": [
       "images_downloaded/fishes/mullet_1_U9tPtU0MFHE.jpg",
       "images_downloaded/fishes/mullet_2_SmGJsVTtbsg.jpg",
@@ -954,11 +990,12 @@
         "pageUrl": "https://pixabay.com/videos/id-3428/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/mullet.mp3"
   },
   {
     "name": "lionfish",
-    "description": "",
+    "description": "A striking reef fish armed with venomous spines fanned out like a mane, native to the Indo-Pacific. An aggressive invasive species in the Atlantic and Caribbean, it devours native fish and has few natural predators there.",
     "images": [
       "images_downloaded/fishes/lionfish_1_iFKMVFKY03c.jpg",
       "images_downloaded/fishes/lionfish_2_KMrYZp6ismc.jpg",
@@ -981,11 +1018,12 @@
         "pageUrl": "https://pixabay.com/videos/id-71317/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/lionfish.mp3"
   },
   {
     "name": "moray eel",
-    "description": "",
+    "description": "A muscular reef eel that hides in crevices and grips prey with a second set of jaws hidden in its throat that shoot forward to pull food down. Its constant open-mouthed gaping is simply how it pumps water to breathe.",
     "images": [
       "images_downloaded/fishes/moray_eel_1_yBraeHiDXi8.jpg",
       "images_downloaded/fishes/moray_eel_2_RnaLI-GAK9Y.jpg",
@@ -1008,11 +1046,12 @@
         "pageUrl": "https://pixabay.com/videos/id-126190/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/moray_eel.mp3"
   },
   {
     "name": "hammerhead shark",
-    "description": "",
+    "description": "A shark whose wide, flattened head spreads its eyes and electrical sensors far apart, giving it near-360-degree vision and sharper prey detection. Hammerheads use the broad head to pin stingrays against the seabed.",
     "images": [
       "images_downloaded/fishes/hammerhead_shark_1_LotoIFYVn6Q.jpg",
       "images_downloaded/fishes/hammerhead_shark_2_ev_Hk-10Km0.jpg",
@@ -1028,11 +1067,12 @@
         "pageUrl": "https://www.pexels.com/video/egypt-red-sea-bde-looking-at-a-hammerhead-shark-from-below-27263875/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/hammerhead_shark.mp3"
   },
   {
     "name": "whale shark",
-    "description": "",
+    "description": "The largest fish in the world, a gentle giant reaching 40 feet that filters plankton and tiny fish from the water as it cruises. Each whale shark's pattern of white spots is unique, like a fingerprint.",
     "images": [
       "images_downloaded/fishes/whale_shark_1_wXt0DiISf38.jpg",
       "images_downloaded/fishes/whale_shark_2_P19iVmm7XUA.jpg",
@@ -1055,11 +1095,12 @@
         "pageUrl": "https://pixabay.com/videos/id-110313/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/whale_shark.mp3"
   },
   {
     "name": "manta ray",
-    "description": "",
+    "description": "The largest of the rays, spanning up to 29 feet, that soars through open water by flapping wing-like fins and filter-feeds on plankton. Mantas have the largest brain of any fish and appear to recognize themselves in mirrors.",
     "images": [
       "images_downloaded/fishes/manta_ray_1_vL9vTupr3FA.jpg",
       "images_downloaded/fishes/manta_ray_2_epurOEDnOnc.jpg",
@@ -1082,11 +1123,12 @@
         "pageUrl": "https://pixabay.com/videos/id-13833/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/manta_ray.mp3"
   },
   {
     "name": "discus fish",
-    "description": "",
+    "description": "A round, disc-shaped Amazonian cichlid prized in aquariums for its jewel-like colors and patterns. Discus parents secrete a nutritious mucus on their skin that their fry feed on for their first days of life.",
     "images": [
       "images_downloaded/fishes/discus_fish_1_Y_071W-6WUo.jpg",
       "images_downloaded/fishes/discus_fish_2_9QgBfezIVdg.jpg",
@@ -1109,11 +1151,12 @@
         "pageUrl": "https://pixabay.com/videos/id-218869/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/discus_fish.mp3"
   },
   {
     "name": "gourami",
-    "description": "",
+    "description": "A labyrinth fish from Southeast Asia that gulps air at the surface to breathe, letting it live in stagnant, oxygen-poor water. Many gouramis build floating nests of bubbles to hold their eggs.",
     "images": [
       "images_downloaded/fishes/gourami_1_RF8bumo7N5w.jpg",
       "images_downloaded/fishes/gourami_2_so9RAjwG0B8.jpg",
@@ -1129,11 +1172,12 @@
         "pageUrl": "https://www.pexels.com/video/white-giant-gourami-swimming-in-aquarium-35356747/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/gourami.mp3"
   },
   {
     "name": "loach",
-    "description": "",
+    "description": "A slender bottom-dwelling fish with barbels for feeling out food in sand and gravel. Some loaches are famous for reacting to changes in air pressure, earning the nickname 'weather fish.'",
     "images": [
       "images_downloaded/fishes/loach_1_wpi5eHEhA9o.jpg",
       "images_downloaded/fishes/loach_2_dln6E8DvWlo.jpg",
@@ -1147,11 +1191,12 @@
         "pageUrl": "https://pixabay.com/videos/id-230076/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/loach.mp3"
   },
   {
     "name": "dolphin",
-    "description": "",
+    "description": "A highly intelligent marine mammal, not a fish, that hunts and navigates using echolocation, bouncing clicks off objects to 'see' with sound. Dolphins call each other by signature whistles that act like names and sleep one brain-half at a time.",
     "images": [
       "images_downloaded/fishes/dolphin_1_K6kZKJOmZrk.jpg",
       "images_downloaded/fishes/dolphin_2_UaaHbkk40Ow.jpg",
@@ -1165,11 +1210,12 @@
         "pageUrl": "https://pixabay.com/videos/id-125906/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/dolphin.mp3"
   },
   {
     "name": "octopus",
-    "description": "",
+    "description": "A soft-bodied mollusk, not a fish, with three hearts, blue blood, and eight arms lined with tasting, gripping suckers. Octopuses can instantly change color and texture to vanish into their surroundings and are famous problem-solvers that open jars and escape enclosures.",
     "images": [
       "images_downloaded/fishes/octopus_1_dW0gfo__uU8.jpg",
       "images_downloaded/fishes/octopus_2_IgoMDFTKF-U.jpg",
@@ -1190,11 +1236,12 @@
         "pageUrl": "https://pixabay.com/videos/id-311062/",
         "durationSeconds": 20
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/octopus.mp3"
   },
   {
     "name": "starfish",
-    "description": "",
+    "description": "An echinoderm, not a fish, that moves on hundreds of tiny tube feet and can regrow lost arms, with some species regrowing an entire body from a single limb. It has no brain or blood and pushes its stomach out of its body to digest prey.",
     "images": [
       "images_downloaded/fishes/starfish_1_br-Xdb9KE0Q.jpg",
       "images_downloaded/fishes/starfish_2_Q0QsFdMeSKI.jpg",
@@ -1215,11 +1262,12 @@
         "pageUrl": "https://pixabay.com/videos/id-47044/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/starfish.mp3"
   },
   {
     "name": "crab",
-    "description": "",
+    "description": "A ten-legged crustacean, not a fish, encased in a hard shell it must molt to grow, and famous for walking sideways. Crabs range from pea-sized to the giant Japanese spider crab spanning over 12 feet claw to claw.",
     "images": [
       "images_downloaded/fishes/crab_1_rXDCb-Bmgdg.jpg",
       "images_downloaded/fishes/crab_2_V9ounv39B7k.jpg",
@@ -1240,6 +1288,7 @@
         "pageUrl": "https://pixabay.com/videos/id-139106/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/fishes/crab.mp3"
   }
 ]

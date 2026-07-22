@@ -1,7 +1,7 @@
 [
   {
     "name": "dog",
-    "description": "A dog is a friendly, loyal pet known for wagging its tail, barking, and loving to play fetch with its family.",
+    "description": "A domesticated canine bred into hundreds of distinct breeds, from tiny chihuahuas to massive mastiffs. Dogs read human gestures and tone better than any other animal and were the first species people domesticated, over 15,000 years ago.",
     "images": [
       "images_downloaded/animals/dog_1_yihlaRCCvd4.jpg",
       "images_downloaded/animals/dog_2_Sg3XwuEpybU.jpg",
@@ -31,11 +31,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/dog-standing-on-a-log-1555/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/dog.mp3"
   },
   {
     "name": "cat",
-    "description": "A cat is a small, independent pet with soft fur and sharp eyes, often seen grooming itself or napping in a cozy spot.",
+    "description": "A small carnivore that self-domesticated around early farming communities to hunt rodents drawn to stored grain. Cats sleep 12 to 16 hours a day, purr at frequencies linked to healing, and cannot taste sweetness.",
     "images": [
       "images_downloaded/animals/cat_1_gKXKBY-C-Dk.jpg",
       "images_downloaded/animals/cat_2_75715CVEJhI.jpg",
@@ -65,11 +66,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/close-up-of-a-cat-with-green-eyes-47243/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/cat.mp3"
   },
   {
     "name": "rabbit",
-    "description": "A rabbit is a small, fluffy animal with long ears and strong back legs that let it hop around quickly.",
+    "description": "A fast-breeding herbivore with eyes set high and wide for nearly 360-degree vision to spot predators. Rabbits eat their own soft night droppings to extract nutrients a second time, and thump their hind legs to warn the warren of danger.",
     "images": [
       "images_downloaded/animals/rabbit_1_FQbcl6nGnpU.jpg",
       "images_downloaded/animals/rabbit_2_u_kMWN-BWyU.jpg",
@@ -99,11 +101,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/rabbit-walking-through-green-grass-6977/",
         "durationSeconds": 14
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/rabbit.mp3"
   },
   {
     "name": "hamster",
-    "description": "A hamster is a tiny, round pet that loves to stuff food in its cheeks and run on its exercise wheel.",
+    "description": "A small burrowing rodent that stuffs food into expandable cheek pouches to carry back to its den. Native to the deserts of Syria and Central Asia, hamsters are solitary, nocturnal, and can run several kilometers a night on a wheel.",
     "images": [
       "images_downloaded/animals/hamster_1_adK3Vu70DEQ.jpg",
       "images_downloaded/animals/hamster_2_D_pXn7cueOs.jpg",
@@ -133,11 +136,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/pet/",
         "durationSeconds": null
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/hamster.mp3"
   },
   {
     "name": "squirrel",
-    "description": "A squirrel is a small, bushy-tailed animal that loves climbing trees and collecting nuts for winter.",
+    "description": "A bushy-tailed rodent that buries thousands of nuts each autumn and relies on spatial memory and smell to recover them. The caches it forgets sprout into new trees, making squirrels accidental forest planters.",
     "images": [
       "images_downloaded/animals/squirrel_1_S7fRAd0oTPI.jpg",
       "images_downloaded/animals/squirrel_2_Tk71SYS8UBY.jpg",
@@ -167,11 +171,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/african-ground-squirrel-eating-grass-11357/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/squirrel.mp3"
   },
   {
     "name": "kangaroo",
-    "description": "A kangaroo is a big-footed animal from Australia that hops on strong back legs and carries its baby in a pouch.",
+    "description": "A large Australian marsupial that cannot walk backward and travels by hopping, using its thick tail as a fifth limb and its tendons like springs to save energy. Newborns are the size of a jellybean and climb into the pouch to keep developing.",
     "images": [
       "images_downloaded/animals/kangaroo_1_QnFVTob4HHE.jpg",
       "images_downloaded/animals/kangaroo_2_2f33ykzzPCU.jpg",
@@ -201,11 +206,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/kangaroo-jumping-11149/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/kangaroo.mp3"
   },
   {
     "name": "koala",
-    "description": "A koala is a sleepy, furry animal from Australia that spends most of its day resting and eating eucalyptus leaves in trees.",
+    "description": "A eucalyptus-eating marsupial that sleeps up to 20 hours a day because its leafy diet yields so little energy and is toxic to most animals. Koalas have fingerprints so similar to humans' they could confuse a crime scene.",
     "images": [
       "images_downloaded/animals/koala_1_6rW-AcbSnTA.jpg",
       "images_downloaded/animals/koala_2_P3sEj29SHD8.jpg",
@@ -235,11 +241,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/koala-hanging-on-a-tree-branch-11112/",
         "durationSeconds": 25
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/koala.mp3"
   },
   {
     "name": "panda",
-    "description": "",
+    "description": "A Chinese bear that eats bamboo almost exclusively yet keeps the digestive system of a carnivore, forcing it to feed up to 14 hours a day. A 'pseudo-thumb' from an enlarged wrist bone lets it grip stalks, and newborn cubs are pink and smaller than a stick of butter.",
     "images": [
       "images_downloaded/animals/panda_1_s-fD5Tpew2k.jpg",
       "images_downloaded/animals/panda_2_e3mu-MTj7Xk.jpg",
@@ -262,11 +269,12 @@
         "pageUrl": "https://pixabay.com/videos/id-137015/",
         "durationSeconds": 38
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/panda.mp3"
   },
   {
     "name": "red panda",
-    "description": "",
+    "description": "A raccoon-sized Himalayan mammal, unrelated to the giant panda, that shares its taste for bamboo and its own false thumb. Red pandas wrap their bushy ringed tails around themselves for warmth and are the only living species in their family.",
     "images": [
       "images_downloaded/animals/red_panda_1_OyO5NDiRPMM.jpg",
       "images_downloaded/animals/red_panda_2_HKyOAZkFzRM.jpg",
@@ -289,11 +297,12 @@
         "pageUrl": "https://pixabay.com/videos/id-14840/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/red_panda.mp3"
   },
   {
     "name": "sloth",
-    "description": "",
+    "description": "A slow-moving Central and South American mammal that moves so little algae grows on its fur, providing camouflage. Sloths descend from the canopy only about once a week to defecate and can hold their breath longer than dolphins.",
     "images": [
       "images_downloaded/animals/sloth_1_GTXvpZ2eTdA.jpg",
       "images_downloaded/animals/sloth_2_na--v-QNl0M.jpg",
@@ -316,11 +325,12 @@
         "pageUrl": "https://pixabay.com/videos/id-327056/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/sloth.mp3"
   },
   {
     "name": "otter",
-    "description": "",
+    "description": "A playful semi-aquatic member of the weasel family with the densest fur of any animal, up to a million hairs per square inch, which keeps it warm without blubber. Sea otters hold hands while sleeping so they don't drift apart and use rocks as tools to crack open shellfish.",
     "images": [
       "images_downloaded/animals/otter_1_X9cBHEPO6LU.jpg",
       "images_downloaded/animals/otter_2_n8IOzK96bN4.jpg",
@@ -343,11 +353,12 @@
         "pageUrl": "https://pixabay.com/videos/id-251835/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/otter.mp3"
   },
   {
     "name": "raccoon",
-    "description": "",
+    "description": "A masked, nocturnal North American mammal with remarkably dexterous front paws and a habit of dunking food in water before eating. Highly adaptable, raccoons thrive in cities by raiding bins and can remember solutions to tasks for years.",
     "images": [
       "images_downloaded/animals/raccoon_1_6GMq7AGxNbE.jpg",
       "images_downloaded/animals/raccoon_2_IWKIHuzl-tU.jpg",
@@ -370,11 +381,12 @@
         "pageUrl": "https://pixabay.com/videos/id-228543/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/raccoon.mp3"
   },
   {
     "name": "fox",
-    "description": "",
+    "description": "A small, sharp-featured member of the dog family that hunts alone rather than in packs. Red foxes are thought to use Earth's magnetic field to judge distance when pouncing on prey hidden under snow.",
     "images": [
       "images_downloaded/animals/fox_1_xUUZcpQlqpM.jpg",
       "images_downloaded/animals/fox_2_2z3FbIm5hgs.jpg",
@@ -397,11 +409,12 @@
         "pageUrl": "https://pixabay.com/videos/id-70862/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/fox.mp3"
   },
   {
     "name": "wolf",
-    "description": "",
+    "description": "A wild canine that lives and hunts in tightly bonded family packs led by a breeding pair. Wolves coordinate hunts of prey far larger than themselves and communicate over miles with howls that carry individual identity.",
     "images": [
       "images_downloaded/animals/wolf_1_tauPAnOIGvE.jpg",
       "images_downloaded/animals/wolf_2_QZ2EQuPpQJs.jpg",
@@ -424,11 +437,12 @@
         "pageUrl": "https://pixabay.com/videos/id-171549/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/wolf.mp3"
   },
   {
     "name": "bear",
-    "description": "",
+    "description": "A large, powerful omnivore with an extraordinary sense of smell, able to detect food from miles away. Many species den through winter in a state of dormancy, slowing their heart rate dramatically without eating, drinking, or passing waste for months.",
     "images": [
       "images_downloaded/animals/bear_1_qQWV91TTBrE.jpg",
       "images_downloaded/animals/bear_2_y421kXlUOQk.jpg",
@@ -451,11 +465,12 @@
         "pageUrl": "https://pixabay.com/videos/id-89031/",
         "durationSeconds": 14
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/bear.mp3"
   },
   {
     "name": "polar bear",
-    "description": "",
+    "description": "The largest land carnivore, superbly adapted to the Arctic with black skin under translucent fur and a layer of blubber inches thick. Polar bears hunt seals from sea ice and can swim continuously for days across open water.",
     "images": [
       "images_downloaded/animals/polar_bear_1_qQWV91TTBrE.jpg",
       "images_downloaded/animals/polar_bear_2_Ec_ygZTIv_0.jpg",
@@ -478,11 +493,12 @@
         "pageUrl": "https://pixabay.com/videos/id-352513/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/polar_bear.mp3"
   },
   {
     "name": "hedgehog",
-    "description": "",
+    "description": "A small insect-eating mammal covered in thousands of stiff spines that it raises and rolls into a tight ball when threatened. Hedgehogs are nocturnal, immune to some snake venom, and lick foreign scents onto their own quills in a behavior called self-anointing.",
     "images": [
       "images_downloaded/animals/hedgehog_1_OMCgkp1oZ3Q.jpg",
       "images_downloaded/animals/hedgehog_2_D09Nooc3XQw.jpg",
@@ -505,11 +521,12 @@
         "pageUrl": "https://pixabay.com/videos/id-3877/",
         "durationSeconds": 3
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/hedgehog.mp3"
   },
   {
     "name": "chinchilla",
-    "description": "",
+    "description": "A soft-furred rodent from the high Andes with the densest fur of any land mammal, so thick that parasites cannot live in it. Chinchillas bathe in volcanic dust rather than water and can leap several feet straight up.",
     "images": [
       "images_downloaded/animals/chinchilla_1_pTnsGY06GO0.jpg",
       "images_downloaded/animals/chinchilla_2_cPrI0tXSXfw.jpg",
@@ -532,11 +549,12 @@
         "pageUrl": "https://pixabay.com/videos/id-72194/",
         "durationSeconds": 16
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/chinchilla.mp3"
   },
   {
     "name": "ferret",
-    "description": "",
+    "description": "A domesticated relative of the polecat with a long, flexible body built for chasing prey down burrows, a trait people have used for hunting rabbits for centuries. Ferrets sleep up to 18 hours a day and greet excitement with a bouncing 'weasel war dance.'",
     "images": [
       "images_downloaded/animals/ferret_1_hn0AtxarNNw.jpg",
       "images_downloaded/animals/ferret_2_FnpFMheGjH0.jpg",
@@ -559,11 +577,12 @@
         "pageUrl": "https://pixabay.com/videos/id-303254/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/ferret.mp3"
   },
   {
     "name": "hippopotamus",
-    "description": "",
+    "description": "A massive semi-aquatic African mammal that spends its days submerged to protect its skin from the sun, secreting a red oily 'sweat' that acts as sunscreen. Despite their bulk and vegetarian diet, hippos are among Africa's most dangerous animals and can outrun a human on land.",
     "images": [
       "images_downloaded/animals/hippopotamus_1_SBYsc1gsA-M.jpg",
       "images_downloaded/animals/hippopotamus_2_oZ4d_6Mtwv8.jpg",
@@ -586,11 +605,12 @@
         "pageUrl": "https://pixabay.com/videos/id-133586/",
         "durationSeconds": 13
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/hippopotamus.mp3"
   },
   {
     "name": "rhinoceros",
-    "description": "",
+    "description": "A heavy, thick-skinned herbivore whose horn is made of keratin, the same protein as hair and nails, rather than bone. Rhinos have poor eyesight but sharp hearing and smell, and are heavily poached for those horns.",
     "images": [
       "images_downloaded/animals/rhinoceros_1_jBjQA3LU9Dc.jpg",
       "images_downloaded/animals/rhinoceros_2_oxRNH9YA22s.jpg",
@@ -613,11 +633,12 @@
         "pageUrl": "https://pixabay.com/videos/id-142964/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/rhinoceros.mp3"
   },
   {
     "name": "camel",
-    "description": "",
+    "description": "A desert mammal whose humps store fat, not water, letting it go weeks without food while metabolizing the reserve. Camels tolerate large swings in body temperature, close their nostrils against sand, and can drink 30 gallons in minutes.",
     "images": [
       "images_downloaded/animals/camel_1_B-rnDwqZ_g8.jpg",
       "images_downloaded/animals/camel_2_YAIGmqV4dFc.jpg",
@@ -640,11 +661,12 @@
         "pageUrl": "https://pixabay.com/videos/id-112043/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/camel.mp3"
   },
   {
     "name": "llama",
-    "description": "",
+    "description": "A domesticated South American relative of the camel, bred by Andean peoples for thousands of years to carry loads across mountains. Llamas hum to communicate, spit to settle disputes, and are protective enough to be used as guard animals for sheep.",
     "images": [
       "images_downloaded/animals/llama_1_xgQZ1rXbYa4.jpg",
       "images_downloaded/animals/llama_2_Hc9G7owDs1s.jpg",
@@ -667,11 +689,12 @@
         "pageUrl": "https://pixabay.com/videos/id-116027/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/llama.mp3"
   },
   {
     "name": "alpaca",
-    "description": "",
+    "description": "A smaller domesticated cousin of the llama raised chiefly for its fine, hypoallergenic fleece that comes in more natural colors than almost any other fiber animal. Alpacas hum when curious or content and share a communal dung pile.",
     "images": [
       "images_downloaded/animals/alpaca_1_xgQZ1rXbYa4.jpg",
       "images_downloaded/animals/alpaca_2_w2uJboNu9Mo.jpg",
@@ -694,11 +717,12 @@
         "pageUrl": "https://pixabay.com/videos/id-120691/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/alpaca.mp3"
   },
   {
     "name": "pig",
-    "description": "",
+    "description": "A highly intelligent omnivore that can learn tricks faster than dogs and recognize its own reflection. Pigs roll in mud to cool off and protect their skin, since they have few sweat glands, and have a sense of smell keen enough to sniff out truffles.",
     "images": [
       "images_downloaded/animals/pig_1_i4XLJmlYit4.jpg",
       "images_downloaded/animals/pig_2_6y7jACxmhP8.jpg",
@@ -721,11 +745,12 @@
         "pageUrl": "https://pixabay.com/videos/id-172614/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/pig.mp3"
   },
   {
     "name": "sheep",
-    "description": "",
+    "description": "A woolly domesticated ruminant that has been raised for over 10,000 years for fleece, milk, and meat. Sheep have rectangular pupils giving wide peripheral vision, form close friendships, and can recognize dozens of individual faces.",
     "images": [
       "images_downloaded/animals/sheep_1_GHOiyov2TSQ.jpg",
       "images_downloaded/animals/sheep_2_qg8ihPPQkKo.jpg",
@@ -748,11 +773,12 @@
         "pageUrl": "https://pixabay.com/videos/id-208560/",
         "durationSeconds": 14
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/sheep.mp3"
   },
   {
     "name": "goat",
-    "description": "",
+    "description": "A sure-footed domesticated ruminant that can climb near-vertical cliffs and even trees in search of food. Goats have horizontal, rectangular pupils, are endlessly curious, and were among the first animals people domesticated.",
     "images": [
       "images_downloaded/animals/goat_1_jAMcUbsTvWE.jpg",
       "images_downloaded/animals/goat_2_xB0e8bDV4ww.jpg",
@@ -775,11 +801,12 @@
         "pageUrl": "https://pixabay.com/videos/id-112761/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/goat.mp3"
   },
   {
     "name": "cow",
-    "description": "",
+    "description": "A domesticated ruminant with a four-chambered stomach that ferments grass, regurgitating and rechewing it as cud. Cows form close friendships, become stressed when separated from preferred companions, and produce milk only after giving birth.",
     "images": [
       "images_downloaded/animals/cow_1_FquDp5N1Gw0.jpg",
       "images_downloaded/animals/cow_2_4MQtWCxUrYc.jpg",
@@ -802,11 +829,12 @@
         "pageUrl": "https://pixabay.com/videos/id-298103/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/cow.mp3"
   },
   {
     "name": "chicken",
-    "description": "",
+    "description": "The world's most numerous bird, descended from the wild jungle fowl of Southeast Asia. Chickens have a strict social 'pecking order,' can recognize over 100 individual faces, and communicate with more than 20 distinct calls.",
     "images": [
       "images_downloaded/animals/chicken_1_yEW23jxVsNI.jpg",
       "images_downloaded/animals/chicken_2_auijD19Byq8.jpg",
@@ -829,11 +857,12 @@
         "pageUrl": "https://pixabay.com/videos/id-130614/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/chicken.mp3"
   },
   {
     "name": "duck",
-    "description": "",
+    "description": "A waterbird with waterproof feathers kept oiled by a gland near the tail, and webbed feet with no nerves or blood vessels so they don't feel the cold. Ducklings imprint on the first moving thing they see, usually their mother.",
     "images": [
       "images_downloaded/animals/duck_1_kCZSzqvIei4.jpg",
       "images_downloaded/animals/duck_2_QKUN1xjwDQA.jpg",
@@ -856,11 +885,12 @@
         "pageUrl": "https://pixabay.com/videos/id-218809/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/duck.mp3"
   },
   {
     "name": "owl",
-    "description": "",
+    "description": "A silent-flying nocturnal raptor whose fringed feathers muffle sound and whose asymmetrical ears pinpoint prey by hearing alone. An owl cannot move its fixed eyes, so it rotates its head up to 270 degrees to look around.",
     "images": [
       "images_downloaded/animals/owl_1_oqYHtXrLXLo.jpg",
       "images_downloaded/animals/owl_2_UTw183oZPf0.jpg",
@@ -883,11 +913,12 @@
         "pageUrl": "https://pixabay.com/videos/id-272801/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/owl.mp3"
   },
   {
     "name": "penguin",
-    "description": "",
+    "description": "A flightless seabird of the Southern Hemisphere whose wings evolved into flippers for 'flying' underwater after fish. Penguins huddle by the thousands for warmth and many species mate with the same partner across seasons.",
     "images": [
       "images_downloaded/animals/penguin_1_Ak81Vc-kCf4.jpg",
       "images_downloaded/animals/penguin_2_9zTafGVsv-c.jpg",
@@ -910,11 +941,12 @@
         "pageUrl": "https://pixabay.com/videos/id-303793/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/penguin.mp3"
   },
   {
     "name": "cheetah",
-    "description": "",
+    "description": "The fastest land animal, sprinting up to about 70 mph in short bursts, with a flexible spine, semi-retractable claws, and a long tail for steering. Cheetahs accelerate faster than most sports cars but can only sustain the chase for seconds before overheating.",
     "images": [
       "images_downloaded/animals/cheetah_1_bcJUbYd5gTo.jpg",
       "images_downloaded/animals/cheetah_2_0SsN7jfCXps.jpg",
@@ -935,11 +967,12 @@
         "pageUrl": "https://pixabay.com/videos/id-264361/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/cheetah.mp3"
   },
   {
     "name": "lion",
-    "description": "",
+    "description": "A social big cat that lives in prides where related females do most of the cooperative hunting. A male's roar can be heard five miles away, and lions are the only cats to live in large, cohesive family groups.",
     "images": [
       "images_downloaded/animals/lion_1_6BrJCTEAT5M.jpg",
       "images_downloaded/animals/lion_2_8a7ZTFKax_I.jpg",
@@ -960,11 +993,12 @@
         "pageUrl": "https://pixabay.com/videos/id-225320/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/lion.mp3"
   },
   {
     "name": "elephant",
-    "description": "",
+    "description": "The largest land animal, using its trunk with over 40,000 muscles to breathe, drink, grasp, and greet. Elephants mourn their dead, recognize themselves in mirrors, and communicate over long distances with rumbles too low for humans to hear.",
     "images": [
       "images_downloaded/animals/elephant_1_QJbyG6O0ick.jpg",
       "images_downloaded/animals/elephant_2_P7L5011nD5s.jpg",
@@ -985,11 +1019,12 @@
         "pageUrl": "https://pixabay.com/videos/id-81760/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/elephant.mp3"
   },
   {
     "name": "giraffe",
-    "description": "",
+    "description": "The tallest living animal, whose neck holds the same seven vertebrae as a human's but each greatly elongated. A giraffe's heart is unusually powerful to pump blood up to its brain, and its 18-inch tongue is dark to resist sunburn while stripping leaves.",
     "images": [
       "images_downloaded/animals/giraffe_1_NVXY8_M1n40.jpg",
       "images_downloaded/animals/giraffe_2_LK4qTPvWdnM.jpg",
@@ -1010,11 +1045,12 @@
         "pageUrl": "https://pixabay.com/videos/id-117992/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/giraffe.mp3"
   },
   {
     "name": "zebra",
-    "description": "",
+    "description": "An African wild horse whose black-and-white stripes are unique to each individual, like fingerprints, and may deter biting flies and confuse predators. Zebras sleep standing up and post lookouts while the herd grazes.",
     "images": [
       "images_downloaded/animals/zebra_1_UgidX4V13Gc.jpg",
       "images_downloaded/animals/zebra_2_6VZC1vA-DMc.jpg",
@@ -1035,11 +1071,12 @@
         "pageUrl": "https://pixabay.com/videos/id-139196/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/zebra.mp3"
   },
   {
     "name": "tiger",
-    "description": "",
+    "description": "The largest cat species, a solitary ambush hunter whose orange-and-black stripes mark not just the fur but the skin beneath. Tigers are powerful swimmers that cool off in water, and each animal's stripe pattern is unique.",
     "images": [
       "images_downloaded/animals/tiger_1_DJ4vjcD0s0I.jpg",
       "images_downloaded/animals/tiger_2_-iZV3CqT7LM.jpg",
@@ -1062,11 +1099,12 @@
         "pageUrl": "https://pixabay.com/videos/id-354038/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/tiger.mp3"
   },
   {
     "name": "leopard",
-    "description": "",
+    "description": "A powerful, adaptable big cat that hauls kills heavier than itself into trees to keep them from lions and hyenas. Leopards are elusive nocturnal hunters whose rosette-patterned coats vary by habitat, including all-black 'panther' individuals.",
     "images": [
       "images_downloaded/animals/leopard_1_oMvtVzcFPlU.jpg",
       "images_downloaded/animals/leopard_2_0DqYWHY4GpA.jpg",
@@ -1089,11 +1127,12 @@
         "pageUrl": "https://pixabay.com/videos/id-249471/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/leopard.mp3"
   },
   {
     "name": "jaguar",
-    "description": "",
+    "description": "The largest cat in the Americas, with the strongest bite relative to size of any big cat, powerful enough to pierce turtle shells and skulls. Unlike most cats, jaguars love water and hunt caimans and fish in the rivers of the rainforest.",
     "images": [
       "images_downloaded/animals/jaguar_1_MpxAiNDevjU.jpg",
       "images_downloaded/animals/jaguar_2_QIktihNFiYY.jpg",
@@ -1116,11 +1155,12 @@
         "pageUrl": "https://pixabay.com/videos/id-4762/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/jaguar.mp3"
   },
   {
     "name": "gorilla",
-    "description": "",
+    "description": "The largest living primate, a gentle plant-eater that lives in troops led by a mature 'silverback' male. Gorillas share about 98 percent of human DNA, build fresh nests to sleep in each night, and some have learned hundreds of sign-language signs.",
     "images": [
       "images_downloaded/animals/gorilla_1_j-LQfH_zjX8.jpg",
       "images_downloaded/animals/gorilla_2_Mn_ZtgoywaI.jpg",
@@ -1143,11 +1183,12 @@
         "pageUrl": "https://pixabay.com/videos/id-131811/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/gorilla.mp3"
   },
   {
     "name": "chimpanzee",
-    "description": "",
+    "description": "One of humanity's closest living relatives, sharing about 98 percent of our DNA. Chimpanzees make and use tools, wage territorial conflicts, and pass learned behaviors between generations as distinct cultures.",
     "images": [
       "images_downloaded/animals/chimpanzee_1_pFEKeg4xjUA.jpg",
       "images_downloaded/animals/chimpanzee_2_8zdEgWg5JAA.jpg",
@@ -1170,11 +1211,12 @@
         "pageUrl": "https://pixabay.com/videos/id-339338/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/chimpanzee.mp3"
   },
   {
     "name": "deer",
-    "description": "",
+    "description": "A hoofed, cud-chewing herbivore in which males of most species grow and shed antlers every year, regrowing them faster than any other mammal bone. Deer are crepuscular, feeding at dawn and dusk, and can leap high fences from a standstill.",
     "images": [
       "images_downloaded/animals/deer_1_K_Na5gCmh38.jpg",
       "images_downloaded/animals/deer_2_favQn8WgRyk.jpg",
@@ -1197,11 +1239,12 @@
         "pageUrl": "https://pixabay.com/videos/id-200081/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/deer.mp3"
   },
   {
     "name": "moose",
-    "description": "",
+    "description": "The largest member of the deer family, a solitary browser whose bulls grow broad, palm-shaped antlers spanning six feet. Moose are strong swimmers that dive for aquatic plants and can be surprisingly aggressive despite their ungainly look.",
     "images": [
       "images_downloaded/animals/moose_1_MVIqwQvkwG4.jpg",
       "images_downloaded/animals/moose_2_fBFy2peBZxE.jpg",
@@ -1224,11 +1267,12 @@
         "pageUrl": "https://pixabay.com/videos/id-18857/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/moose.mp3"
   },
   {
     "name": "bison",
-    "description": "",
+    "description": "The heaviest land animal in North America, a shaggy grazer that once roamed the plains in herds of millions before near-extinction. Bison can run 35 mph, pivot quickly despite their bulk, and use their massive heads to plow snow off winter grass.",
     "images": [
       "images_downloaded/animals/bison_1_FXiHwsskusY.jpg",
       "images_downloaded/animals/bison_2_7ytKCC9bMYA.jpg",
@@ -1251,11 +1295,12 @@
         "pageUrl": "https://pixabay.com/videos/id-264387/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/bison.mp3"
   },
   {
     "name": "beaver",
-    "description": "",
+    "description": "A large rodent and nature's engineer, felling trees with ever-growing orange teeth to build dams and lodges that reshape whole waterways. Beavers seal their dams with mud, store fat in their scaly tails, and can stay submerged for 15 minutes.",
     "images": [
       "images_downloaded/animals/beaver_1_cHVKmOwd0A8.jpg",
       "images_downloaded/animals/beaver_2_-0gp_EB9Qqg.jpg",
@@ -1278,11 +1323,12 @@
         "pageUrl": "https://pixabay.com/videos/id-205662/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/beaver.mp3"
   },
   {
     "name": "meerkat",
-    "description": "",
+    "description": "A small, highly social mongoose of southern Africa that lives in cooperative groups where members take turns as lookout sentries. Meerkats stand upright to scan for danger, have dark eye patches that cut glare, and are immune to some scorpion venom.",
     "images": [
       "images_downloaded/animals/meerkat_1_OaU35oEP9_E.jpg",
       "images_downloaded/animals/meerkat_2_HTVUiryU9eo.jpg",
@@ -1305,11 +1351,12 @@
         "pageUrl": "https://pixabay.com/videos/id-214400/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/meerkat.mp3"
   },
   {
     "name": "armadillo",
-    "description": "",
+    "description": "A leathery-armored mammal covered in bony plates, the only living mammal with such a shell. Some species roll into a ball for defense, they can hold their breath for six minutes to cross streams, and nine-banded females almost always give birth to identical quadruplets.",
     "images": [
       "images_downloaded/animals/armadillo_1_JPeXRsEu1NY.jpg",
       "images_downloaded/animals/armadillo_2_evxQhNi9nm8.jpg",
@@ -1332,11 +1379,12 @@
         "pageUrl": "https://pixabay.com/videos/id-33710/",
         "durationSeconds": 18
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/armadillo.mp3"
   },
   {
     "name": "flamingo",
-    "description": "",
+    "description": "A tall wading bird that feeds head-down, filtering tiny algae and shrimp from shallow water with a specially shaped bill. Its pink color comes entirely from pigments in that food, and flamingos often stand on one leg to conserve body heat.",
     "images": [
       "images_downloaded/animals/flamingo_1_25JxltstHSc.jpg",
       "images_downloaded/animals/flamingo_2_wTPp323zAEw.jpg",
@@ -1359,11 +1407,12 @@
         "pageUrl": "https://pixabay.com/videos/id-109016/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/flamingo.mp3"
   },
   {
     "name": "peacock",
-    "description": "",
+    "description": "The male of the peafowl species, famous for a shimmering train of iridescent 'eye' feathers it fans and rattles to court females. The colors come from microscopic crystal-like structures that bend light rather than from pigment.",
     "images": [
       "images_downloaded/animals/peacock_1_l0bqFaNb9LM.jpg",
       "images_downloaded/animals/peacock_2_1e_lMowBFVM.jpg",
@@ -1386,11 +1435,12 @@
         "pageUrl": "https://pixabay.com/videos/id-205373/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/peacock.mp3"
   },
   {
     "name": "dolphin",
-    "description": "",
+    "description": "A highly intelligent marine mammal that navigates and hunts using echolocation, bouncing clicks off objects to 'see' with sound. Dolphins call each other by signature whistles that work like names and sleep with one half of the brain awake to keep breathing.",
     "images": [
       "images_downloaded/animals/dolphin_1_K6kZKJOmZrk.jpg",
       "images_downloaded/animals/dolphin_2_UaaHbkk40Ow.jpg",
@@ -1406,6 +1456,7 @@
         "pageUrl": "https://pixabay.com/videos/id-125906/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/animals/dolphin.mp3"
   }
 ]

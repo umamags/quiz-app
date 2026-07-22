@@ -1,7 +1,7 @@
 [
   {
     "name": "rose",
-    "description": "",
+    "description": "A thorny-stemmed shrub prized for centuries as the classic symbol of love, cultivated into thousands of varieties and colors, each carrying its own meaning. Its petals and hips are used in perfumes, teas, and cooking, and a red rose remains the flower of romance.",
     "images": [
       "images_downloaded/flowers/rose_1_gcWd0ts4RCo.jpg",
       "images_downloaded/flowers/rose_2_90srujjpqP4.jpg",
@@ -24,11 +24,12 @@
         "pageUrl": "https://pixabay.com/videos/id-215481/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/rose.mp3"
   },
   {
     "name": "tulip",
-    "description": "",
+    "description": "A cup-shaped spring bulb whose bold, saturated colors made it so coveted in 1630s Holland that a single bulb could cost more than a house, sparking 'tulip mania,' history's first speculative bubble. Uniquely among cut flowers, tulips keep growing in the vase.",
     "images": [
       "images_downloaded/flowers/tulip_1_Z-6bfsa6rD8.jpg",
       "images_downloaded/flowers/tulip_2_x4pYSbKPtzA.jpg",
@@ -51,11 +52,12 @@
         "pageUrl": "https://pixabay.com/videos/id-114980/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/tulip.mp3"
   },
   {
     "name": "sunflower",
-    "description": "",
+    "description": "A towering annual whose young flower heads track the sun across the sky, a movement called heliotropism, before settling to face east as they mature. Each 'flower' is actually thousands of tiny florets arranged in spirals, ripening into edible seeds.",
     "images": [
       "images_downloaded/flowers/sunflower_1_2IzoIHBgYAo.jpg",
       "images_downloaded/flowers/sunflower_2_5lRxNLHfZOY.jpg",
@@ -78,11 +80,12 @@
         "pageUrl": "https://pixabay.com/videos/id-223749/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/sunflower.mp3"
   },
   {
     "name": "daisy",
-    "description": "",
+    "description": "A cheerful wildflower whose name comes from 'day's eye,' as its white-petaled bloom opens at dawn and closes at dusk. What looks like one flower is really two combined: a yellow center of tiny florets ringed by white petal-florets.",
     "images": [
       "images_downloaded/flowers/daisy_1_LB3wSllhBq0.jpg",
       "images_downloaded/flowers/daisy_2__lnLMLVF3FQ.jpg",
@@ -105,11 +108,12 @@
         "pageUrl": "https://pixabay.com/videos/id-189928/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/daisy.mp3"
   },
   {
     "name": "lily",
-    "description": "",
+    "description": "An elegant bloom grown from bulbs, with large trumpet-shaped flowers and a strong fragrance, long associated with purity and often used at weddings and funerals. Its pollen stains readily and is highly toxic to cats.",
     "images": [
       "images_downloaded/flowers/lily_1_CIFXXg_kjw8.jpg",
       "images_downloaded/flowers/lily_2_01o_HP0wu_E.jpg",
@@ -132,11 +136,12 @@
         "pageUrl": "https://pixabay.com/videos/id-91127/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/lily.mp3"
   },
   {
     "name": "orchid",
-    "description": "",
+    "description": "One of the largest plant families on Earth, with over 25,000 wild species and intricate, often startlingly symmetrical blooms evolved to lure specific pollinators. The vanilla bean comes from an orchid, and some species can live for a century.",
     "images": [
       "images_downloaded/flowers/orchid_1_FP2Kf5DsSo8.jpg",
       "images_downloaded/flowers/orchid_2_PN8Un1ywbE8.jpg",
@@ -159,11 +164,12 @@
         "pageUrl": "https://pixabay.com/videos/id-216659/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/orchid.mp3"
   },
   {
     "name": "daffodil",
-    "description": "",
+    "description": "A trumpet-centered spring bulb, also called the narcissus, that is one of the first flowers to bloom after winter and a symbol of renewal and hope. Every part of the plant is toxic, and it's the emblem of several cancer charities.",
     "images": [
       "images_downloaded/flowers/daffodil_1_pvjAXegKr_w.jpg",
       "images_downloaded/flowers/daffodil_2_K_3EBdS8d_Q.jpg",
@@ -186,11 +192,12 @@
         "pageUrl": "https://pixabay.com/videos/id-74046/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/daffodil.mp3"
   },
   {
     "name": "marigold",
-    "description": "",
+    "description": "A hardy golden-orange annual with a pungent scent that gardeners plant to repel pests. Central to Mexico's Day of the Dead as the 'flower of the dead,' its petals are strung into garlands and used to guide spirits home.",
     "images": [
       "images_downloaded/flowers/marigold_1_C2FLN_sOqVw.jpg",
       "images_downloaded/flowers/marigold_2_2j8X-RpB1sM.jpg",
@@ -213,11 +220,12 @@
         "pageUrl": "https://pixabay.com/videos/id-158754/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/marigold.mp3"
   },
   {
     "name": "carnation",
-    "description": "",
+    "description": "A ruffled, clove-scented bloom that lasts remarkably long once cut, making it a florist staple in a wide range of dyed colors. It is the traditional flower of Mother's Day and a common boutonniere.",
     "images": [
       "images_downloaded/flowers/carnation_1_lWuI2fcXCjY.jpg",
       "images_downloaded/flowers/carnation_2_mbmco0lXHZ4.jpg",
@@ -240,11 +248,12 @@
         "pageUrl": "https://pixabay.com/videos/id-120987/",
         "durationSeconds": 13
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/carnation.mp3"
   },
   {
     "name": "hibiscus",
-    "description": "",
+    "description": "A tropical shrub bearing large, showy trumpet-shaped flowers that typically last just a single day. Its tart red calyces are brewed into a ruby, vitamin-C-rich tea drunk around the world, and it is the national flower of several nations.",
     "images": [
       "images_downloaded/flowers/hibiscus_1_TTaxId0Im2s.jpg",
       "images_downloaded/flowers/hibiscus_2_yFmwdScAUS8.jpg",
@@ -267,11 +276,12 @@
         "pageUrl": "https://pixabay.com/videos/id-174638/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/hibiscus.mp3"
   },
   {
     "name": "lotus",
-    "description": "",
+    "description": "An aquatic plant sacred across Asian cultures that roots in muddy pond bottoms yet raises immaculate blooms above the water, symbolizing purity and rebirth. Its leaves are so water-repellent that droplets bead and roll off, an effect scientists call the 'lotus effect.'",
     "images": [
       "images_downloaded/flowers/lotus_1_B1cJcYPoFxY.jpg",
       "images_downloaded/flowers/lotus_2_7AcMUSYRZpU.jpg",
@@ -294,11 +304,12 @@
         "pageUrl": "https://pixabay.com/videos/id-34573/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/lotus.mp3"
   },
   {
     "name": "iris",
-    "description": "",
+    "description": "A stately flower named for the Greek goddess of the rainbow, reflecting the huge range of colors it comes in, with distinctive upright petals and drooping 'falls.' Its rhizome yields orris root, a fixative used in perfume, and it is the fleur-de-lis of French heraldry.",
     "images": [
       "images_downloaded/flowers/iris_1_TXmV4YYrzxg.jpg",
       "images_downloaded/flowers/iris_2_OBtrCoiKlZo.jpg",
@@ -321,11 +332,12 @@
         "pageUrl": "https://pixabay.com/videos/id-6851/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/iris.mp3"
   },
   {
     "name": "peony",
-    "description": "",
+    "description": "A lush, many-petaled perennial with enormous fragrant blooms that can live and flower for a hundred years. Long treasured in China as a symbol of prosperity and honor, its tight buds rely on ants that feed on their sweet nectar.",
     "images": [
       "images_downloaded/flowers/peony_1_y-5pd18ETbg.jpg",
       "images_downloaded/flowers/peony_2_uXouToDHxPU.jpg",
@@ -348,11 +360,12 @@
         "pageUrl": "https://pixabay.com/videos/id-119300/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/peony.mp3"
   },
   {
     "name": "chrysanthemum",
-    "description": "",
+    "description": "A densely petaled autumn bloom, called 'mums,' that comes in countless forms and is deeply revered in East Asia, where it symbolizes the Japanese imperial throne. In parts of Europe it is strictly a funeral flower.",
     "images": [
       "images_downloaded/flowers/chrysanthemum_1_Pyx3V0XO0gU.jpg",
       "images_downloaded/flowers/chrysanthemum_2_-3oEdLeSZGo.jpg",
@@ -375,11 +388,12 @@
         "pageUrl": "https://pixabay.com/videos/id-6598/",
         "durationSeconds": 12
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/chrysanthemum.mp3"
   },
   {
     "name": "dahlia",
-    "description": "",
+    "description": "A tuberous plant native to Mexico, its national flower, prized for geometrically intricate blooms that range from tiny pompoms to dinner-plate size. Endlessly variable, dahlias come in nearly every color except true blue.",
     "images": [
       "images_downloaded/flowers/dahlia_1_GjQ9mpJg4OQ.jpg",
       "images_downloaded/flowers/dahlia_2_qF5aAkjyleo.jpg",
@@ -402,11 +416,12 @@
         "pageUrl": "https://pixabay.com/videos/id-269944/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/dahlia.mp3"
   },
   {
     "name": "poppy",
-    "description": "",
+    "description": "A delicate, papery-petaled flower that springs up on disturbed ground, famously carpeting the battlefields of World War I and becoming the enduring emblem of remembrance. Its seeds flavor breads, and one species is the source of opium.",
     "images": [
       "images_downloaded/flowers/poppy_1_lW3GHSjkNqU.jpg",
       "images_downloaded/flowers/poppy_2_L0RqBLzQq2c.jpg",
@@ -429,11 +444,12 @@
         "pageUrl": "https://pixabay.com/videos/id-43269/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/poppy.mp3"
   },
   {
     "name": "lavender",
-    "description": "",
+    "description": "A silvery-leaved Mediterranean herb with fragrant purple flower spikes long valued for its calming scent. Its essential oil is used in aromatherapy, soaps, and sleep aids, and its nectar makes a prized honey.",
     "images": [
       "images_downloaded/flowers/lavender_1_SavQfLRm4Do.jpg",
       "images_downloaded/flowers/lavender_2_NrflUuJJK0I.jpg",
@@ -456,11 +472,12 @@
         "pageUrl": "https://pixabay.com/videos/id-93272/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/lavender.mp3"
   },
   {
     "name": "jasmine",
-    "description": "",
+    "description": "A climbing shrub whose small white star-shaped flowers release an intense sweet perfume, especially at night. Its blossoms scent jasmine tea and fine perfumes, and it is a national flower of several countries.",
     "images": [
       "images_downloaded/flowers/jasmine_1_1oaQok25XCk.jpg",
       "images_downloaded/flowers/jasmine_2_CTmNS-p9RRo.jpg",
@@ -483,11 +500,12 @@
         "pageUrl": "https://pixabay.com/videos/id-213669/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/jasmine.mp3"
   },
   {
     "name": "hydrangea",
-    "description": "",
+    "description": "A shrub bearing large rounded clusters of blooms that act as a living soil test: acidic soil turns the flowers blue, while alkaline soil makes them pink. A single bush can therefore change color from year to year.",
     "images": [
       "images_downloaded/flowers/hydrangea_1_LvEOWMyr-Bc.jpg",
       "images_downloaded/flowers/hydrangea_2_M-EXwFJVQf4.jpg",
@@ -510,11 +528,12 @@
         "pageUrl": "https://pixabay.com/videos/id-269944/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/hydrangea.mp3"
   },
   {
     "name": "magnolia",
-    "description": "",
+    "description": "An ancient flowering tree so old it evolved before bees existed, with tough blooms originally pollinated by beetles. Its large, waxy, fragrant flowers appear in early spring, and the tree is emblematic of the American South.",
     "images": [
       "images_downloaded/flowers/magnolia_1_qKIGMYdJvPk.jpg",
       "images_downloaded/flowers/magnolia_2_z_IdooFSCis.jpg",
@@ -537,11 +556,12 @@
         "pageUrl": "https://pixabay.com/videos/id-74044/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/magnolia.mp3"
   },
   {
     "name": "azalea",
-    "description": "",
+    "description": "A spring-flowering shrub, a type of rhododendron, that erupts in a dense mass of vivid blossoms. Beautiful but toxic, its nectar can taint honey, and it symbolizes the fleeting nature of beauty in some cultures.",
     "images": [
       "images_downloaded/flowers/azalea_1_zCOm81dAH2E.jpg",
       "images_downloaded/flowers/azalea_2_12CBcShE1fQ.jpg",
@@ -564,11 +584,12 @@
         "pageUrl": "https://pixabay.com/videos/id-204618/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/azalea.mp3"
   },
   {
     "name": "buttercup",
-    "description": "",
+    "description": "A small, glossy yellow wildflower whose petals have a mirror-like sheen that reflects light, the source of the childhood game of holding one under the chin. The shine comes from a special reflective cell layer, and the plant is toxic to grazing animals.",
     "images": [
       "images_downloaded/flowers/buttercup_1_ExbkxeAZ840.jpg",
       "images_downloaded/flowers/buttercup_2_13lDTcs-fak.jpg",
@@ -591,11 +612,12 @@
         "pageUrl": "https://pixabay.com/videos/id-74038/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/buttercup.mp3"
   },
   {
     "name": "violet",
-    "description": "",
+    "description": "A low-growing plant with small heart-shaped leaves and delicate purple-blue flowers, prized since antiquity for its sweet scent and used in perfumes and candied sweets. Curiously, its fragrance briefly numbs the sense of smell.",
     "images": [
       "images_downloaded/flowers/violet_1_DqN0niGVZ1w.jpg",
       "images_downloaded/flowers/violet_2_nEczFlV-GMI.jpg",
@@ -618,11 +640,12 @@
         "pageUrl": "https://pixabay.com/videos/id-9616/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/violet.mp3"
   },
   {
     "name": "pansy",
-    "description": "",
+    "description": "A cheerful cool-season flower with overlapping petals patterned like a little face, bred from wild violets. Its blooms are edible, and its name comes from the French 'pens\u00e9e,' meaning thought.",
     "images": [
       "images_downloaded/flowers/pansy_1_SEb_dSAqBTg.jpg",
       "images_downloaded/flowers/pansy_2_3Fco2l-S9aI.jpg",
@@ -645,11 +668,12 @@
         "pageUrl": "https://pixabay.com/videos/id-182648/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/pansy.mp3"
   },
   {
     "name": "snapdragon",
-    "description": "",
+    "description": "A tall spike of pouched blossoms that snap open and shut like a dragon's mouth when gently squeezed, a favorite trick for children. Only strong pollinators like bumblebees can pry the flowers open, and the spent seed pods resemble tiny skulls.",
     "images": [
       "images_downloaded/flowers/snapdragon_1_bVO1ggAFwwM.jpg",
       "images_downloaded/flowers/snapdragon_2_LV2azhrKlKc.jpg",
@@ -665,11 +689,12 @@
         "pageUrl": "https://pixabay.com/videos/id-166689/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/snapdragon.mp3"
   },
   {
     "name": "zinnia",
-    "description": "",
+    "description": "A vibrant, easy-to-grow annual that blooms in nearly every color and keeps flowering all summer, drawing butterflies. In 2016 a zinnia became one of the first flowers ever grown and bloomed aboard the International Space Station.",
     "images": [
       "images_downloaded/flowers/zinnia_1_ykyGnY3If2w.jpg",
       "images_downloaded/flowers/zinnia_2_yDnRlKYFziY.jpg",
@@ -692,11 +717,12 @@
         "pageUrl": "https://pixabay.com/videos/id-144441/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/zinnia.mp3"
   },
   {
     "name": "camellia",
-    "description": "",
+    "description": "A handsome evergreen shrub with rose-like blooms that flower in the cold of late winter when little else does. One species, Camellia sinensis, is the plant from which all true tea, black, green, and white, is made.",
     "images": [
       "images_downloaded/flowers/camellia_1_fQXuvHNNtW8.jpg",
       "images_downloaded/flowers/camellia_2_LS5RKdYhpbY.jpg",
@@ -719,11 +745,12 @@
         "pageUrl": "https://pixabay.com/videos/id-112694/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/camellia.mp3"
   },
   {
     "name": "morning glory",
-    "description": "",
+    "description": "A fast-climbing vine whose trumpet-shaped flowers unfurl at dawn and wither by afternoon, giving it its name. Its blooms shift color with the soil's acidity, and its seeds are toxic.",
     "images": [
       "images_downloaded/flowers/morning_glory_1_eQ3CmFLjzxA.jpg",
       "images_downloaded/flowers/morning_glory_2_EP7kBYETAm8.jpg",
@@ -746,11 +773,12 @@
         "pageUrl": "https://pixabay.com/videos/id-363523/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/morning_glory.mp3"
   },
   {
     "name": "water lily",
-    "description": "",
+    "description": "An aquatic perennial rooted in pond mud whose round leaf pads and star-like flowers float on the surface, opening and closing with the day. It inspired Claude Monet's most famous series of paintings and is the national flower of Bangladesh.",
     "images": [
       "images_downloaded/flowers/water_lily_1_7AcMUSYRZpU.jpg",
       "images_downloaded/flowers/water_lily_2_BekDDAMRdTY.jpg",
@@ -773,11 +801,12 @@
         "pageUrl": "https://pixabay.com/videos/id-149530/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/water_lily.mp3"
   },
   {
     "name": "tiger lily",
-    "description": "",
+    "description": "A tall lily bearing downward-facing orange blooms speckled with dark spots and dramatically curled-back petals. Tiny dark bulbils form along its stem, letting it reproduce without seeds, and its buds are eaten as a vegetable in East Asia.",
     "images": [
       "images_downloaded/flowers/tiger_lily_1_H46PSViFAnw.jpg",
       "images_downloaded/flowers/tiger_lily_2_MUJa0G6ITbU.jpg",
@@ -800,11 +829,12 @@
         "pageUrl": "https://pixabay.com/videos/id-173766/",
         "durationSeconds": 11
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/tiger_lily.mp3"
   },
   {
     "name": "cherry blossom",
-    "description": "",
+    "description": "The fleeting pink-white bloom of ornamental cherry trees, called sakura in Japan, where its brief spring flowering symbolizes the beauty and impermanence of life. Crowds gather for hanami, the tradition of picnicking beneath the blossoms.",
     "images": [
       "images_downloaded/flowers/cherry_blossom_1_McsNra2VRQQ.jpg",
       "images_downloaded/flowers/cherry_blossom_2_lFTtQqVfx6g.jpg",
@@ -827,11 +857,12 @@
         "pageUrl": "https://pixabay.com/videos/id-74039/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/cherry_blossom.mp3"
   },
   {
     "name": "bluebell",
-    "description": "",
+    "description": "A woodland bulb that carpets European forests in a haze of nodding, bell-shaped violet-blue flowers each spring. A protected species in the UK, it is steeped in folklore as a fairy flower.",
     "images": [
       "images_downloaded/flowers/bluebell_1_-9eiRQkbZJc.jpg",
       "images_downloaded/flowers/bluebell_2_ikgmBELD7PQ.jpg",
@@ -854,11 +885,12 @@
         "pageUrl": "https://pixabay.com/videos/id-39164/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/bluebell.mp3"
   },
   {
     "name": "crocus",
-    "description": "",
+    "description": "A tiny, cup-shaped bulb that is among the very first flowers to push through late-winter snow. One autumn-blooming species yields saffron, the world's most expensive spice, hand-harvested from just three red stigmas per flower.",
     "images": [
       "images_downloaded/flowers/crocus_1_XEOCB-Jn9Lc.jpg",
       "images_downloaded/flowers/crocus_2_7HBzbOGzx8w.jpg",
@@ -881,11 +913,12 @@
         "pageUrl": "https://pixabay.com/videos/id-155298/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/crocus.mp3"
   },
   {
     "name": "hyacinth",
-    "description": "",
+    "description": "A spring bulb that produces a dense, cone-shaped spike of waxy, star-shaped flowers with an exceptionally strong, sweet fragrance. Grown in tight clusters, its blooms come in vivid blues, purples, pinks, and whites.",
     "images": [
       "images_downloaded/flowers/hyacinth_1_MkN60s4NFvo.jpg",
       "images_downloaded/flowers/hyacinth_2_lVwxTalyApM.jpg",
@@ -908,6 +941,7 @@
         "pageUrl": "https://pixabay.com/videos/id-46754/",
         "durationSeconds": 8
       }
-    ]
+    ],
+    "audio_desc": "audio/flowers/hyacinth.mp3"
   }
 ]

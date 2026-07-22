@@ -1,31 +1,31 @@
-Item,col2,json_generated_ts
-Dementor,2026-07-20 12:47:22,
-Hippogriff,2026-07-20 12:55:49,
-Basilisk,2026-07-20 12:55:50,
-Phoenix,2026-07-20 12:55:51,2026-07-21 14:18:28
-Dragon,2026-07-20 12:55:52,2026-07-21 14:18:31
-Werewolf,2026-07-20 12:55:53,2026-07-21 14:18:33
-Troll,2026-07-20 12:55:55,2026-07-21 14:18:35
-Thestral,2026-07-20 12:55:56,
-Unicorn,2026-07-20 12:55:57,2026-07-21 14:18:39
-Wand,2026-07-20 12:55:58,2026-07-21 14:18:41
-Broomstick,2026-07-20 12:55:59,2026-07-21 14:18:43
-Sorting Hat,2026-07-20 12:56:00,2026-07-21 14:18:45
-Invisibility Cloak,2026-07-20 12:56:01,
-Golden Snitch,2026-07-20 12:56:01,
-Marauders Map,2026-07-20 12:56:03,
-Hogwarts,2026-07-20 12:56:04,2026-07-21 14:18:51
-Quidditch,2026-07-20 12:56:05,
-Diagon Alley,2026-07-20 12:56:07,
-Platform Nine and Three-Quarters,2026-07-20 12:56:07,
-Chocolate Frog,2026-07-20 12:56:09,
-Butterbeer,2026-07-20 12:56:10,
-Bertie Bott's Every Flavour Beans,2026-07-20 12:56:11,
-Time Turner,2026-07-20 12:56:12,
-Pensieve,2026-07-20 12:56:12,
-Cauldron,2026-07-20 12:56:13,2026-07-21 14:19:04
-Spellbook,2026-07-20 12:56:14,
-Wizard Hat,2026-07-20 12:56:15,
-Owl,2026-07-20 12:56:16,2026-07-21 14:19:09
-Hogwarts Express,2026-07-20 12:56:17,2026-07-21 14:19:11
-Great Hall,2026-07-21 15:29:22,
+Item,col2,json_generated_ts,description,audio_generated_ts
+Dementor,2026-07-20 12:47:22,,"A soulless, cloaked wraith that guards Azkaban prison and feeds on human happiness, leaving cold and despair in its wake. Its ultimate weapon is the Kiss, which sucks out a victim's soul; the only defense is the Patronus Charm.",2026-07-22 15:54:50
+Hippogriff,2026-07-20 12:55:49,,"A proud, eagle-headed, horse-bodied creature that demands courtesy and will only allow those who bow respectfully to approach. Buckbeak, Hagrid's hippogriff, famously carried Harry on flight and later helped Sirius Black escape.",2026-07-22 15:54:51
+Basilisk,2026-07-20 12:55:50,,"A giant serpent bred by dark wizards whose direct gaze kills instantly, while its reflection merely petrifies. The monster of Slytherin's Chamber of Secrets, it was slain by Harry with the sword of Gryffindor, and its venom is one of the few things that can destroy a Horcrux.",2026-07-22 15:54:52
+Phoenix,2026-07-20 12:55:51,2026-07-21 14:18:28,"An immortal crimson-and-gold bird that bursts into flame and is reborn from its own ashes, with tears that heal grievous wounds. Dumbledore's phoenix, Fawkes, aided Harry in the Chamber of Secrets, and its tail feathers cored both Harry's and Voldemort's wands.",2026-07-22 15:54:52
+Dragon,2026-07-20 12:55:52,2026-07-21 14:18:31,"A colossal fire-breathing beast and one of the wizarding world's most dangerous creatures, guarded as a class of highly restricted magical animal. Harry faced a Hungarian Horntail in the Triwizard Tournament, and the trio later escaped Gringotts on the back of a blind Ukrainian Ironbelly.",2026-07-22 15:54:53
+Werewolf,2026-07-20 12:55:53,2026-07-21 14:18:33,"A person cursed to transform into a savage wolf under the full moon, losing all human awareness during the change. Professor Remus Lupin managed his condition with Wolfsbane Potion, while the vicious Fenrir Greyback deliberately spread the affliction.",2026-07-22 15:54:53
+Troll,2026-07-20 12:55:55,2026-07-21 14:18:35,"A huge, dim-witted and immensely strong creature that reeks and wields a massive club. One was let into Hogwarts on Halloween in Harry's first year, and defeating it together in a bathroom cemented the friendship of Harry, Ron, and Hermione.",2026-07-22 15:54:54
+Thestral,2026-07-20 12:55:56,,"A skeletal, winged horse visible only to those who have witnessed death, which makes it seem eerie or invisible to everyone else. Thestrals pull the Hogwarts carriages and carried the students to the Ministry of Magic in Order of the Phoenix.",2026-07-22 15:54:54
+Unicorn,2026-07-20 12:55:57,2026-07-21 14:18:39,"A pure silver-white horse whose blood can keep a person alive even at death's door, though slaying so innocent a creature brings a terrible curse. In Harry's first year, Voldemort survived by drinking unicorn blood in the Forbidden Forest.",2026-07-22 15:54:55
+Wand,2026-07-20 12:55:58,2026-07-21 14:18:41,"A witch or wizard's most essential tool, each one uniquely matched to its owner with a magical core such as phoenix feather, dragon heartstring, or unicorn hair. The Ollivanders adage holds that the wand chooses the wizard, and Harry's shares a phoenix-feather core with Voldemort's.",2026-07-22 15:54:56
+Broomstick,2026-07-20 12:55:59,2026-07-21 14:18:43,"The classic mode of wizarding flight and the equipment of Quidditch, ranging from school-issue models to racing brooms. Harry's prized Firebolt, a gift from his godfather Sirius, was among the fastest brooms ever made.",2026-07-22 15:54:56
+Sorting Hat,2026-07-20 12:56:00,2026-07-21 14:18:45,"The ancient, talking hat of Godric Gryffindor that reads a new student's mind and assigns them to Gryffindor, Slytherin, Hufflepuff, or Ravenclaw. It sings a fresh song each year and controversially considered placing Harry in Slytherin.",2026-07-22 15:54:57
+Invisibility Cloak,2026-07-20 12:56:01,,"A flawless garment that renders its wearer completely unseen, inherited by Harry from his father James. Unlike ordinary cloaks that fade over time, it is revealed to be one of the three Deathly Hallows, passed down through the Peverell line.",2026-07-22 15:54:57
+Golden Snitch,2026-07-20 12:56:01,,"A tiny, winged golden ball and the most important target in Quidditch; catching it earns 150 points and usually ends the match. Dumbledore bequeathed one to Harry, having hidden the Resurrection Stone inside it, sealed with the words 'I open at the close.'",2026-07-22 15:54:58
+Marauders Map,2026-07-20 12:56:03,,"An enchanted parchment that reveals every corridor, room, and secret passage of Hogwarts, along with the real-time location of everyone inside. Created by Moony, Wormtail, Padfoot, and Prongs, it is activated by the phrase 'I solemnly swear that I am up to no good.'",2026-07-22 15:54:59
+Hogwarts,2026-07-20 12:56:04,2026-07-21 14:18:51,"The centuries-old School of Witchcraft and Wizardry, a vast Scottish castle full of moving staircases, ghosts, and hidden rooms, hidden from Muggles by powerful enchantments. Its four houses were founded by Gryffindor, Slytherin, Hufflepuff, and Ravenclaw.",2026-07-22 15:54:59
+Quidditch,2026-07-20 12:56:05,,"The beloved wizarding sport played on flying broomsticks with four balls and seven players a side, including Chasers, Beaters, a Keeper, and a Seeker. Harry became Gryffindor's youngest Seeker in a century, chasing the elusive Golden Snitch.",2026-07-22 15:55:00
+Diagon Alley,2026-07-20 12:56:07,,"The hidden cobblestoned shopping street in London where witches and wizards buy wands, robes, books, and supplies, entered by tapping bricks behind the Leaky Cauldron. It is home to Ollivanders, Gringotts Wizarding Bank, and the Weasleys' joke shop.",2026-07-22 15:55:01
+Platform Nine and Three-Quarters,2026-07-20 12:56:07,,The concealed railway platform at King's Cross Station reached by walking straight through the solid barrier between platforms nine and ten. From here the Hogwarts Express departs at eleven o'clock each September the first.,2026-07-22 15:55:01
+Chocolate Frog,2026-07-20 12:56:09,,"A popular wizarding sweet that hops like a real frog and comes packaged with a collectible card of a famous witch or wizard. Harry's very first card featured Albus Dumbledore, whose portrait, like all the cards, can wander off.",2026-07-22 15:55:02
+Butterbeer,2026-07-20 12:56:10,,"A warm, frothy, faintly alcoholic beverage tasting of butterscotch, wildly popular among students visiting Hogsmeade. Served at the Three Broomsticks and the Hog's Head, it is only mildly intoxicating to humans but leaves house-elves quite tipsy.",2026-07-22 15:55:02
+Bertie Bott's Every Flavour Beans,2026-07-20 12:56:11,,"A wizarding candy of genuinely every flavour imaginable, from chocolate and peppermint to spinach, earwax, and vomit. Dumbledore recalls a youthful misfortune with a vomit-flavoured one, making every handful a gamble.",2026-07-22 15:55:03
+Time Turner,2026-07-20 12:56:12,,"A tiny hourglass on a necklace that lets its wearer travel back a few hours in time by turning it. Hermione secretly used one to attend extra classes, and the trio used it to rescue Buckbeak and Sirius in Prisoner of Azkaban.",2026-07-22 15:55:03
+Pensieve,2026-07-20 12:56:12,,"A shallow stone basin used to store and revisit memories, which can be drawn from the mind as silvery threads and poured in to be relived. Dumbledore used his to share crucial memories of Voldemort's past with Harry.",2026-07-22 15:55:04
+Cauldron,2026-07-20 12:56:13,2026-07-21 14:19:04,"The standard pewter pot in which potions are brewed, a required item for every first-year student. Correct stirring, timing, and ingredients in the cauldron are the difference between a cure and a disaster in Potions class.",2026-07-22 15:55:04
+Spellbook,2026-07-20 12:56:14,,"A textbook of magical incantations and instructions, such as 'The Standard Book of Spells,' essential to a young witch or wizard's studies. Harry's old Potions copy, annotated by the mysterious Half-Blood Prince, made him unexpectedly brilliant at the subject.",2026-07-22 15:55:05
+Wizard Hat,2026-07-20 12:56:15,,"The traditional tall, pointed hat worn as part of formal wizarding dress and the Hogwarts school uniform. It is the everyday counterpart to enchanted headwear like the Sorting Hat.",2026-07-22 15:55:06
+Owl,2026-07-20 12:56:16,2026-07-21 14:19:09,"The wizarding world's preferred messenger, delivering letters and parcels reliably across any distance. Harry's snowy owl Hedwig was a loyal companion and his very first birthday gift from Hagrid.",2026-07-22 15:55:06
+Hogwarts Express,2026-07-20 12:56:17,2026-07-21 14:19:11,"The scarlet steam train that carries students from Platform Nine and Three-Quarters to Hogwarts at the start of each school year. Many friendships begin in its compartments, including Harry's first meeting with Ron and Hermione.",2026-07-22 15:55:07
+Great Hall,2026-07-21 15:29:22,,"The grand ceremonial heart of Hogwarts, where students dine at four long house tables beneath a ceiling enchanted to mirror the sky outside. It hosts the Sorting ceremony, feasts, and floats thousands of candles in midair.",2026-07-22 15:55:07

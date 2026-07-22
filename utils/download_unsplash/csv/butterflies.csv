@@ -1,36 +1,36 @@
-butterfly,downloaded_ts,json_generated_ts
-monarch,2026-07-21 14:30:05,2026-07-21 14:32:39
-swallowtail,2026-07-21 14:30:09,2026-07-21 14:32:41
-painted lady,2026-07-21 14:30:10,2026-07-21 14:32:44
-red admiral,2026-07-21 14:30:12,2026-07-21 14:32:46
-mourning cloak,2026-07-21 14:30:16,
-blue morpho,2026-07-21 14:30:18,
-viceroy,2026-07-21 14:30:20,
-cabbage white,2026-07-21 14:30:22,2026-07-21 14:32:53
-common buckeye,2026-07-21 14:30:25,
-american copper,2026-07-21 14:30:27,
-zebra longwing,2026-07-21 14:30:30,
-gulf fritillary,2026-07-21 14:30:32,2026-07-21 14:33:00
-question mark,2026-07-21 14:30:34,2026-07-21 14:33:03
-comma,2026-07-21 14:30:37,2026-07-21 14:33:05
-clouded sulphur,2026-07-21 14:30:40,
-orange sulphur,2026-07-21 14:30:42,
-black swallowtail,2026-07-21 14:30:44,2026-07-21 14:33:11
-tiger swallowtail,2026-07-21 14:30:46,
-spicebush swallowtail,2026-07-21 14:30:48,2026-07-21 14:33:15
-pipevine swallowtail,2026-07-21 15:28:53,
-giant swallowtail,2026-07-21 15:28:55,
-great spangled fritillary,2026-07-21 15:28:58,
-silver-spotted skipper,2026-07-21 15:29:01,
-cloudless sulphur,2026-07-21 15:29:03,
-checkered white,2026-07-21 15:29:05,2026-07-21 15:31:51
-common wood nymph,2026-07-21 15:29:07,
-peacock butterfly,2026-07-21 15:29:09,2026-07-21 15:31:55
-small tortoiseshell,2026-07-21 15:29:11,
-common blue,2026-07-21 15:29:12,
-purple emperor,2026-07-21 15:29:15,
-white admiral,2026-07-21 15:29:16,
-speckled wood,2026-07-21 15:29:17,
-red lacewing,2026-07-21 15:29:18,
-owl butterfly,2026-07-21 15:29:20,
-glasswing butterfly,2026-07-21 15:29:21,
+butterfly,downloaded_ts,json_generated_ts,description,audio_generated_ts
+monarch,2026-07-21 14:30:05,2026-07-21 14:32:39,"A famous orange-and-black butterfly whose eastern population migrates up to 3,000 miles to overwinter in the same Mexican fir forests, a journey spanning several generations. Its caterpillars feed only on milkweed, storing toxins that make the adults poisonous to predators.",2026-07-22 15:53:13
+swallowtail,2026-07-21 14:30:09,2026-07-21 14:32:41,"A large, showy family of butterflies named for the tail-like extensions on their hind wings that resemble a swallow's forked tail. Their caterpillars defend themselves with a forked, foul-smelling gland called an osmeterium that flips out like an orange horn.",2026-07-22 15:53:13
+painted lady,2026-07-21 14:30:10,2026-07-21 14:32:44,"The most widespread butterfly in the world, found on every continent except Antarctica and Australia, undertaking epic multi-generational migrations of thousands of miles. Its caterpillars feed on thistles, giving it the alternate name 'thistle butterfly.'",2026-07-22 15:53:14
+red admiral,2026-07-21 14:30:12,2026-07-21 14:32:46,"A fast, territorial butterfly with velvety black wings slashed by bold red-orange bands and white spots. Fond of tree sap and rotting fruit, males aggressively patrol and chase intruders from their chosen patch each afternoon.",2026-07-22 15:53:14
+mourning cloak,2026-07-21 14:30:16,,"A dark maroon butterfly edged with a pale yellow border, named for its resemblance to a traditional cloak worn in mourning. Unusually long-lived, it hibernates as an adult through winter and is often one of the first butterflies seen in early spring.",2026-07-22 15:53:15
+blue morpho,2026-07-21 14:30:18,,"A large tropical butterfly of Central and South America whose brilliant metallic-blue wings shimmer not from pigment but from microscopic scales that scatter light. The undersides are dull brown with eyespots, so it flashes on and off as it flies.",2026-07-22 15:53:15
+viceroy,2026-07-21 14:30:20,,"An orange-and-black butterfly that mimics the toxic monarch to deter predators, though it is itself distasteful, an example of mutual mimicry. It can be told apart by a black line crossing its hind wings.",2026-07-22 15:53:16
+cabbage white,2026-07-21 14:30:22,2026-07-21 14:32:53,"A common small white butterfly with black wingtip spots, one of the most familiar in gardens worldwide. Introduced widely, its green caterpillars are a notorious pest of cabbage, broccoli, and other brassica crops.",2026-07-22 15:53:16
+common buckeye,2026-07-21 14:30:25,,"A brown butterfly marked with large, striking multicolored eyespots meant to startle or misdirect predators. It prefers open sunny areas and migrates southward in large numbers in autumn.",2026-07-22 15:53:17
+american copper,2026-07-21 14:30:27,,"A tiny, fast-flying butterfly with bright coppery-orange forewings dotted with dark spots. Feisty and territorial despite its small size, it darts out to challenge passing insects from its perch.",2026-07-22 15:53:18
+zebra longwing,2026-07-21 14:30:30,,"A slow, graceful black butterfly striped with pale yellow bands, the state butterfly of Florida. Uniquely, it eats pollen as well as nectar, which extends its lifespan to several months, and it roosts communally at night.",2026-07-22 15:53:18
+gulf fritillary,2026-07-21 14:30:32,2026-07-21 14:33:00,"A brilliant orange butterfly with elongated wings whose undersides gleam with iridescent silver spots. Its caterpillars feed on passionflower vines, absorbing compounds that make them distasteful to birds.",2026-07-22 15:53:19
+question mark,2026-07-21 14:30:34,2026-07-21 14:33:03,"An orange-brown anglewing butterfly named for a tiny silver punctuation-like mark on its hind wing underside. With ragged wing edges resembling a dead leaf, it vanishes against tree bark when it folds its wings.",2026-07-22 15:53:19
+comma,2026-07-21 14:30:37,2026-07-21 14:33:05,"An anglewing butterfly with jagged wing margins and a small white comma-shaped mark beneath, giving it its name. Its ragged, leaf-like silhouette provides excellent camouflage when at rest.",2026-07-22 15:53:20
+clouded sulphur,2026-07-21 14:30:40,,"A common yellow butterfly of fields and roadsides, often seen puddling in groups at damp ground to sip minerals. Some females occur in a white form, and the wings reflect ultraviolet patterns invisible to us but used in courtship.",2026-07-22 15:53:20
+orange sulphur,2026-07-21 14:30:42,,"A yellow-orange meadow butterfly, also called the alfalfa butterfly, whose caterpillars can be a pest of clover and alfalfa crops. Males show a bright ultraviolet sheen used to attract mates.",2026-07-22 15:53:21
+black swallowtail,2026-07-21 14:30:44,2026-07-21 14:33:11,"A dark swallowtail dusted with rows of yellow and blue spots, common in eastern North America. Its caterpillars feed on carrot-family plants like parsley, dill, and fennel, earning it the name 'parsley worm.'",2026-07-22 15:53:21
+tiger swallowtail,2026-07-21 14:30:46,,"A large yellow butterfly boldly striped with black like a tiger, a familiar sight across eastern North America. Some females mimic the toxic pipevine swallowtail by appearing in an all-dark form for protection.",2026-07-22 15:53:22
+spicebush swallowtail,2026-07-21 14:30:48,2026-07-21 14:33:15,"A dark swallowtail with a bluish-green sheen on its hind wings that mimics the poisonous pipevine swallowtail. Its caterpillar is famous for large fake eyespots that make it resemble a small snake, and it folds leaves into shelters.",2026-07-22 15:53:23
+pipevine swallowtail,2026-07-21 15:28:53,,"An iridescent blue-black swallowtail whose caterpillars feed on toxic pipevine plants, making both larvae and adults poisonous. So effective is its defense that several other butterfly species mimic its appearance.",2026-07-22 15:53:23
+giant swallowtail,2026-07-21 15:28:55,,"The largest butterfly in North America, with a wingspan that can exceed six inches and dramatic yellow bands across dark wings. Its bird-dropping-mimicking caterpillar, the 'orange dog,' feeds on citrus trees.",2026-07-22 15:53:24
+great spangled fritillary,2026-07-21 15:28:58,,"A large orange butterfly whose hind wing undersides are spangled with brilliant silver spots. Its caterpillars feed only on violets, hatching in autumn and hibernating tiny until the plants sprout in spring.",2026-07-22 15:53:24
+silver-spotted skipper,2026-07-21 15:29:01,,"A fast, darting skipper with a bold silvery-white patch on each hind wing underside and a stout, moth-like body. Its caterpillar builds a leaf shelter and can fling its droppings surprising distances to avoid attracting predators.",2026-07-22 15:53:25
+cloudless sulphur,2026-07-21 15:29:03,,"A large, clear lemon-yellow butterfly that migrates south in great numbers each autumn across the southern United States. Strong and fast, it favors deep tubular red flowers that many other butterflies cannot reach.",2026-07-22 15:53:25
+checkered white,2026-07-21 15:29:05,2026-07-21 15:31:51,"A white butterfly patterned with a checkerboard of gray-brown markings, more heavily marked in females and spring-brood individuals. It favors open, disturbed habitats and its caterpillars feed on mustard-family plants.",2026-07-22 15:53:26
+common wood nymph,2026-07-21 15:29:07,,"A soft brown woodland butterfly bearing two prominent eyespots on each forewing, often set in a yellow patch. It flies with a bobbing motion through grassy clearings and shady edges.",2026-07-22 15:53:26
+peacock butterfly,2026-07-21 15:29:09,2026-07-21 15:31:55,"A striking Eurasian butterfly with a large, vivid eyespot on each of its four wings that it flashes to startle predators. When threatened it can also rub its wings together to produce a hissing sound.",2026-07-22 15:53:27
+small tortoiseshell,2026-07-21 15:29:11,,"A common European butterfly with orange wings patterned in black, yellow, and a border of blue crescents. It hibernates as an adult, often in sheds and houses, and is one of the first butterflies on the wing in spring.",2026-07-22 15:53:28
+common blue,2026-07-21 15:29:12,,"A small butterfly whose males flash brilliant violet-blue wings while females are brown with orange spots. Widespread across Europe and Asia, its caterpillars are often tended and protected by ants.",2026-07-22 15:53:28
+purple emperor,2026-07-21 15:29:15,,"A large, elusive woodland butterfly whose males shimmer with an iridescent purple sheen visible only at certain angles. Rather than nectar, it feeds on tree sap, dung, and carrion high in the treetops.",2026-07-22 15:53:29
+white admiral,2026-07-21 15:29:16,,"A dark butterfly with a bold white band sweeping across each wing, gliding elegantly through woodland glades. Its caterpillars overwinter tucked inside a rolled honeysuckle leaf called a hibernaculum.",2026-07-22 15:53:29
+speckled wood,2026-07-21 15:29:17,,"A brown woodland butterfly dappled with cream spots, perfectly camouflaged in the shifting patches of sun and shade where it lives. Males defend sunlit spots and spiral upward in aerial duels with rivals.",2026-07-22 15:53:30
+red lacewing,2026-07-21 15:29:18,,"A vivid crimson tropical butterfly of Asia with intricate black-and-white lacework patterning its wing edges. Its caterpillars feed on passionflower vines and are covered in branching, spiky defensive projections.",2026-07-22 15:53:30
+owl butterfly,2026-07-21 15:29:20,,"A large tropical butterfly whose hind wings bear enormous eyespots resembling an owl's eyes, likely startling or misdirecting predators. Active at dusk, it feeds on rotting fruit rather than flowers.",2026-07-22 15:53:31
+glasswing butterfly,2026-07-21 15:29:21,,"A tropical butterfly whose wings are almost entirely transparent, lacking the colored scales of other species so light passes straight through. This natural invisibility helps it hide from predators as it flies through the rainforest.",2026-07-22 15:53:31

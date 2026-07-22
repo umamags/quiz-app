@@ -1,7 +1,7 @@
 [
   {
     "name": "monarch",
-    "description": "",
+    "description": "A famous orange-and-black butterfly whose eastern population migrates up to 3,000 miles to overwinter in the same Mexican fir forests, a journey spanning several generations. Its caterpillars feed only on milkweed, storing toxins that make the adults poisonous to predators.",
     "images": [
       "images_downloaded/butterflies/monarch_1_Ho93gVTRWW8.jpg",
       "images_downloaded/butterflies/monarch_2_mC2mAodvrws.jpg",
@@ -24,11 +24,12 @@
         "pageUrl": "https://pixabay.com/videos/id-8907/",
         "durationSeconds": 2
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/monarch.mp3"
   },
   {
     "name": "swallowtail",
-    "description": "",
+    "description": "A large, showy family of butterflies named for the tail-like extensions on their hind wings that resemble a swallow's forked tail. Their caterpillars defend themselves with a forked, foul-smelling gland called an osmeterium that flips out like an orange horn.",
     "images": [
       "images_downloaded/butterflies/swallowtail_1_YQowAT4WV5w.jpg",
       "images_downloaded/butterflies/swallowtail_2_BalQoga3b_w.jpg",
@@ -51,11 +52,12 @@
         "pageUrl": "https://pixabay.com/videos/id-17018/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/swallowtail.mp3"
   },
   {
     "name": "painted lady",
-    "description": "",
+    "description": "The most widespread butterfly in the world, found on every continent except Antarctica and Australia, undertaking epic multi-generational migrations of thousands of miles. Its caterpillars feed on thistles, giving it the alternate name 'thistle butterfly.'",
     "images": [
       "images_downloaded/butterflies/painted_lady_1_lodFdan_V48.jpg",
       "images_downloaded/butterflies/painted_lady_2_4PP8zWjaH0g.jpg",
@@ -78,11 +80,12 @@
         "pageUrl": "https://pixabay.com/videos/id-216/",
         "durationSeconds": 4
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/painted_lady.mp3"
   },
   {
     "name": "red admiral",
-    "description": "",
+    "description": "A fast, territorial butterfly with velvety black wings slashed by bold red-orange bands and white spots. Fond of tree sap and rotting fruit, males aggressively patrol and chase intruders from their chosen patch each afternoon.",
     "images": [
       "images_downloaded/butterflies/red_admiral_1_hB3y60FU4j4.jpg",
       "images_downloaded/butterflies/red_admiral_2_cm3XU_fvxuo.jpg",
@@ -98,11 +101,12 @@
         "pageUrl": "https://pixabay.com/videos/id-282218/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/red_admiral.mp3"
   },
   {
     "name": "cabbage white",
-    "description": "",
+    "description": "A common small white butterfly with black wingtip spots, one of the most familiar in gardens worldwide. Introduced widely, its green caterpillars are a notorious pest of cabbage, broccoli, and other brassica crops.",
     "images": [
       "images_downloaded/butterflies/cabbage_white_1_anuYvnFtdq4.jpg",
       "images_downloaded/butterflies/cabbage_white_2_P6DTdO4Y25w.jpg",
@@ -118,11 +122,12 @@
         "pageUrl": "https://pixabay.com/videos/id-138826/",
         "durationSeconds": 18
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/cabbage_white.mp3"
   },
   {
     "name": "gulf fritillary",
-    "description": "",
+    "description": "A brilliant orange butterfly with elongated wings whose undersides gleam with iridescent silver spots. Its caterpillars feed on passionflower vines, absorbing compounds that make them distasteful to birds.",
     "images": [
       "images_downloaded/butterflies/gulf_fritillary_1_U6g-EK-RuhU.jpg",
       "images_downloaded/butterflies/gulf_fritillary_2_0eRFFHUYvEY.jpg",
@@ -138,11 +143,12 @@
         "pageUrl": "https://pixabay.com/videos/id-301603/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/gulf_fritillary.mp3"
   },
   {
     "name": "question mark",
-    "description": "",
+    "description": "An orange-brown anglewing butterfly named for a tiny silver punctuation-like mark on its hind wing underside. With ragged wing edges resembling a dead leaf, it vanishes against tree bark when it folds its wings.",
     "images": [
       "images_downloaded/butterflies/question_mark_1_oZuBNC-6E2s.jpg",
       "images_downloaded/butterflies/question_mark_2_49uySSA678U.jpg",
@@ -165,11 +171,12 @@
         "pageUrl": "https://pixabay.com/videos/id-545/",
         "durationSeconds": 3
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/question_mark.mp3"
   },
   {
     "name": "comma",
-    "description": "",
+    "description": "An anglewing butterfly with jagged wing margins and a small white comma-shaped mark beneath, giving it its name. Its ragged, leaf-like silhouette provides excellent camouflage when at rest.",
     "images": [
       "images_downloaded/butterflies/comma_1_S7GcgdI7WjQ.jpg",
       "images_downloaded/butterflies/comma_2_e5ueEisVV-8.jpg",
@@ -185,11 +192,12 @@
         "pageUrl": "https://pixabay.com/videos/id-22408/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/comma.mp3"
   },
   {
     "name": "black swallowtail",
-    "description": "",
+    "description": "A dark swallowtail dusted with rows of yellow and blue spots, common in eastern North America. Its caterpillars feed on carrot-family plants like parsley, dill, and fennel, earning it the name 'parsley worm.'",
     "images": [
       "images_downloaded/butterflies/black_swallowtail_1_BalQoga3b_w.jpg",
       "images_downloaded/butterflies/black_swallowtail_2_5gNILi5JePo.jpg",
@@ -212,11 +220,12 @@
         "pageUrl": "https://pixabay.com/videos/id-43325/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/black_swallowtail.mp3"
   },
   {
     "name": "spicebush swallowtail",
-    "description": "",
+    "description": "A dark swallowtail with a bluish-green sheen on its hind wings that mimics the poisonous pipevine swallowtail. Its caterpillar is famous for large fake eyespots that make it resemble a small snake, and it folds leaves into shelters.",
     "images": [
       "images_downloaded/butterflies/spicebush_swallowtail_1_BalQoga3b_w.jpg",
       "images_downloaded/butterflies/spicebush_swallowtail_2_5gNILi5JePo.jpg",
@@ -232,11 +241,12 @@
         "pageUrl": "https://pixabay.com/videos/id-43325/",
         "durationSeconds": 9
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/spicebush_swallowtail.mp3"
   },
   {
     "name": "checkered white",
-    "description": "",
+    "description": "A white butterfly patterned with a checkerboard of gray-brown markings, more heavily marked in females and spring-brood individuals. It favors open, disturbed habitats and its caterpillars feed on mustard-family plants.",
     "images": [
       "images_downloaded/butterflies/checkered_white_1_3Dikj9IeINg.jpg",
       "images_downloaded/butterflies/checkered_white_2_tAkGTjLr164.jpg",
@@ -252,11 +262,12 @@
         "pageUrl": "https://pixabay.com/videos/id-401/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/checkered_white.mp3"
   },
   {
     "name": "peacock butterfly",
-    "description": "",
+    "description": "A striking Eurasian butterfly with a large, vivid eyespot on each of its four wings that it flashes to startle predators. When threatened it can also rub its wings together to produce a hissing sound.",
     "images": [
       "images_downloaded/butterflies/peacock_butterfly_1_shoE2y51uX0.jpg",
       "images_downloaded/butterflies/peacock_butterfly_2_f8JYQPq45uI.jpg",
@@ -279,6 +290,7 @@
         "pageUrl": "https://pixabay.com/videos/id-311468/",
         "durationSeconds": 10
       }
-    ]
+    ],
+    "audio_desc": "audio/butterflies/peacock_butterfly.mp3"
   }
 ]

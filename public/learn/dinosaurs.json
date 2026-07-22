@@ -1,7 +1,7 @@
 [
   {
     "name": "tyrannosaurus rex",
-    "description": "Tyrannosaurus rex was a giant meat-eating dinosaur with tiny arms, powerful legs, and a huge mouth full of sharp teeth.",
+    "description": "One of the largest land predators ever, with a bone-crushing bite estimated at over 12,000 pounds of force and banana-sized serrated teeth. Its tiny two-fingered arms remain a puzzle, but its keen sense of smell and forward-facing eyes made it a formidable hunter of Late Cretaceous North America.",
     "images": [
       "images_downloaded/dinosaurs/tyrannosaurus_rex_1_hYKG311mff8.jpg",
       "images_downloaded/dinosaurs/tyrannosaurus_rex_2_uCjSKIl__0s.jpg",
@@ -31,11 +31,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/young-boy-playing-with-a-toy-dinosaur-11438/",
         "durationSeconds": 7
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/tyrannosaurus_rex.mp3"
   },
   {
     "name": "velociraptor",
-    "description": "Velociraptor was a small, fast dinosaur that hunted in packs and had sharp claws on its feet.",
+    "description": "A turkey-sized, feathered predator from Cretaceous Mongolia, far smaller than films portray, that killed with a large sickle-shaped claw on each foot. A famous fossil preserves one locked in combat with a Protoceratops, buried mid-fight by a collapsing dune.",
     "images": [
       "images_downloaded/dinosaurs/velociraptor_1_4EU2Zlh8F08.jpg",
       "images_downloaded/dinosaurs/velociraptor_2_qp6tMGpC3Gk.jpg",
@@ -65,11 +66,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/excavating-dinosaur-bones-with-a-brush-45129/",
         "durationSeconds": 13
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/velociraptor.mp3"
   },
   {
     "name": "triceratops",
-    "description": "Triceratops was a plant-eating dinosaur with three horns on its face and a large bony frill around its neck.",
+    "description": "A massive horned herbivore with three facial horns and a broad bony frill, using its parrot-like beak and rows of shearing teeth to crop tough plants. Its skull could reach nearly a third of its body length, among the largest of any land animal.",
     "images": [
       "images_downloaded/dinosaurs/triceratops_1_tYGyFKx7Deo.jpg",
       "images_downloaded/dinosaurs/triceratops_2_aavl5e7QWOg.jpg",
@@ -99,11 +101,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/children-excavating-dinosaur-bones-45131/",
         "durationSeconds": 22
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/triceratops.mp3"
   },
   {
     "name": "stegosaurus",
-    "description": "Stegosaurus was a plant-eating dinosaur with large bony plates along its back and sharp spikes on its tail.",
+    "description": "A plant-eater instantly recognized by the double row of tall plates along its back and the spiked tail, nicknamed the 'thagomizer,' used for defense. Despite its bus-sized body, its brain was only about the size of a walnut.",
     "images": [
       "images_downloaded/dinosaurs/stegosaurus_1_fwULOOEWHto.jpg",
       "images_downloaded/dinosaurs/stegosaurus_2_VlBXAe6JO7Q.jpg",
@@ -133,11 +136,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/paleontologist-studying-a-dinosaur-skull-24297/",
         "durationSeconds": 14
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/stegosaurus.mp3"
   },
   {
     "name": "brachiosaurus",
-    "description": "Brachiosaurus was a huge, long-necked dinosaur that ate leaves from the tops of tall trees.",
+    "description": "A giant long-necked sauropod that, unlike most, had longer front legs, raising its head like a living crane to browse treetops. Its nostrils sat high on its skull, and it may have weighed as much as a dozen elephants.",
     "images": [
       "images_downloaded/dinosaurs/brachiosaurus_1_yqC4CN7_I68.jpg",
       "images_downloaded/dinosaurs/brachiosaurus_2_IJVxB1gSL6o.jpg",
@@ -167,11 +171,12 @@
         "pageUrl": "https://mixkit.co/free-stock-video/close-up-of-brushing-sand-of-bones-47456/",
         "durationSeconds": 15
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/brachiosaurus.mp3"
   },
   {
     "name": "diplodocus",
-    "description": "",
+    "description": "One of the longest dinosaurs known, stretching about 85 feet with much of that length in an enormous neck and whip-like tail it may have cracked to ward off attackers. Peg-like teeth at the front of its mouth stripped leaves from branches.",
     "images": [
       "images_downloaded/dinosaurs/diplodocus_1_W0-3v369lrE.jpg",
       "images_downloaded/dinosaurs/diplodocus_2_-THnRu6tKnY.jpg",
@@ -187,11 +192,12 @@
         "pageUrl": "https://pixabay.com/videos/id-58798/",
         "durationSeconds": 14
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/diplodocus.mp3"
   },
   {
     "name": "spinosaurus",
-    "description": "",
+    "description": "A sail-backed predator larger than T. rex and the first dinosaur known to be semi-aquatic, with a crocodile-like snout and paddle tail for hunting fish. The tall spines along its back supported a striking sail of skin.",
     "images": [
       "images_downloaded/dinosaurs/spinosaurus_1_IJVxB1gSL6o.jpg",
       "images_downloaded/dinosaurs/spinosaurus_2_CiT4hrqUm0I.jpg",
@@ -207,11 +213,12 @@
         "pageUrl": "https://www.pexels.com/video/a-footage-of-spinosaurus-6314638/",
         "durationSeconds": 19
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/spinosaurus.mp3"
   },
   {
     "name": "pterodactyl",
-    "description": "",
+    "description": "A flying reptile (technically Pterodactylus), not a dinosaur, that soared on membranous wings stretched over an elongated fourth finger. It was among the first pterosaurs discovered and had a long beak lined with fine teeth.",
     "images": [
       "images_downloaded/dinosaurs/pterodactyl_1_OJPgnE6CwL0.jpg",
       "images_downloaded/dinosaurs/pterodactyl_2_UdyyTpg2a2I.jpg",
@@ -227,11 +234,12 @@
         "pageUrl": "https://pixabay.com/videos/id-114652/",
         "durationSeconds": 5
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/pterodactyl.mp3"
   },
   {
     "name": "brontosaurus",
-    "description": "",
+    "description": "A huge long-necked sauropod whose name means 'thunder lizard,' once thought to be the same as Apatosaurus but now recognized as its own genus. It carried its long neck and tail as counterbalances over a massive, pillar-legged body.",
     "images": [
       "images_downloaded/dinosaurs/brontosaurus_1_x-JNASSWc34.jpg",
       "images_downloaded/dinosaurs/brontosaurus_2_XfQ3t7AGTv0.jpg",
@@ -247,6 +255,7 @@
         "pageUrl": "https://pixabay.com/videos/id-348653/",
         "durationSeconds": 6
       }
-    ]
+    ],
+    "audio_desc": "audio/dinosaurs/brontosaurus.mp3"
   }
 ]
