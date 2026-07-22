@@ -1,53 +1,53 @@
-animals,downloaded_ts,json_generated_ts
-dog,2026-07-18 19:21:16,2026-07-20 15:30:00
-cat,2026-07-18 19:21:17,2026-07-20 15:30:00
-rabbit,2026-07-18 19:21:18,2026-07-20 17:30:00
-hamster,2026-07-18 19:21:20,2026-07-20 17:30:00
-squirrel,2026-07-18 19:21:21,2026-07-20 17:30:00
-kangaroo,2026-07-18 19:21:22,2026-07-20 17:30:00
-koala,2026-07-18 19:21:23,2026-07-20 17:30:00
-panda,2026-07-18 19:21:24,2026-07-21 09:39:57
-red panda,2026-07-18 19:21:25,2026-07-21 09:40:00
-sloth,2026-07-18 19:21:26,2026-07-21 09:49:28
-otter,2026-07-18 19:21:27,2026-07-21 09:49:29
-raccoon,2026-07-18 19:21:28,2026-07-21 09:49:31
-fox,2026-07-18 19:21:29,2026-07-21 09:49:32
-wolf,2026-07-18 19:21:30,2026-07-21 09:49:34
-bear,2026-07-18 19:21:31,2026-07-21 09:45:33
-polar bear,2026-07-18 19:21:31,2026-07-21 09:45:35
-hedgehog,2026-07-18 19:21:33,2026-07-21 09:49:35
-chinchilla,2026-07-18 19:21:34,2026-07-21 15:29:43
-ferret,2026-07-18 19:21:35,2026-07-21 15:29:46
-hippopotamus,2026-07-18 19:21:36,2026-07-21 15:29:48
-rhinoceros,2026-07-18 19:21:37,2026-07-21 15:30:01
-camel,2026-07-18 19:21:38,2026-07-21 15:30:03
-llama,2026-07-18 19:21:39,2026-07-21 15:30:06
-alpaca,2026-07-18 19:21:40,2026-07-21 15:30:08
-pig,2026-07-18 19:21:41,2026-07-21 15:30:10
-sheep,2026-07-18 19:21:42,2026-07-21 15:30:12
-goat,2026-07-18 19:21:43,2026-07-21 15:30:15
-cow,2026-07-18 19:21:43,2026-07-21 15:30:32
-chicken,2026-07-18 19:21:44,2026-07-21 15:30:34
-duck,2026-07-18 19:21:46,2026-07-21 15:30:37
-owl,2026-07-18 19:21:46,2026-07-21 15:30:38
-penguin,2026-07-18 19:21:47,2026-07-21 15:30:41
-cheetah,2026-07-18 21:15:02,2026-07-21 15:30:44
-lion,2026-07-18 21:15:02,2026-07-21 15:30:47
-elephant,2026-07-18 21:15:03,2026-07-21 15:30:49
-giraffe,2026-07-18 21:15:04,2026-07-21 15:30:51
-zebra,2026-07-18 21:15:04,2026-07-21 15:30:54
-tiger,2026-07-20 12:32:31,2026-07-21 15:30:56
-leopard,2026-07-20 12:32:32,2026-07-21 15:30:58
-jaguar,2026-07-20 12:32:33,2026-07-21 15:31:00
-gorilla,2026-07-20 12:32:35,2026-07-21 15:31:03
-chimpanzee,2026-07-20 12:32:36,2026-07-21 15:31:05
-deer,2026-07-20 12:32:38,2026-07-21 15:31:07
-moose,2026-07-20 12:32:39,2026-07-21 15:31:09
-bison,2026-07-20 12:32:40,2026-07-21 15:31:12
-beaver,2026-07-20 12:32:41,2026-07-21 15:31:14
-meerkat,2026-07-20 12:32:42,2026-07-21 15:31:16
-armadillo,2026-07-20 12:32:43,2026-07-21 15:31:18
-platypus,2026-07-20 12:32:44,
-flamingo,2026-07-20 12:32:45,2026-07-21 15:31:23
-peacock,2026-07-20 12:32:46,2026-07-21 15:31:26
-dolphin,2026-07-20 12:32:47,2026-07-21 15:31:27
+animals,downloaded_ts,json_generated_ts,description
+dog,2026-07-18 19:21:16,2026-07-20 15:30:00,"A domesticated canine bred into hundreds of distinct breeds, from tiny chihuahuas to massive mastiffs. Dogs read human gestures and tone better than any other animal and were the first species people domesticated, over 15,000 years ago."
+cat,2026-07-18 19:21:17,2026-07-20 15:30:00,"A small carnivore that self-domesticated around early farming communities to hunt rodents drawn to stored grain. Cats sleep 12 to 16 hours a day, purr at frequencies linked to healing, and cannot taste sweetness."
+rabbit,2026-07-18 19:21:18,2026-07-20 17:30:00,"A fast-breeding herbivore with eyes set high and wide for nearly 360-degree vision to spot predators. Rabbits eat their own soft night droppings to extract nutrients a second time, and thump their hind legs to warn the warren of danger."
+hamster,2026-07-18 19:21:20,2026-07-20 17:30:00,"A small burrowing rodent that stuffs food into expandable cheek pouches to carry back to its den. Native to the deserts of Syria and Central Asia, hamsters are solitary, nocturnal, and can run several kilometers a night on a wheel."
+squirrel,2026-07-18 19:21:21,2026-07-20 17:30:00,"A bushy-tailed rodent that buries thousands of nuts each autumn and relies on spatial memory and smell to recover them. The caches it forgets sprout into new trees, making squirrels accidental forest planters."
+kangaroo,2026-07-18 19:21:22,2026-07-20 17:30:00,"A large Australian marsupial that cannot walk backward and travels by hopping, using its thick tail as a fifth limb and its tendons like springs to save energy. Newborns are the size of a jellybean and climb into the pouch to keep developing."
+koala,2026-07-18 19:21:23,2026-07-20 17:30:00,A eucalyptus-eating marsupial that sleeps up to 20 hours a day because its leafy diet yields so little energy and is toxic to most animals. Koalas have fingerprints so similar to humans' they could confuse a crime scene.
+panda,2026-07-18 19:21:24,2026-07-21 09:39:57,"A Chinese bear that eats bamboo almost exclusively yet keeps the digestive system of a carnivore, forcing it to feed up to 14 hours a day. A 'pseudo-thumb' from an enlarged wrist bone lets it grip stalks, and newborn cubs are pink and smaller than a stick of butter."
+red panda,2026-07-18 19:21:25,2026-07-21 09:40:00,"A raccoon-sized Himalayan mammal, unrelated to the giant panda, that shares its taste for bamboo and its own false thumb. Red pandas wrap their bushy ringed tails around themselves for warmth and are the only living species in their family."
+sloth,2026-07-18 19:21:26,2026-07-21 09:49:28,"A slow-moving Central and South American mammal that moves so little algae grows on its fur, providing camouflage. Sloths descend from the canopy only about once a week to defecate and can hold their breath longer than dolphins."
+otter,2026-07-18 19:21:27,2026-07-21 09:49:29,"A playful semi-aquatic member of the weasel family with the densest fur of any animal, up to a million hairs per square inch, which keeps it warm without blubber. Sea otters hold hands while sleeping so they don't drift apart and use rocks as tools to crack open shellfish."
+raccoon,2026-07-18 19:21:28,2026-07-21 09:49:31,"A masked, nocturnal North American mammal with remarkably dexterous front paws and a habit of dunking food in water before eating. Highly adaptable, raccoons thrive in cities by raiding bins and can remember solutions to tasks for years."
+fox,2026-07-18 19:21:29,2026-07-21 09:49:32,"A small, sharp-featured member of the dog family that hunts alone rather than in packs. Red foxes are thought to use Earth's magnetic field to judge distance when pouncing on prey hidden under snow."
+wolf,2026-07-18 19:21:30,2026-07-21 09:49:34,A wild canine that lives and hunts in tightly bonded family packs led by a breeding pair. Wolves coordinate hunts of prey far larger than themselves and communicate over miles with howls that carry individual identity.
+bear,2026-07-18 19:21:31,2026-07-21 09:45:33,"A large, powerful omnivore with an extraordinary sense of smell, able to detect food from miles away. Many species den through winter in a state of dormancy, slowing their heart rate dramatically without eating, drinking, or passing waste for months."
+polar bear,2026-07-18 19:21:31,2026-07-21 09:45:35,"The largest land carnivore, superbly adapted to the Arctic with black skin under translucent fur and a layer of blubber inches thick. Polar bears hunt seals from sea ice and can swim continuously for days across open water."
+hedgehog,2026-07-18 19:21:33,2026-07-21 09:49:35,"A small insect-eating mammal covered in thousands of stiff spines that it raises and rolls into a tight ball when threatened. Hedgehogs are nocturnal, immune to some snake venom, and lick foreign scents onto their own quills in a behavior called self-anointing."
+chinchilla,2026-07-18 19:21:34,2026-07-21 15:29:43,"A soft-furred rodent from the high Andes with the densest fur of any land mammal, so thick that parasites cannot live in it. Chinchillas bathe in volcanic dust rather than water and can leap several feet straight up."
+ferret,2026-07-18 19:21:35,2026-07-21 15:29:46,"A domesticated relative of the polecat with a long, flexible body built for chasing prey down burrows, a trait people have used for hunting rabbits for centuries. Ferrets sleep up to 18 hours a day and greet excitement with a bouncing 'weasel war dance.'"
+hippopotamus,2026-07-18 19:21:36,2026-07-21 15:29:48,"A massive semi-aquatic African mammal that spends its days submerged to protect its skin from the sun, secreting a red oily 'sweat' that acts as sunscreen. Despite their bulk and vegetarian diet, hippos are among Africa's most dangerous animals and can outrun a human on land."
+rhinoceros,2026-07-18 19:21:37,2026-07-21 15:30:01,"A heavy, thick-skinned herbivore whose horn is made of keratin, the same protein as hair and nails, rather than bone. Rhinos have poor eyesight but sharp hearing and smell, and are heavily poached for those horns."
+camel,2026-07-18 19:21:38,2026-07-21 15:30:03,"A desert mammal whose humps store fat, not water, letting it go weeks without food while metabolizing the reserve. Camels tolerate large swings in body temperature, close their nostrils against sand, and can drink 30 gallons in minutes."
+llama,2026-07-18 19:21:39,2026-07-21 15:30:06,"A domesticated South American relative of the camel, bred by Andean peoples for thousands of years to carry loads across mountains. Llamas hum to communicate, spit to settle disputes, and are protective enough to be used as guard animals for sheep."
+alpaca,2026-07-18 19:21:40,2026-07-21 15:30:08,"A smaller domesticated cousin of the llama raised chiefly for its fine, hypoallergenic fleece that comes in more natural colors than almost any other fiber animal. Alpacas hum when curious or content and share a communal dung pile."
+pig,2026-07-18 19:21:41,2026-07-21 15:30:10,"A highly intelligent omnivore that can learn tricks faster than dogs and recognize its own reflection. Pigs roll in mud to cool off and protect their skin, since they have few sweat glands, and have a sense of smell keen enough to sniff out truffles."
+sheep,2026-07-18 19:21:42,2026-07-21 15:30:12,"A woolly domesticated ruminant that has been raised for over 10,000 years for fleece, milk, and meat. Sheep have rectangular pupils giving wide peripheral vision, form close friendships, and can recognize dozens of individual faces."
+goat,2026-07-18 19:21:43,2026-07-21 15:30:15,"A sure-footed domesticated ruminant that can climb near-vertical cliffs and even trees in search of food. Goats have horizontal, rectangular pupils, are endlessly curious, and were among the first animals people domesticated."
+cow,2026-07-18 19:21:43,2026-07-21 15:30:32,"A domesticated ruminant with a four-chambered stomach that ferments grass, regurgitating and rechewing it as cud. Cows form close friendships, become stressed when separated from preferred companions, and produce milk only after giving birth."
+chicken,2026-07-18 19:21:44,2026-07-21 15:30:34,"The world's most numerous bird, descended from the wild jungle fowl of Southeast Asia. Chickens have a strict social 'pecking order,' can recognize over 100 individual faces, and communicate with more than 20 distinct calls."
+duck,2026-07-18 19:21:46,2026-07-21 15:30:37,"A waterbird with waterproof feathers kept oiled by a gland near the tail, and webbed feet with no nerves or blood vessels so they don't feel the cold. Ducklings imprint on the first moving thing they see, usually their mother."
+owl,2026-07-18 19:21:46,2026-07-21 15:30:38,"A silent-flying nocturnal raptor whose fringed feathers muffle sound and whose asymmetrical ears pinpoint prey by hearing alone. An owl cannot move its fixed eyes, so it rotates its head up to 270 degrees to look around."
+penguin,2026-07-18 19:21:47,2026-07-21 15:30:41,A flightless seabird of the Southern Hemisphere whose wings evolved into flippers for 'flying' underwater after fish. Penguins huddle by the thousands for warmth and many species mate with the same partner across seasons.
+cheetah,2026-07-18 21:15:02,2026-07-21 15:30:44,"The fastest land animal, sprinting up to about 70 mph in short bursts, with a flexible spine, semi-retractable claws, and a long tail for steering. Cheetahs accelerate faster than most sports cars but can only sustain the chase for seconds before overheating."
+lion,2026-07-18 21:15:02,2026-07-21 15:30:47,"A social big cat that lives in prides where related females do most of the cooperative hunting. A male's roar can be heard five miles away, and lions are the only cats to live in large, cohesive family groups."
+elephant,2026-07-18 21:15:03,2026-07-21 15:30:49,"The largest land animal, using its trunk with over 40,000 muscles to breathe, drink, grasp, and greet. Elephants mourn their dead, recognize themselves in mirrors, and communicate over long distances with rumbles too low for humans to hear."
+giraffe,2026-07-18 21:15:04,2026-07-21 15:30:51,"The tallest living animal, whose neck holds the same seven vertebrae as a human's but each greatly elongated. A giraffe's heart is unusually powerful to pump blood up to its brain, and its 18-inch tongue is dark to resist sunburn while stripping leaves."
+zebra,2026-07-18 21:15:04,2026-07-21 15:30:54,"An African wild horse whose black-and-white stripes are unique to each individual, like fingerprints, and may deter biting flies and confuse predators. Zebras sleep standing up and post lookouts while the herd grazes."
+tiger,2026-07-20 12:32:31,2026-07-21 15:30:56,"The largest cat species, a solitary ambush hunter whose orange-and-black stripes mark not just the fur but the skin beneath. Tigers are powerful swimmers that cool off in water, and each animal's stripe pattern is unique."
+leopard,2026-07-20 12:32:32,2026-07-21 15:30:58,"A powerful, adaptable big cat that hauls kills heavier than itself into trees to keep them from lions and hyenas. Leopards are elusive nocturnal hunters whose rosette-patterned coats vary by habitat, including all-black 'panther' individuals."
+jaguar,2026-07-20 12:32:33,2026-07-21 15:31:00,"The largest cat in the Americas, with the strongest bite relative to size of any big cat, powerful enough to pierce turtle shells and skulls. Unlike most cats, jaguars love water and hunt caimans and fish in the rivers of the rainforest."
+gorilla,2026-07-20 12:32:35,2026-07-21 15:31:03,"The largest living primate, a gentle plant-eater that lives in troops led by a mature 'silverback' male. Gorillas share about 98 percent of human DNA, build fresh nests to sleep in each night, and some have learned hundreds of sign-language signs."
+chimpanzee,2026-07-20 12:32:36,2026-07-21 15:31:05,"One of humanity's closest living relatives, sharing about 98 percent of our DNA. Chimpanzees make and use tools, wage territorial conflicts, and pass learned behaviors between generations as distinct cultures."
+deer,2026-07-20 12:32:38,2026-07-21 15:31:07,"A hoofed, cud-chewing herbivore in which males of most species grow and shed antlers every year, regrowing them faster than any other mammal bone. Deer are crepuscular, feeding at dawn and dusk, and can leap high fences from a standstill."
+moose,2026-07-20 12:32:39,2026-07-21 15:31:09,"The largest member of the deer family, a solitary browser whose bulls grow broad, palm-shaped antlers spanning six feet. Moose are strong swimmers that dive for aquatic plants and can be surprisingly aggressive despite their ungainly look."
+bison,2026-07-20 12:32:40,2026-07-21 15:31:12,"The heaviest land animal in North America, a shaggy grazer that once roamed the plains in herds of millions before near-extinction. Bison can run 35 mph, pivot quickly despite their bulk, and use their massive heads to plow snow off winter grass."
+beaver,2026-07-20 12:32:41,2026-07-21 15:31:14,"A large rodent and nature's engineer, felling trees with ever-growing orange teeth to build dams and lodges that reshape whole waterways. Beavers seal their dams with mud, store fat in their scaly tails, and can stay submerged for 15 minutes."
+meerkat,2026-07-20 12:32:42,2026-07-21 15:31:16,"A small, highly social mongoose of southern Africa that lives in cooperative groups where members take turns as lookout sentries. Meerkats stand upright to scan for danger, have dark eye patches that cut glare, and are immune to some scorpion venom."
+armadillo,2026-07-20 12:32:43,2026-07-21 15:31:18,"A leathery-armored mammal covered in bony plates, the only living mammal with such a shell. Some species roll into a ball for defense, they can hold their breath for six minutes to cross streams, and nine-banded females almost always give birth to identical quadruplets."
+platypus,2026-07-20 12:32:44,,"One of only a few egg-laying mammals, a duck-billed, beaver-tailed oddity from Australia that hunts by sensing the electric fields of prey underwater with its bill. Male platypuses have venomous spurs on their hind legs, and they have no stomach."
+flamingo,2026-07-20 12:32:45,2026-07-21 15:31:23,"A tall wading bird that feeds head-down, filtering tiny algae and shrimp from shallow water with a specially shaped bill. Its pink color comes entirely from pigments in that food, and flamingos often stand on one leg to conserve body heat."
+peacock,2026-07-20 12:32:46,2026-07-21 15:31:26,"The male of the peafowl species, famous for a shimmering train of iridescent 'eye' feathers it fans and rattles to court females. The colors come from microscopic crystal-like structures that bend light rather than from pigment."
+dolphin,2026-07-20 12:32:47,2026-07-21 15:31:27,"A highly intelligent marine mammal that navigates and hunts using echolocation, bouncing clicks off objects to 'see' with sound. Dolphins call each other by signature whistles that work like names and sleep with one half of the brain awake to keep breathing."
