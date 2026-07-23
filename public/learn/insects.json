@@ -1,0 +1,974 @@
+[
+  {
+    "name": "honeybee",
+    "description": "A social insect that lives in colonies of tens of thousands and communicates food locations through a symbolic \"waggle dance.\" A single hive can produce over 60 pounds of honey a year, and its workers visit roughly 2 million flowers to make just one pound.",
+    "images": [
+      "images_downloaded/insects/honeybee_1_yxXpjF-RrnA.jpg",
+      "images_downloaded/insects/honeybee_2_AbBZKCPzLQQ.jpg",
+      "images_downloaded/insects/honeybee_3_6csuZQ9oZcI.jpg",
+      "images_downloaded/insects/honeybee_4_DIwC450lRGI.jpg",
+      "images_downloaded/insects/honeybee_5_FpFkjVDALnI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/02/25/201969-916877893_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-201969/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/insects/honeybee.mp3"
+  },
+  {
+    "name": "bumblebee",
+    "description": "A large, fuzzy bee whose body is technically too heavy for its wingspan by the old rules of aerodynamics, yet it flies by beating its wings in a rapid figure-eight. Bumblebees can shiver their flight muscles to warm up, letting them forage on cold mornings when other bees stay grounded.",
+    "images": [
+      "images_downloaded/insects/bumblebee_1_yxXpjF-RrnA.jpg",
+      "images_downloaded/insects/bumblebee_2_AbBZKCPzLQQ.jpg",
+      "images_downloaded/insects/bumblebee_3_FpFkjVDALnI.jpg",
+      "images_downloaded/insects/bumblebee_4_RCN9CM8r5ak.jpg",
+      "images_downloaded/insects/bumblebee_5_u7Bf1pKCRHo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37520007/15895976_360_778_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-bumblebee-on-dandelion-flower-37520007/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/01/05/61226-497863000_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-61226/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/bumblebee.mp3"
+  },
+  {
+    "name": "carpenter bee",
+    "description": "A solitary bee that bores perfectly round tunnels into untreated wood to lay its eggs rather than building a hive. Despite its intimidating size and buzz, the male carpenter bee has no stinger at all and can only bluff.",
+    "images": [
+      "images_downloaded/insects/carpenter_bee_1_l8HDXkn_haI.jpg",
+      "images_downloaded/insects/carpenter_bee_2_m82nGcXooHA.jpg",
+      "images_downloaded/insects/carpenter_bee_3_X9GpYIqTozY.jpg",
+      "images_downloaded/insects/carpenter_bee_4_ev6YkzB0asM.jpg",
+      "images_downloaded/insects/carpenter_bee_5_7gtHwLe66PA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31300232/13363639_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/carpenter-bee-pollination-on-spring-flowers-31300232/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/09/18/304985_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-304985/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/carpenter_bee.mp3"
+  },
+  {
+    "name": "wasp",
+    "description": "A slender-waisted insect that, unlike bees, can sting repeatedly without dying and often hunts other insects to feed its larvae. Paper wasps chew wood fibers into a pulp to build their papery, hexagonal-celled nests from scratch.",
+    "images": [
+      "images_downloaded/insects/wasp_1__hYrIUKtwBA.jpg",
+      "images_downloaded/insects/wasp_2_9F1DpPB0NSU.jpg",
+      "images_downloaded/insects/wasp_3_GkknyQzyK98.jpg",
+      "images_downloaded/insects/wasp_4_ToouzBZ4x8k.jpg",
+      "images_downloaded/insects/wasp_5_jWVu8xqXdVk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/4684801/4684801-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-view-of-a-wasp-4684801/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/05/09/3081-165934927_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-3081/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/insects/wasp.mp3"
+  },
+  {
+    "name": "hornet",
+    "description": "The largest of the social wasps, built with a bulkier body and a sting powerful enough to require multiple hits before subduing large prey. A hornet nest can house thousands of workers who ventilate it by fanning their wings in unison to control internal temperature.",
+    "images": [
+      "images_downloaded/insects/hornet_1_9F1DpPB0NSU.jpg",
+      "images_downloaded/insects/hornet_2_nwiyCJ12JYE.jpg",
+      "images_downloaded/insects/hornet_3_5nH0Hh78Nh4.jpg",
+      "images_downloaded/insects/hornet_4_RqfJtMsPjTA.jpg",
+      "images_downloaded/insects/hornet_5__hYrIUKtwBA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/855028/855028-hd_1280_720_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-video-of-a-hornet-855028/",
+        "durationSeconds": 18
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/03/130117-746379149_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-130117/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/hornet.mp3"
+  },
+  {
+    "name": "ant",
+    "description": "A highly social insect that lives in colonies organized around a queen and can lift objects many times its own body weight. Ants leave chemical trails of pheromones so the rest of the colony can retrace the shortest path to food.",
+    "images": [
+      "images_downloaded/insects/ant_1_XG8eYNYdz54.jpg",
+      "images_downloaded/insects/ant_2_szPxqGFNS6Y.jpg",
+      "images_downloaded/insects/ant_3_amB0TvcByMI.jpg",
+      "images_downloaded/insects/ant_4_xXrVvepbzRI.jpg",
+      "images_downloaded/insects/ant_5_WIGe9QMVclM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15233763/15233763-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-black-ant-on-a-blooming-plant-15233763/",
+        "durationSeconds": 15
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/01/17/146883-790222882_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-146883/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/insects/ant.mp3"
+  },
+  {
+    "name": "termite",
+    "description": "A pale, soft-bodied insect that lives in colonies and digests wood with the help of microbes in its gut, since it cannot break down cellulose alone. Some termite mounds rise over 20 feet tall and include built-in chimneys that passively regulate temperature and airflow.",
+    "images": [
+      "images_downloaded/insects/termite_1_nvpiA6WS3zU.jpg",
+      "images_downloaded/insects/termite_2_-skiXofkrzM.jpg",
+      "images_downloaded/insects/termite_3_KlyZGkmE01w.jpg",
+      "images_downloaded/insects/termite_4_c9lga77jryc.jpg",
+      "images_downloaded/insects/termite_5_xHuJOBtpdPI.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30669374/13123931_360_532_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/termite-colony-in-natural-habitat-close-up-30669374/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/insects/termite.mp3"
+  },
+  {
+    "name": "ladybug",
+    "description": "A round, brightly spotted beetle whose colors warn predators that it tastes bitter, thanks to toxins it can ooze from its leg joints when threatened. A single ladybug can eat more than 5,000 aphids over its lifetime, making it a favorite of gardeners.",
+    "images": [
+      "images_downloaded/insects/ladybug_1_bozKVL_NRi4.jpg",
+      "images_downloaded/insects/ladybug_2_906sxg0humM.jpg",
+      "images_downloaded/insects/ladybug_3_4Vr2QkJC4IA.jpg",
+      "images_downloaded/insects/ladybug_4_oBL5QRAxZzo.jpg",
+      "images_downloaded/insects/ladybug_5_j4Z64srlqe8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36098983/15308975_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/ladybug-on-finger-outdoors-close-up-36098983/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/08/30/26385-357512465_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-26385/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/insects/ladybug.mp3"
+  },
+  {
+    "name": "firefly",
+    "description": "A soft-bodied beetle that produces cold light from its abdomen through a chemical reaction to attract mates in the dark. Each species flashes its own signature pattern, and some females mimic another species' flash just to lure and eat its males.",
+    "images": [
+      "images_downloaded/insects/firefly_1_TY0wQIAdMQA.jpg",
+      "images_downloaded/insects/firefly_2_fELFU1SXOAg.jpg",
+      "images_downloaded/insects/firefly_3_RvSkUEdGVo8.jpg",
+      "images_downloaded/insects/firefly_4_TjMYP49juCg.jpg",
+      "images_downloaded/insects/firefly_5_lH40asdVljs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35461543/15024560_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/captivating-firefly-glows-in-human-hands-35461543/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/insects/firefly.mp3"
+  },
+  {
+    "name": "dragonfly",
+    "description": "An ancient, agile flier with two pairs of wings it can move independently, letting it hover, fly backward, and change direction instantly. Dragonflies catch prey in midair with a strike rate over 90 percent, making them among the most efficient hunters in the animal kingdom.",
+    "images": [
+      "images_downloaded/insects/dragonfly_1_YFb6orz3AQc.jpg",
+      "images_downloaded/insects/dragonfly_2_IBhP0x5lZKc.jpg",
+      "images_downloaded/insects/dragonfly_3_EJVrmuzBGiA.jpg",
+      "images_downloaded/insects/dragonfly_4_OKvfK3tFQoU.jpg",
+      "images_downloaded/insects/dragonfly_5_tGFHDkOGvC0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29136539/12586634_480_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-video-of-dragonfly-in-natural-habitat-29136539/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/26/213762_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-213762/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/insects/dragonfly.mp3"
+  },
+  {
+    "name": "damselfly",
+    "description": "A slender relative of the dragonfly that folds its wings flat along its body at rest, unlike its broader-winged cousin. Damselfly nymphs breathe through feathery gills at the tip of their abdomen and can live underwater for up to two years before emerging.",
+    "images": [
+      "images_downloaded/insects/damselfly_1_GzTOus553nc.jpg",
+      "images_downloaded/insects/damselfly_2_S6NCF3c9X90.jpg",
+      "images_downloaded/insects/damselfly_3__r7n3duwtzo.jpg",
+      "images_downloaded/insects/damselfly_4_E5Hi_FUHcnk.jpg",
+      "images_downloaded/insects/damselfly_5_9uUoT1nSi5U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33862694/14369642_360_640_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-macro-of-damselfly-on-plant-stem-33862694/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/03/123044-726847704_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-123044/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/insects/damselfly.mp3"
+  },
+  {
+    "name": "grasshopper",
+    "description": "A jumping insect with powerful hind legs that can launch it twenty times its own body length in a single leap. Some grasshoppers produce sound by rubbing a leg against a wing, a technique called stridulation, to attract mates.",
+    "images": [
+      "images_downloaded/insects/grasshopper_1_Ja_FIdTNJaQ.jpg",
+      "images_downloaded/insects/grasshopper_2_GTT7CLv8Unw.jpg",
+      "images_downloaded/insects/grasshopper_3_Kt1jIAdkwa0.jpg",
+      "images_downloaded/insects/grasshopper_4_4RV-xNohZu8.jpg",
+      "images_downloaded/insects/grasshopper_5_GcOCrPGb4Og.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28438036/12382484_640_360_50fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/grasshopper-on-leaf-3-28438036/",
+        "durationSeconds": 3
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/09/04/179116-861046333_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-179116/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/insects/grasshopper.mp3"
+  },
+  {
+    "name": "cricket",
+    "description": "A nocturnal insect best known for the chirping song males make by rubbing specialized ridges on their wings together. The speed of a cricket's chirp rises and falls with temperature, close enough that counting chirps can estimate the air temperature in Fahrenheit.",
+    "images": [
+      "images_downloaded/insects/cricket_1_mUtQXjjLPbw.jpg",
+      "images_downloaded/insects/cricket_2_bY4cqxp7vos.jpg",
+      "images_downloaded/insects/cricket_3_oDs_AxeR5g4.jpg",
+      "images_downloaded/insects/cricket_4_DvreeyPXQww.jpg",
+      "images_downloaded/insects/cricket_5_gywHscPZwMM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/13/211845_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-211845/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/insects/cricket.mp3"
+  },
+  {
+    "name": "praying mantis",
+    "description": "A stealthy predator named for its folded front legs, which snap out to seize prey in a fraction of a second. Its head can rotate nearly 180 degrees, giving it a near-complete field of view while staying perfectly still.",
+    "images": [
+      "images_downloaded/insects/praying_mantis_1_Bv8VUX15WeI.jpg",
+      "images_downloaded/insects/praying_mantis_2_HYdhfbJo92M.jpg",
+      "images_downloaded/insects/praying_mantis_3_iZJTmZAff8w.jpg",
+      "images_downloaded/insects/praying_mantis_4_TmdlEkOj50c.jpg",
+      "images_downloaded/insects/praying_mantis_5_kcMWH-mvOTQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/13243690/13243690-hd_1280_720_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-a-praying-mantis-on-a-garden-plant-13243690/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/09/26/132554-754103091_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-132554/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/insects/praying_mantis.mp3"
+  },
+  {
+    "name": "cockroach",
+    "description": "A flattened, fast-scuttling insect that can squeeze through gaps a fraction of an inch wide by compressing its exoskeleton. Some cockroaches can survive for weeks without a head, since they breathe through holes in their body segments rather than through their mouth.",
+    "images": [
+      "images_downloaded/insects/cockroach_1_8aBgCl_TNfc.jpg",
+      "images_downloaded/insects/cockroach_2_GjpvaL4-Sh8.jpg",
+      "images_downloaded/insects/cockroach_3_CAgEXn8iFZc.jpg",
+      "images_downloaded/insects/cockroach_4_i6cOzQ3j-nA.jpg",
+      "images_downloaded/insects/cockroach_5_8dn7I7js0jk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32383515/13812605_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-madagascan-hissing-cockroach-32383515/",
+        "durationSeconds": 12
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/07/31/17592-282616444_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-17592/",
+        "durationSeconds": 18
+      }
+    ],
+    "audio_desc": "audio/insects/cockroach.mp3"
+  },
+  {
+    "name": "stick insect",
+    "description": "A master of camouflage whose slender body, mottled coloring, and slow swaying motion mimic a twig blowing in the breeze. If a predator grabs one of its legs, the insect can shed it and regrow a new one at its next molt.",
+    "images": [
+      "images_downloaded/insects/stick_insect_1_eaJ_YF2Ti2c.jpg",
+      "images_downloaded/insects/stick_insect_2_FGo_TxJ8O38.jpg",
+      "images_downloaded/insects/stick_insect_3_cpT4O466fVI.jpg",
+      "images_downloaded/insects/stick_insect_4_7rokB86yIt8.jpg",
+      "images_downloaded/insects/stick_insect_5_F5zlM0Zp3lM.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/stick_insect.mp3"
+  },
+  {
+    "name": "mosquito",
+    "description": "A small, buzzing fly whose females pierce skin with a needle-like mouthpart to drink blood needed to develop their eggs. Only females bite; males feed solely on nectar and never bother humans at all.",
+    "images": [
+      "images_downloaded/insects/mosquito_1_Z2pq_4mj6BI.jpg",
+      "images_downloaded/insects/mosquito_2_iTDCtgM9KwU.jpg",
+      "images_downloaded/insects/mosquito_3_oXh6ZUdW-gg.jpg",
+      "images_downloaded/insects/mosquito_4_eOR3TOE9Jw0.jpg",
+      "images_downloaded/insects/mosquito_5_XiYo6XE0Cvg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15598425/15598425-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-view-of-a-mosquito-biting-a-person-15598425/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/04/27/274929_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-274929/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/insects/mosquito.mp3"
+  },
+  {
+    "name": "housefly",
+    "description": "A common fly that tastes food through sensors on its feet before it ever reaches its mouth. It vomits digestive fluid onto solid food to liquefy it first, then sponges up the resulting liquid meal.",
+    "images": [
+      "images_downloaded/insects/housefly_1_dV4KHwcBXbk.jpg",
+      "images_downloaded/insects/housefly_2_tbIPosvhh0s.jpg",
+      "images_downloaded/insects/housefly_3_z-h45uj_fmY.jpg",
+      "images_downloaded/insects/housefly_4_N4AFGRPZGk4.jpg",
+      "images_downloaded/insects/housefly_5_hR_TFrhpvwc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32388761/13815648_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-common-housefly-on-plant-32388761/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/27/125690-735655832_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-125690/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/insects/housefly.mp3"
+  },
+  {
+    "name": "beetle",
+    "description": "An insect with hardened, shell-like forewings that fold over and protect a delicate flight wing underneath. Beetles make up roughly one in every four described animal species on Earth, the most diverse order in the entire animal kingdom.",
+    "images": [
+      "images_downloaded/insects/beetle_1_iDKN0kJHyts.jpg",
+      "images_downloaded/insects/beetle_2_jeRcm7wI-Hw.jpg",
+      "images_downloaded/insects/beetle_3_5R_Rz5a60RE.jpg",
+      "images_downloaded/insects/beetle_4_906sxg0humM.jpg",
+      "images_downloaded/insects/beetle_5_Q-X5hto7oHg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10245195/10245195-hd_960_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/close-up-of-beetle-on-sand-10245195/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/09/27/27282-363287610_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-27282/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/beetle.mp3"
+  },
+  {
+    "name": "aphid",
+    "description": "A tiny, soft-bodied insect that pierces plant stems to feed on sap and can reproduce without mating, giving live birth to daughters already pregnant with the next generation. Ants often \"farm\" aphids, protecting them from predators in exchange for the sweet honeydew they excrete.",
+    "images": [
+      "images_downloaded/insects/aphid_1_FbuLIGVk1yc.jpg",
+      "images_downloaded/insects/aphid_2_q111nNRdN4Y.jpg",
+      "images_downloaded/insects/aphid_3_nhIDAVG-fsY.jpg",
+      "images_downloaded/insects/aphid_4_8VSpWgU-87s.jpg",
+      "images_downloaded/insects/aphid_5_TJ0bS8fAfl4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/06/01/118892-716230879_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-118892/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/aphid.mp3"
+  },
+  {
+    "name": "cicada",
+    "description": "A large-eyed insect famous for the droning buzz males produce with a pair of ribbed membranes called tymbals. Some species spend 13 or 17 years underground as nymphs before emerging together in a single synchronized swarm.",
+    "images": [
+      "images_downloaded/insects/cicada_1_CimIwrzdLA8.jpg",
+      "images_downloaded/insects/cicada_2_HXiS7Md_Cm0.jpg",
+      "images_downloaded/insects/cicada_3_f3GEfo4FWSg.jpg",
+      "images_downloaded/insects/cicada_4_hKtRoX9le7s.jpg",
+      "images_downloaded/insects/cicada_5_bTG0E2oG9AM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15233723/15233723-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/cicada-perched-on-grass-15233723/",
+        "durationSeconds": 14
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/07/12/363526_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-363526/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/insects/cicada.mp3"
+  },
+  {
+    "name": "flea",
+    "description": "A wingless, blood-feeding insect flattened side-to-side so it can slip easily through fur or feathers. Relative to its size, a flea can jump over 150 times its own body length, powered by a spring-like pad of resilin in its legs.",
+    "images": [
+      "images_downloaded/insects/flea_1_p6slMrGDQSo.jpg",
+      "images_downloaded/insects/flea_2_gIRZEX0ufCU.jpg",
+      "images_downloaded/insects/flea_3_Dffsc3puIjI.jpg",
+      "images_downloaded/insects/flea_4_urrJ-X11REs.jpg",
+      "images_downloaded/insects/flea_5_jXjs2TC6wP8.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/flea.mp3"
+  },
+  {
+    "name": "mayfly",
+    "description": "A short-lived winged insect that molts one final time as an adult, the only insect known to shed its skin after growing wings. Adults have no working mouthparts at all and often live for less than a day, existing solely to mate before dying.",
+    "images": [
+      "images_downloaded/insects/mayfly_1_EaMGSH-x-uM.jpg",
+      "images_downloaded/insects/mayfly_2_jz04etDZiE4.jpg",
+      "images_downloaded/insects/mayfly_3_qX793yrSRFo.jpg",
+      "images_downloaded/insects/mayfly_4_gDjfMqab2PA.jpg",
+      "images_downloaded/insects/mayfly_5_rmNVdjjbpjg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/06/30/122668-726192330_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-122668/",
+        "durationSeconds": 22
+      }
+    ],
+    "audio_desc": "audio/insects/mayfly.mp3"
+  },
+  {
+    "name": "lacewing",
+    "description": "A delicate, pale-green insect named for the intricate network of veins running through its transparent wings. Its larvae, nicknamed \"aphid lions,\" pierce prey and suck them dry, then pile the empty husks onto their own backs as camouflage.",
+    "images": [
+      "images_downloaded/insects/lacewing_1_YZMhkGwERHY.jpg",
+      "images_downloaded/insects/lacewing_2_FA7TpPIZ7xw.jpg",
+      "images_downloaded/insects/lacewing_3_fV7SwoH9HEw.jpg",
+      "images_downloaded/insects/lacewing_4_UqKtkMo7c2E.jpg",
+      "images_downloaded/insects/lacewing_5_K5v_X_qL8FE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/10/20/92684-637275043_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-92684/",
+        "durationSeconds": 25
+      }
+    ],
+    "audio_desc": "audio/insects/lacewing.mp3"
+  },
+  {
+    "name": "katydid",
+    "description": "A leaf-mimicking relative of the grasshopper named for the call of some species, which sounds like it's repeating \"katy-did.\" Its ears are located on its front legs, just below the knee joint, rather than on its head.",
+    "images": [
+      "images_downloaded/insects/katydid_1__hVTSHWZhVU.jpg",
+      "images_downloaded/insects/katydid_2_zfLAmXbVtuI.jpg",
+      "images_downloaded/insects/katydid_3_IPNIMuuz0B0.jpg",
+      "images_downloaded/insects/katydid_4_CZ-JkB-G8Rg.jpg",
+      "images_downloaded/insects/katydid_5_SvsA-Xq2EWw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37441282/15857483_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/detailed-close-up-of-katydid-on-tree-bark-37441282/",
+        "durationSeconds": 18
+      }
+    ],
+    "audio_desc": "audio/insects/katydid.mp3"
+  },
+  {
+    "name": "locust",
+    "description": "A type of grasshopper that can switch from a solitary lifestyle to a swarming \"gregarious\" phase when population density spikes. A single locust swarm can contain billions of insects and strip an area of vegetation in a matter of hours.",
+    "images": [
+      "images_downloaded/insects/locust_1_ZyVFloHlFfQ.jpg",
+      "images_downloaded/insects/locust_2_h5GfGM6rDCY.jpg",
+      "images_downloaded/insects/locust_3_qTCsKHLCCRs.jpg",
+      "images_downloaded/insects/locust_4_u4CyLbDHLpE.jpg",
+      "images_downloaded/insects/locust_5_lJ32BHllr_I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10854653/10854653-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/locust-in-close-up-10854653/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/insects/locust.mp3"
+  },
+  {
+    "name": "leafhopper",
+    "description": "A small, wedge-shaped insect that walks sideways and can leap suddenly by snapping its hind legs, giving it its name. It excretes excess sap through fine tubes on its rear, sometimes spun into sugary threads.",
+    "images": [
+      "images_downloaded/insects/leafhopper_1_PG7okONqvaI.jpg",
+      "images_downloaded/insects/leafhopper_2_vSSipQvRXIM.jpg",
+      "images_downloaded/insects/leafhopper_3_LQNdvuA8YSE.jpg",
+      "images_downloaded/insects/leafhopper_4_yPX4hpf2D_I.jpg",
+      "images_downloaded/insects/leafhopper_5_5C2ep3hjKXw.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/07/20/292356_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-292356/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/leafhopper.mp3"
+  },
+  {
+    "name": "planthopper",
+    "description": "A sap-feeding insect related to cicadas, some species of which disguise themselves as fluffy white fungus by coating their bodies in waxy filaments. Certain planthopper nymphs launch themselves using literal interlocking, gear-like structures on their hind legs, unique in the animal kingdom.",
+    "images": [
+      "images_downloaded/insects/planthopper_1_rzPy3n9eJwM.jpg",
+      "images_downloaded/insects/planthopper_2_8pUUUH5TAE8.jpg",
+      "images_downloaded/insects/planthopper_3_0xJUBeqmJWc.jpg",
+      "images_downloaded/insects/planthopper_4_L3FBoODSZKo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/02/23/260462_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-260462/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/planthopper.mp3"
+  },
+  {
+    "name": "deer fly",
+    "description": "A stocky, patterned fly whose females slice into skin with scissor-like mouthparts to drink blood, often circling a target's head before landing. Unlike mosquitoes, deer flies track movement and body heat so persistently that outrunning one rarely works.",
+    "images": [
+      "images_downloaded/insects/deer_fly_1_N4AFGRPZGk4.jpg",
+      "images_downloaded/insects/deer_fly_2_f98dJ8VkuTk.jpg",
+      "images_downloaded/insects/deer_fly_3_Af9ymctGPsI.jpg",
+      "images_downloaded/insects/deer_fly_4_tbIPosvhh0s.jpg",
+      "images_downloaded/insects/deer_fly_5_JuUoJMz9fyo.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/deer_fly.mp3"
+  },
+  {
+    "name": "sawfly",
+    "description": "A wasp relative named for the female's saw-toothed egg-laying organ, which she uses to cut slits into plant stems and leaves. Unlike true wasps, sawfly larvae look almost exactly like caterpillars and can feed in groups that strip a branch bare in days.",
+    "images": [
+      "images_downloaded/insects/sawfly_1_MaDtU-0mw44.jpg",
+      "images_downloaded/insects/sawfly_2_GXceaI7jx8o.jpg",
+      "images_downloaded/insects/sawfly_3_Szpx1Z4D-9U.jpg",
+      "images_downloaded/insects/sawfly_4_5szxGMAh6ck.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/06/06/119416-717695295_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-119416/",
+        "durationSeconds": 19
+      }
+    ],
+    "audio_desc": "audio/insects/sawfly.mp3"
+  },
+  {
+    "name": "springtail",
+    "description": "A tiny, primitive soil-dwelling arthropod that flings itself into the air using a spring-loaded, fork-like appendage folded under its abdomen. Springtails are so abundant that a single square yard of forest soil can hold tens of thousands of them.",
+    "images": [
+      "images_downloaded/insects/springtail_1_3lrGv0hHo3A.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/02/10/64831-510851247_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-64831/",
+        "durationSeconds": 23
+      }
+    ],
+    "audio_desc": "audio/insects/springtail.mp3"
+  },
+  {
+    "name": "crane fly",
+    "description": "A long-legged, mosquito-like fly often mistaken for a giant mosquito, though adults have no interest in biting anyone. Its legs are so fragile that several detach in a predator's grasp, letting the rest of the crane fly simply fly away.",
+    "images": [
+      "images_downloaded/insects/crane_fly_1_u2uRX9yJJ2A.jpg",
+      "images_downloaded/insects/crane_fly_2_V72Hk6LjjjI.jpg",
+      "images_downloaded/insects/crane_fly_3_dWIbhSIHGlA.jpg",
+      "images_downloaded/insects/crane_fly_4_b870xDr4nrs.jpg",
+      "images_downloaded/insects/crane_fly_5_OiBFhunQ7Zs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/06/27/288220_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-288220/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/insects/crane_fly.mp3"
+  },
+  {
+    "name": "yellowjacket",
+    "description": "A black-and-yellow wasp that nests underground or in wall cavities and turns aggressively scavenging in late summer as its colony's food needs spike. Unlike honeybees, a yellowjacket can sting multiple times and even chew through fabric to reach skin.",
+    "images": [
+      "images_downloaded/insects/yellowjacket_1_WerEr3XEM44.jpg",
+      "images_downloaded/insects/yellowjacket_2_N5rdTl_aZ38.jpg",
+      "images_downloaded/insects/yellowjacket_3__CjHH_YvxN4.jpg",
+      "images_downloaded/insects/yellowjacket_4_cNxur_hweZc.jpg",
+      "images_downloaded/insects/yellowjacket_5_5T3kINGpWcA.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/yellowjacket.mp3"
+  },
+  {
+    "name": "tarantula hawk",
+    "description": "A giant, iridescent blue-black wasp that hunts tarantulas by paralyzing them with a sting ranked among the most painful of any insect. After stinging, the female drags the still-living spider into a burrow as living food for a single larva.",
+    "images": [
+      "images_downloaded/insects/tarantula_hawk_1_TWmblnGmmbM.jpg",
+      "images_downloaded/insects/tarantula_hawk_2_Geu9kXvorzA.jpg",
+      "images_downloaded/insects/tarantula_hawk_3_ovwx0NpXR8E.jpg",
+      "images_downloaded/insects/tarantula_hawk_4_FDPHXRzYUVQ.jpg",
+      "images_downloaded/insects/tarantula_hawk_5_oldiGfpn1tM.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/tarantula_hawk.mp3"
+  },
+  {
+    "name": "horsefly",
+    "description": "A stout, fast-flying fly whose females deliver a sharp, blade-like bite to draw blood from livestock and other large mammals. Some species can reach nearly 90 miles per hour, among the fastest flight speeds recorded for any insect.",
+    "images": [
+      "images_downloaded/insects/horsefly_1_wtnz2I4uHPA.jpg",
+      "images_downloaded/insects/horsefly_2_8bRg8gyw5sg.jpg",
+      "images_downloaded/insects/horsefly_3_3H5ut_yIFLo.jpg",
+      "images_downloaded/insects/horsefly_4_w2HWAOdjnDg.jpg",
+      "images_downloaded/insects/horsefly_5_sTVhewRCaNI.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/horsefly.mp3"
+  },
+  {
+    "name": "weevil",
+    "description": "A small beetle with an elongated snout tipped by tiny chewing mouthparts, used to bore into seeds, nuts, and grain. Some weevils play dead and drop to the ground the instant they sense a disturbance, freezing until the danger passes.",
+    "images": [
+      "images_downloaded/insects/weevil_1_Tc1EbJd1iCI.jpg",
+      "images_downloaded/insects/weevil_2_7A4YLY7HTrE.jpg",
+      "images_downloaded/insects/weevil_3_okyXHWY1qPE.jpg",
+      "images_downloaded/insects/weevil_4_UfQ7_wEtocU.jpg",
+      "images_downloaded/insects/weevil_5_01E4wliKqB4.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/weevil.mp3"
+  },
+  {
+    "name": "earwig",
+    "description": "A slender insect identified by the pair of pincer-like appendages, called cerci, at the tip of its abdomen. Despite an old myth, earwigs don't crawl into ears to lay eggs; they use those pincers mainly to fold their wings and fend off predators.",
+    "images": [
+      "images_downloaded/insects/earwig_1_ZFM4p744L-w.jpg",
+      "images_downloaded/insects/earwig_2_O-FoUsmqzbY.jpg",
+      "images_downloaded/insects/earwig_3_tCPbxjzQDmE.jpg",
+      "images_downloaded/insects/earwig_4_CoatboSrSVU.jpg",
+      "images_downloaded/insects/earwig_5_AVJ321HJFl4.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/earwig.mp3"
+  },
+  {
+    "name": "silverfish",
+    "description": "A wingless, silvery insect with a fish-like wriggling gait that thrives in damp, dark places like basements and bookshelves. It can survive for months without eating and happily digests the starchy glue and cellulose found in old book bindings and wallpaper paste.",
+    "images": [
+      "images_downloaded/insects/silverfish_1_PAivEjnfYM4.jpg",
+      "images_downloaded/insects/silverfish_2_ih0ga8HhYgY.jpg",
+      "images_downloaded/insects/silverfish_3_1SB8XwL5u6w.jpg",
+      "images_downloaded/insects/silverfish_4_zkctwC_OxHU.jpg",
+      "images_downloaded/insects/silverfish_5_Y9L2RKgFS5w.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/silverfish.mp3"
+  },
+  {
+    "name": "antlion",
+    "description": "An insect whose larva digs a cone-shaped pit in loose sand and waits buried at the bottom to ambush ants that stumble in. It flicks sand at struggling prey to trigger a mini avalanche, dragging the victim down before injecting paralyzing digestive enzymes.",
+    "images": [
+      "images_downloaded/insects/antlion_1_TyRtKcUdfYk.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/antlion.mp3"
+  },
+  {
+    "name": "treehopper",
+    "description": "An odd-looking insect topped with an oversized, ornate helmet-like extension of its exoskeleton that can mimic a thorn or fungus. Scientists still debate exactly how such an elaborate structure grows, since it develops from tissue unlike any other insect's.",
+    "images": [
+      "images_downloaded/insects/treehopper_1_0xJUBeqmJWc.jpg",
+      "images_downloaded/insects/treehopper_2_XjwliaSAB-Y.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/treehopper.mp3"
+  },
+  {
+    "name": "giant weta",
+    "description": "One of the heaviest insects in the world, this flightless, cricket-like giant from New Zealand can weigh more than a sparrow. Predator-free for millions of years on its remote islands, it never evolved defenses against introduced rats and cats, leaving it critically endangered today.",
+    "images": [
+      "images_downloaded/insects/giant_weta_1_9kbNYzo1XtQ.jpg",
+      "images_downloaded/insects/giant_weta_2_ywZMKsXGicc.jpg",
+      "images_downloaded/insects/giant_weta_3_-Ol9s1zlCvI.jpg",
+      "images_downloaded/insects/giant_weta_4_RZ1gYh8Cu7A.jpg",
+      "images_downloaded/insects/giant_weta_5_JeUtPrQ1B0c.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/giant_weta.mp3"
+  },
+  {
+    "name": "stinkbug",
+    "description": "A shield-shaped insect that releases a pungent defensive odor from glands on its thorax when it feels threatened or is crushed. That same chemical can taint fruit crops, and a stinkbug can travel indoors in fall to overwinter in huge, unwelcome clusters.",
+    "images": [
+      "images_downloaded/insects/stinkbug_1_edEI2nNZ1YE.jpg",
+      "images_downloaded/insects/stinkbug_2_LQNdvuA8YSE.jpg",
+      "images_downloaded/insects/stinkbug_3_vKrxEzG1Rso.jpg",
+      "images_downloaded/insects/stinkbug_4_E9DaX0BlJ_4.jpg",
+      "images_downloaded/insects/stinkbug_5_NnO0WHYvqN4.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/stinkbug.mp3"
+  },
+  {
+    "name": "bedbug",
+    "description": "A flat, reddish-brown insect that hides in mattress seams and furniture by day and emerges at night to feed on sleeping hosts' blood. It can survive many months without a meal, waiting patiently for a host to return.",
+    "images": [
+      "images_downloaded/insects/bedbug_1_xXRXWRCTo7s.jpg",
+      "images_downloaded/insects/bedbug_2_xuPuADgFvqA.jpg",
+      "images_downloaded/insects/bedbug_3_QLWSRWD6x3Q.jpg",
+      "images_downloaded/insects/bedbug_4_KoXSNeYc7S0.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/bedbug.mp3"
+  },
+  {
+    "name": "gnat",
+    "description": "A small, delicate flying insect often seen swarming in tight clouds at dusk, a mating display called a lek. Many gnats never bite at all; the itchy \"gnat bites\" people blame are usually from other tiny biting flies.",
+    "images": [
+      "images_downloaded/insects/gnat_1_mmEaEAw_iS8.jpg",
+      "images_downloaded/insects/gnat_2_AY_I4G_8CyA.jpg",
+      "images_downloaded/insects/gnat_3_oGSmTFvZ40o.jpg",
+      "images_downloaded/insects/gnat_4_xadI07k0h68.jpg",
+      "images_downloaded/insects/gnat_5_aVAHRUP7keU.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/gnat.mp3"
+  },
+  {
+    "name": "midge",
+    "description": "A minute, mosquito-like fly whose non-biting species swarm in enormous mating clouds near lakes and rivers at dusk. Midge larvae, called bloodworms for their color, are so tolerant of low oxygen that they thrive in polluted water where few other insects can survive.",
+    "images": [
+      "images_downloaded/insects/midge_1_5PBy6W5tIsY.jpg",
+      "images_downloaded/insects/midge_2_ssMYmNDdPtI.jpg",
+      "images_downloaded/insects/midge_3_5tfwOcv9f_M.jpg",
+      "images_downloaded/insects/midge_4_RPcAxRIkQbA.jpg",
+      "images_downloaded/insects/midge_5_z_cJnSo8aLU.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/midge.mp3"
+  },
+  {
+    "name": "thrips",
+    "description": "A slender, fringed-wing insect so small it's often mistaken for a speck of dust, yet it can spread plant viruses as it feeds. Unlike most insects, thrips feed by piercing a single plant cell and sucking out its contents rather than chewing.",
+    "images": [
+      "images_downloaded/insects/thrips_1_TFIbF7OzGAE.jpg",
+      "images_downloaded/insects/thrips_2_c6mA3PagItM.jpg",
+      "images_downloaded/insects/thrips_3_pElqJQFICbE.jpg",
+      "images_downloaded/insects/thrips_4_f1cG51hiJfc.jpg",
+      "images_downloaded/insects/thrips_5_Bs3LCpOSCZg.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/thrips.mp3"
+  },
+  {
+    "name": "june bug",
+    "description": "A chunky, reddish-brown scarab that emerges by the thousands on early summer evenings and clatters clumsily into porch lights and screen doors. Its grub spends up to three years underground feeding on plant roots before finally emerging as an adult for just a few weeks.",
+    "images": [
+      "images_downloaded/insects/june_bug_1_jeRcm7wI-Hw.jpg",
+      "images_downloaded/insects/june_bug_2_emTCWiq2txk.jpg",
+      "images_downloaded/insects/june_bug_3_fAMG3PDk830.jpg",
+      "images_downloaded/insects/june_bug_4_N4XxMsXVWiw.jpg",
+      "images_downloaded/insects/june_bug_5_edEI2nNZ1YE.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/june_bug.mp3"
+  },
+  {
+    "name": "assassin bug",
+    "description": "A patient ambush predator that stabs prey with a curved, straw-like beak and injects saliva that liquefies the victim's insides. Some species pile the drained exoskeletons of past meals onto their own backs as a grim disguise against predators.",
+    "images": [
+      "images_downloaded/insects/assassin_bug_1_edEI2nNZ1YE.jpg",
+      "images_downloaded/insects/assassin_bug_2_E9DaX0BlJ_4.jpg",
+      "images_downloaded/insects/assassin_bug_3_o1u5WHL_WOs.jpg",
+      "images_downloaded/insects/assassin_bug_4_eXuWMwK8ENc.jpg",
+      "images_downloaded/insects/assassin_bug_5_UjgZTYt1g68.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/assassin_bug.mp3"
+  },
+  {
+    "name": "inchworm",
+    "description": "The looping caterpillar of a geometer moth, named for the way it arches its body into a loop to \"measure\" its path forward. It has legs only at the front and back of its body, forcing it into that distinctive looping crawl.",
+    "images": [
+      "images_downloaded/insects/inchworm_1_3kFoTMFKby0.jpg",
+      "images_downloaded/insects/inchworm_2_DMkW35X_uuM.jpg",
+      "images_downloaded/insects/inchworm_3_hbbh9cmcyV4.jpg",
+      "images_downloaded/insects/inchworm_4_VxPBgvhNvT8.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/inchworm.mp3"
+  },
+  {
+    "name": "silkworm",
+    "description": "The caterpillar of the domesticated silk moth, prized for spinning a single continuous thread of silk that can stretch over 3,000 feet to form its cocoon. It has been bred by humans for silk production for so many thousands of years that it can no longer survive or fly in the wild.",
+    "images": [
+      "images_downloaded/insects/silkworm_1_JSjZPytfJNA.jpg",
+      "images_downloaded/insects/silkworm_2_RV1RPckjD44.jpg",
+      "images_downloaded/insects/silkworm_3_ted1g1ATI-E.jpg",
+      "images_downloaded/insects/silkworm_4_xLvcgAXH9nk.jpg",
+      "images_downloaded/insects/silkworm_5_hYo4vqWBFQI.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/insects/silkworm.mp3"
+  }
+]

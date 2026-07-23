@@ -1,31 +1,31 @@
-reptiles,col2,json_generated_ts
-crocodile,2026-07-18 21:17:53,2026-07-21 14:17:17
-turtle,2026-07-18 21:17:54,2026-07-21 14:17:19
-snake,2026-07-18 21:17:54,2026-07-21 14:17:21
-gecko,2026-07-18 21:17:55,2026-07-21 14:17:23
-chameleon,2026-07-18 21:17:56,2026-07-21 14:17:26
-iguana,2026-07-19 14:34:28,2026-07-21 14:17:28
-komodo dragon,2026-07-19 14:34:29,2026-07-21 14:17:30
-alligator,2026-07-19 14:34:30,2026-07-21 14:17:32
-tortoise,2026-07-19 14:34:31,2026-07-21 14:17:34
-lizard,2026-07-19 14:34:32,2026-07-21 14:17:37
-skink,2026-07-19 14:34:35,2026-07-21 14:17:39
-monitor lizard,2026-07-19 14:34:37,2026-07-21 14:17:42
-anole,2026-07-19 14:34:39,2026-07-21 14:17:44
-bearded dragon,2026-07-19 14:34:41,2026-07-21 14:17:46
-horned lizard,2026-07-19 14:34:43,2026-07-21 14:17:48
-gila monster,2026-07-19 14:34:44,
-rattlesnake,2026-07-19 14:34:45,2026-07-21 14:17:52
-cobra,2026-07-19 14:34:46,2026-07-21 14:17:54
-python,2026-07-19 14:34:47,2026-07-21 14:17:57
-viper,2026-07-19 14:34:48,2026-07-21 14:17:59
-boa constrictor,2026-07-19 14:34:49,
-anaconda,2026-07-19 14:34:51,2026-07-21 14:18:03
-garter snake,2026-07-19 14:34:52,2026-07-21 15:36:32
-copperhead,2026-07-19 14:34:53,
-king snake,2026-07-19 14:34:54,2026-07-21 15:36:35
-sea turtle,2026-07-19 14:34:55,2026-07-21 15:36:38
-box turtle,2026-07-19 14:34:56,
-terrapin,2026-07-19 14:34:58,
-caiman,2026-07-19 14:34:59,
-gharial,2026-07-19 14:35:00,
+reptiles,col2,json_generated_ts,description,audio_generated_ts
+crocodile,2026-07-18 21:17:53,2026-07-21 14:17:17,"A powerful ambush predator with a bite force stronger than any other living animal, its eyes and nostrils sit atop its head so it can lurk almost fully submerged. Crocodiles can hold their breath underwater for over an hour and have survived almost unchanged since the age of dinosaurs.",2026-07-23 10:31:50
+turtle,2026-07-18 21:17:54,2026-07-21 14:17:19,"A reptile protected by a bony shell fused to its spine and ribs, so it can never crawl out of it the way cartoons suggest. Turtles breathe by moving muscles that shift organs against the shell, since their ribs are too rigid to expand the chest like other animals.",2026-07-23 10:31:50
+snake,2026-07-18 21:17:54,2026-07-21 14:17:21,"A limbless reptile that swallows prey whole, its jaw held together by stretchy ligaments rather than a hinge, letting the mouth open far wider than its head. Snakes smell the air by flicking a forked tongue that carries scent particles to a sensory organ on the roof of the mouth.",2026-07-23 10:31:51
+gecko,2026-07-18 21:17:55,2026-07-21 14:17:23,"A small, big-eyed lizard whose toes are covered in millions of microscopic hairs that grip surfaces through molecular forces alone, letting it walk straight up glass. Most geckos also lack eyelids and instead lick their own eyeballs clean with their tongue.",2026-07-23 10:31:51
+chameleon,2026-07-18 21:17:56,2026-07-21 14:17:26,"A slow-moving lizard best known for changing color, which it does mainly to signal mood and temperature rather than to hide. Its eyes swivel independently in almost every direction, letting it watch two completely different things at once, and its tongue can shoot out longer than its own body in a fraction of a second.",2026-07-23 10:31:52
+iguana,2026-07-19 14:34:28,2026-07-21 14:17:28,"A large, spiny-backed lizard with a third, light-sensing ""eye"" on top of its head that helps it track shadows of overhead predators. Iguanas can hold their breath and stay submerged for nearly half an hour to escape danger.",2026-07-23 10:31:52
+komodo dragon,2026-07-19 14:34:29,2026-07-21 14:17:30,"The world's largest living lizard, capable of taking down prey many times its own size with a bite loaded with venom and bacteria-rich saliva. Komodo dragons can eat up to 80 percent of their own body weight in a single meal.",2026-07-23 10:31:53
+alligator,2026-07-19 14:34:30,2026-07-21 14:17:32,"A broad-snouted reptile that, unlike its narrower-jawed crocodile cousins, keeps most of its lower teeth hidden when its mouth is closed. Alligators are one of the few reptiles known to care for their young, sometimes carrying hatchlings gently in their jaws to the water.",2026-07-23 10:31:54
+tortoise,2026-07-19 14:34:31,2026-07-21 14:17:34,"A land-dwelling relative of the turtle with stumpy, elephant-like legs built for walking rather than swimming. Some giant tortoise species can live well past 150 years, making them among the longest-lived animals on Earth.",2026-07-23 10:31:54
+lizard,2026-07-19 14:34:32,2026-07-21 14:17:37,"A scaly, four-legged reptile found on every continent except Antarctica, ranging from finger-sized geckos to ten-foot monitors. Many lizards can voluntarily detach their own tail when grabbed by a predator, then regrow a new one over the following months.",2026-07-23 10:31:55
+skink,2026-07-19 14:34:35,2026-07-21 14:17:39,"A smooth, glossy-scaled lizard with a body so streamlined it looks almost snake-like, and legs so small some species have nearly lost them altogether. Certain skinks give birth to live young instead of laying eggs, unusual among reptiles.",2026-07-23 10:31:55
+monitor lizard,2026-07-19 14:34:37,2026-07-21 14:17:42,"A large, sharp-clawed lizard related to the Komodo dragon, with a long forked tongue it flicks constantly to track scent, much like a snake. Monitor lizards are among the few reptiles known to solve simple problems, such as remembering which of several boxes hides food.",2026-07-23 10:31:56
+anole,2026-07-19 14:34:39,2026-07-21 14:17:44,"A small, quick lizard best known for the brightly colored flap of throat skin, called a dewlap, that males flash to attract mates and warn off rivals. Some anole species can run across the surface of water for short bursts without sinking.",2026-07-23 10:31:56
+bearded dragon,2026-07-19 14:34:41,2026-07-21 14:17:46,"A calm, spiky-throated lizard native to the Australian outback, named for the dark, beard-like patch of skin it puffs out when threatened or displaying. Bearded dragons can also change the shade of their skin slightly to help regulate body temperature in the sun.",2026-07-23 10:31:57
+horned lizard,2026-07-19 14:34:43,2026-07-21 14:17:48,"A squat, spike-covered lizard so well camouflaged against desert sand and rock that it often waits motionless rather than fleeing predators. When truly desperate, some species can shoot a thin stream of blood from the corners of their eyes to startle attackers.",2026-07-23 10:31:57
+gila monster,2026-07-19 14:34:44,,"One of the very few venomous lizards in the world, marked by bold black-and-orange beaded scales that warn predators to stay away. It stores fat in its tail and can go months between meals in the harsh deserts of the American Southwest.",2026-07-23 10:31:58
+rattlesnake,2026-07-19 14:34:45,2026-07-21 14:17:52,"A venomous pit viper named for the loose, interlocking segments at the tip of its tail that buzz loudly as a warning when it feels threatened. Heat-sensing pits between its eyes and nostrils let it detect warm-blooded prey in complete darkness.",2026-07-23 10:31:59
+cobra,2026-07-19 14:34:46,2026-07-21 14:17:54,"A venomous snake famous for rearing up and flattening its neck ribs into a wide, intimidating hood when threatened. Some cobra species can spit venom accurately at a target's eyes from several feet away as a defense rather than for hunting.",2026-07-23 10:31:59
+python,2026-07-19 14:34:47,2026-07-21 14:17:57,"A large, non-venomous constrictor that kills by coiling around prey and tightening with each exhale until circulation stops. Pythons can unhinge their jaws so widely that some species are able to swallow prey larger than their own head.",2026-07-23 10:32:00
+viper,2026-07-19 14:34:48,2026-07-21 14:17:59,"A venomous snake with long, hinged fangs that fold flat against the roof of the mouth until they swing forward to strike. Most vipers are ambush hunters, relying on camouflage to stay hidden rather than chasing down their prey.",2026-07-23 10:32:00
+boa constrictor,2026-07-19 14:34:49,,"A heavy-bodied, non-venomous snake that subdues prey by squeezing just tightly enough to stop its victim's heartbeat rather than crushing bones. Boa constrictors give birth to live young instead of laying eggs, unusual among snakes.",2026-07-23 10:32:01
+anaconda,2026-07-19 14:34:51,2026-07-21 14:18:03,"One of the heaviest snakes in the world, spending most of its life submerged in slow-moving rivers and swamps with only its eyes and nostrils above water. Female anacondas can grow far larger than males and give birth to dozens of live young at once.",2026-07-23 10:32:01
+garter snake,2026-07-19 14:34:52,2026-07-21 15:36:32,"A slender, striped snake common across gardens and fields in North America, mildly toxic to small prey but harmless to humans. Garter snakes can emerge from hibernation in such large numbers that thousands sometimes gather in a single den.",2026-07-23 10:32:02
+copperhead,2026-07-19 14:34:53,,"A thick-bodied venomous snake with a coppery, hourglass-patterned back that blends seamlessly into fallen leaves. When startled, a copperhead often freezes and relies on camouflage rather than fleeing, which is why most bites happen when people accidentally step too close.",2026-07-23 10:32:03
+king snake,2026-07-19 14:34:54,2026-07-21 15:36:35,"A non-venomous snake known for preying on other snakes, including venomous species, since it carries a natural resistance to their venom. Its tight, constricting coils give it its name, as it's considered the ""king"" of the snakes it hunts.",2026-07-23 10:32:03
+sea turtle,2026-07-19 14:34:55,2026-07-21 15:36:38,"A marine reptile with paddle-like flippers instead of legs, built for gliding through open ocean rather than walking on land. Female sea turtles return to lay eggs on the very same beach where they hatched decades earlier, guided by Earth's magnetic field.",2026-07-23 10:32:04
+box turtle,2026-07-19 14:34:56,,"A land-dwelling turtle with a hinged lower shell that can close almost completely, sealing the head, legs, and tail inside like a box. Box turtles can live for over 50 years and often return to the very same small patch of forest their entire lives.",2026-07-23 10:32:04
+terrapin,2026-07-19 14:34:58,,"A turtle that lives in the brackish water where rivers meet the sea, tolerating salt levels that would trouble most freshwater turtles. Terrapins have strong, ridged jaws adapted for cracking open snails and clams.",2026-07-23 10:32:05
+caiman,2026-07-19 14:34:59,,"A crocodile relative found throughout Central and South America, generally smaller than true crocodiles and covered in bony plates even on its belly. Caimans are surprisingly vocal communicators, exchanging low infrasonic rumbles too deep for humans to hear.",2026-07-23 10:32:05
+gharial,2026-07-19 14:35:00,,"A slender-snouted crocodilian adapted almost entirely for catching fish, its long thin jaws lined with over 100 interlocking teeth. Adult males grow a bulbous knob on the tip of the snout, used to make buzzing sounds and blow bubbles to attract mates.",2026-07-23 10:32:06

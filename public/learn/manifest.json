@@ -37,6 +37,10 @@
       "file": "learn/harrypotter.json"
     },
     {
+      "title": "Insects",
+      "file": "learn/insects.json"
+    },
+    {
       "title": "Reptiles",
       "file": "learn/reptiles.json"
     },
