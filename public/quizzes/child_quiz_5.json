@@ -1,0 +1,206 @@
+{
+  "quizTitle": "Child Quiz 5: Birds",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "What bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/chicken_1_yEW23jxVsNI.jpg",
+        "images_downloaded/birds/chicken_2_auijD19Byq8.jpg",
+        "images_downloaded/birds/chicken_3_4qJlXK4mYzU.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Duck", "Chicken", "Turkey", "Rooster"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/duck_1_kCZSzqvIei4.jpg",
+        "images_downloaded/birds/duck_2_QKUN1xjwDQA.jpg",
+        "images_downloaded/birds/duck_3_K6Jh8T84J9Q.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Goose", "Swan", "Duck", "Flamingo"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "What kind of bird do you see?",
+      "centralImage": [
+        "images_downloaded/birds/owl_1_oqYHtXrLXLo.jpg",
+        "images_downloaded/birds/owl_2_UTw183oZPf0.jpg",
+        "images_downloaded/birds/owl_3_2VsPnDt2SQs.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Owl", "Hawk", "Falcon", "Eagle"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each bird to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Hawk", "right": "images_downloaded/birds/hawk_1_bD5nxfyBo84.jpg" },
+        { "left": "Falcon", "right": "images_downloaded/birds/falcon_1_0wKrAKRVzBE.jpg" },
+        { "left": "Vulture", "right": "images_downloaded/birds/vulture_1_U1X7HH7ZzyE.jpg" },
+        { "left": "Condor", "right": "images_downloaded/birds/condor_1_XRW0ryFeizI.jpg" }
+      ]
+    },
+    {
+      "questionText": "What bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/penguin_1_Ak81Vc-kCf4.jpg",
+        "images_downloaded/birds/penguin_2_9zTafGVsv-c.jpg",
+        "images_downloaded/birds/penguin_3_3Xd5j9-drDA.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Ostrich", "Emu", "Kiwi", "Penguin"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/flamingo_1_25JxltstHSc.jpg",
+        "images_downloaded/birds/flamingo_2_wTPp323zAEw.jpg",
+        "images_downloaded/birds/flamingo_3_dVb-7D18UNc.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Stork", "Flamingo", "Heron", "Crane"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "What bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/peacock_1_l0bqFaNb9LM.jpg",
+        "images_downloaded/birds/peacock_2_1e_lMowBFVM.jpg",
+        "images_downloaded/birds/peacock_3_wBhoO5hMlC4.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Peacock", "Turkey", "Pheasant", "Rooster"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each bird to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Robin", "right": "images_downloaded/birds/robin_1_3lGi0BXJ1W0.jpg" },
+        { "left": "Sparrow", "right": "images_downloaded/birds/sparrow_1_Eb_2ItJvcI8.jpg" },
+        { "left": "Cardinal", "right": "images_downloaded/birds/cardinal_1_Yu_ejF2s_dI.jpg" },
+        { "left": "Blue Jay", "right": "images_downloaded/birds/blue_jay_1_q_bx5FSjSqc.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/eagle_1_dJb4w5hy0OA.jpg",
+        "images_downloaded/birds/eagle_2_OjQgsR1oyEw.jpg",
+        "images_downloaded/birds/eagle_3_ID48ekBTlDo.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Hawk", "Falcon", "Eagle", "Vulture"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "What bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/parrot_1_OlKkCmToXEs.jpg",
+        "images_downloaded/birds/parrot_2_3osGqRRtQBE.jpg",
+        "images_downloaded/birds/parrot_3_lylCw4zcA7I.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Macaw", "Cockatoo", "Toucan", "Parrot"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "What bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/toucan_1_eqXiLNfZDc0.jpg",
+        "images_downloaded/birds/toucan_2_vjFC9OjrOtA.jpg",
+        "images_downloaded/birds/toucan_3_XUFMiGkv-60.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Toucan", "Parrot", "Macaw", "Cockatoo"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each bird to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Crow", "right": "images_downloaded/birds/crow_1_d-vBDK5rqR0.jpg" },
+        { "left": "Raven", "right": "images_downloaded/birds/raven_1_d-vBDK5rqR0.jpg" },
+        { "left": "Magpie", "right": "images_downloaded/birds/magpie_1_TvJP28LhkLk.jpg" },
+        { "left": "Kookaburra", "right": "images_downloaded/birds/kookaburra_1_tTPEoQkudT4.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which bird is this?",
+      "centralImage": [
+        "images_downloaded/birds/swan_1_EhSxbBCjr9A.jpg",
+        "images_downloaded/birds/swan_2_sXwpO-MQV9w.jpg",
+        "images_downloaded/birds/swan_3_AnRH51dbaEY.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Goose", "Swan", "Duck", "Pelican"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "I am the biggest bird of all, but I cannot fly. I run really fast on my long legs. Which bird am I?",
+      "choiceType": "text",
+      "choices": ["Peacock", "Emu", "Ostrich", "Penguin"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "I am a tiny, tiny bird. I can flap my wings super fast and even fly backward! Which bird am I?",
+      "choiceType": "text",
+      "choices": ["Sparrow", "Robin", "Finch", "Hummingbird"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Match each bird to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Turkey", "right": "images_downloaded/birds/turkey_1_kNSREmtaGOE.jpg" },
+        { "left": "Rooster", "right": "images_downloaded/birds/rooster_1_Fxg394rc6JQ.jpg" },
+        { "left": "Quail", "right": "images_downloaded/birds/quail_1_WOY8h-olonY.jpg" },
+        { "left": "Pheasant", "right": "images_downloaded/birds/pheasant_1_JuoE5jHlcHs.jpg" }
+      ]
+    },
+    {
+      "questionText": "I like to knock, knock, knock on tree trunks with my beak to find bugs to eat. Which bird am I?",
+      "choiceType": "text",
+      "choices": ["Woodpecker", "Owl", "Crow", "Sparrow"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "I have a giant pouch under my beak that scoops up lots of fish at once! Which bird am I?",
+      "choiceType": "text",
+      "choices": ["Swan", "Pelican", "Duck", "Seagull"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "I am a small bird from New Zealand. I can't fly, and I sniff for worms with my long beak. Which bird am I?",
+      "choiceType": "text",
+      "choices": ["Ostrich", "Emu", "Kiwi", "Penguin"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Match each bird to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Goose", "right": "images_downloaded/birds/goose_1_4TCx0NyBcmI.jpg" },
+        { "left": "Heron", "right": "images_downloaded/birds/heron_1_UexucCEzj-0.jpg" },
+        { "left": "Stork", "right": "images_downloaded/birds/stork_1_RvHCxzl6wSM.jpg" },
+        { "left": "Crane", "right": "images_downloaded/birds/crane_1_XvNPUh6fWVk.jpg" }
+      ]
+    }
+  ]
+}

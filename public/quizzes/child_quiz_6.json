@@ -1,0 +1,206 @@
+{
+  "quizTitle": "Child Quiz 6: Reptiles",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "What reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/crocodile_1_YppMBEPyfFQ.jpg",
+        "images_downloaded/reptiles/crocodile_2_YOX8ZMTo7hk.jpg",
+        "images_downloaded/reptiles/crocodile_3_R3sgrDvXz3I.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Alligator", "Crocodile", "Komodo Dragon", "Monitor Lizard"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/turtle_1_L-2p8fapOA8.jpg",
+        "images_downloaded/reptiles/turtle_2_N5ByCirHVqw.jpg",
+        "images_downloaded/reptiles/turtle_3_M8xxVih_V_U.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Tortoise", "Sea Turtle", "Turtle", "Iguana"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "What kind of reptile do you see?",
+      "centralImage": [
+        "images_downloaded/reptiles/snake_1_2EzQsIkPnKc.jpg",
+        "images_downloaded/reptiles/snake_2_SBc-Ruru7yk.jpg",
+        "images_downloaded/reptiles/snake_3_EPLrqHHu2WI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Snake", "Python", "Cobra", "Viper"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each reptile to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Komodo Dragon", "right": "images_downloaded/reptiles/komodo_dragon_1_j1RbkaDVWSw.jpg" },
+        { "left": "Monitor Lizard", "right": "images_downloaded/reptiles/monitor_lizard_1_tD5iUvvsALY.jpg" },
+        { "left": "Iguana", "right": "images_downloaded/reptiles/iguana_1_CxayZniisNA.jpg" },
+        { "left": "Bearded Dragon", "right": "images_downloaded/reptiles/bearded_dragon_1_F3a24w6yWnI.jpg" }
+      ]
+    },
+    {
+      "questionText": "What reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/gecko_1_i3T8gp9dUVk.jpg",
+        "images_downloaded/reptiles/gecko_2_pNT0nNKTiYk.jpg",
+        "images_downloaded/reptiles/gecko_3_cHP9WBFKm9o.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Anole", "Skink", "Chameleon", "Gecko"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/chameleon_1_N_GrR8c2EMk.jpg",
+        "images_downloaded/reptiles/chameleon_2_WBCefg9hYo4.jpg",
+        "images_downloaded/reptiles/chameleon_3_K3QQLUlqVVg.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Chameleon", "Gecko", "Iguana", "Anole"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "What kind of reptile do you see?",
+      "centralImage": [
+        "images_downloaded/reptiles/iguana_1_CxayZniisNA.jpg",
+        "images_downloaded/reptiles/iguana_2_xro6zbGewnc.jpg",
+        "images_downloaded/reptiles/iguana_3_DO0lQFlzGeM.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Komodo Dragon", "Iguana", "Bearded Dragon", "Monitor Lizard"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each reptile to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Gecko", "right": "images_downloaded/reptiles/gecko_1_i3T8gp9dUVk.jpg" },
+        { "left": "Anole", "right": "images_downloaded/reptiles/anole_1_Lq3U1XC3Low.jpg" },
+        { "left": "Skink", "right": "images_downloaded/reptiles/skink_1_VRbSu5_jaIM.jpg" },
+        { "left": "Lizard", "right": "images_downloaded/reptiles/lizard_1_uTj6-eZeHto.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/komodo_dragon_1_j1RbkaDVWSw.jpg",
+        "images_downloaded/reptiles/komodo_dragon_2_VCzNXhMoyBw.jpg",
+        "images_downloaded/reptiles/komodo_dragon_3_o-S8EiQVo_g.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Monitor Lizard", "Iguana", "Komodo Dragon", "Alligator"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "What reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/alligator_1_YppMBEPyfFQ.jpg",
+        "images_downloaded/reptiles/alligator_2_YOX8ZMTo7hk.jpg",
+        "images_downloaded/reptiles/alligator_3_POKb4uUOizU.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Crocodile", "Komodo Dragon", "Tortoise", "Alligator"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which reptile is this?",
+      "centralImage": [
+        "images_downloaded/reptiles/tortoise_1_L-2p8fapOA8.jpg",
+        "images_downloaded/reptiles/tortoise_2_M8xxVih_V_U.jpg",
+        "images_downloaded/reptiles/tortoise_3_N5ByCirHVqw.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Tortoise", "Turtle", "Sea Turtle", "Skink"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each reptile to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Cobra", "right": "images_downloaded/reptiles/cobra_1_sazD8ZHV_VI.jpg" },
+        { "left": "Viper", "right": "images_downloaded/reptiles/viper_1_l2FFRAkSq3Y.jpg" },
+        { "left": "Rattlesnake", "right": "images_downloaded/reptiles/rattlesnake_1_2EzQsIkPnKc.jpg" },
+        { "left": "King Snake", "right": "images_downloaded/reptiles/king_snake_1_v-BtysLYOMo.jpg" }
+      ]
+    },
+    {
+      "questionText": "What kind of reptile do you see?",
+      "centralImage": [
+        "images_downloaded/reptiles/python_1_4hbJ-eymZ1o.jpg",
+        "images_downloaded/reptiles/python_2_ZIPFteu-R8k.jpg",
+        "images_downloaded/reptiles/python_3_8qEB0fTe9Vw.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Anaconda", "Python", "King Snake", "Viper"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "I have shiny, smooth scales and a body so long and thin I almost look like a snake, but I still have tiny legs. Which reptile am I?",
+      "choiceType": "text",
+      "choices": ["Skink", "Snake", "Gecko", "Lizard"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "I shake the tip of my tail to make a buzzing rattle sound when I feel scared. Which snake am I?",
+      "choiceType": "text",
+      "choices": ["Cobra", "Rattlesnake", "Viper", "Python"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each reptile to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Turtle", "right": "images_downloaded/reptiles/turtle_1_L-2p8fapOA8.jpg" },
+        { "left": "Tortoise", "right": "images_downloaded/reptiles/tortoise_1_L-2p8fapOA8.jpg" },
+        { "left": "Crocodile", "right": "images_downloaded/reptiles/crocodile_1_YppMBEPyfFQ.jpg" },
+        { "left": "Garter Snake", "right": "images_downloaded/reptiles/garter_snake_1_K55uyrcTCk4.jpg" }
+      ]
+    },
+    {
+      "questionText": "When I feel scared, I rear up tall and spread my neck into a wide hood. Which snake am I?",
+      "choiceType": "text",
+      "choices": ["Python", "Viper", "Cobra", "Rattlesnake"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "I am one of the biggest, heaviest snakes, and I love to hide in slow rivers with just my eyes peeking out. Which snake am I?",
+      "choiceType": "text",
+      "choices": ["Python", "Cobra", "King Snake", "Anaconda"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "I have flippers instead of feet, and I swim all around the wide ocean. Which reptile am I?",
+      "choiceType": "text",
+      "choices": ["Sea Turtle", "Turtle", "Tortoise", "Crocodile"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each reptile to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Python", "right": "images_downloaded/reptiles/python_1_4hbJ-eymZ1o.jpg" },
+        { "left": "Anaconda", "right": "images_downloaded/reptiles/anaconda_1_vec5yfUvCGs.jpg" },
+        { "left": "Snake", "right": "images_downloaded/reptiles/snake_1_2EzQsIkPnKc.jpg" },
+        { "left": "Horned Lizard", "right": "images_downloaded/reptiles/horned_lizard_1_YBJqVEYlLqw.jpg" }
+      ]
+    }
+  ]
+}

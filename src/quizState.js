@@ -120,8 +120,13 @@ export function quizReducer(state, action) {
       const { questionIndex, pairIndex } = action;
       const existing = state.matchState[questionIndex] || [];
       if (existing.includes(pairIndex)) return state;
-      const updated = [...existing, pairIndex];
+      let updated = [...existing, pairIndex];
       const q = state.quiz.questions[questionIndex];
+      // Once only one pair is left unmatched, there's only one place it can go — fill it in automatically.
+      if (updated.length === q.pairs.length - 1) {
+        const remaining = q.pairs.map((_, i) => i).filter(i => !updated.includes(i));
+        updated = [...updated, ...remaining];
+      }
       const complete = updated.length === q.pairs.length;
       const answers = state.answers.slice();
       if (complete) answers[questionIndex] = 'matched';
@@ -138,6 +143,16 @@ export function quizReducer(state, action) {
         return { ...state, currentIndex: state.currentIndex + 1 };
       }
       return { ...state, screen: 'results' };
+    }
+
+    case 'SKIP_QUESTION': {
+      const answers = state.answers.slice();
+      answers[state.currentIndex] = 'skipped';
+      const total = state.quiz.questions.length;
+      if (state.currentIndex < total - 1) {
+        return { ...state, answers, currentIndex: state.currentIndex + 1 };
+      }
+      return { ...state, answers, screen: 'results' };
     }
 
     case 'GO_BACK': {

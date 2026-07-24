@@ -1,0 +1,206 @@
+{
+  "quizTitle": "Child Quiz 7: Insects",
+  "showCorrectAnswer": "Y",
+  "questions": [
+    {
+      "questionText": "What insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/honeybee_1_yxXpjF-RrnA.jpg",
+        "images_downloaded/insects/honeybee_2_AbBZKCPzLQQ.jpg",
+        "images_downloaded/insects/honeybee_3_6csuZQ9oZcI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Bumblebee", "Honeybee", "Wasp", "Hornet"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/ladybug_1_bozKVL_NRi4.jpg",
+        "images_downloaded/insects/ladybug_2_906sxg0humM.jpg",
+        "images_downloaded/insects/ladybug_3_4Vr2QkJC4IA.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Ladybug", "Beetle", "Weevil", "Stinkbug"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "What kind of insect do you see?",
+      "centralImage": [
+        "images_downloaded/insects/dragonfly_1_YFb6orz3AQc.jpg",
+        "images_downloaded/insects/dragonfly_2_IBhP0x5lZKc.jpg",
+        "images_downloaded/insects/dragonfly_3_EJVrmuzBGiA.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Damselfly", "Mayfly", "Dragonfly", "Cicada"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Match each insect to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Bumblebee", "right": "images_downloaded/insects/bumblebee_1_yxXpjF-RrnA.jpg" },
+        { "left": "Carpenter Bee", "right": "images_downloaded/insects/carpenter_bee_1_l8HDXkn_haI.jpg" },
+        { "left": "Wasp", "right": "images_downloaded/insects/wasp_1__hYrIUKtwBA.jpg" },
+        { "left": "Hornet", "right": "images_downloaded/insects/hornet_1_9F1DpPB0NSU.jpg" }
+      ]
+    },
+    {
+      "questionText": "What insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/grasshopper_1_Ja_FIdTNJaQ.jpg",
+        "images_downloaded/insects/grasshopper_2_GTT7CLv8Unw.jpg",
+        "images_downloaded/insects/grasshopper_3_Kt1jIAdkwa0.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Cricket", "Katydid", "Locust", "Grasshopper"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/ant_1_XG8eYNYdz54.jpg",
+        "images_downloaded/insects/ant_2_szPxqGFNS6Y.jpg",
+        "images_downloaded/insects/ant_3_amB0TvcByMI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Ant", "Termite", "Beetle", "Aphid"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "What kind of insect do you see?",
+      "centralImage": [
+        "images_downloaded/insects/beetle_1_iDKN0kJHyts.jpg",
+        "images_downloaded/insects/beetle_2_jeRcm7wI-Hw.jpg",
+        "images_downloaded/insects/beetle_3_5R_Rz5a60RE.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Ladybug", "Beetle", "Weevil", "June Bug"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Match each insect to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Damselfly", "right": "images_downloaded/insects/damselfly_1_GzTOus553nc.jpg" },
+        { "left": "Cricket", "right": "images_downloaded/insects/cricket_1_mUtQXjjLPbw.jpg" },
+        { "left": "Katydid", "right": "images_downloaded/insects/katydid_1__hVTSHWZhVU.jpg" },
+        { "left": "Locust", "right": "images_downloaded/insects/locust_1_ZyVFloHlFfQ.jpg" }
+      ]
+    },
+    {
+      "questionText": "What insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/praying_mantis_1_Bv8VUX15WeI.jpg",
+        "images_downloaded/insects/praying_mantis_2_HYdhfbJo92M.jpg",
+        "images_downloaded/insects/praying_mantis_3_iZJTmZAff8w.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Stick Insect", "Grasshopper", "Praying Mantis", "Katydid"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "Which insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/firefly_1_TY0wQIAdMQA.jpg",
+        "images_downloaded/insects/firefly_2_fELFU1SXOAg.jpg",
+        "images_downloaded/insects/firefly_3_RvSkUEdGVo8.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Beetle", "Ladybug", "Lacewing", "Firefly"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "What kind of insect do you see?",
+      "centralImage": [
+        "images_downloaded/insects/mosquito_1_Z2pq_4mj6BI.jpg",
+        "images_downloaded/insects/mosquito_2_iTDCtgM9KwU.jpg",
+        "images_downloaded/insects/mosquito_3_oXh6ZUdW-gg.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Mosquito", "Gnat", "Midge", "Housefly"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each insect to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Housefly", "right": "images_downloaded/insects/housefly_1_dV4KHwcBXbk.jpg" },
+        { "left": "Deer Fly", "right": "images_downloaded/insects/deer_fly_1_N4AFGRPZGk4.jpg" },
+        { "left": "Horsefly", "right": "images_downloaded/insects/horsefly_1_wtnz2I4uHPA.jpg" },
+        { "left": "Crane Fly", "right": "images_downloaded/insects/crane_fly_1_u2uRX9yJJ2A.jpg" }
+      ]
+    },
+    {
+      "questionText": "Which insect is this?",
+      "centralImage": [
+        "images_downloaded/insects/stick_insect_1_eaJ_YF2Ti2c.jpg",
+        "images_downloaded/insects/stick_insect_2_FGo_TxJ8O38.jpg",
+        "images_downloaded/insects/stick_insect_3_cpT4O466fVI.jpg"
+      ],
+      "choiceType": "text",
+      "choices": ["Praying Mantis", "Stick Insect", "Grasshopper", "Katydid"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "I spend many years underground as a baby, then come out and make a loud buzzing song. Which insect am I?",
+      "choiceType": "text",
+      "choices": ["Grasshopper", "Cricket", "Cicada", "Locust"],
+      "correctAnswer": "c"
+    },
+    {
+      "questionText": "I live with my whole family in a colony and munch on wood all day long. Which insect am I?",
+      "choiceType": "text",
+      "choices": ["Termite", "Ant", "Beetle", "Cockroach"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each insect to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Aphid", "right": "images_downloaded/insects/aphid_1_FbuLIGVk1yc.jpg" },
+        { "left": "Leafhopper", "right": "images_downloaded/insects/leafhopper_1_PG7okONqvaI.jpg" },
+        { "left": "Planthopper", "right": "images_downloaded/insects/planthopper_1_rzPy3n9eJwM.jpg" },
+        { "left": "Stinkbug", "right": "images_downloaded/insects/stinkbug_1_edEI2nNZ1YE.jpg" }
+      ]
+    },
+    {
+      "questionText": "I am a caterpillar that spins one long, shiny thread to wrap myself in a cocoon. Which insect am I?",
+      "choiceType": "text",
+      "choices": ["Inchworm", "Aphid", "Weevil", "Silkworm"],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "I have a flat body so I can squeeze through tiny cracks, and I scuttle away really fast. Which insect am I?",
+      "choiceType": "text",
+      "choices": ["Beetle", "Cockroach", "Earwig", "Silverfish"],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "I have no wings, but I can jump more than a hundred times my own body length! Which insect am I?",
+      "choiceType": "text",
+      "choices": ["Flea", "Grasshopper", "Cricket", "Locust"],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Match each insect to its picture",
+      "choiceType": "match",
+      "leftType": "text",
+      "rightType": "image",
+      "pairs": [
+        { "left": "Weevil", "right": "images_downloaded/insects/weevil_1_Tc1EbJd1iCI.jpg" },
+        { "left": "Earwig", "right": "images_downloaded/insects/earwig_1_ZFM4p744L-w.jpg" },
+        { "left": "Silverfish", "right": "images_downloaded/insects/silverfish_1_PAivEjnfYM4.jpg" },
+        { "left": "Giant Weta", "right": "images_downloaded/insects/giant_weta_1_9kbNYzo1XtQ.jpg" }
+      ]
+    }
+  ]
+}

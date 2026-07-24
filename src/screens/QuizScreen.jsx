@@ -56,7 +56,9 @@ export default function QuizScreen({ state, dispatch }) {
   }
 
   function handleMatchCorrect(pairIndex) {
-    const willComplete = matchedPairs.length + 1 === q.pairs.length;
+    // Matching the second-to-last pair auto-fills the last one, so both counts complete the question.
+    const newCount = matchedPairs.length + 1;
+    const willComplete = newCount === q.pairs.length || newCount === q.pairs.length - 1;
     dispatch({ type: 'MATCH_CORRECT', questionIndex: currentIndex, pairIndex });
     if (willComplete) {
       if (soundOn) playHappySound();
@@ -69,6 +71,7 @@ export default function QuizScreen({ state, dispatch }) {
   const showCorrectFeedback = alreadyCorrect || (feedback && feedback.type === 'correct');
   const showSubmitBtn = !isMatch && !showCorrectFeedback;
   const showNextBtn = isMatch ? matchComplete : showCorrectFeedback;
+  const showSkipBtn = !showNextBtn;
   const feedbackToShow = isMatch ? null : (alreadyCorrect ? { type: 'correct', text: 'Great job!' } : feedback);
 
   return (
@@ -105,6 +108,9 @@ export default function QuizScreen({ state, dispatch }) {
       <div className="spacer" />
       <div className="nav-row">
         <button className="btn-secondary" onClick={() => dispatch({ type: 'GO_BACK' })}>Back</button>
+        {showSkipBtn && (
+          <button className="btn-secondary" onClick={() => dispatch({ type: 'SKIP_QUESTION' })}>Skip</button>
+        )}
         {showSubmitBtn && (
           <button className="btn-primary" onClick={handleSubmit}>Submit</button>
         )}

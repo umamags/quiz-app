@@ -23,6 +23,8 @@ const mixedQuiz = {
       pairs: [
         { left: 'A', right: 'A-img' },
         { left: 'B', right: 'B-img' },
+        { left: 'C', right: 'C-img' },
+        { left: 'D', right: 'D-img' },
       ],
     },
   ],
@@ -45,7 +47,7 @@ describe('quizReducer', () => {
     expect(state.currentIndex).toBe(0);
     expect(state.answers).toEqual([null, null]);
     expect(state.matchState).toEqual({});
-    expect(state.matchOrder[1].slice().sort()).toEqual([0, 1]);
+    expect(state.matchOrder[1].slice().sort()).toEqual([0, 1, 2, 3]);
     expect(state.matchOrder[0]).toBeUndefined(); // question 0 isn't a match type
   });
 
@@ -78,6 +80,16 @@ describe('quizReducer', () => {
 
     state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 1 });
     expect(state.matchState[1]).toEqual([0, 1]);
+    expect(state.answers[1]).toBeNull();
+  });
+
+  it('MATCH_CORRECT auto-matches the last remaining pair once only one is left', () => {
+    let state = quizReducer(initialState, { type: 'START_QUIZ', quiz: mixedQuiz, file: 'f' });
+    state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 0 });
+    state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 1 });
+    // Only pair 3 is left unmatched, so it should be filled in automatically alongside pair 2.
+    state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 2 });
+    expect(state.matchState[1].slice().sort()).toEqual([0, 1, 2, 3]);
     expect(state.answers[1]).toBe('matched');
   });
 
@@ -86,6 +98,18 @@ describe('quizReducer', () => {
     state = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 0 });
     const again = quizReducer(state, { type: 'MATCH_CORRECT', questionIndex: 1, pairIndex: 0 });
     expect(again.matchState[1]).toEqual([0]);
+  });
+
+  it('SKIP_QUESTION marks the current question "skipped" and advances, moving to results on the last question', () => {
+    let state = quizReducer(initialState, { type: 'START_QUIZ', quiz: textQuiz, file: 'f' });
+    state = quizReducer(state, { type: 'SKIP_QUESTION' });
+    expect(state.answers).toEqual(['skipped', null]);
+    expect(state.currentIndex).toBe(1);
+    expect(state.screen).toBe('quiz');
+
+    state = quizReducer(state, { type: 'SKIP_QUESTION' });
+    expect(state.answers).toEqual(['skipped', 'skipped']);
+    expect(state.screen).toBe('results');
   });
 });
 
@@ -139,7 +163,7 @@ describe('filterLearnItems', () => {
 describe('computeScore', () => {
   it('scores text questions by correctAnswer and match questions by full completion', () => {
     const answers = ['a', null];
-    const matchState = { 1: [0, 1] };
+    const matchState = { 1: [0, 1, 2, 3] };
     expect(computeScore(mixedQuiz, answers, matchState)).toEqual({ score: 2, total: 2 });
   });
 
