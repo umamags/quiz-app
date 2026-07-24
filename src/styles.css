@@ -269,6 +269,13 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
   gap: 12px;
   margin-bottom: 20px;
 }
+.central-image-button {
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 12px;
+  cursor: zoom-in;
+}
 .central-image {
   flex: 0 1 340px;
   max-width: 340px;
@@ -276,6 +283,7 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
   border-radius: 12px;
   object-fit: cover;
   border: 1px solid var(--border);
+  display: block;
 }
 .choices { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
 .choices.image-choices {

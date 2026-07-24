@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { filterLearnItems } from '../quizState.js';
+import Lightbox from '../components/Lightbox.jsx';
 
 const SEARCH_DEBOUNCE_MS = 200;
 
@@ -122,15 +123,6 @@ export default function LearnScreen({
   const [lightbox, setLightbox] = useState(null); // { src, alt } | null
   const [searchInput, setSearchInput] = useState(learnSearch);
 
-  useEffect(() => {
-    if (!lightbox) return;
-    function onKeyDown(e) {
-      if (e.key === 'Escape') setLightbox(null);
-    }
-    window.addEventListener('keydown', onKeyDown);
-    return () => window.removeEventListener('keydown', onKeyDown);
-  }, [lightbox]);
-
   // Debounce: filtering/re-rendering the full result list on every single
   // keystroke is what made typing feel slow with hundreds of items on
   // screen. Keep the input itself instantly responsive (local state) and
@@ -215,24 +207,7 @@ export default function LearnScreen({
         {!showBrowsePrompt && results.length === 0 && <div className="hint">No matches found.</div>}
       </div>
 
-      {lightbox && (
-        <div className="lightbox-overlay" onClick={() => setLightbox(null)}>
-          <button
-            type="button"
-            className="lightbox-close"
-            aria-label="Close"
-            onClick={() => setLightbox(null)}
-          >
-            &times;
-          </button>
-          <img
-            className="lightbox-image"
-            src={lightbox.src}
-            alt={lightbox.alt}
-            onClick={e => e.stopPropagation()}
-          />
-        </div>
-      )}
+      <Lightbox image={lightbox} onClose={() => setLightbox(null)} />
     </div>
   );
 }
