@@ -1,0 +1,134 @@
+import { describe, expect, it, vi, beforeEach } from 'vitest';
+
+// jsdom has no real <canvas> 2D context, so real fabric shape/image classes
+// aren't safe to instantiate here -- stand in with plain objects that record
+// what they were constructed/called with.
+vi.mock('fabric', () => {
+  class FakeFabricObject {
+    constructor(options = {}) {
+      Object.assign(this, options);
+    }
+    set(options) {
+      Object.assign(this, options);
+      return this;
+    }
+  }
+  class Rect extends FakeFabricObject {}
+  class Circle extends FakeFabricObject {}
+  class Line extends FakeFabricObject {
+    constructor(points, options) {
+      super(options);
+      this.points = points;
+    }
+  }
+  const FabricImage = { fromURL: vi.fn() };
+  return { Rect, Circle, Line, FabricImage };
+});
+
+import { Rect, Circle, Line, FabricImage } from 'fabric';
+import { buildShape, addImageAt, exportPng, generateFilename, downloadDataUrl } from './fabricHelpers.js';
+
+const style = { strokeColor: '#111111', fillEnabled: false, fillColor: '#222222' };
+
+describe('buildShape', () => {
+  it('builds a rectangle spanning the drag rectangle, unfilled by default', () => {
+    const shape = buildShape('rectangle', { x0: 10, y0: 20, x1: 110, y1: 70 }, style);
+    expect(shape).toBeInstanceOf(Rect);
+    expect(shape).toMatchObject({ left: 10, top: 20, width: 100, height: 50, stroke: '#111111', fill: 'transparent' });
+  });
+
+  it('applies the fill color when fillEnabled is true', () => {
+    const shape = buildShape('rectangle', { x0: 0, y0: 0, x1: 40, y1: 40 }, { ...style, fillEnabled: true });
+    expect(shape.fill).toBe('#222222');
+  });
+
+  it('handles drags in any direction by normalizing left/top', () => {
+    const shape = buildShape('rectangle', { x0: 110, y0: 70, x1: 10, y1: 20 }, style);
+    expect(shape).toMatchObject({ left: 10, top: 20, width: 100, height: 50 });
+  });
+
+  it('builds a square using the larger of width/height for both sides', () => {
+    const shape = buildShape('square', { x0: 0, y0: 0, x1: 30, y1: 90 }, style);
+    expect(shape.width).toBe(90);
+    expect(shape.height).toBe(90);
+  });
+
+  it('builds a circle with radius from half the bounding box', () => {
+    const shape = buildShape('circle', { x0: 0, y0: 0, x1: 60, y1: 20 }, style);
+    expect(shape).toBeInstanceOf(Circle);
+    expect(shape.radius).toBe(30);
+  });
+
+  it('builds a line between the two drag points', () => {
+    const shape = buildShape('line', { x0: 5, y0: 6, x1: 50, y1: 60 }, style);
+    expect(shape).toBeInstanceOf(Line);
+    expect(shape.points).toEqual([5, 6, 50, 60]);
+    expect(shape.stroke).toBe('#111111');
+  });
+
+  it('returns null for an unknown tool', () => {
+    expect(buildShape('select', { x0: 0, y0: 0, x1: 1, y1: 1 }, style)).toBeNull();
+  });
+});
+
+describe('addImageAt', () => {
+  beforeEach(() => {
+    FabricImage.fromURL.mockReset();
+  });
+
+  it('centers the image at the given point and adds it to the canvas', async () => {
+    const img = { width: 100, height: 100, set: vi.fn() };
+    FabricImage.fromURL.mockResolvedValue(img);
+    const canvas = { add: vi.fn(), setActiveObject: vi.fn(), requestRenderAll: vi.fn() };
+
+    await addImageAt(canvas, 'images_downloaded/animals/dog_1.jpg', 200, 300);
+
+    expect(FabricImage.fromURL).toHaveBeenCalledWith('images_downloaded/animals/dog_1.jpg');
+    expect(img.set).toHaveBeenCalledWith({ left: 150, top: 250, scaleX: 1, scaleY: 1 });
+    expect(canvas.add).toHaveBeenCalledWith(img);
+    expect(canvas.setActiveObject).toHaveBeenCalledWith(img);
+    expect(canvas.requestRenderAll).toHaveBeenCalled();
+  });
+
+  it('scales down images larger than the max dimension', async () => {
+    const img = { width: 440, height: 220, set: vi.fn() };
+    FabricImage.fromURL.mockResolvedValue(img);
+    const canvas = { add: vi.fn(), setActiveObject: vi.fn(), requestRenderAll: vi.fn() };
+
+    await addImageAt(canvas, 'src.jpg', 0, 0);
+
+    expect(img.set).toHaveBeenCalledWith(expect.objectContaining({ scaleX: 0.5, scaleY: 0.5 }));
+  });
+});
+
+describe('exportPng', () => {
+  it('requests a PNG data URL at 2x scale', () => {
+    const canvas = { toDataURL: vi.fn().mockReturnValue('data:image/png;base64,ABC') };
+    expect(exportPng(canvas)).toBe('data:image/png;base64,ABC');
+    expect(canvas.toDataURL).toHaveBeenCalledWith({ format: 'png', multiplier: 2 });
+  });
+});
+
+describe('generateFilename', () => {
+  it('produces a timestamped png filename with the given prefix', () => {
+    const filename = generateFilename('paint-drawing');
+    expect(filename).toMatch(/^paint-drawing-.+\.png$/);
+  });
+});
+
+describe('downloadDataUrl', () => {
+  it('creates a temporary anchor with the right href/filename, clicks it, and removes it', () => {
+    let clickedAnchor = null;
+    const clickSpy = vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(function () {
+      clickedAnchor = { href: this.href, download: this.download };
+    });
+
+    downloadDataUrl('data:image/png;base64,ABC', 'my-drawing.png');
+
+    expect(clickSpy).toHaveBeenCalledTimes(1);
+    expect(clickedAnchor).toEqual({ href: 'data:image/png;base64,ABC', download: 'my-drawing.png' });
+    expect(document.body.querySelector('a[download="my-drawing.png"]')).toBeNull();
+
+    clickSpy.mockRestore();
+  });
+});

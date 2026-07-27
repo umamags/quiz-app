@@ -11,7 +11,7 @@ function shuffled(arr) {
 
 export const initialState = {
   screen: 'menu', // 'menu' | 'quiz' | 'results'
-  homeTab: 'quiz', // 'quiz' | 'learn'
+  homeTab: 'quiz', // 'quiz' | 'learn' | 'paint'
   manifest: null,
   manifestError: null,
   settings: { sound: 'on' },
@@ -26,6 +26,7 @@ export const initialState = {
   learnItems: null,     // flattened array of { category, ...item } across every learn category, once loaded
   learnCategory: null,   // selected category title filter, or null for "all"
   learnSearch: '',        // free-text filter, matched against name + description
+  paintCategory: null,   // selected category title in the Paint tab's image sidebar, or null
 };
 
 export function showCorrectAnswerEnabled(quiz) {
@@ -89,6 +90,9 @@ export function quizReducer(state, action) {
 
     case 'LEARN_SEARCH_CHANGED':
       return { ...state, learnSearch: action.query };
+
+    case 'PAINT_CATEGORY_SELECTED':
+      return { ...state, paintCategory: action.category };
 
     case 'START_QUIZ': {
       const { quiz, file } = action;

@@ -415,3 +415,86 @@ button {
 }
 .score-number { font-size: 48px; font-weight: 800; color: var(--primary); }
 .score-label { font-size: 15px; color: var(--muted); margin-top: 4px; }
+
+/* Paint screen */
+.paint-screen { flex: 1; display: flex; gap: 20px; align-items: flex-start; }
+.paint-sidebar {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 640px;
+  overflow-y: auto;
+}
+.paint-category-list { display: flex; flex-direction: column; gap: 6px; }
+.paint-category-button {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fafbff;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+.paint-category-button:hover { border-color: var(--primary); }
+.paint-category-button.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+.paint-thumb-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+.paint-thumb {
+  padding: 0;
+  width: 60px;
+  height: 60px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: none;
+  overflow: hidden;
+  cursor: grab;
+}
+.paint-thumb:hover { border-color: var(--primary); }
+.paint-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.paint-main { flex: 1; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.paint-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fafbff;
+}
+.paint-tool-group { display: flex; flex-wrap: wrap; gap: 6px; }
+.paint-tool-button {
+  padding: 6px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.paint-tool-button:hover { border-color: var(--primary); }
+.paint-tool-button.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+.paint-color-row { display: flex; align-items: center; gap: 10px; }
+.paint-color-label { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.paint-color-row input[type="color"] {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.paint-action-group { display: flex; gap: 8px; margin-left: auto; }
+.paint-action-group button { padding: 8px 14px; font-size: 13px; }
+.paint-canvas-wrap {
+  align-self: flex-start;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--card);
+  overflow: auto;
+  line-height: 0;
+}
