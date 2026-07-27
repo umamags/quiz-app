@@ -1,0 +1,1324 @@
+[
+  {
+    "name": "mountain",
+    "description": "A landmass that rises sharply from its surroundings, formed over millions of years by colliding tectonic plates pushing rock skyward. Mount Everest, the tallest peak above sea level, grows about 4 millimeters higher every year as the Indian and Eurasian plates continue to collide.",
+    "images": [
+      "images_downloaded/nature/mountain_1_Bkci_8qcdvQ.jpg",
+      "images_downloaded/nature/mountain_2_xfngap_DToE.jpg",
+      "images_downloaded/nature/mountain_3_9wg5jCEPBsw.jpg",
+      "images_downloaded/nature/mountain_4_g30P1zcOzXo.jpg",
+      "images_downloaded/nature/mountain_5_YFFGkE3y4F8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35742078/15150297_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-drone-view-of-snowy-mountain-landscapes-35742078/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/05/13/278750_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-278750/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/mountain.mp3"
+  },
+  {
+    "name": "sinkhole",
+    "description": "A sudden depression or hole in the ground that forms when underlying rock, often limestone, dissolves and the surface above collapses. Some sinkholes appear gradually over years, while others open up in seconds, occasionally swallowing cars or buildings with almost no warning.",
+    "images": [
+      "images_downloaded/nature/sinkhole_1_Lhx_5_DJajE.jpg",
+      "images_downloaded/nature/sinkhole_2_86vrek5neqg.jpg",
+      "images_downloaded/nature/sinkhole_3_1q6bsQQPpus.jpg",
+      "images_downloaded/nature/sinkhole_4_1y-NMTZz3F0.jpg",
+      "images_downloaded/nature/sinkhole_5_0qqd9ag33KY.jpg"
+    ],
+    "videos": [],
+    "audio_desc": "audio/nature/sinkhole.mp3"
+  },
+  {
+    "name": "volcano",
+    "description": "An opening in the Earth's crust that releases molten rock, ash, and gases from deep underground, often building a cone-shaped mountain around itself. There are more than 1,500 potentially active volcanoes on land, and lava can reach temperatures over 1,000 degrees Celsius.",
+    "images": [
+      "images_downloaded/nature/volcano_1_80x3QULJDN4.jpg",
+      "images_downloaded/nature/volcano_2_tLxGw_ITs7k.jpg",
+      "images_downloaded/nature/volcano_3_WQ5HOvrDZ6Y.jpg",
+      "images_downloaded/nature/volcano_4_U6pLKRSQLis.jpg",
+      "images_downloaded/nature/volcano_5_RwkBCZhG9LU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27500689/12154590_640_360_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/an-aerial-view-of-a-volcano-with-smoke-coming-out-of-it-27500689/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/10/03/183442-871250579_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-183442/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/volcano.mp3"
+  },
+  {
+    "name": "waterfall",
+    "description": "A place where a river or stream drops abruptly over a cliff or ledge, carved out over time as softer rock erodes faster than the hard rock above it. Angel Falls in Venezuela is the world's tallest, with water plunging almost 1,000 meters, turning to mist before it even reaches the bottom.",
+    "images": [
+      "images_downloaded/nature/waterfall_1_ptTjx1LP7Bo.jpg",
+      "images_downloaded/nature/waterfall_2_cssvEZacHvQ.jpg",
+      "images_downloaded/nature/waterfall_3_YvkH8R1zoQM.jpg",
+      "images_downloaded/nature/waterfall_4_vKzQ2B-yquw.jpg",
+      "images_downloaded/nature/waterfall_5_waAAaeC9hns.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30372915/13017394_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/frozen-waterfall-in-the-italian-alps-during-winter-30372915/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/03/14/154726-808562497_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-154726/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/waterfall.mp3"
+  },
+  {
+    "name": "glacier",
+    "description": "A massive, slow-moving river of densely packed ice and snow that forms over centuries where snowfall exceeds melting. Glaciers hold about 69 percent of the world's fresh water, and some move only a few centimeters a day while others surge tens of meters daily.",
+    "images": [
+      "images_downloaded/nature/glacier_1_ds_NPvoAzro.jpg",
+      "images_downloaded/nature/glacier_2_2aPfcyAC2cc.jpg",
+      "images_downloaded/nature/glacier_3_WDbJNWeKvUo.jpg",
+      "images_downloaded/nature/glacier_4_VSGEH7tKiUg.jpg",
+      "images_downloaded/nature/glacier_5_yAXv5bgFGQ8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29822446/12809518_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-glacier-crevasse-in-winter-wonderland-29822446/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/01/06/326277_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-326277/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/glacier.mp3"
+  },
+  {
+    "name": "iceberg",
+    "description": "A large chunk of freshwater ice that has broken off, or 'calved,' from a glacier or ice shelf and drifts freely in open water. Only about one-tenth of an iceberg shows above the surface, which is why the phrase 'tip of the iceberg' describes a small visible part of a much bigger whole.",
+    "images": [
+      "images_downloaded/nature/iceberg_1_qjs2R1lMMcw.jpg",
+      "images_downloaded/nature/iceberg_2_N46IkbWUvMU.jpg",
+      "images_downloaded/nature/iceberg_3_N4RYO1198KM.jpg",
+      "images_downloaded/nature/iceberg_4_M-EwSRl8BK8.jpg",
+      "images_downloaded/nature/iceberg_5_vpHCfunwDrQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/8318762/8318762-hd_1280_720_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/drone-footage-of-iceberg-8318762/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/23/213424_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-213424/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/nature/iceberg.mp3"
+  },
+  {
+    "name": "desert",
+    "description": "A vast, dry landscape that receives less than 250 millimeters of rain a year, ranging from scorching sand dunes to frozen polar plains. Antarctica is technically the world's largest desert, and the Sahara can swing from over 50 degrees Celsius by day to below freezing at night.",
+    "images": [
+      "images_downloaded/nature/desert_1_pVr6wvUneMk.jpg",
+      "images_downloaded/nature/desert_2_L75D18aVal8.jpg",
+      "images_downloaded/nature/desert_3_Us_dv71f1bc.jpg",
+      "images_downloaded/nature/desert_4_Fd01B6nNPbo.jpg",
+      "images_downloaded/nature/desert_5_12IHVEFRacQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/10869006/10869006-hd_720_1280_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/clear-sky-over-desert-by-sea-10869006/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/03/27/112043-695204675_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-112043/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/desert.mp3"
+  },
+  {
+    "name": "rainforest",
+    "description": "A dense, warm, and extremely wet forest that receives at least 2,000 millimeters of rain annually and hosts more species than any other land habitat. The Amazon rainforest alone is home to an estimated 10 percent of all known species on Earth and produces a huge share of the planet's oxygen.",
+    "images": [
+      "images_downloaded/nature/rainforest_1__qZ0us4az20.jpg",
+      "images_downloaded/nature/rainforest_2_lDy1K7RkLeA.jpg",
+      "images_downloaded/nature/rainforest_3_60tataLkJ0U.jpg",
+      "images_downloaded/nature/rainforest_4_pt7QzB4ZLWw.jpg",
+      "images_downloaded/nature/rainforest_5_vkQgb1lZZPQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37218117/15766861_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/lush-tropical-rainforest-canopy-view-37218117/",
+        "durationSeconds": 21
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/03/02/261862_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-261862/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/rainforest.mp3"
+  },
+  {
+    "name": "canyon",
+    "description": "A deep, narrow valley with steep sides, carved slowly over millions of years as a river cuts through layers of rock. The Grand Canyon in Arizona is over 1,800 meters deep in places and exposes rock layers nearly 2 billion years old.",
+    "images": [
+      "images_downloaded/nature/canyon_1_L75D18aVal8.jpg",
+      "images_downloaded/nature/canyon_2_EVZxXuOEk3w.jpg",
+      "images_downloaded/nature/canyon_3_ZZnH4GOzDgc.jpg",
+      "images_downloaded/nature/canyon_4__0aOFIW34rw.jpg",
+      "images_downloaded/nature/canyon_5_WeYamle9fDM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/20753636/20753636-hd_720_1280_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/canyon-views-20753636/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/08/28/129353-744385318_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-129353/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/canyon.mp3"
+  },
+  {
+    "name": "river",
+    "description": "A natural, flowing body of freshwater that travels from higher ground to a lake, sea, or ocean, shaping the land it passes through. The Nile and the Amazon compete for the title of the world's longest river, each stretching more than 6,400 kilometers.",
+    "images": [
+      "images_downloaded/nature/river_1_cCthPLHmrzI.jpg",
+      "images_downloaded/nature/river_2_rB7-LCa_diU.jpg",
+      "images_downloaded/nature/river_3_HtUBBdNDxpQ.jpg",
+      "images_downloaded/nature/river_4_8konJx6dY4g.jpg",
+      "images_downloaded/nature/river_5_ycG0A6DlvOk.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38262510/16246113_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/serene-river-with-reflective-water-patterns-38262510/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/11/04/28707-371213524_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-28707/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/river.mp3"
+  },
+  {
+    "name": "lake",
+    "description": "A large body of water enclosed by land, usually formed by glaciers, tectonic activity, or volcanic craters rather than connecting directly to the ocean. Lake Baikal in Russia is the world's deepest and oldest lake, holding roughly 20 percent of all the planet's unfrozen fresh water.",
+    "images": [
+      "images_downloaded/nature/lake_1_HeEJU3nrg_0.jpg",
+      "images_downloaded/nature/lake_2_1HMl4gY9bl4.jpg",
+      "images_downloaded/nature/lake_3_T7K4aEPoGGk.jpg",
+      "images_downloaded/nature/lake_4_GA09PKfRIQY.jpg",
+      "images_downloaded/nature/lake_5_N9vsB6OEeKM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/31159066/13313118_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/serene-lake-journey-peaceful-boat-ride-31159066/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2015/10/16/1049-142623920_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-1049/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/lake.mp3"
+  },
+  {
+    "name": "ocean",
+    "description": "A vast, continuous body of salt water that covers about 71 percent of Earth's surface and is divided into five named basins. Scientists have mapped only a small fraction of the ocean floor in detail, meaning more of the Moon's surface has been charted than the bottom of our own seas.",
+    "images": [
+      "images_downloaded/nature/ocean_1_6ArTTluciuA.jpg",
+      "images_downloaded/nature/ocean_2_K785Da4A_JA.jpg",
+      "images_downloaded/nature/ocean_3_KMn4VEeEPR8.jpg",
+      "images_downloaded/nature/ocean_4_IZ01rjX0XQA.jpg",
+      "images_downloaded/nature/ocean_5_5cwigXmGWTo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/34515737/14624091_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-ocean-waves-crashing-on-cliffs-34515737/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/19/135658-764361528_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-135658/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/nature/ocean.mp3"
+  },
+  {
+    "name": "beach",
+    "description": "A strip of sand, pebbles, or shells along a coastline, reshaped daily by waves and tides that constantly redistribute the loose material. Some beaches, like those on Hawaii's Papakolea, are colored green from tiny olivine crystals washed out of nearby volcanic rock.",
+    "images": [
+      "images_downloaded/nature/beach_1_tzHIQkyUJwI.jpg",
+      "images_downloaded/nature/beach_2_KMn4VEeEPR8.jpg",
+      "images_downloaded/nature/beach_3_Siuwr3uCir0.jpg",
+      "images_downloaded/nature/beach_4_VKFHp6UQncE.jpg",
+      "images_downloaded/nature/beach_5_DH_u2aV3nGM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36308330/15398136_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/serene-aerial-view-of-a-tropical-beach-36308330/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/10/15/185096-874643413_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-185096/",
+        "durationSeconds": 13
+      }
+    ],
+    "audio_desc": "audio/nature/beach.mp3"
+  },
+  {
+    "name": "cave",
+    "description": "A natural underground hollow, often carved out of limestone over thousands of years as slightly acidic water slowly dissolves the rock. Vietnam's Son Doong cave is so enormous it contains its own jungle, clouds, and weather system inside its passages.",
+    "images": [
+      "images_downloaded/nature/cave_1_qjIzxfkoqrI.jpg",
+      "images_downloaded/nature/cave_2_Hi0bdO0vEfo.jpg",
+      "images_downloaded/nature/cave_3_v2HgNzRDfII.jpg",
+      "images_downloaded/nature/cave_4_facU72FcKBI.jpg",
+      "images_downloaded/nature/cave_5_rAqzj79GUmA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/29065930/12563152_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/mysterious-rock-formation-in-cave-tunnel-29065930/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/10/09/134115-758552433_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-134115/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/cave.mp3"
+  },
+  {
+    "name": "geyser",
+    "description": "A hot spring that periodically erupts, shooting boiling water and steam into the air when pressure builds up in an underground chamber. Yellowstone's Old Faithful erupts every 44 to 125 minutes, reliably enough that it earned its name for punctuality.",
+    "images": [
+      "images_downloaded/nature/geyser_1_gwseWJiWBWY.jpg",
+      "images_downloaded/nature/geyser_2_5oDXo7DM0L4.jpg",
+      "images_downloaded/nature/geyser_3_rHea9WlLXzc.jpg",
+      "images_downloaded/nature/geyser_4_45azN7FI3J8.jpg",
+      "images_downloaded/nature/geyser_5_K_cReOJQotc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27893538/12254602_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-steamy-geyser-in-the-middle-of-a-field-27893538/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/28/125806-735656132_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-125806/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/geyser.mp3"
+  },
+  {
+    "name": "rainbow",
+    "description": "An arc of light split into its full spectrum of colors as sunlight refracts and reflects through countless raindrops in the air. No two people ever see exactly the same rainbow, since it forms from a unique angle relative to each viewer's own eyes.",
+    "images": [
+      "images_downloaded/nature/rainbow_1_JzCf5Y3XmFU.jpg",
+      "images_downloaded/nature/rainbow_2_P2lk-0bBVm0.jpg",
+      "images_downloaded/nature/rainbow_3_epRlEd6oTmE.jpg",
+      "images_downloaded/nature/rainbow_4_vey6D0c2A_0.jpg",
+      "images_downloaded/nature/rainbow_5_x0tB8fltGqU.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/11339499/11339499-hd_720_1280_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/double-rainbow-on-sky-11339499/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/11/04/28707-371213524_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-28707/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/rainbow.mp3"
+  },
+  {
+    "name": "thunderstorm",
+    "description": "A storm that produces both thunder and lightning, forming when warm, moist air rises rapidly and collides with cooler air above. At any given moment, roughly 2,000 thunderstorms are occurring somewhere on Earth, producing about 8 million lightning strikes a day.",
+    "images": [
+      "images_downloaded/nature/thunderstorm_1_3qucB7U2l7I.jpg",
+      "images_downloaded/nature/thunderstorm_2_nbqlWhOVu6k.jpg",
+      "images_downloaded/nature/thunderstorm_3_uu-Jw5SunYI.jpg",
+      "images_downloaded/nature/thunderstorm_4_E-Zuyev2XWo.jpg",
+      "images_downloaded/nature/thunderstorm_5__hGPdpyMV-8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/12107199/12107199-hd_720_1280_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/thunderstorm-over-trees-12107199/",
+        "durationSeconds": 2
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/21/222308_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-222308/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/thunderstorm.mp3"
+  },
+  {
+    "name": "lightning",
+    "description": "A giant electrical spark caused by a buildup of static charge inside storm clouds, discharging as a bolt that can stretch for miles. A single lightning bolt can heat the surrounding air to nearly 30,000 Kelvin, roughly five times hotter than the surface of the sun.",
+    "images": [
+      "images_downloaded/nature/lightning_1_3qucB7U2l7I.jpg",
+      "images_downloaded/nature/lightning_2_R9L7ukhBSgs.jpg",
+      "images_downloaded/nature/lightning_3_wFN9B3s_iik.jpg",
+      "images_downloaded/nature/lightning_4_sCrqMG2f6qo.jpg",
+      "images_downloaded/nature/lightning_5_E-Zuyev2XWo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/2657691/2657691-hd_1280_720_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/thunder-and-flash-of-lightning-2657691/",
+        "durationSeconds": 5
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/07/21/222308_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-222308/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/lightning.mp3"
+  },
+  {
+    "name": "tornado",
+    "description": "A violently rotating column of air that stretches from a thunderstorm down to the ground, capable of winds over 300 kilometers per hour. The United States sees more tornadoes than any other country, averaging over 1,000 a year in a region nicknamed Tornado Alley.",
+    "images": [
+      "images_downloaded/nature/tornado_1_onCIfj_UIeQ.jpg",
+      "images_downloaded/nature/tornado_2_fQM8cbGY6iQ.jpg",
+      "images_downloaded/nature/tornado_3_i9w4Uy1pU-s.jpg",
+      "images_downloaded/nature/tornado_4_HiSS1w9r4_I.jpg",
+      "images_downloaded/nature/tornado_5_2ww84LX_um4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2017/01/12/7247-199191017_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-7247/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/tornado.mp3"
+  },
+  {
+    "name": "hurricane",
+    "description": "A massive rotating storm that forms over warm ocean water, with a calm 'eye' at its center surrounded by intense wind and rain. The same storm type is called a typhoon in the Northwest Pacific and a cyclone in the South Pacific and Indian Ocean, even though it's meteorologically identical.",
+    "images": [
+      "images_downloaded/nature/hurricane_1_i9w4Uy1pU-s.jpg",
+      "images_downloaded/nature/hurricane_2_5477L9Z5eqI.jpg",
+      "images_downloaded/nature/hurricane_3_ha3hueRV3xM.jpg",
+      "images_downloaded/nature/hurricane_4_mqZ9UC6w2kA.jpg",
+      "images_downloaded/nature/hurricane_5_kKyxIwvljBg.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2017/01/12/7247-199191017_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-7247/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/hurricane.mp3"
+  },
+  {
+    "name": "avalanche",
+    "description": "A rapid flow of snow down a mountainside, often triggered by a sudden stress like fresh snowfall, wind, or the weight of a skier. A large avalanche can move at speeds exceeding 100 kilometers per hour and carry enough force to snap fully grown trees.",
+    "images": [
+      "images_downloaded/nature/avalanche_1_PkXThkFaGzo.jpg",
+      "images_downloaded/nature/avalanche_2_Cd2QnIKU6dk.jpg",
+      "images_downloaded/nature/avalanche_3_5viFVWQNf_w.jpg",
+      "images_downloaded/nature/avalanche_4_ythcnAYLgfQ.jpg",
+      "images_downloaded/nature/avalanche_5_n9lNQ3O98k8.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2019/01/09/20579-311449636_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-20579/",
+        "durationSeconds": 13
+      }
+    ],
+    "audio_desc": "audio/nature/avalanche.mp3"
+  },
+  {
+    "name": "aurora",
+    "description": "A natural light display in the polar sky, caused by charged particles from the sun colliding with gases in Earth's atmosphere. The green glow most often seen comes from oxygen atoms roughly 100 kilometers up, while rarer red and blue hues form at different altitudes.",
+    "images": [
+      "images_downloaded/nature/aurora_1_LtnPejWDSAY.jpg",
+      "images_downloaded/nature/aurora_2_cVBz9q1T_9M.jpg",
+      "images_downloaded/nature/aurora_3_x3WQMj5QkEE.jpg",
+      "images_downloaded/nature/aurora_4_UZOpP-YHe9Q.jpg",
+      "images_downloaded/nature/aurora_5_vUePu7hAYAQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/27791489/12225756_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/the-aurora-bore-lights-up-the-sky-over-a-mountain-27791489/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/29/218646_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-218646/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/aurora.mp3"
+  },
+  {
+    "name": "eclipse",
+    "description": "An event where one celestial body passes into the shadow of another, briefly blocking out the sun or darkening the moon. Total solar eclipses are possible only because the sun happens to be about 400 times larger than the moon and also about 400 times farther away.",
+    "images": [
+      "images_downloaded/nature/eclipse_1_F-pSZO_jeE8.jpg",
+      "images_downloaded/nature/eclipse_2_0srr4lMWZLQ.jpg",
+      "images_downloaded/nature/eclipse_3_y07ClgzcVmc.jpg",
+      "images_downloaded/nature/eclipse_4_rWey_wseEcY.jpg",
+      "images_downloaded/nature/eclipse_5__jhUrn9o8yM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/18748018/18748018-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/eclipse-solar-18748018/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/19/208574_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-208574/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/eclipse.mp3"
+  },
+  {
+    "name": "sunrise",
+    "description": "The daily moment the sun first appears above the horizon, its light scattered into warm reds and oranges by the thick layer of atmosphere it passes through. Because Earth rotates west to east, sunrise always happens earlier the farther east you travel.",
+    "images": [
+      "images_downloaded/nature/sunrise_1_-IMlv9Jlb24.jpg",
+      "images_downloaded/nature/sunrise_2_-G3rw6Y02D0.jpg",
+      "images_downloaded/nature/sunrise_3_hNv5s6NEYig.jpg",
+      "images_downloaded/nature/sunrise_4_xP_AGmeEa6s.jpg",
+      "images_downloaded/nature/sunrise_5_mBQIfKlvowM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/37365586/15825901_360_640_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/skyline-with-birds-at-sunrise-37365586/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/04/22/209004_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-209004/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/sunrise.mp3"
+  },
+  {
+    "name": "sunset",
+    "description": "The daily moment the sun dips below the horizon, painting the sky in shifting colors as its light travels through more atmosphere than at midday. Sunsets often turn especially vivid after volcanic eruptions, when fine ash lingering high in the atmosphere scatters extra light.",
+    "images": [
+      "images_downloaded/nature/sunset_1_-IMlv9Jlb24.jpg",
+      "images_downloaded/nature/sunset_2_GPPAjJicemU.jpg",
+      "images_downloaded/nature/sunset_3_ESEnXckWlLY.jpg",
+      "images_downloaded/nature/sunset_4_mBQIfKlvowM.jpg",
+      "images_downloaded/nature/sunset_5_iW1WzbuWMcA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19314111/19314111-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-sunset-over-a-city-with-clouds-and-buildings-19314111/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/06/11/216199_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-216199/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/sunset.mp3"
+  },
+  {
+    "name": "fog",
+    "description": "A cloud that forms at ground level when moist air cools enough for water vapor to condense into tiny floating droplets. San Francisco's famous fog, nicknamed 'Karl,' forms when warm inland air draws cool, moist ocean air across the bay.",
+    "images": [
+      "images_downloaded/nature/fog_1_kbKEuU-YEIw.jpg",
+      "images_downloaded/nature/fog_2_7CME6Wlgrdk.jpg",
+      "images_downloaded/nature/fog_3_v1pu3WSFieE.jpg",
+      "images_downloaded/nature/fog_4_KT3WlrL_bsg.jpg",
+      "images_downloaded/nature/fog_5_2Hzmz15wGik.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/19237065/19237065-hd_720_1280_36fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/november-fog-19237065/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/09/15/18241-290348821_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-18241/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/nature/fog.mp3"
+  },
+  {
+    "name": "blizzard",
+    "description": "A severe snowstorm defined by sustained winds of at least 56 kilometers per hour and visibility reduced to less than 400 meters. The Great Blizzard of 1888 buried parts of the northeastern United States under snowdrifts more than 12 meters deep in places.",
+    "images": [
+      "images_downloaded/nature/blizzard_1_PzhmEp_aDU4.jpg",
+      "images_downloaded/nature/blizzard_2_LiGTtFoyI2M.jpg",
+      "images_downloaded/nature/blizzard_3_HOxKiWH-2dI.jpg",
+      "images_downloaded/nature/blizzard_4_NHI7pZ9Kqzc.jpg",
+      "images_downloaded/nature/blizzard_5_Oaec-W0b2ss.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/14034843/14034843-hd_720_1280_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/snow-blizzard-14034843/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/07/11/81023-575216125_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-81023/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/blizzard.mp3"
+  },
+  {
+    "name": "hailstorm",
+    "description": "A storm that drops balls of ice formed when strong updrafts carry raindrops up into freezing layers of a thunderstorm again and again. The largest hailstone ever recorded fell in South Dakota in 2010, measuring about 20 centimeters across, roughly the size of a volleyball.",
+    "images": [
+      "images_downloaded/nature/hailstorm_1_fQM8cbGY6iQ.jpg",
+      "images_downloaded/nature/hailstorm_2_Cm5zI68Wdew.jpg",
+      "images_downloaded/nature/hailstorm_3_Led9c1SSNFo.jpg",
+      "images_downloaded/nature/hailstorm_4_QMT9sUm6yPE.jpg",
+      "images_downloaded/nature/hailstorm_5_EngLPePzg7U.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/08/07/225317_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-225317/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/hailstorm.mp3"
+  },
+  {
+    "name": "sandstorm",
+    "description": "A wall of wind-blown sand and dust that can reduce visibility to near zero, common in deserts where loose, dry sediment covers the ground. Saharan sandstorms are so massive they regularly cross the Atlantic Ocean, depositing nutrient-rich dust onto the Amazon rainforest thousands of kilometers away.",
+    "images": [
+      "images_downloaded/nature/sandstorm_1_dmTqzOL7_hU.jpg",
+      "images_downloaded/nature/sandstorm_2_L4VxDFJmaOM.jpg",
+      "images_downloaded/nature/sandstorm_3_g1WoGCQ5v28.jpg",
+      "images_downloaded/nature/sandstorm_4_MZy4HxwxC_4.jpg",
+      "images_downloaded/nature/sandstorm_5_paxe0N0y384.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/04/13/70899-538962420_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-70899/",
+        "durationSeconds": 20
+      }
+    ],
+    "audio_desc": "audio/nature/sandstorm.mp3"
+  },
+  {
+    "name": "tsunami",
+    "description": "A series of powerful ocean waves usually triggered by an underwater earthquake, volcanic eruption, or landslide displacing huge volumes of water. In the open ocean a tsunami may be barely noticeable, but it can slow down and rise to tens of meters high as it reaches shallow coastal water.",
+    "images": [
+      "images_downloaded/nature/tsunami_1_cEeEtjedNls.jpg",
+      "images_downloaded/nature/tsunami_2_rxlx9Yi0298.jpg",
+      "images_downloaded/nature/tsunami_3_0QEG_xOoY7Y.jpg",
+      "images_downloaded/nature/tsunami_4_2ONGY4I82lg.jpg",
+      "images_downloaded/nature/tsunami_5_GVVCNNTLJGo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/01/27/31629-387701974_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-31629/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/tsunami.mp3"
+  },
+  {
+    "name": "coral reef",
+    "description": "An underwater structure built by colonies of tiny animals called coral polyps, which secrete calcium carbonate skeletons over generations. Australia's Great Barrier Reef is the largest living structure on Earth and supports thousands of species of fish and other marine life.",
+    "images": [
+      "images_downloaded/nature/coral_reef_1_0G01UI1MQhg.jpg",
+      "images_downloaded/nature/coral_reef_2_9y7y26C-l4Y.jpg",
+      "images_downloaded/nature/coral_reef_3_v8Un2Roo1Ak.jpg",
+      "images_downloaded/nature/coral_reef_4_HYHYGLs-Rp8.jpg",
+      "images_downloaded/nature/coral_reef_5_2xuiab6o-qc.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36155360/15332768_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/stunning-underwater-coral-reef-scene-36155360/",
+        "durationSeconds": 8
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/07/08/170606-843561810_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-170606/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/coral_reef.mp3"
+  },
+  {
+    "name": "tide pool",
+    "description": "A shallow pool of seawater left behind in rocky coastal crevices when the tide goes out, forming a self-contained miniature ecosystem. Animals living there, like sea stars and anemones, must survive both crashing waves and being exposed to open air twice a day.",
+    "images": [
+      "images_downloaded/nature/tide_pool_1_skP-TKugyw8.jpg",
+      "images_downloaded/nature/tide_pool_2_5UGKRmE1gq8.jpg",
+      "images_downloaded/nature/tide_pool_3_YDrFXDZYFAE.jpg",
+      "images_downloaded/nature/tide_pool_4_fymQDpBfcMo.jpg",
+      "images_downloaded/nature/tide_pool_5_rTTcciBFXVE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/08/13/127717-739309138_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-127717/",
+        "durationSeconds": 14
+      }
+    ],
+    "audio_desc": "audio/nature/tide_pool.mp3"
+  },
+  {
+    "name": "wetland",
+    "description": "A landscape saturated with water for at least part of the year, including marshes, swamps, and bogs that filter pollutants naturally. Despite covering only about 6 percent of Earth's land surface, wetlands support a disproportionately large share of the world's plant and animal species.",
+    "images": [
+      "images_downloaded/nature/wetland_1_NFVkQMmHXMU.jpg",
+      "images_downloaded/nature/wetland_2_hq-UYUC-ZY8.jpg",
+      "images_downloaded/nature/wetland_3_vt5x3WNyyzY.jpg",
+      "images_downloaded/nature/wetland_4_ao2rfVjjut8.jpg",
+      "images_downloaded/nature/wetland_5_Yhx6-WibC3I.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15046623/15046623-hd_1920_1080_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/drone-footage-of-the-hokersar-wetland-in-jammu-and-kashmir-india-15046623/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/04/07/15457-264243734_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-15457/",
+        "durationSeconds": 11
+      }
+    ],
+    "audio_desc": "audio/nature/wetland.mp3"
+  },
+  {
+    "name": "savanna",
+    "description": "A grassy plain scattered with occasional trees, found in tropical regions with a long dry season and a shorter, intense wet season. Africa's savannas support some of the largest land-migrating herds on Earth, including wildebeest treks of over a million animals.",
+    "images": [
+      "images_downloaded/nature/savanna_1_92MgFhlWD-8.jpg",
+      "images_downloaded/nature/savanna_2_T-LfvX-7IVg.jpg",
+      "images_downloaded/nature/savanna_3_UPKRugpyVM4.jpg",
+      "images_downloaded/nature/savanna_4_vu0gvM5he8o.jpg",
+      "images_downloaded/nature/savanna_5_xP1ySp_Nnjo.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/38479188/16341824_360_640_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/majestic-giraffes-grazing-in-open-savanna-38479188/",
+        "durationSeconds": 9
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/12/20/323312_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-323312/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/savanna.mp3"
+  },
+  {
+    "name": "tundra",
+    "description": "A cold, treeless landscape found near the poles or atop high mountains, underlain by a permanently frozen layer of soil called permafrost. Despite the harsh climate, tundra summers can burst with color as hundreds of plant species bloom and complete their life cycle within just a few short weeks.",
+    "images": [
+      "images_downloaded/nature/tundra_1_9XQzqcAr-3I.jpg",
+      "images_downloaded/nature/tundra_2_LFa_ZN99_1A.jpg",
+      "images_downloaded/nature/tundra_3_MPfv17UJb8w.jpg",
+      "images_downloaded/nature/tundra_4_xOIWQlUC2NI.jpg",
+      "images_downloaded/nature/tundra_5_14JPW_P2-Cs.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/14975787/14975787-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/drone-footage-of-a-snow-covered-tundra-on-a-sunny-day-14975787/",
+        "durationSeconds": 24
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2026/06/17/358982_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-358982/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/tundra.mp3"
+  },
+  {
+    "name": "meadow",
+    "description": "An open grassland maintained by grazing, mowing, or natural conditions that keep large trees from taking over. Meadows often support a striking number of pollinator species, since wildflowers can thrive without a tree canopy blocking out the sun.",
+    "images": [
+      "images_downloaded/nature/meadow_1_TRhGEGdw-YY.jpg",
+      "images_downloaded/nature/meadow_2_cPaGBl8R_1M.jpg",
+      "images_downloaded/nature/meadow_3_Zm2n2O7Fph4.jpg",
+      "images_downloaded/nature/meadow_4_QvjL4y7SF9k.jpg",
+      "images_downloaded/nature/meadow_5_0eRxPqdVqlM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/32071029/13670847_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/vibrant-wildflowers-in-blooming-meadow-32071029/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/03/09/153874-806571904_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-153874/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/meadow.mp3"
+  },
+  {
+    "name": "valley",
+    "description": "A low area of land between hills or mountains, most often carved out gradually by a river or, in colder climates, by a slow-moving glacier. Valleys carved by glaciers typically have a distinctive U-shape, while those cut by rivers over time tend to form a narrower V-shape.",
+    "images": [
+      "images_downloaded/nature/valley_1_E9eZxxwxW-w.jpg",
+      "images_downloaded/nature/valley_2_M1YdS0g8SRA.jpg",
+      "images_downloaded/nature/valley_3_K94HiVOKjZE.jpg",
+      "images_downloaded/nature/valley_4_uvQmacxnfcE.jpg",
+      "images_downloaded/nature/valley_5_OJ02cQHePds.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/35025673/14838325_640_360_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/aerial-view-of-verdant-mountain-valley-35025673/",
+        "durationSeconds": 16
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2020/05/30/40671-426220296_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-40671/",
+        "durationSeconds": 12
+      }
+    ],
+    "audio_desc": "audio/nature/valley.mp3"
+  },
+  {
+    "name": "plateau",
+    "description": "A flat area of high ground that rises sharply above the surrounding land on at least one side, sometimes called a tableland. The Tibetan Plateau, the largest and highest in the world, is nicknamed 'the roof of the world' and covers an area roughly five times the size of France.",
+    "images": [
+      "images_downloaded/nature/plateau_1_93iTD1IH34I.jpg",
+      "images_downloaded/nature/plateau_2_pmuW7ukCRNw.jpg",
+      "images_downloaded/nature/plateau_3_IYLcwiyYUgc.jpg",
+      "images_downloaded/nature/plateau_4_TveLZhcHjfk.jpg",
+      "images_downloaded/nature/plateau_5_HjauQxsiji4.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/3697686/3697686-hd_1920_1080_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/drone-footage-of-a-plateau-on-top-of-a-mountain-rock-3697686/",
+        "durationSeconds": 23
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/03/174450-851475294_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-174450/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/plateau.mp3"
+  },
+  {
+    "name": "cliff",
+    "description": "A steep, near-vertical rock face, usually formed where erosion wears away softer material faster than the harder rock left standing. The Cliffs of Moher in Ireland tower up to 214 meters above the Atlantic and were shaped over 320 million years by layers of ancient sediment.",
+    "images": [
+      "images_downloaded/nature/cliff_1_nGwhwpzLGnU.jpg",
+      "images_downloaded/nature/cliff_2_mpMaD_BzP8I.jpg",
+      "images_downloaded/nature/cliff_3_wLQPi5xTEbQ.jpg",
+      "images_downloaded/nature/cliff_4_xHpiqLgSKzA.jpg",
+      "images_downloaded/nature/cliff_5_MBo8nPR5laA.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/28635672/12437029_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/scenic-ocean-waves-crashing-against-rocky-cliff-28635672/",
+        "durationSeconds": 11
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/01/07/251262_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-251262/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/cliff.mp3"
+  },
+  {
+    "name": "fjord",
+    "description": "A long, narrow inlet with steep sides, carved by a glacier that later flooded with seawater once the ice retreated. Norway's Sognefjord stretches 205 kilometers inland and plunges more than 1,300 meters below the surface at its deepest point.",
+    "images": [
+      "images_downloaded/nature/fjord_1_oU9Ig25YS08.jpg",
+      "images_downloaded/nature/fjord_2_ILYVeUgPkmI.jpg",
+      "images_downloaded/nature/fjord_3_VQv1N3FOsRg.jpg",
+      "images_downloaded/nature/fjord_4_W1FIkdPAB7E.jpg",
+      "images_downloaded/nature/fjord_5_EezLu2p93uM.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/30443115/13046206_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/serene-norwegian-fjord-with-village-view-30443115/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2025/05/09/277824_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-277824/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/fjord.mp3"
+  },
+  {
+    "name": "oasis",
+    "description": "A fertile, green pocket in the middle of a desert, sustained by an underground spring or aquifer that reaches the surface. Desert oases have supported human travelers and trade caravans for thousands of years, acting as vital rest stops along ancient routes like the Silk Road.",
+    "images": [
+      "images_downloaded/nature/oasis_1_iQ7UkufQv6E.jpg",
+      "images_downloaded/nature/oasis_2_s-7E4qC03oU.jpg",
+      "images_downloaded/nature/oasis_3_HfLYdUePGyc.jpg",
+      "images_downloaded/nature/oasis_4_xlO4V1RRFIY.jpg",
+      "images_downloaded/nature/oasis_5_9_x5jYJw2VQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/33337293/14195307_360_640_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/aerial-view-of-mountain-lake-oasis-33337293/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/04/02/157134-814061529_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-157134/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/oasis.mp3"
+  },
+  {
+    "name": "hot spring",
+    "description": "A natural pool of water heated underground by geothermal energy and pushed to the surface, often rich in dissolved minerals. Japan has thousands of hot springs, called onsen, and some are even used by wild snow monkeys to keep warm through freezing winters.",
+    "images": [
+      "images_downloaded/nature/hot_spring_1_WfJUFG3opyo.jpg",
+      "images_downloaded/nature/hot_spring_2_UHcwyq05_Gk.jpg",
+      "images_downloaded/nature/hot_spring_3_I8K-lIkvqYI.jpg",
+      "images_downloaded/nature/hot_spring_4_kn5PFW6kH_M.jpg",
+      "images_downloaded/nature/hot_spring_5_Ig2yHVCd2lQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/24838500/11898600_360_640_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-woman-sitting-on-rocks-in-a-hot-spring-24838500/",
+        "durationSeconds": 7
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/03/15/204278-923827313_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-204278/",
+        "durationSeconds": 5
+      }
+    ],
+    "audio_desc": "audio/nature/hot_spring.mp3"
+  },
+  {
+    "name": "dune",
+    "description": "A mound or ridge of sand built up by wind, constantly shifting shape as grains are picked up on one side and dropped on the other. Some desert dunes, known as 'singing' or 'booming' dunes, produce a deep humming sound when sand cascades down their slopes.",
+    "images": [
+      "images_downloaded/nature/dune_1_GeReAnOMiZ8.jpg",
+      "images_downloaded/nature/dune_2_pVr6wvUneMk.jpg",
+      "images_downloaded/nature/dune_3_PP8Escz15d8.jpg",
+      "images_downloaded/nature/dune_4_O35rT6OytRo.jpg",
+      "images_downloaded/nature/dune_5_H3c-lRlL3LQ.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/17833698/17833698-hd_1920_1080_25fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/flying-with-a-drone-above-a-dune-lighted-by-the-sunset-gran-canaria-17833698/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/10/22/92840-638016615_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-92840/",
+        "durationSeconds": 6
+      }
+    ],
+    "audio_desc": "audio/nature/dune.mp3"
+  },
+  {
+    "name": "forest",
+    "description": "A large area densely covered in trees, forming layered habitats from the forest floor up through the understory and canopy. Forests cover roughly 31 percent of Earth's land area and absorb about a quarter of the carbon dioxide humans emit each year.",
+    "images": [
+      "images_downloaded/nature/forest_1_upR8raSXvwg.jpg",
+      "images_downloaded/nature/forest_2_sp-p7uuT0tw.jpg",
+      "images_downloaded/nature/forest_3_wQImoykAwGs.jpg",
+      "images_downloaded/nature/forest_4_owcJsiIK7UU.jpg",
+      "images_downloaded/nature/forest_5_ugnrXk1129g.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36948274/15653045_640_360_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/aerial-view-of-lush-green-pine-forest-36948274/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2021/01/12/61818-500762371_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-61818/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/forest.mp3"
+  },
+  {
+    "name": "jungle",
+    "description": "A hot, humid, and densely tangled forest with thick undergrowth, typically found where more sunlight reaches ground level than in deep rainforest. Because light penetrates further, jungles grow far denser vine and shrub cover close to the ground, which is why they're so much harder to move through.",
+    "images": [
+      "images_downloaded/nature/jungle_1_qLW70Aoo8BE.jpg",
+      "images_downloaded/nature/jungle_2_jqgsM3B9Fpo.jpg",
+      "images_downloaded/nature/jungle_3_-A2IuOZnmHs.jpg",
+      "images_downloaded/nature/jungle_4_hjW4o5XfCzc.jpg",
+      "images_downloaded/nature/jungle_5_7zg5bnhm2X0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/15680060/15680060-hd_1080_1920_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/a-stream-in-the-jungle-with-ferns-and-trees-15680060/",
+        "durationSeconds": 4
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/11/29/191354-890134722_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-191354/",
+        "durationSeconds": 7
+      }
+    ],
+    "audio_desc": "audio/nature/jungle.mp3"
+  },
+  {
+    "name": "swamp",
+    "description": "A forested wetland where trees and shrubs grow directly in standing or slow-moving water for much of the year. Louisiana's cypress swamps host trees over 1,000 years old, their trunks flared wide at the base to stay stable in the soft, waterlogged ground.",
+    "images": [
+      "images_downloaded/nature/swamp_1_Tss1uOMczDg.jpg",
+      "images_downloaded/nature/swamp_2_eYeESGYSZoY.jpg",
+      "images_downloaded/nature/swamp_3_GHuT3dkZxYM.jpg",
+      "images_downloaded/nature/swamp_4_TIJycQn3s0A.jpg",
+      "images_downloaded/nature/swamp_5_d8duf9ndLxE.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/11841031/11841031-hd_1280_720_30fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/bird-on-swamp-11841031/",
+        "durationSeconds": 10
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2024/05/21/212909_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-212909/",
+        "durationSeconds": 8
+      }
+    ],
+    "audio_desc": "audio/nature/swamp.mp3"
+  },
+  {
+    "name": "delta",
+    "description": "A landform of sediment deposited where a river slows down and spreads out as it meets a lake or the sea, often fanning into multiple channels. The Ganges Delta is the largest in the world, and its constant sediment deposits keep pushing the coastline further out to sea each year.",
+    "images": [
+      "images_downloaded/nature/delta_1_4ZCA3xukIso.jpg",
+      "images_downloaded/nature/delta_2_4z_SYrG5mgA.jpg",
+      "images_downloaded/nature/delta_3_N4nqa6bc7n0.jpg",
+      "images_downloaded/nature/delta_4_qTV6c2pjbBo.jpg",
+      "images_downloaded/nature/delta_5_UOJ6vz2khrY.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2022/07/11/123841-729439897_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-123841/",
+        "durationSeconds": 9
+      }
+    ],
+    "audio_desc": "audio/nature/delta.mp3"
+  },
+  {
+    "name": "archipelago",
+    "description": "A chain or cluster of many islands scattered across a body of water, often formed by volcanic activity or rising sea levels flooding a mountain range. Indonesia is the world's largest archipelago, made up of more than 17,000 islands, only about 6,000 of which are inhabited.",
+    "images": [
+      "images_downloaded/nature/archipelago_1_9ZXHUr5aCwM.jpg",
+      "images_downloaded/nature/archipelago_2_Cvj4LJIHJ3Q.jpg",
+      "images_downloaded/nature/archipelago_3_sgGtWaQz_ro.jpg",
+      "images_downloaded/nature/archipelago_4_c4ctYw7fNSo.jpg",
+      "images_downloaded/nature/archipelago_5_6J-4PaSyQb0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/36602483/15518773_640_360_24fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/scenic-drone-footage-of-swedish-archipelago-36602483/",
+        "durationSeconds": 20
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2016/12/06/6669-194596702_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-6669/",
+        "durationSeconds": 13
+      }
+    ],
+    "audio_desc": "audio/nature/archipelago.mp3"
+  },
+  {
+    "name": "peninsula",
+    "description": "A piece of land almost entirely surrounded by water but still connected to a larger landmass by a narrow strip. The word comes from the Latin 'paene insula,' meaning 'almost an island,' and Florida is one of the best-known examples in the United States.",
+    "images": [
+      "images_downloaded/nature/peninsula_1_BiyVuXGiF7s.jpg",
+      "images_downloaded/nature/peninsula_2_Zt0br07_S34.jpg",
+      "images_downloaded/nature/peninsula_3_keFq14Co4TA.jpg",
+      "images_downloaded/nature/peninsula_4_SYN93FM09C8.jpg",
+      "images_downloaded/nature/peninsula_5_RrP7wigxqn0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2023/08/17/176521-855920743_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-176521/",
+        "durationSeconds": 15
+      }
+    ],
+    "audio_desc": "audio/nature/peninsula.mp3"
+  },
+  {
+    "name": "lighthouse",
+    "description": "A tower built along dangerous coastlines and harbors to guide ships safely at night using a powerful rotating light. Each lighthouse historically flashed its own unique light pattern so sailors could identify their exact location, long before GPS existed.",
+    "images": [
+      "images_downloaded/nature/lighthouse_1_Nhs0sLAn1Is.jpg",
+      "images_downloaded/nature/lighthouse_2_Pn6iimgM-wo.jpg",
+      "images_downloaded/nature/lighthouse_3_l5b_Jd8Ttfg.jpg",
+      "images_downloaded/nature/lighthouse_4_SHA85I0G8K4.jpg",
+      "images_downloaded/nature/lighthouse_5_VsPsf4F5Pi0.jpg"
+    ],
+    "videos": [
+      {
+        "source": "pexels",
+        "type": "file",
+        "url": "https://videos.pexels.com/video-files/5844102/5844102-hd_1280_720_60fps.mp4",
+        "pageUrl": "https://www.pexels.com/video/low-angle-shot-of-a-lighthouse-5844102/",
+        "durationSeconds": 6
+      },
+      {
+        "source": "pixabay",
+        "type": "file",
+        "url": "https://cdn.pixabay.com/video/2018/10/08/18610-294031879_medium.mp4",
+        "pageUrl": "https://pixabay.com/videos/id-18610/",
+        "durationSeconds": 10
+      }
+    ],
+    "audio_desc": "audio/nature/lighthouse.mp3"
+  }
+]

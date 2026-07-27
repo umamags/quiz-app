@@ -367,6 +367,15 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
   object-fit: cover;
   border-radius: 6px;
 }
+.match-image-zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: none;
+  border-radius: 6px;
+  cursor: zoom-in;
+}
 .match-item.match-right.drag-over { border-color: var(--primary); background: #eef1ff; }
 .match-item.match-right.incorrect { border-color: var(--red); background: var(--red-bg); }
 .match-item.matched.correct { border-color: var(--green); background: var(--green-bg); }

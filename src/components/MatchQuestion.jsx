@@ -8,12 +8,25 @@ import {
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
+import Lightbox from './Lightbox.jsx';
 
-function MatchContent({ type, content }) {
-  return type === 'image' ? <img src={content} alt="" /> : <span>{content}</span>;
+function MatchContent({ type, content, onZoom }) {
+  if (type !== 'image') return <span>{content}</span>;
+  return (
+    <button
+      type="button"
+      className="match-image-zoom"
+      onClick={e => {
+        e.stopPropagation();
+        onZoom(content);
+      }}
+    >
+      <img src={content} alt="" />
+    </button>
+  );
 }
 
-function LeftItem({ pairIndex, type, content, matched }) {
+function LeftItem({ pairIndex, type, content, matched, onZoom }) {
   const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({
     id: 'left-' + pairIndex,
     data: { pairIndex },
@@ -34,12 +47,12 @@ function LeftItem({ pairIndex, type, content, matched }) {
       {...listeners}
       {...attributes}
     >
-      <MatchContent type={type} content={content} />
+      <MatchContent type={type} content={content} onZoom={onZoom} />
     </div>
   );
 }
 
-function RightItem({ pairIndex, type, content, matched, flashIncorrect }) {
+function RightItem({ pairIndex, type, content, matched, flashIncorrect, onZoom }) {
   const { setNodeRef, isOver } = useDroppable({
     id: 'right-' + pairIndex,
     data: { pairIndex },
@@ -53,13 +66,14 @@ function RightItem({ pairIndex, type, content, matched, flashIncorrect }) {
 
   return (
     <div ref={setNodeRef} className={className} data-pair-index={pairIndex}>
-      <MatchContent type={type} content={content} />
+      <MatchContent type={type} content={content} onZoom={onZoom} />
     </div>
   );
 }
 
 export default function MatchQuestion({ q, matchedPairs, rightOrder, onCorrectMatch }) {
   const [flashTarget, setFlashTarget] = useState(null);
+  const [lightbox, setLightbox] = useState(null);
 
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 4 } }),
@@ -90,6 +104,7 @@ export default function MatchQuestion({ q, matchedPairs, rightOrder, onCorrectMa
               type={q.leftType}
               content={pair.left}
               matched={matchedPairs.includes(pairIndex)}
+              onZoom={src => setLightbox({ src, alt: '' })}
             />
           ))}
         </div>
@@ -102,10 +117,12 @@ export default function MatchQuestion({ q, matchedPairs, rightOrder, onCorrectMa
               content={q.pairs[pairIndex].right}
               matched={matchedPairs.includes(pairIndex)}
               flashIncorrect={flashTarget === pairIndex}
+              onZoom={src => setLightbox({ src, alt: '' })}
             />
           ))}
         </div>
       </div>
+      <Lightbox image={lightbox} onClose={() => setLightbox(null)} />
     </DndContext>
   );
 }

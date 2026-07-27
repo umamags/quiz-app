@@ -41,6 +41,10 @@
       "file": "learn/insects.json"
     },
     {
+      "title": "Nature",
+      "file": "learn/nature.json"
+    },
+    {
       "title": "Reptiles",
       "file": "learn/reptiles.json"
     },
