@@ -1,4 +1,4 @@
-import { Rect, Circle, Line, FabricImage } from 'fabric';
+import { Rect, Circle, Line, FabricImage, IText } from 'fabric';
 
 const MIN_SHAPE_SIZE = 4;
 const IMAGE_MAX_DIMENSION = 220;
@@ -36,6 +36,29 @@ export function buildShape(tool, { x0, y0, x1, y1 }, { strokeColor, fillEnabled,
     default:
       return null;
   }
+}
+
+// Creates an empty, immediately-editable text object at (x, y). The caller
+// is expected to canvas.add() it, select it, and call .enterEditing().
+export function createText(x, y, { fontFamily, fontSize, color }) {
+  return new IText('', { left: x, top: y, fontFamily, fontSize, fill: color });
+}
+
+// Removes and returns the topmost object under `pointer` (a scene-space
+// Point), or null if nothing is there. Hit-tests directly via
+// object.containsPoint rather than canvas.findTarget/opt.target, since the
+// draw-mode tools run with skipTargetFind=true, which makes those return
+// nothing -- and going through them would also trigger Fabric's own
+// click-to-select/drag behavior alongside our removal.
+export function eraseObjectAt(canvas, pointer) {
+  const objects = canvas.getObjects();
+  for (let i = objects.length - 1; i >= 0; i--) {
+    if (objects[i].containsPoint(pointer)) {
+      canvas.remove(objects[i]);
+      return objects[i];
+    }
+  }
+  return null;
 }
 
 // Loads an image from `src` and adds it to the canvas centered at (x, y),

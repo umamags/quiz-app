@@ -2,12 +2,22 @@ import { useEffect, useRef, useState } from 'react';
 import { Canvas } from 'fabric';
 import PaintCategorySidebar from '../components/PaintCategorySidebar.jsx';
 import PaintToolbar from '../components/PaintToolbar.jsx';
-import { buildShape, addImageAt, exportPng, generateFilename, downloadDataUrl } from '../paint/fabricHelpers.js';
+import {
+  buildShape,
+  addImageAt,
+  createText,
+  eraseObjectAt,
+  exportPng,
+  generateFilename,
+  downloadDataUrl,
+} from '../paint/fabricHelpers.js';
 
 const CANVAS_WIDTH = 800;
 const CANVAS_HEIGHT = 560;
 const DEFAULT_STROKE = '#4361ee';
 const DEFAULT_FILL = '#ffd166';
+const DEFAULT_FONT_FAMILY = 'Arial';
+const DEFAULT_FONT_SIZE = 28;
 
 export default function PaintScreen({ learnManifest, learnItems, paintCategory, dispatch }) {
   const canvasElRef = useRef(null);
@@ -18,6 +28,8 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const [strokeColor, setStrokeColor] = useState(DEFAULT_STROKE);
   const [fillColor, setFillColor] = useState(DEFAULT_FILL);
   const [fillEnabled, setFillEnabled] = useState(false);
+  const [fontFamily, setFontFamily] = useState(DEFAULT_FONT_FAMILY);
+  const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE);
   const [hasSelection, setHasSelection] = useState(false);
 
   // Mouse handlers are registered once; refs keep them reading current tool/color state.
@@ -25,10 +37,14 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const strokeRef = useRef(strokeColor);
   const fillColorRef = useRef(fillColor);
   const fillEnabledRef = useRef(fillEnabled);
+  const fontFamilyRef = useRef(fontFamily);
+  const fontSizeRef = useRef(fontSize);
   toolRef.current = activeTool;
   strokeRef.current = strokeColor;
   fillColorRef.current = fillColor;
   fillEnabledRef.current = fillEnabled;
+  fontFamilyRef.current = fontFamily;
+  fontSizeRef.current = fontSize;
 
   useEffect(() => {
     if (fabricCanvasRef.current) return; // StrictMode double-invoke guard
@@ -48,6 +64,26 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       const tool = toolRef.current;
       if (tool === 'select') return;
       const pointer = canvas.getScenePoint(opt.e);
+
+      if (tool === 'eraser') {
+        if (eraseObjectAt(canvas, pointer)) canvas.requestRenderAll();
+        return;
+      }
+
+      if (tool === 'text') {
+        const text = createText(pointer.x, pointer.y, {
+          fontFamily: fontFamilyRef.current,
+          fontSize: fontSizeRef.current,
+          color: strokeRef.current,
+        });
+        canvas.add(text);
+        canvas.setActiveObject(text);
+        text.enterEditing();
+        canvas.requestRenderAll();
+        setActiveTool('select');
+        return;
+      }
+
       const shape = buildShape(tool, { x0: pointer.x, y0: pointer.y, x1: pointer.x, y1: pointer.y }, {
         strokeColor: strokeRef.current,
         fillEnabled: fillEnabledRef.current,
@@ -168,6 +204,10 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           onFillColorChange={setFillColor}
           fillEnabled={fillEnabled}
           onFillEnabledChange={setFillEnabled}
+          fontFamily={fontFamily}
+          onFontFamilyChange={setFontFamily}
+          fontSize={fontSize}
+          onFontSizeChange={setFontSize}
           hasSelection={hasSelection}
           onDeleteSelected={handleDeleteSelected}
           onClear={handleClear}

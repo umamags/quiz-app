@@ -2,9 +2,13 @@ const TOOLS = [
   { id: 'select', label: 'Select' },
   { id: 'line', label: 'Line' },
   { id: 'rectangle', label: 'Rectangle' },
+  { id: 'text', label: 'Text' },
   { id: 'square', label: 'Square' },
   { id: 'circle', label: 'Circle' },
+  { id: 'eraser', label: 'Eraser' },
 ];
+
+const FONT_FAMILIES = ['Arial', 'Times New Roman', 'Georgia', 'Courier New', 'Verdana', 'Comic Sans MS'];
 
 export default function PaintToolbar({
   activeTool,
@@ -15,6 +19,10 @@ export default function PaintToolbar({
   onFillColorChange,
   fillEnabled,
   onFillEnabledChange,
+  fontFamily,
+  onFontFamilyChange,
+  fontSize,
+  onFontSizeChange,
   hasSelection,
   onDeleteSelected,
   onClear,
@@ -58,6 +66,30 @@ export default function PaintToolbar({
           onChange={e => onFillColorChange(e.target.value)}
           disabled={!fillEnabled}
         />
+
+        <label className="paint-color-label">
+          Font
+          <select
+            className="paint-font-select"
+            value={fontFamily}
+            onChange={e => onFontFamilyChange(e.target.value)}
+          >
+            {FONT_FAMILIES.map(font => (
+              <option key={font} value={font}>{font}</option>
+            ))}
+          </select>
+        </label>
+        <label className="paint-color-label">
+          Size
+          <input
+            type="number"
+            className="paint-font-size-input"
+            min="8"
+            max="120"
+            value={fontSize}
+            onChange={e => onFontSizeChange(Number(e.target.value))}
+          />
+        </label>
       </div>
 
       <div className="paint-action-group">

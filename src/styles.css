@@ -488,6 +488,24 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+.paint-font-select {
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+}
+.paint-font-size-input {
+  width: 56px;
+  font-family: inherit;
+  font-size: 13px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
 .paint-action-group { display: flex; gap: 8px; margin-left: auto; }
 .paint-action-group button { padding: 8px 14px; font-size: 13px; }
 .paint-canvas-wrap {

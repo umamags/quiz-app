@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { act, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import PaintScreen from './PaintScreen.jsx';
 
@@ -12,6 +12,8 @@ vi.mock('fabric', () => {
       this.handlers = {};
       this.selection = true;
       this.skipTargetFind = false;
+      this.objects = [];
+      FakeCanvas.instances.push(this);
     }
     on(event, handler) {
       this.handlers[event] = handler;
@@ -19,28 +21,54 @@ vi.mock('fabric', () => {
     getActiveObjects() {
       return [];
     }
+    getObjects() {
+      return this.objects;
+    }
     getScenePoint() {
       return { x: 0, y: 0 };
     }
-    add() {}
-    remove() {}
+    add(obj) {
+      this.objects.push(obj);
+    }
+    remove(obj) {
+      this.objects = this.objects.filter(o => o !== obj);
+    }
     setActiveObject() {}
     discardActiveObject() {}
     requestRenderAll() {}
-    clear() {}
+    clear() {
+      this.objects = [];
+    }
     dispose() {}
     toDataURL() {
       return 'data:image/png;base64,ABC';
     }
   }
+  FakeCanvas.instances = [];
+
+  class FakeIText {
+    constructor(text, options) {
+      Object.assign(this, options);
+      this.text = text;
+    }
+    enterEditing() {}
+  }
+
   return {
     Canvas: FakeCanvas,
     Rect: class {},
     Circle: class {},
     Line: class {},
+    IText: FakeIText,
     FabricImage: { fromURL: vi.fn().mockResolvedValue({ width: 100, height: 100, set: vi.fn() }) },
   };
 });
+
+import { Canvas } from 'fabric';
+
+function latestCanvas() {
+  return Canvas.instances[Canvas.instances.length - 1];
+}
 
 const learnManifest = {
   categories: [
@@ -89,9 +117,15 @@ describe('PaintScreen', () => {
     renderScreen();
     expect(screen.getByRole('button', { name: 'Animals' })).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Birds' })).toBeInTheDocument();
-    for (const tool of ['Select', 'Line', 'Rectangle', 'Square', 'Circle']) {
+    for (const tool of ['Select', 'Line', 'Rectangle', 'Text', 'Square', 'Circle', 'Eraser']) {
       expect(screen.getByRole('button', { name: tool })).toBeInTheDocument();
     }
+  });
+
+  it('renders font family and font size controls for the Text tool', () => {
+    renderScreen();
+    expect(screen.getByRole('combobox')).toBeInTheDocument();
+    expect(screen.getByRole('spinbutton')).toHaveValue(28);
   });
 
   it('shows a hint instead of thumbnails until a category is selected', () => {
@@ -145,5 +179,33 @@ describe('PaintScreen', () => {
     renderScreen({ paintCategory: 'Animals' });
     await user.click(screen.getByAltText('tiger'));
     // No error thrown, and the mocked FabricImage.fromURL pipeline ran.
+  });
+
+  it('placing a Text object on the canvas immediately reverts the tool to Select', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    await user.click(screen.getByRole('button', { name: 'Text' }));
+    expect(screen.getByRole('button', { name: 'Text' })).toHaveClass('active');
+
+    act(() => {
+      latestCanvas().handlers['mouse:down']({ e: {} });
+    });
+
+    expect(screen.getByRole('button', { name: 'Select' })).toHaveClass('active');
+    expect(screen.getByRole('button', { name: 'Text' })).not.toHaveClass('active');
+  });
+
+  it('Eraser removes the clicked object and stays active for erasing more', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    const canvas = latestCanvas();
+    const target = { containsPoint: () => true };
+    canvas.add(target);
+
+    await user.click(screen.getByRole('button', { name: 'Eraser' }));
+    canvas.handlers['mouse:down']({ e: {} });
+
+    expect(canvas.getObjects()).not.toContain(target);
+    expect(screen.getByRole('button', { name: 'Eraser' })).toHaveClass('active');
   });
 });

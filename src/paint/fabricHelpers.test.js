@@ -21,12 +21,26 @@ vi.mock('fabric', () => {
       this.points = points;
     }
   }
+  class IText extends FakeFabricObject {
+    constructor(text, options) {
+      super(options);
+      this.text = text;
+    }
+  }
   const FabricImage = { fromURL: vi.fn() };
-  return { Rect, Circle, Line, FabricImage };
+  return { Rect, Circle, Line, FabricImage, IText };
 });
 
-import { Rect, Circle, Line, FabricImage } from 'fabric';
-import { buildShape, addImageAt, exportPng, generateFilename, downloadDataUrl } from './fabricHelpers.js';
+import { Rect, Circle, Line, FabricImage, IText } from 'fabric';
+import {
+  buildShape,
+  addImageAt,
+  createText,
+  eraseObjectAt,
+  exportPng,
+  generateFilename,
+  downloadDataUrl,
+} from './fabricHelpers.js';
 
 const style = { strokeColor: '#111111', fillEnabled: false, fillColor: '#222222' };
 
@@ -68,6 +82,52 @@ describe('buildShape', () => {
 
   it('returns null for an unknown tool', () => {
     expect(buildShape('select', { x0: 0, y0: 0, x1: 1, y1: 1 }, style)).toBeNull();
+  });
+});
+
+describe('createText', () => {
+  it('creates an empty, editable text object with the given font and color', () => {
+    const text = createText(50, 60, { fontFamily: 'Georgia', fontSize: 32, color: '#123456' });
+    expect(text).toBeInstanceOf(IText);
+    expect(text).toMatchObject({ text: '', left: 50, top: 60, fontFamily: 'Georgia', fontSize: 32, fill: '#123456' });
+  });
+});
+
+describe('eraseObjectAt', () => {
+  function stubObject(hit) {
+    return { containsPoint: vi.fn().mockReturnValue(hit) };
+  }
+
+  it('removes and returns the topmost object under the pointer', () => {
+    const bottom = stubObject(true);
+    const top = stubObject(true);
+    const canvas = { getObjects: () => [bottom, top], remove: vi.fn() };
+
+    const result = eraseObjectAt(canvas, { x: 1, y: 1 });
+
+    expect(result).toBe(top);
+    expect(canvas.remove).toHaveBeenCalledWith(top);
+    expect(canvas.remove).toHaveBeenCalledTimes(1);
+  });
+
+  it('skips objects that do not contain the pointer to find the one that does', () => {
+    const miss = stubObject(false);
+    const hit = stubObject(true);
+    const canvas = { getObjects: () => [hit, miss], remove: vi.fn() };
+
+    const result = eraseObjectAt(canvas, { x: 1, y: 1 });
+
+    expect(result).toBe(hit);
+    expect(canvas.remove).toHaveBeenCalledWith(hit);
+  });
+
+  it('returns null and removes nothing when no object is under the pointer', () => {
+    const canvas = { getObjects: () => [stubObject(false), stubObject(false)], remove: vi.fn() };
+
+    const result = eraseObjectAt(canvas, { x: 1, y: 1 });
+
+    expect(result).toBeNull();
+    expect(canvas.remove).not.toHaveBeenCalled();
   });
 });
 
