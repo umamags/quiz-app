@@ -13,6 +13,10 @@
       "file": "learn/butterflies.json"
     },
     {
+      "title": "Cartoons",
+      "file": "learn/cartoons.json"
+    },
+    {
       "title": "Colors",
       "file": "learn/colors.json"
     },
