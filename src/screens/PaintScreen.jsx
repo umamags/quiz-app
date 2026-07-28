@@ -2,11 +2,13 @@ import { useEffect, useRef, useState } from 'react';
 import { Canvas, PencilBrush } from 'fabric';
 import PaintCategorySidebar from '../components/PaintCategorySidebar.jsx';
 import PaintToolbar from '../components/PaintToolbar.jsx';
+import PaintContextMenu from '../components/PaintContextMenu.jsx';
 import {
   buildShape,
   addImageAt,
   createText,
   eraseObjectAt,
+  findObjectAt,
   exportPng,
   generateFilename,
   downloadDataUrl,
@@ -34,6 +36,8 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const [brushSize, setBrushSize] = useState(DEFAULT_BRUSH_SIZE);
   const [hasSelection, setHasSelection] = useState(false);
   const [canFillSelection, setCanFillSelection] = useState(false);
+  const [contextMenu, setContextMenu] = useState(null); // { x, y, object } in viewport coords, or null when closed
+  const contextMenuRef = useRef(null);
 
   // Mouse handlers are registered once; refs keep them reading current tool/color state.
   const toolRef = useRef(activeTool);
@@ -53,6 +57,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       width: CANVAS_WIDTH,
       height: CANVAS_HEIGHT,
       backgroundColor: '#ffffff',
+      stopContextMenu: false, // let the native contextmenu event bubble up to our own React handler
     });
     fabricCanvasRef.current = canvas;
 
@@ -74,6 +79,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.on('selection:cleared', updateSelection);
 
     canvas.on('mouse:down', opt => {
+      if (opt.e.button !== undefined && opt.e.button !== 0) return; // ignore right/middle-click; left-click drawing only
       const tool = toolRef.current;
       if (tool === 'select' || tool === 'freehand') return; // freehand draws via canvas.isDrawingMode
       const pointer = canvas.getScenePoint(opt.e);
@@ -159,6 +165,25 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.freeDrawingBrush.width = brushSize;
   }, [strokeColor, brushSize]);
 
+  // Close the right-click object menu on an outside click or Escape.
+  useEffect(() => {
+    if (!contextMenu) return;
+    function handlePointerDown(e) {
+      if (!contextMenuRef.current || !contextMenuRef.current.contains(e.target)) {
+        setContextMenu(null);
+      }
+    }
+    function handleKeyDown(e) {
+      if (e.key === 'Escape') setContextMenu(null);
+    }
+    document.addEventListener('mousedown', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [contextMenu]);
+
   function handleImageDragStart(e, src) {
     e.dataTransfer.setData('text/plain', src);
     e.dataTransfer.effectAllowed = 'copy';
@@ -195,6 +220,59 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.getActiveObjects().forEach(obj => canvas.remove(obj));
     canvas.discardActiveObject();
     canvas.requestRenderAll();
+  }
+
+  function handleContextMenu(e) {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas) return;
+    const pointer = canvas.getScenePoint(e);
+    const target = findObjectAt(canvas, pointer);
+    if (!target) {
+      setContextMenu(null);
+      return; // no object here: let the browser's native context menu show
+    }
+    e.preventDefault();
+    canvas.discardActiveObject();
+    canvas.setActiveObject(target);
+    canvas.requestRenderAll();
+    setContextMenu({ x: e.clientX, y: e.clientY, object: target });
+  }
+
+  function closeContextMenu() {
+    setContextMenu(null);
+  }
+
+  function handleBringForward() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !contextMenu) return;
+    canvas.bringObjectForward(contextMenu.object);
+    canvas.requestRenderAll();
+    closeContextMenu();
+  }
+
+  function handleSendToBack() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !contextMenu) return;
+    canvas.sendObjectBackwards(contextMenu.object);
+    canvas.requestRenderAll();
+    closeContextMenu();
+  }
+
+  async function handleDuplicate() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !contextMenu) return;
+    const original = contextMenu.object;
+    closeContextMenu();
+    const clone = await original.clone();
+    clone.set({ left: (original.left ?? 0) + 12, top: (original.top ?? 0) + 12 });
+    canvas.add(clone);
+    canvas.setActiveObject(clone);
+    canvas.requestRenderAll();
+  }
+
+  function handleContextDelete() {
+    handleDeleteSelected();
+    closeContextMenu();
   }
 
   function handleClear() {
@@ -247,10 +325,27 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
 
         <div className="hint">Drag (or click) an image from the left onto the canvas, then draw shapes on top.</div>
 
-        <div className="paint-canvas-wrap" onDragOver={e => e.preventDefault()} onDrop={handleCanvasDrop}>
+        <div
+          className="paint-canvas-wrap"
+          onDragOver={e => e.preventDefault()}
+          onDrop={handleCanvasDrop}
+          onContextMenu={handleContextMenu}
+        >
           <canvas ref={canvasElRef} />
         </div>
       </div>
+
+      {contextMenu && (
+        <PaintContextMenu
+          ref={contextMenuRef}
+          x={contextMenu.x}
+          y={contextMenu.y}
+          onBringForward={handleBringForward}
+          onSendToBack={handleSendToBack}
+          onDuplicate={handleDuplicate}
+          onDelete={handleContextDelete}
+        />
+      )}
     </div>
   );
 }

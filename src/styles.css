@@ -537,6 +537,33 @@ button {
 .paint-brush-size-button.active .paint-brush-dot { background: #fff; }
 .paint-action-group { display: flex; gap: 8px; margin-left: auto; }
 .paint-action-group button { padding: 8px 14px; font-size: 13px; }
+.paint-context-menu {
+  position: fixed;
+  z-index: 1000;
+  min-width: 160px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(27, 32, 50, 0.15);
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.paint-context-menu-item {
+  text-align: left;
+  padding: 8px 10px;
+  border: none;
+  background: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+}
+.paint-context-menu-item:hover { background: #f1f3fb; }
+.paint-context-menu-item.danger { color: #c0392b; }
+.paint-context-menu-item.danger:hover { background: #fbeae8; }
 .paint-canvas-wrap {
   align-self: flex-start;
   border: 1px solid var(--border);

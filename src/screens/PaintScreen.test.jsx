@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { act, fireEvent, render, screen } from '@testing-library/react';
+import { act, fireEvent, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import PaintScreen from './PaintScreen.jsx';
 
@@ -16,6 +16,8 @@ vi.mock('fabric', () => {
       this.freeDrawingBrush = null;
       this.objects = [];
       this.activeObjects = [];
+      this.bringObjectForward = vi.fn();
+      this.sendObjectBackwards = vi.fn();
       FakeCanvas.instances.push(this);
     }
     on(event, handler) {
@@ -36,8 +38,12 @@ vi.mock('fabric', () => {
     remove(obj) {
       this.objects = this.objects.filter(o => o !== obj);
     }
-    setActiveObject() {}
-    discardActiveObject() {}
+    setActiveObject(obj) {
+      this.activeObjects = [obj];
+    }
+    discardActiveObject() {
+      this.activeObjects = [];
+    }
     requestRenderAll() {}
     clear() {
       this.objects = [];
@@ -240,5 +246,139 @@ describe('PaintScreen', () => {
 
     expect(canvas.getObjects()).not.toContain(target);
     expect(screen.getByRole('button', { name: 'Eraser' })).toHaveClass('active');
+  });
+});
+
+function fakeObject(overrides = {}) {
+  return {
+    type: 'rect',
+    containsPoint: () => true,
+    set(keyOrObj, value) {
+      if (typeof keyOrObj === 'object') Object.assign(this, keyOrObj);
+      else this[keyOrObj] = value;
+    },
+    ...overrides,
+  };
+}
+
+function rightClickCanvas(coords = { clientX: 50, clientY: 60 }) {
+  fireEvent.contextMenu(document.querySelector('.paint-canvas-wrap'), coords);
+}
+
+function contextMenuQueries() {
+  return within(document.querySelector('.paint-context-menu'));
+}
+
+describe('PaintScreen right-click object menu', () => {
+  it('opens with all 4 actions on an object, narrowing any existing multi-selection to just that object', () => {
+    renderScreen();
+    const canvas = latestCanvas();
+    const objA = fakeObject();
+    const objB = fakeObject({ type: 'circle', containsPoint: () => false });
+    canvas.add(objA);
+    canvas.activeObjects = [objA, objB]; // pretend a multi-selection already exists
+
+    rightClickCanvas();
+
+    expect(canvas.getActiveObjects()).toEqual([objA]);
+    const menu = contextMenuQueries();
+    for (const label of ['Bring forward', 'Send to back', 'Duplicate', 'Delete']) {
+      expect(menu.getByRole('button', { name: label })).toBeInTheDocument();
+    }
+  });
+
+  it('does not open when right-clicking empty canvas', () => {
+    renderScreen();
+
+    rightClickCanvas();
+
+    expect(screen.queryByRole('button', { name: 'Duplicate' })).not.toBeInTheDocument();
+  });
+
+  it('Bring forward moves the target object forward one step and closes the menu', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    const canvas = latestCanvas();
+    const obj = fakeObject();
+    canvas.add(obj);
+    rightClickCanvas();
+
+    await user.click(screen.getByRole('button', { name: 'Bring forward' }));
+
+    expect(canvas.bringObjectForward).toHaveBeenCalledWith(obj);
+    expect(screen.queryByRole('button', { name: 'Bring forward' })).not.toBeInTheDocument();
+  });
+
+  it('Send to back moves the target object back one step and closes the menu', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    const canvas = latestCanvas();
+    const obj = fakeObject();
+    canvas.add(obj);
+    rightClickCanvas();
+
+    await user.click(screen.getByRole('button', { name: 'Send to back' }));
+
+    expect(canvas.sendObjectBackwards).toHaveBeenCalledWith(obj);
+    expect(screen.queryByRole('button', { name: 'Send to back' })).not.toBeInTheDocument();
+  });
+
+  it('Duplicate clones the object with an offset, keeping its color, and selects the copy', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    const canvas = latestCanvas();
+    const clone = fakeObject();
+    const original = fakeObject({ left: 10, top: 20, fill: '#4361ee', clone: vi.fn().mockResolvedValue(clone) });
+    canvas.add(original);
+    rightClickCanvas();
+
+    await user.click(screen.getByRole('button', { name: 'Duplicate' }));
+    await act(async () => {}); // flush the clone() promise
+
+    expect(original.clone).toHaveBeenCalled();
+    expect(clone.left).toBe(22);
+    expect(clone.top).toBe(32);
+    expect(canvas.getObjects()).toContain(clone);
+    expect(canvas.getActiveObjects()).toEqual([clone]);
+  });
+
+  it('Delete removes the target object and closes the menu', async () => {
+    const user = userEvent.setup();
+    renderScreen();
+    const canvas = latestCanvas();
+    const obj = fakeObject();
+    canvas.add(obj);
+    rightClickCanvas();
+
+    await user.click(contextMenuQueries().getByRole('button', { name: 'Delete' }));
+
+    expect(canvas.getObjects()).not.toContain(obj);
+    expect(document.querySelector('.paint-context-menu')).not.toBeInTheDocument();
+  });
+
+  it('closes on an outside click without changing the selection', () => {
+    renderScreen();
+    const canvas = latestCanvas();
+    const obj = fakeObject();
+    canvas.add(obj);
+    rightClickCanvas();
+    expect(screen.getByRole('button', { name: 'Duplicate' })).toBeInTheDocument();
+
+    fireEvent.mouseDown(document.body);
+
+    expect(screen.queryByRole('button', { name: 'Duplicate' })).not.toBeInTheDocument();
+  });
+
+  it('closes on Escape', () => {
+    renderScreen();
+    const canvas = latestCanvas();
+    const obj = fakeObject();
+    canvas.add(obj);
+    rightClickCanvas();
+    expect(screen.getByRole('button', { name: 'Duplicate' })).toBeInTheDocument();
+
+    fireEvent.keyDown(document, { key: 'Escape' });
+
+    expect(screen.queryByRole('button', { name: 'Duplicate' })).not.toBeInTheDocument();
   });
 });

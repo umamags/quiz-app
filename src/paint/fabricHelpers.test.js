@@ -37,6 +37,7 @@ import {
   addImageAt,
   createText,
   eraseObjectAt,
+  findObjectAt,
   exportPng,
   generateFilename,
   downloadDataUrl,
@@ -105,6 +106,28 @@ describe('createText', () => {
     const text = createText(50, 60, { fontFamily: 'Georgia', fontSize: 32, color: '#123456' });
     expect(text).toBeInstanceOf(IText);
     expect(text).toMatchObject({ text: '', left: 50, top: 60, fontFamily: 'Georgia', fontSize: 32, fill: '#123456' });
+  });
+});
+
+describe('findObjectAt', () => {
+  function stubObject(hit) {
+    return { containsPoint: vi.fn().mockReturnValue(hit) };
+  }
+
+  it('returns the topmost object under the pointer, without removing it', () => {
+    const bottom = stubObject(true);
+    const top = stubObject(true);
+    const canvas = { getObjects: () => [bottom, top], remove: vi.fn() };
+
+    const result = findObjectAt(canvas, { x: 1, y: 1 });
+
+    expect(result).toBe(top);
+    expect(canvas.remove).not.toHaveBeenCalled();
+  });
+
+  it('returns null when no object is under the pointer', () => {
+    const canvas = { getObjects: () => [stubObject(false), stubObject(false)] };
+    expect(findObjectAt(canvas, { x: 1, y: 1 })).toBeNull();
   });
 });
 
