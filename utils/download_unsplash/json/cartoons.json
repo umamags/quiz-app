@@ -1,652 +1,662 @@
 [
   {
-    "name": "Mickey Mouse",
-    "description": "A cheerful, round-eared mouse in red shorts and big yellow shoes, the official mascot of the Walt Disney Company. He debuted in 1928's 'Steamboat Willie,' one of the first cartoons ever released with synchronized sound, and Walt Disney originally voiced him himself.",
+    "name": "dog",
+    "description": "A domesticated canine bred into hundreds of distinct breeds, from tiny chihuahuas to massive mastiffs. Dogs read human gestures and tone better than any other animal and were the first species people domesticated, over 15,000 years ago.",
     "images": [
-      "images_downloaded/cartoons/mickey_mouse_1_a4p8FMIJ0Jc.jpg",
-      "images_downloaded/cartoons/mickey_mouse_2_mIUm4Mrmt5I.jpg",
-      "images_downloaded/cartoons/mickey_mouse_3_sXCCmPiFBOw.jpg",
-      "images_downloaded/cartoons/mickey_mouse_4_vVRGc5JWvIo.jpg",
-      "images_downloaded/cartoons/mickey_mouse_5_xOhzHKCAhVs.jpg"
+      "images_downloaded/cartoons/dog_1_7940204.png",
+      "images_downloaded/cartoons/dog_2_1532627.png",
+      "images_downloaded/cartoons/dog_3_5982615.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/mickey_mouse.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Elsa Frozen",
-    "description": "A queen with the magical power to create ice and snow from her bare hands, who accidentally freezes her kingdom of Arendelle. Her song 'Let It Go' became one of the best-selling singles ever released from an animated film.",
+    "name": "cat",
+    "description": "A small carnivore that self-domesticated around early farming communities to hunt rodents drawn to stored grain. Cats sleep 12 to 16 hours a day, purr at frequencies linked to healing, and cannot taste sweetness.",
     "images": [
-      "images_downloaded/cartoons/elsa_frozen_1_BBFVG-CYY0A.jpg",
-      "images_downloaded/cartoons/elsa_frozen_2_sIkU_Zt9HG4.jpg",
-      "images_downloaded/cartoons/elsa_frozen_3_d4fN8O2MXB4.jpg",
-      "images_downloaded/cartoons/elsa_frozen_4_uZ_CfABNKvg.jpg",
-      "images_downloaded/cartoons/elsa_frozen_5_po5AjVLtBgk.jpg"
+      "images_downloaded/cartoons/cat_1_9164274.png",
+      "images_downloaded/cartoons/cat_2_8702500.jpg",
+      "images_downloaded/cartoons/cat_3_1532627.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/elsa_frozen.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Woody Toy Story",
-    "description": "A pull-string cowboy doll who leads Andy's toys and was the first character brought to life in the first fully computer-animated feature film. His catchphrase, 'There's a snake in my boot!', plays automatically whenever his pull-string is tugged.",
+    "name": "rabbit",
+    "description": "A fast-breeding herbivore with eyes set high and wide for nearly 360-degree vision to spot predators. Rabbits eat their own soft night droppings to extract nutrients a second time, and thump their hind legs to warn the warren of danger.",
     "images": [
-      "images_downloaded/cartoons/woody_toy_story_1_avRd6COyLBY.jpg",
-      "images_downloaded/cartoons/woody_toy_story_2_ZiKTSf8BFj0.jpg",
-      "images_downloaded/cartoons/woody_toy_story_3_rz3eCYGgGSc.jpg",
-      "images_downloaded/cartoons/woody_toy_story_4_sfAEazGOY0M.jpg",
-      "images_downloaded/cartoons/woody_toy_story_5_nAEqCX-PLmE.jpg"
+      "images_downloaded/cartoons/rabbit_1_155674.png",
+      "images_downloaded/cartoons/rabbit_2_7718958.jpg",
+      "images_downloaded/cartoons/rabbit_3_6116138.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/woody_toy_story.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Buzz Lightyear",
-    "description": "A space ranger action figure who insists for most of his first movie that he isn't a toy at all, complete with a real-sounding laser and pop-out wings. His catchphrase 'To infinity and beyond!' has become one of the most quoted lines in animated film.",
+    "name": "panda",
+    "description": "A Chinese bear that eats bamboo almost exclusively yet keeps the digestive system of a carnivore, forcing it to feed up to 14 hours a day. A 'pseudo-thumb' from an enlarged wrist bone lets it grip stalks, and newborn cubs are pink and smaller than a stick of butter.",
     "images": [
-      "images_downloaded/cartoons/buzz_lightyear_1_8FjAcgcWR4E.jpg",
-      "images_downloaded/cartoons/buzz_lightyear_2_857R--_CvP0.jpg",
-      "images_downloaded/cartoons/buzz_lightyear_3_etEZfkEWzNM.jpg",
-      "images_downloaded/cartoons/buzz_lightyear_4_oaVNa8npU0k.jpg",
-      "images_downloaded/cartoons/buzz_lightyear_5_Coh68MKLTEY.jpg"
+      "images_downloaded/cartoons/panda_1_659186.png",
+      "images_downloaded/cartoons/panda_2_2316805.png",
+      "images_downloaded/cartoons/panda_3_9209784.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/buzz_lightyear.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Shrek",
-    "description": "A grumpy, onion-loving ogre who just wants to be left alone in his swamp, until a talking donkey and a rescued princess change his plans. Despite being green and famously smelly by choice, he became the lead of one of the most successful animated franchises ever made.",
+    "name": "elephant",
+    "description": "The largest land animal, using its trunk with over 40,000 muscles to breathe, drink, grasp, and greet. Elephants mourn their dead, recognize themselves in mirrors, and communicate over long distances with rumbles too low for humans to hear.",
     "images": [
-      "images_downloaded/cartoons/shrek_1_ew88gaLKhGw.jpg",
-      "images_downloaded/cartoons/shrek_2_7Id0_yyPQ6A.jpg",
-      "images_downloaded/cartoons/shrek_3_sPl0aCqXz8c.jpg",
-      "images_downloaded/cartoons/shrek_4_CnJyo83eQR0.jpg",
-      "images_downloaded/cartoons/shrek_5_S5MngqW2VwE.jpg"
+      "images_downloaded/cartoons/elephant_1_1217313.png",
+      "images_downloaded/cartoons/elephant_2_8608983.jpg",
+      "images_downloaded/cartoons/elephant_3_1590564.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/shrek.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Simba",
-    "description": "A lion cub prince who flees his homeland after a tragedy, only to return years later and reclaim his place as king. His story closely follows the plot of Shakespeare's 'Hamlet,' rewritten with an African savanna setting.",
+    "name": "giraffe",
+    "description": "The tallest living animal, whose neck holds the same seven vertebrae as a human's but each greatly elongated. A giraffe's heart is unusually powerful to pump blood up to its brain, and its 18-inch tongue is dark to resist sunburn while stripping leaves.",
     "images": [
-      "images_downloaded/cartoons/simba_1_DjFx1sQhUMk.jpg",
-      "images_downloaded/cartoons/simba_2_vrxWS4pKEb4.jpg",
-      "images_downloaded/cartoons/simba_3_5oQXdTAAm70.jpg",
-      "images_downloaded/cartoons/simba_4_Cq170HPY72U.jpg",
-      "images_downloaded/cartoons/simba_5_J_LPzxm_kmM.jpg"
+      "images_downloaded/cartoons/giraffe_1_5128394.jpg",
+      "images_downloaded/cartoons/giraffe_2_7466442.jpg",
+      "images_downloaded/cartoons/giraffe_3_7308832.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/simba.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Olaf Frozen",
-    "description": "A cheerful snowman built from magic who dreams of experiencing summer, blissfully unaware that warm weather would melt him. He was built without a nose until he borrows a carrot from a reindeer.",
+    "name": "zebra",
+    "description": "An African wild horse whose black-and-white stripes are unique to each individual, like fingerprints, and may deter biting flies and confuse predators. Zebras sleep standing up and post lookouts while the herd grazes.",
     "images": [
-      "images_downloaded/cartoons/olaf_frozen_1_-9b9yNbWNk8.jpg",
-      "images_downloaded/cartoons/olaf_frozen_2_aUYcx0CEZW0.jpg",
-      "images_downloaded/cartoons/olaf_frozen_3_tvZzxt8KJpM.jpg",
-      "images_downloaded/cartoons/olaf_frozen_4_pfkC2zfHbmI.jpg",
-      "images_downloaded/cartoons/olaf_frozen_5_AfbOvG8g9UE.jpg"
+      "images_downloaded/cartoons/zebra_1_1294150.png",
+      "images_downloaded/cartoons/zebra_2_8096659.png",
+      "images_downloaded/cartoons/zebra_3_7853009.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/olaf_frozen.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Minion Despicable Me",
-    "description": "A small, yellow, goggle-wearing henchman who speaks a nonsense language blended from several real ones, including English, Spanish, and French. According to the films, Minions have served evil masters throughout history, going all the way back to the age of dinosaurs.",
+    "name": "tiger",
+    "description": "The largest cat species, a solitary ambush hunter whose orange-and-black stripes mark not just the fur but the skin beneath. Tigers are powerful swimmers that cool off in water, and each animal's stripe pattern is unique.",
     "images": [
-      "images_downloaded/cartoons/minion_despicable_me_1_6rhdGmD6wfw.jpg",
-      "images_downloaded/cartoons/minion_despicable_me_2_yrrR17aAGiQ.jpg",
-      "images_downloaded/cartoons/minion_despicable_me_3_Z1gUzq1D59s.jpg",
-      "images_downloaded/cartoons/minion_despicable_me_4_1E3SJq2oJ4Q.jpg",
-      "images_downloaded/cartoons/minion_despicable_me_5_aqlbqcx2xcM.jpg"
+      "images_downloaded/cartoons/tiger_1_10355057.png",
+      "images_downloaded/cartoons/tiger_2_6969946.png",
+      "images_downloaded/cartoons/tiger_3_160601.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/minion_despicable_me.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Nemo",
-    "description": "A small orange-and-white clownfish with one noticeably smaller fin, captured by a diver and separated from his father. Clownfish in real life are all born male and can later change into females, a detail the film leaves out entirely.",
+    "name": "lion",
+    "description": "A social big cat that lives in prides where related females do most of the cooperative hunting. A male's roar can be heard five miles away, and lions are the only cats to live in large, cohesive family groups.",
     "images": [
-      "images_downloaded/cartoons/nemo_1_rEM3cK8F1pk.jpg",
-      "images_downloaded/cartoons/nemo_2_poly_hmhwJs.jpg",
-      "images_downloaded/cartoons/nemo_3_tHIgiZRGRg4.jpg",
-      "images_downloaded/cartoons/nemo_4_1KJzZIRS50w.jpg",
-      "images_downloaded/cartoons/nemo_5_BoOxS5MUd-4.jpg"
+      "images_downloaded/cartoons/lion_1_9553706.png",
+      "images_downloaded/cartoons/lion_2_6976588.png",
+      "images_downloaded/cartoons/lion_3_1015153.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/nemo.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Dory Finding Nemo",
-    "description": "A blue tang fish with a memory so short she introduces herself again every few minutes, yet somehow never forgets how to speak whale. Her line 'Just keep swimming' became one of the most quoted phrases from any Pixar film.",
+    "name": "fox",
+    "description": "A small, sharp-featured member of the dog family that hunts alone rather than in packs. Red foxes are thought to use Earth's magnetic field to judge distance when pouncing on prey hidden under snow.",
     "images": [
-      "images_downloaded/cartoons/dory_finding_nemo_1_QXWnYUPHDvc.jpg",
-      "images_downloaded/cartoons/dory_finding_nemo_2_zo9eZVVLIWk.jpg",
-      "images_downloaded/cartoons/dory_finding_nemo_3_0AeVrL3-esk.jpg",
-      "images_downloaded/cartoons/dory_finding_nemo_4_6UfyKCx6jX4.jpg",
-      "images_downloaded/cartoons/dory_finding_nemo_5_Gv-Cx3_clZ4.jpg"
+      "images_downloaded/cartoons/fox_1_10211862.png",
+      "images_downloaded/cartoons/fox_2_7291456.jpg",
+      "images_downloaded/cartoons/fox_3_8383319.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/dory_finding_nemo.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "WALL-E",
-    "description": "A small, boxy robot with binocular-like eyes, left alone on a trash-covered Earth for 700 years compacting garbage into cubes. He communicates almost entirely without dialogue, expressing emotion through sound effects and movement rather than words.",
+    "name": "owl",
+    "description": "A silent-flying nocturnal raptor whose fringed feathers muffle sound and whose asymmetrical ears pinpoint prey by hearing alone. An owl cannot move its fixed eyes, so it rotates its head up to 270 degrees to look around.",
     "images": [
-      "images_downloaded/cartoons/wall_e_1_81rOS-jYoJ8.jpg",
-      "images_downloaded/cartoons/wall_e_2_Ae-O7lmZQQY.jpg",
-      "images_downloaded/cartoons/wall_e_3_R5zbn_on6vI.jpg",
-      "images_downloaded/cartoons/wall_e_4_ZNcNVumAnfY.jpg",
-      "images_downloaded/cartoons/wall_e_5_O5uri6kQHQQ.jpg"
+      "images_downloaded/cartoons/owl_1_6774349.png",
+      "images_downloaded/cartoons/owl_2_10333674.png",
+      "images_downloaded/cartoons/owl_3_7931229.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/wall_e.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Moana",
-    "description": "A wayfinding chief's daughter who sails across the open ocean to save her island, guided only by the sea itself and a demigod she rescues along the way. Her boat's navigation is based on real ancient Polynesian wayfinding traditions.",
+    "name": "penguin",
+    "description": "A flightless seabird of the Southern Hemisphere whose wings evolved into flippers for 'flying' underwater after fish. Penguins huddle by the thousands for warmth and many species mate with the same partner across seasons.",
     "images": [
-      "images_downloaded/cartoons/moana_1_Ff92Fn4Tolc.jpg",
-      "images_downloaded/cartoons/moana_2_dz5A5TtpiNU.jpg",
-      "images_downloaded/cartoons/moana_3_UeJ4HT3QxyE.jpg",
-      "images_downloaded/cartoons/moana_4_to4HwgI3HS4.jpg",
-      "images_downloaded/cartoons/moana_5_cEqQqk2jAig.jpg"
+      "images_downloaded/cartoons/penguin_1_150563.png",
+      "images_downloaded/cartoons/penguin_2_2023970.png",
+      "images_downloaded/cartoons/penguin_3_7435328.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/moana.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Stitch Lilo",
-    "description": "A blue, koala-like alien experiment built to be nearly indestructible and cause chaos, who crash-lands on Earth and is adopted as a 'dog' by a lonely girl. He was officially designed as 'Experiment 626' by a mad scientist before escaping custody.",
+    "name": "flamingo",
+    "description": "A tall wading bird that feeds head-down, filtering tiny algae and shrimp from shallow water with a specially shaped bill. Its pink color comes entirely from pigments in that food, and flamingos often stand on one leg to conserve body heat.",
     "images": [
-      "images_downloaded/cartoons/stitch_lilo_1_vExjQSa7UN8.jpg",
-      "images_downloaded/cartoons/stitch_lilo_2_IAA87vG9xwo.jpg",
-      "images_downloaded/cartoons/stitch_lilo_3_aNNba4JBcKQ.jpg",
-      "images_downloaded/cartoons/stitch_lilo_4_BiqGck0lbhI.jpg",
-      "images_downloaded/cartoons/stitch_lilo_5_b-y3NQ0ouv4.jpg"
+      "images_downloaded/cartoons/flamingo_1_3258282.png",
+      "images_downloaded/cartoons/flamingo_2_4575121.png",
+      "images_downloaded/cartoons/flamingo_3_8749724.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/stitch_lilo.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Winnie the Pooh",
-    "description": "A soft, honey-obsessed bear who lives in the Hundred Acre Wood and often gets his head stuck in the very honey pots he loves. He was inspired by a real teddy bear owned by author A. A. Milne's son, Christopher Robin.",
+    "name": "peacock",
+    "description": "The male of the peafowl species, famous for a shimmering train of iridescent 'eye' feathers it fans and rattles to court females. The colors come from microscopic crystal-like structures that bend light rather than from pigment.",
     "images": [
-      "images_downloaded/cartoons/winnie_the_pooh_1_PLHMOrTAItk.jpg",
-      "images_downloaded/cartoons/winnie_the_pooh_2_rFRmo6IM7_Y.jpg",
-      "images_downloaded/cartoons/winnie_the_pooh_3_ysGztQHOiL8.jpg",
-      "images_downloaded/cartoons/winnie_the_pooh_4_NzkNVPO1k_I.jpg",
-      "images_downloaded/cartoons/winnie_the_pooh_5_odn_YbZyc28.jpg"
+      "images_downloaded/cartoons/peacock_1_733347.png",
+      "images_downloaded/cartoons/peacock_2_2372211.png",
+      "images_downloaded/cartoons/peacock_3_9205289.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/winnie_the_pooh.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Tigger",
-    "description": "A bouncy, striped tiger who introduces himself by insisting he's 'the only one,' greeting nearly everything by springing on his tail. He didn't appear in the very first Winnie-the-Pooh book, debuting instead in Milne's second collection, 'The House at Pooh Corner.'",
+    "name": "eagle",
+    "description": "A powerful bird of prey with eyesight several times sharper than a human's, letting it spot prey from over a mile away. Eagles build the largest nests of any bird, some growing to weigh over a ton after years of reuse.",
     "images": [
-      "images_downloaded/cartoons/tigger_1_DJ4vjcD0s0I.jpg",
-      "images_downloaded/cartoons/tigger_2_-iZV3CqT7LM.jpg",
-      "images_downloaded/cartoons/tigger_3_66zrT0dJ7Mc.jpg",
-      "images_downloaded/cartoons/tigger_4_YuQgNYku1M8.jpg",
-      "images_downloaded/cartoons/tigger_5_gRB4Euk4BYQ.jpg"
+      "images_downloaded/cartoons/eagle_1_3318377.png",
+      "images_downloaded/cartoons/eagle_2_4855211.jpg",
+      "images_downloaded/cartoons/eagle_3_1532967.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/tigger.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Genie Aladdin",
-    "description": "A powerful, blue, shape-shifting spirit trapped inside a magic lamp who can grant three wishes to whoever rubs it free. He was voiced with such rapid-fire improvisation by his original actor that animators had to redraw entire scenes to keep up with the jokes.",
+    "name": "parrot",
+    "description": "A colorful, highly intelligent bird capable of mimicking human speech and solving problems that stump many mammals. Parrots can live 60 years or more, form lifelong pair bonds, and some species use tools to crack open tough nuts.",
     "images": [
-      "images_downloaded/cartoons/genie_aladdin_1_C2aOCOXGK5o.jpg",
-      "images_downloaded/cartoons/genie_aladdin_2_p06UHBH9_fs.jpg",
-      "images_downloaded/cartoons/genie_aladdin_3_kbiY-tifYtU.jpg",
-      "images_downloaded/cartoons/genie_aladdin_4_PvHidu3vf18.jpg",
-      "images_downloaded/cartoons/genie_aladdin_5_3RhHkrpK8iI.jpg"
+      "images_downloaded/cartoons/parrot_1_8004146.jpg",
+      "images_downloaded/cartoons/parrot_2_7853097.jpg",
+      "images_downloaded/cartoons/parrot_3_4449891.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/genie_aladdin.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Po Kung Fu Panda",
-    "description": "A clumsy, noodle-loving panda who dreams of becoming a kung fu warrior despite having no formal training at all. He is chosen as the legendary Dragon Warrior largely by accident, landing in front of the judges at exactly the right moment.",
+    "name": "toucan",
+    "description": "A tropical bird famous for its enormous, colorful bill, which is mostly hollow and surprisingly lightweight, made of a spongy bone-like material. Toucans use their long bill to reach fruit at the end of thin branches and to help regulate their body heat.",
     "images": [
-      "images_downloaded/cartoons/po_kung_fu_panda_1_JOOwGmo54AY.jpg",
-      "images_downloaded/cartoons/po_kung_fu_panda_2_xpvlssVZGps.jpg",
-      "images_downloaded/cartoons/po_kung_fu_panda_3_-OHw8I-_emM.jpg",
-      "images_downloaded/cartoons/po_kung_fu_panda_4_iR2L-wUrnDU.jpg",
-      "images_downloaded/cartoons/po_kung_fu_panda_5_kMyAy2IYlbU.jpg"
+      "images_downloaded/cartoons/toucan_1_7502248.jpg",
+      "images_downloaded/cartoons/toucan_2_7991337.jpg",
+      "images_downloaded/cartoons/toucan_3_6730482.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/po_kung_fu_panda.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Rapunzel",
-    "description": "A princess with impossibly long, glowing magical hair, locked away in a tower for eighteen years to keep her powers hidden. Her 70 feet of animated hair took Disney's technical artists years to figure out how to simulate realistically.",
+    "name": "swan",
+    "description": "A large, graceful waterbird known for its long curved neck and pure white feathers, though some species are black. Swans mate for life, can be fiercely protective of their nests, and cygnets often ride on a parent's back to rest and stay warm.",
     "images": [
-      "images_downloaded/cartoons/rapunzel_1_damC_m92lO0.jpg",
-      "images_downloaded/cartoons/rapunzel_2_XkxZOqrdgY8.jpg",
-      "images_downloaded/cartoons/rapunzel_3_t2C5Qg8H9Sw.jpg",
-      "images_downloaded/cartoons/rapunzel_4_h2z-BKEUR8s.jpg",
-      "images_downloaded/cartoons/rapunzel_5_X59MYRlqM-8.jpg"
+      "images_downloaded/cartoons/swan_1_8801932.jpg",
+      "images_downloaded/cartoons/swan_2_8706790.jpg",
+      "images_downloaded/cartoons/swan_3_1791355.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/rapunzel.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Lightning McQueen",
-    "description": "A hotshot rookie race car, bright red with a lightning bolt down each side, who learns humility after getting stranded in a forgotten town on Route 66. His number, 95, was chosen to reference the year Pixar's first film, 'Toy Story,' was released.",
+    "name": "ostrich",
+    "description": "The largest and heaviest living bird, unable to fly but able to sprint faster than a racehorse on powerful long legs. Ostriches lay the largest eggs of any bird alive today, and a single kick from one can be dangerous even to a lion.",
     "images": [
-      "images_downloaded/cartoons/lightning_mcqueen_1_qMU95wfScrs.jpg",
-      "images_downloaded/cartoons/lightning_mcqueen_2_OJ4HHcGXLQ0.jpg",
-      "images_downloaded/cartoons/lightning_mcqueen_3_hrLbPvSmJ54.jpg",
-      "images_downloaded/cartoons/lightning_mcqueen_4_DgoDcsBxMK8.jpg",
-      "images_downloaded/cartoons/lightning_mcqueen_5_qj08wa28g64.jpg"
+      "images_downloaded/cartoons/ostrich_1_1296905.png",
+      "images_downloaded/cartoons/ostrich_2_29467.png",
+      "images_downloaded/cartoons/ostrich_3_1300093.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/lightning_mcqueen.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Pikachu",
-    "description": "A small, yellow, mouse-like creature that stores electricity in its red cheeks and can unleash it as a powerful shock. It's the mascot of the entire Pokemon franchise, despite not even being the first Pokemon in the official numbered list.",
+    "name": "hummingbird",
+    "description": "A tiny, jewel-colored bird whose wings beat up to 80 times per second, letting it hover in place and even fly backward. Hummingbirds have the fastest metabolism of any animal and must eat roughly every ten minutes while awake to survive.",
     "images": [
-      "images_downloaded/cartoons/pikachu_1_r27umXAelDc.jpg",
-      "images_downloaded/cartoons/pikachu_2_N7OocKwsJ0s.jpg",
-      "images_downloaded/cartoons/pikachu_3_FhbQUEWjcWM.jpg",
-      "images_downloaded/cartoons/pikachu_4_Y_-Pr7qLDf8.jpg",
-      "images_downloaded/cartoons/pikachu_5_K66XB0pwmgk.jpg"
+      "images_downloaded/cartoons/hummingbird_1_295026.png",
+      "images_downloaded/cartoons/hummingbird_2_7650570.jpg",
+      "images_downloaded/cartoons/hummingbird_3_7553736.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/pikachu.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Naruto",
-    "description": "An orange-clad ninja with whisker-like birthmarks who dreams of becoming his village's leader despite starting out as an outcast. A powerful fox spirit sealed inside him is the source of both his strength and the villagers' early fear of him.",
+    "name": "rose",
+    "description": "A thorny-stemmed shrub prized for centuries as the classic symbol of love, cultivated into thousands of varieties and colors, each carrying its own meaning. Its petals and hips are used in perfumes, teas, and cooking, and a red rose remains the flower of romance.",
     "images": [
-      "images_downloaded/cartoons/naruto_1_CAFq0pv9HjY.jpg",
-      "images_downloaded/cartoons/naruto_2_IxDPZ-AHfoI.jpg",
-      "images_downloaded/cartoons/naruto_3_tq8Cuap8_wY.jpg",
-      "images_downloaded/cartoons/naruto_4_3uuLWb6aQXc.jpg",
-      "images_downloaded/cartoons/naruto_5_rz3eCYGgGSc.jpg"
+      "images_downloaded/cartoons/rose_1_156608.png",
+      "images_downloaded/cartoons/rose_2_1770165.png",
+      "images_downloaded/cartoons/rose_3_4982129.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/naruto.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Goku",
-    "description": "A spiky-haired warrior with a monkey tail and enormous strength, raised alone in the mountains after being sent to Earth as a baby. He transforms into a golden-haired 'Super Saiyan' form when pushed to extreme emotional limits, one of anime's most iconic transformations.",
+    "name": "tulip",
+    "description": "A cup-shaped spring bulb whose bold, saturated colors made it so coveted in 1630s Holland that a single bulb could cost more than a house, sparking 'tulip mania,' history's first speculative bubble. Uniquely among cut flowers, tulips keep growing in the vase.",
     "images": [
-      "images_downloaded/cartoons/goku_1_SLbuf004DPI.jpg",
-      "images_downloaded/cartoons/goku_2_sR1BaDlRSKM.jpg",
-      "images_downloaded/cartoons/goku_3_mBi3G6q_WB8.jpg",
-      "images_downloaded/cartoons/goku_4_j0piB8tg6jw.jpg",
-      "images_downloaded/cartoons/goku_5_q82BAzAWGTQ.jpg"
+      "images_downloaded/cartoons/tulip_1_1978165.png",
+      "images_downloaded/cartoons/tulip_2_7834790.jpg",
+      "images_downloaded/cartoons/tulip_3_2923492.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/goku.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Luffy",
-    "description": "A rubber-bodied pirate captain who can stretch his limbs to absurd lengths after eating a magical fruit, in exchange for never being able to swim again. His signature straw hat was entrusted to him by the pirate he admires most, with a promise to return it one day.",
+    "name": "sunflower",
+    "description": "A towering annual whose young flower heads track the sun across the sky, a movement called heliotropism, before settling to face east as they mature. Each 'flower' is actually thousands of tiny florets arranged in spirals, ripening into edible seeds.",
     "images": [
-      "images_downloaded/cartoons/luffy_1_fgxxyYmSkRc.jpg",
-      "images_downloaded/cartoons/luffy_2_BmGikCHuoBU.jpg",
-      "images_downloaded/cartoons/luffy_3_9rbku8XDDCQ.jpg",
-      "images_downloaded/cartoons/luffy_4_nU-uOifIwEk.jpg",
-      "images_downloaded/cartoons/luffy_5_uCqpNqdA-5U.jpg"
+      "images_downloaded/cartoons/sunflower_1_8061822.png",
+      "images_downloaded/cartoons/sunflower_2_5376968.png",
+      "images_downloaded/cartoons/sunflower_3_9852403.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/luffy.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Totoro",
-    "description": "A giant, round, gray forest spirit with a wide grin, believed in only by children pure enough to see him. He carries a magic top-shaped umbrella and travels by a giant cat-shaped bus that only children can ride.",
+    "name": "daisy",
+    "description": "A cheerful wildflower whose name comes from 'day's eye,' as its white-petaled bloom opens at dawn and closes at dusk. What looks like one flower is really two combined: a yellow center of tiny florets ringed by white petal-florets.",
     "images": [
-      "images_downloaded/cartoons/totoro_1_Xcb6eJfvLVg.jpg",
-      "images_downloaded/cartoons/totoro_2_jln4FV0WNeo.jpg",
-      "images_downloaded/cartoons/totoro_3_eXeNnW7DVfw.jpg",
-      "images_downloaded/cartoons/totoro_4_SCXFgBoy-as.jpg",
-      "images_downloaded/cartoons/totoro_5_nMA2WjsmjMU.jpg"
+      "images_downloaded/cartoons/daisy_1_7875159.png",
+      "images_downloaded/cartoons/daisy_2_9203759.png",
+      "images_downloaded/cartoons/daisy_3_8480910.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/totoro.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Doraemon",
-    "description": "A blue, earless robotic cat from the 22nd century, sent back in time to help a struggling schoolboy using gadgets pulled from his pocket-like fourth-dimensional pouch. His ears were famously eaten off by robot mice, which is why he's terrified of mice to this day.",
+    "name": "lily",
+    "description": "An elegant bloom grown from bulbs, with large trumpet-shaped flowers and a strong fragrance, long associated with purity and often used at weddings and funerals. Its pollen stains readily and is highly toxic to cats.",
     "images": [
-      "images_downloaded/cartoons/doraemon_1_73BW6YMXNHg.jpg",
-      "images_downloaded/cartoons/doraemon_2_tkdqPQyMKTI.jpg",
-      "images_downloaded/cartoons/doraemon_3_q1avsArA3ro.jpg",
-      "images_downloaded/cartoons/doraemon_4_P9J1_J-rkvY.jpg",
-      "images_downloaded/cartoons/doraemon_5_ZdNvkMCXzjg.jpg"
+      "images_downloaded/cartoons/lily_1_2418755.png",
+      "images_downloaded/cartoons/lily_2_8534112.jpg",
+      "images_downloaded/cartoons/lily_3_4411400.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/doraemon.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Hello Kitty",
-    "description": "A small, white cartoon cat with a red bow, famously drawn without a visible mouth so she can represent any emotion the viewer brings to her. Her creators have stated she is not technically a cat at all, but a cartoon girl who happens to look like one.",
+    "name": "orchid",
+    "description": "One of the largest plant families on Earth, with over 25,000 wild species and intricate, often startlingly symmetrical blooms evolved to lure specific pollinators. The vanilla bean comes from an orchid, and some species can live for a century.",
     "images": [
-      "images_downloaded/cartoons/hello_kitty_1_GAhBHu0GJZg.jpg",
-      "images_downloaded/cartoons/hello_kitty_2_8YUs9I4Yr6U.jpg",
-      "images_downloaded/cartoons/hello_kitty_3_J40XL0iza4o.jpg",
-      "images_downloaded/cartoons/hello_kitty_4_eBIqJgD0oQI.jpg",
-      "images_downloaded/cartoons/hello_kitty_5_mAaJ2QzsFKM.jpg"
+      "images_downloaded/cartoons/orchid_1_1560590.png",
+      "images_downloaded/cartoons/orchid_2_862899.jpg",
+      "images_downloaded/cartoons/orchid_3_2471002.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/hello_kitty.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Sailor Moon",
-    "description": "A clumsy schoolgirl who transforms into a moon-powered guardian using a magical brooch, fighting evil alongside a team of fellow 'Sailor Guardians.' Her dazzling transformation sequences helped define the entire 'magical girl' anime genre for later shows.",
+    "name": "daffodil",
+    "description": "A trumpet-centered spring bulb, also called the narcissus, that is one of the first flowers to bloom after winter and a symbol of renewal and hope. Every part of the plant is toxic, and it's the emblem of several cancer charities.",
     "images": [
-      "images_downloaded/cartoons/sailor_moon_1_Q9y32sJn6qo.jpg",
-      "images_downloaded/cartoons/sailor_moon_2_m9ApPbgbFA0.jpg",
-      "images_downloaded/cartoons/sailor_moon_3_DsP4ywFxVqQ.jpg",
-      "images_downloaded/cartoons/sailor_moon_4_PwfgzwdmIy0.jpg",
-      "images_downloaded/cartoons/sailor_moon_5_vngX3RBVN24.jpg"
+      "images_downloaded/cartoons/daffodil_1_7874022.jpg",
+      "images_downloaded/cartoons/daffodil_2_7014589.png",
+      "images_downloaded/cartoons/daffodil_3_10051937.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/sailor_moon.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Astro Boy",
-    "description": "An android boy built with rocket boots, super strength, and machine guns hidden in his hips, created by a scientist to replace his own lost son. First published in 1952, he's considered one of the earliest and most influential anime characters ever created.",
+    "name": "marigold",
+    "description": "A hardy golden-orange annual with a pungent scent that gardeners plant to repel pests. Central to Mexico's Day of the Dead as the 'flower of the dead,' its petals are strung into garlands and used to guide spirits home.",
     "images": [
-      "images_downloaded/cartoons/astro_boy_1_Y84VeyyY_gw.jpg",
-      "images_downloaded/cartoons/astro_boy_2_GPvWAU0lYWc.jpg",
-      "images_downloaded/cartoons/astro_boy_3_fwBYscUtdBc.jpg",
-      "images_downloaded/cartoons/astro_boy_4_u4JIM2esXz8.jpg",
-      "images_downloaded/cartoons/astro_boy_5_WFL4qC17mVI.jpg"
+      "images_downloaded/cartoons/marigold_1_1287653.jpg",
+      "images_downloaded/cartoons/marigold_2_6274079.png",
+      "images_downloaded/cartoons/marigold_3_8930040.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/astro_boy.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Charmander",
-    "description": "An orange, lizard-like creature with a flame permanently burning at the tip of its tail, said to signal its health and life force. If that flame ever goes out, the stories say, the creature dies, making it one of the highest-stakes designs in its franchise.",
+    "name": "hibiscus",
+    "description": "A tropical shrub bearing large, showy trumpet-shaped flowers that typically last just a single day. Its tart red calyces are brewed into a ruby, vitamin-C-rich tea drunk around the world, and it is the national flower of several nations.",
     "images": [
-      "images_downloaded/cartoons/charmander_1_MsfQZ5Qo7zQ.jpg",
-      "images_downloaded/cartoons/charmander_2_9cIkK-hLD9k.jpg",
-      "images_downloaded/cartoons/charmander_3_9NNFmsEi1z4.jpg",
-      "images_downloaded/cartoons/charmander_4_lteOkMQyhGk.jpg",
-      "images_downloaded/cartoons/charmander_5_OB756zZDYi0.jpg"
+      "images_downloaded/cartoons/hibiscus_1_7190314.jpg",
+      "images_downloaded/cartoons/hibiscus_2_4914393.png",
+      "images_downloaded/cartoons/hibiscus_3_8189062.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/charmander.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Kirby Nintendo",
-    "description": "A small, round, pink creature who can inhale enemies whole and copy their special abilities for himself. Despite his adorable appearance, he is canonically strong enough to destroy entire planets in some of his games.",
+    "name": "lotus",
+    "description": "An aquatic plant sacred across Asian cultures that roots in muddy pond bottoms yet raises immaculate blooms above the water, symbolizing purity and rebirth. Its leaves are so water-repellent that droplets bead and roll off, an effect scientists call the 'lotus effect.'",
     "images": [
-      "images_downloaded/cartoons/kirby_nintendo_1_CAMwvFPc-Xc.jpg",
-      "images_downloaded/cartoons/kirby_nintendo_2_Sfj6CqE4j4Y.jpg",
-      "images_downloaded/cartoons/kirby_nintendo_3_pa4zdiIlpww.jpg",
-      "images_downloaded/cartoons/kirby_nintendo_4_UnuAvoPht3c.jpg",
-      "images_downloaded/cartoons/kirby_nintendo_5_Hwsga5fBb_M.jpg"
+      "images_downloaded/cartoons/lotus_1_7646396.jpg",
+      "images_downloaded/cartoons/lotus_2_6768530.jpg",
+      "images_downloaded/cartoons/lotus_3_7148740.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/kirby_nintendo.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Sonic the Hedgehog",
-    "description": "A bright blue hedgehog who can run faster than the speed of sound, known for impatiently tapping his foot whenever a player takes too long. He was designed with sneakers inspired by Michael Jackson's boots and a red-and-white color scheme borrowed from Santa Claus.",
+    "name": "cabbage",
+    "description": "A leafy vegetable that grows as a tight, round head of overlapping pale-green leaves wrapped around a central core. Cabbage has been cultivated for over 4,000 years and comes in hundreds of varieties, from smooth green heads to crinkled purple ones.",
     "images": [
-      "images_downloaded/cartoons/sonic_the_hedgehog_1_sYVY_ZKwaxU.jpg",
-      "images_downloaded/cartoons/sonic_the_hedgehog_2_SgYayrin5HY.jpg",
-      "images_downloaded/cartoons/sonic_the_hedgehog_3_Sb2FkPFiadg.jpg",
-      "images_downloaded/cartoons/sonic_the_hedgehog_4_l1JfuvWd7rU.jpg",
-      "images_downloaded/cartoons/sonic_the_hedgehog_5_OIikFOhZejE.jpg"
+      "images_downloaded/cartoons/cabbage_1_559887.png",
+      "images_downloaded/cartoons/cabbage_2_155616.png",
+      "images_downloaded/cartoons/cabbage_3_6289052.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/sonic_the_hedgehog.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Bugs Bunny",
-    "description": "A wisecracking gray rabbit famous for casually chewing a carrot while asking 'What's up, doc?' to whoever is chasing him. His carrot-chewing pose was modeled directly on a scene from the 1934 film 'It Happened One Night.'",
+    "name": "carrot",
+    "description": "A root vegetable that grows underground as a long, tapering orange taproot topped by feathery green leaves. Wild carrots started out purple and white; the now-familiar orange color was bred by Dutch farmers centuries later.",
     "images": [
-      "images_downloaded/cartoons/bugs_bunny_1_9U6V9f39hy0.jpg",
-      "images_downloaded/cartoons/bugs_bunny_2_xh6wD9B43hs.jpg",
-      "images_downloaded/cartoons/bugs_bunny_3_BiUTRyP240U.jpg",
-      "images_downloaded/cartoons/bugs_bunny_4_YQbKQFM2T0o.jpg",
-      "images_downloaded/cartoons/bugs_bunny_5_zCnjsroXmxI.jpg"
+      "images_downloaded/cartoons/carrot_1_7434339.jpg",
+      "images_downloaded/cartoons/carrot_2_1803370.png",
+      "images_downloaded/cartoons/carrot_3_29063.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/bugs_bunny.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Tom and Jerry",
-    "description": "A perpetually feuding cat-and-mouse duo whose decades-long rivalry unfolds almost entirely without either character speaking a word of dialogue. The series has won seven Academy Awards, more than any other theatrical cartoon series in history.",
+    "name": "tomato",
+    "description": "A juicy, red (or sometimes yellow or green) fruit that's cooked and eaten as a vegetable in nearly every cuisine on Earth. Botanically it's a fruit, and in 1893 the U.S. Supreme Court actually ruled it a vegetable anyway, purely for tax purposes.",
     "images": [
-      "images_downloaded/cartoons/tom_and_jerry_1_4EmQx5gQwL0.jpg",
-      "images_downloaded/cartoons/tom_and_jerry_2_cMhDdVOrTyY.jpg",
-      "images_downloaded/cartoons/tom_and_jerry_3_tFQozP5U7NQ.jpg",
-      "images_downloaded/cartoons/tom_and_jerry_4_cs3tf8kDKEc.jpg",
-      "images_downloaded/cartoons/tom_and_jerry_5_i-m4iLDOzto.jpg"
+      "images_downloaded/cartoons/tomato_1_7248455.png",
+      "images_downloaded/cartoons/tomato_2_308855.png",
+      "images_downloaded/cartoons/tomato_3_4315442.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/tom_and_jerry.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "SpongeBob SquarePants",
-    "description": "A square, yellow sea sponge who lives in a pineapple under the sea and works with relentless enthusiasm as a fry cook. He's based partly on his creator's own experience teaching marine biology, and the character was originally almost named 'SpongeBoy.'",
+    "name": "potato",
+    "description": "A starchy tuber that grows underground on the roots of a leafy green plant, with edible \"eyes\" that can sprout entirely new plants. Potatoes were the first vegetable ever grown in space, aboard the space shuttle Columbia in 1995.",
     "images": [
-      "images_downloaded/cartoons/spongebob_squarepants_1_Readt_TLbFc.jpg",
-      "images_downloaded/cartoons/spongebob_squarepants_2_1SblSxLHCwI.jpg",
-      "images_downloaded/cartoons/spongebob_squarepants_3_Ox-x45IaxSA.jpg",
-      "images_downloaded/cartoons/spongebob_squarepants_4_2WkDGYROCok.jpg",
-      "images_downloaded/cartoons/spongebob_squarepants_5_2_Xrog4w0hs.jpg"
+      "images_downloaded/cartoons/potato_1_29063.png",
+      "images_downloaded/cartoons/potato_2_6706152.png",
+      "images_downloaded/cartoons/potato_3_6936229.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/spongebob_squarepants.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Scooby-Doo",
-    "description": "A cowardly, talking Great Dane who solves supernatural-seeming mysteries with his teenage friends, usually while chasing Scooby Snacks. His famous speech pattern, adding an 'R' to the start of words, was created specifically for his original voice actor to perform easily.",
+    "name": "broccoli",
+    "description": "A green vegetable made of tightly packed flower buds on a thick central stalk, harvested before the tiny yellow flowers ever get to open. It's a close relative of cabbage and cauliflower, all bred from the very same wild mustard plant.",
     "images": [
-      "images_downloaded/cartoons/scooby_doo_1_RuEPcawCZB4.jpg",
-      "images_downloaded/cartoons/scooby_doo_2_z7-fLWb2ETc.jpg",
-      "images_downloaded/cartoons/scooby_doo_3_3K03rJcl-As.jpg",
-      "images_downloaded/cartoons/scooby_doo_4_dsSRy6cizeo.jpg",
-      "images_downloaded/cartoons/scooby_doo_5_WKFfP59DxyY.jpg"
+      "images_downloaded/cartoons/broccoli_1_8174625.jpg",
+      "images_downloaded/cartoons/broccoli_2_40295.png",
+      "images_downloaded/cartoons/broccoli_3_3241701.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/scooby_doo.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Garfield Cat",
-    "description": "A lazy, lasagna-obsessed orange tabby cat who despises Mondays and treats his owner Jon with constant sarcasm. His comic strip has been recognized by Guinness World Records as the most widely syndicated comic strip on the planet.",
+    "name": "cucumber",
+    "description": "A long, green-skinned fruit with crunchy, watery flesh, usually eaten raw in salads or pickled whole. Cucumbers are about 96% water, making them one of the most hydrating foods you can eat.",
     "images": [
-      "images_downloaded/cartoons/garfield_cat_1_B2nsRF6vJmE.jpg",
-      "images_downloaded/cartoons/garfield_cat_2_gLHIl2ckRJw.jpg",
-      "images_downloaded/cartoons/garfield_cat_3_5we7KoXHQVI.jpg",
-      "images_downloaded/cartoons/garfield_cat_4_pzG6l-Imcn4.jpg",
-      "images_downloaded/cartoons/garfield_cat_5_V-7cNWNH7IU.jpg"
+      "images_downloaded/cartoons/cucumber_1_7434358.jpg",
+      "images_downloaded/cartoons/cucumber_2_8655605.jpg",
+      "images_downloaded/cartoons/cucumber_3_5984260.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/garfield_cat.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Snoopy",
-    "description": "A beagle who spends more time imagining himself as a World War I flying ace than acting like an ordinary dog. He rarely speaks, but his elaborate daydreams and typewriter-driven novel-writing made him one of the most merchandised cartoon characters ever.",
+    "name": "pumpkin",
+    "description": "A large, round orange squash that grows on sprawling vines and is famous for jack-o'-lanterns as much as pie. The biggest pumpkins ever grown for competitions can weigh over a ton, roughly as much as a small car.",
     "images": [
-      "images_downloaded/cartoons/snoopy_1__EfvzmlxcVA.jpg",
-      "images_downloaded/cartoons/snoopy_2_AWGwBpuIpTY.jpg",
-      "images_downloaded/cartoons/snoopy_3_n_tBaycO7n4.jpg",
-      "images_downloaded/cartoons/snoopy_4_9KC6aUtHJgc.jpg",
-      "images_downloaded/cartoons/snoopy_5_ZBAy0MyVX1Q.jpg"
+      "images_downloaded/cartoons/pumpkin_1_23439.png",
+      "images_downloaded/cartoons/pumpkin_2_5517221.png",
+      "images_downloaded/cartoons/pumpkin_3_5674148.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/snoopy.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Donald Duck",
-    "description": "A hot-tempered, sailor-suited duck whose famously hard-to-understand speech was a voice effect his original performer invented himself. Despite the near-unintelligible voice, he has starred in more films than almost any other Disney character.",
+    "name": "onion",
+    "description": "A layered bulb vegetable with a papery outer skin, prized for its sharp flavor that mellows and sweetens dramatically when cooked. Slicing one releases a gas that irritates the eyes into producing tears as a defense reflex.",
     "images": [
-      "images_downloaded/cartoons/donald_duck_1_hxGP_QuC6yY.jpg",
-      "images_downloaded/cartoons/donald_duck_2_q3gCcS1w8HA.jpg",
-      "images_downloaded/cartoons/donald_duck_3_hTCqBBK_CJM.jpg",
-      "images_downloaded/cartoons/donald_duck_4_FJRUR17CSWA.jpg",
-      "images_downloaded/cartoons/donald_duck_5_RvJ8RgzWNHU.jpg"
+      "images_downloaded/cartoons/onion_1_7434358.jpg",
+      "images_downloaded/cartoons/onion_2_1537845.jpg",
+      "images_downloaded/cartoons/onion_3_8745152.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/donald_duck.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Goofy Disney",
-    "description": "A tall, clumsy anthropomorphic dog known for his easygoing drawl and his signature yell whenever he falls from a great height. That falling scream has been reused in so many films and shows that sound editors nicknamed it the 'Goofy Holler.'",
+    "name": "eggplant",
+    "description": "A glossy, deep-purple fruit with spongy white flesh, cooked as a vegetable in dishes from ratatouille to baba ghanoush. It's also called an \"aubergine,\" and some varieties grow small, oval, and pale white, which is how it got its English name.",
     "images": [
-      "images_downloaded/cartoons/goofy_disney_1_BYQAHpXAQQA.jpg",
-      "images_downloaded/cartoons/goofy_disney_2_6u41g4jhZ6o.jpg",
-      "images_downloaded/cartoons/goofy_disney_3_0jbzHff5S6Q.jpg",
-      "images_downloaded/cartoons/goofy_disney_4_urssnzRjwrs.jpg",
-      "images_downloaded/cartoons/goofy_disney_5_mzySB43iVpE.jpg"
+      "images_downloaded/cartoons/eggplant_1_309459.png",
+      "images_downloaded/cartoons/eggplant_2_149973.png",
+      "images_downloaded/cartoons/eggplant_3_2924511.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/goofy_disney.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Chip and Dale",
-    "description": "Two nearly identical chipmunks, distinguished mainly by their noses and voices, forever raiding picnics and outsmarting Donald Duck or Pluto. Animators originally gave them almost no visual differences at all, relying on personality and mischief to tell them apart.",
+    "name": "mushroom",
+    "description": "The umbrella-shaped fruiting body of a fungus, with a cap and gills that release spores to spread and grow more mushrooms. Most of the actual organism lives hidden underground as a vast thread-like network, and what we eat is just its \"flower.\"",
     "images": [
-      "images_downloaded/cartoons/chip_and_dale_1_JPYSijH3Aho.jpg",
-      "images_downloaded/cartoons/chip_and_dale_2_WJnE23RzsaU.jpg",
-      "images_downloaded/cartoons/chip_and_dale_3_YnDGhbDK9z4.jpg",
-      "images_downloaded/cartoons/chip_and_dale_4_s9ZqSczhAnE.jpg",
-      "images_downloaded/cartoons/chip_and_dale_5_zOy25te9ntI.jpg"
+      "images_downloaded/cartoons/mushroom_1_8265508.jpg",
+      "images_downloaded/cartoons/mushroom_2_4841594.jpg",
+      "images_downloaded/cartoons/mushroom_3_576463.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/chip_and_dale.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Daffy Duck",
-    "description": "A jealous, scheming black duck with a wild lisp, constantly trying and failing to outshine his rival, Bugs Bunny. He actually debuted a year before Bugs Bunny did, in the 1937 short 'Porky's Duck Hunt.'",
+    "name": "apple",
+    "description": "A crisp, round fruit that grows on trees in thousands of different varieties, ranging from tart green to deep red. Apples float in water because about a quarter of their volume is trapped air.",
     "images": [
-      "images_downloaded/cartoons/daffy_duck_1_J_4_2vOehDs.jpg",
-      "images_downloaded/cartoons/daffy_duck_2_UB0ivcyFi4g.jpg",
-      "images_downloaded/cartoons/daffy_duck_3_9U6V9f39hy0.jpg",
-      "images_downloaded/cartoons/daffy_duck_4_xh6wD9B43hs.jpg",
-      "images_downloaded/cartoons/daffy_duck_5_7WntBD7-HYE.jpg"
+      "images_downloaded/cartoons/apple_1_4522286.png",
+      "images_downloaded/cartoons/apple_2_439397.png",
+      "images_downloaded/cartoons/apple_3_1475977.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/daffy_duck.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Tweety Bird",
-    "description": "A small yellow canary who looks endlessly innocent while regularly outsmarting the cat trying to eat him. He was originally drawn pink and featherless, closer to a real baby bird, before being redesigned with yellow feathers.",
+    "name": "banana",
+    "description": "A long, curved fruit with a thick peel that grows in bunches on tall, tree-like plants that are technically giant herbs, not trees. Bananas are naturally slightly radioactive, thanks to the potassium they contain, though far too little to be harmful.",
     "images": [
-      "images_downloaded/cartoons/tweety_bird_1_9Wj9KF_Vyp8.jpg",
-      "images_downloaded/cartoons/tweety_bird_2_UB0ivcyFi4g.jpg",
-      "images_downloaded/cartoons/tweety_bird_3_9U6V9f39hy0.jpg",
-      "images_downloaded/cartoons/tweety_bird_4_xh6wD9B43hs.jpg",
-      "images_downloaded/cartoons/tweety_bird_5_FYoBbEpYW8o.jpg"
+      "images_downloaded/cartoons/banana_1_4330436.png",
+      "images_downloaded/cartoons/banana_2_3658159.png",
+      "images_downloaded/cartoons/banana_3_6712119.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/tweety_bird.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Minnie Mouse",
-    "description": "A cheerful mouse in a red polka-dot dress and oversized bow, Mickey Mouse's longtime sweetheart and one of Disney's most recognized characters. She debuted alongside Mickey in 1928's 'Steamboat Willie,' making her one of the very first animated characters ever to appear on screen.",
+    "name": "orange",
+    "description": "A round citrus fruit with a thick, fragrant peel and juicy segmented flesh inside. Despite the name, oranges aren't always orange -- in warm tropical climates they can stay green even when fully ripe.",
     "images": [
-      "images_downloaded/cartoons/minnie_mouse_1_a4p8FMIJ0Jc.jpg",
-      "images_downloaded/cartoons/minnie_mouse_2_mIUm4Mrmt5I.jpg",
-      "images_downloaded/cartoons/minnie_mouse_3_AT6LpklqujY.jpg",
-      "images_downloaded/cartoons/minnie_mouse_4_C90aRri8BR0.jpg",
-      "images_downloaded/cartoons/minnie_mouse_5_2J6WtbB00VY.jpg"
+      "images_downloaded/cartoons/orange_1_4547207.png",
+      "images_downloaded/cartoons/orange_2_794507.jpg",
+      "images_downloaded/cartoons/orange_3_25189.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/minnie_mouse.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Super Mario",
-    "description": "A mustached plumber in blue overalls who jumps on enemies, breaks bricks with his head, and grows bigger by eating magic mushrooms. He is widely considered the best-selling video game character of all time, with games starring him selling well over half a billion copies combined.",
+    "name": "grape",
+    "description": "A small, round fruit that grows in clusters on climbing vines, eaten fresh or dried into raisins or fermented into wine. A single grapevine can be trained to live and keep producing fruit for over a hundred years.",
     "images": [
-      "images_downloaded/cartoons/super_mario_1__R95VMWyn7A.jpg",
-      "images_downloaded/cartoons/super_mario_2_UdCNVHNgHdI.jpg",
-      "images_downloaded/cartoons/super_mario_3_f1hagYA4ois.jpg",
-      "images_downloaded/cartoons/super_mario_4_2AsfYaYTbpI.jpg",
-      "images_downloaded/cartoons/super_mario_5_JrZvYuBYzCU.jpg"
+      "images_downloaded/cartoons/grape_1_773435.png",
+      "images_downloaded/cartoons/grape_2_5086568.png",
+      "images_downloaded/cartoons/grape_3_6002003.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/super_mario.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Porky Pig",
-    "description": "A stuttering pig in a blue jacket, best known for closing classic cartoons with his signature line, 'Th-th-that's all, folks!' He's considered the first true breakout star of the entire Looney Tunes series, debuting all the way back in 1935.",
+    "name": "strawberry",
+    "description": "A red, heart-shaped fruit covered in tiny seeds on its outside rather than the inside. Botanically it isn't a true berry at all, and each of those hundreds of seed-like dots is technically its own separate tiny fruit.",
     "images": [
-      "images_downloaded/cartoons/porky_pig_1_i4XLJmlYit4.jpg",
-      "images_downloaded/cartoons/porky_pig_2_CP9GGy_LkIY.jpg",
-      "images_downloaded/cartoons/porky_pig_3_Y06imaOLycY.jpg",
-      "images_downloaded/cartoons/porky_pig_4_b-zyMn_e_R4.jpg",
-      "images_downloaded/cartoons/porky_pig_5_nG_Y_TG3O-w.jpg"
+      "images_downloaded/cartoons/strawberry_1_7434339.jpg",
+      "images_downloaded/cartoons/strawberry_2_7412961.jpg",
+      "images_downloaded/cartoons/strawberry_3_1432278.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/porky_pig.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "The Grinch",
-    "description": "A grumpy, green, fur-covered creature who lives alone on a mountain overlooking a cheerful town and despises its holiday celebrations. He plots to steal every gift, decoration, and scrap of food in town, only to have a change of heart once he hears the townspeople celebrating anyway.",
+    "name": "watermelon",
+    "description": "A large, round or oblong fruit with a tough green rind and sweet, juicy red flesh studded with dark seeds. It's about 92% water, and its rind is edible too, often pickled or stir-fried in some cuisines.",
     "images": [
-      "images_downloaded/cartoons/the_grinch_1_ZlpWBdZ8FtQ.jpg",
-      "images_downloaded/cartoons/the_grinch_2_SSW5twk85qI.jpg",
-      "images_downloaded/cartoons/the_grinch_3_eXjzdTl--_Q.jpg",
-      "images_downloaded/cartoons/the_grinch_4_fZNmzDsm1o4.jpg",
-      "images_downloaded/cartoons/the_grinch_5_lYhqqDQuYD0.jpg"
+      "images_downloaded/cartoons/watermelon_1_4580910.png",
+      "images_downloaded/cartoons/watermelon_2_1783870.png",
+      "images_downloaded/cartoons/watermelon_3_4120925.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/the_grinch.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Popeye",
-    "description": "A squinty-eyed, pipe-smoking sailor whose forearms bulge with sudden strength the moment he swallows a can of spinach. The character reportedly caused a real, measurable rise in spinach sales among American children after the cartoon's popularity soared.",
+    "name": "pineapple",
+    "description": "A spiky-skinned tropical fruit topped with a crown of stiff green leaves, made of many small fruits fused together around a central core. It takes nearly two years for a pineapple plant to grow a single ripe fruit.",
     "images": [
-      "images_downloaded/cartoons/popeye_1_qB7bbXVvWrU.jpg",
-      "images_downloaded/cartoons/popeye_2_eJEMURxU-hc.jpg",
-      "images_downloaded/cartoons/popeye_3_XZyovy1JaP0.jpg",
-      "images_downloaded/cartoons/popeye_4_LK8uHIpFQbk.jpg",
-      "images_downloaded/cartoons/popeye_5_tXcsntVUmNc.jpg"
+      "images_downloaded/cartoons/pineapple_1_3658159.png",
+      "images_downloaded/cartoons/pineapple_2_834839.jpg",
+      "images_downloaded/cartoons/pineapple_3_7284388.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/popeye.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Bart Simpson",
-    "description": "A ten-year-old skateboarding troublemaker known for prank phone calls and his catchphrase, 'Ay caramba!' He was originally intended to be the star of 'The Simpsons,' though the show gradually shifted its focus to his father instead.",
+    "name": "mango",
+    "description": "A juicy tropical fruit with smooth, brightly colored skin over soft orange flesh clinging to a large flat pit. Mangoes are related to cashews and pistachios, and are the most widely consumed fruit in the world by total weight grown.",
     "images": [
-      "images_downloaded/cartoons/bart_simpson_1_wnXo6T_cb3s.jpg",
-      "images_downloaded/cartoons/bart_simpson_2__57epYehMxo.jpg",
-      "images_downloaded/cartoons/bart_simpson_3_x6LjlXosv40.jpg",
-      "images_downloaded/cartoons/bart_simpson_4_1N7U1lr0jTY.jpg",
-      "images_downloaded/cartoons/bart_simpson_5_BrC93bEn9Ak.jpg"
+      "images_downloaded/cartoons/mango_1_6875556.jpg",
+      "images_downloaded/cartoons/mango_2_3658159.png",
+      "images_downloaded/cartoons/mango_3_6002010.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/bart_simpson.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Homer Simpson",
-    "description": "A donut-loving safety inspector whose favorite exclamation, 'D'oh!', was added to the Oxford English Dictionary as an official word. His famously bald, blue-shirted design was updated largely to make him easier and cheaper to animate each week.",
+    "name": "cherry",
+    "description": "A small, round stone fruit that grows in clusters on trees, prized both sweet for snacking and tart for baking. Cherry trees can burst into bloom with thousands of blossoms before a single leaf appears.",
     "images": [
-      "images_downloaded/cartoons/homer_simpson_1_C8SyKLhUFGU.jpg",
-      "images_downloaded/cartoons/homer_simpson_2_r5c29s9d0AQ.jpg",
-      "images_downloaded/cartoons/homer_simpson_3_0kF7wNPl1kk.jpg",
-      "images_downloaded/cartoons/homer_simpson_4_UQnAaHPpALE.jpg",
-      "images_downloaded/cartoons/homer_simpson_5_0q9EexwGaXM.jpg"
+      "images_downloaded/cartoons/cherry_1_1292226.jpg",
+      "images_downloaded/cartoons/cherry_2_6993059.png",
+      "images_downloaded/cartoons/cherry_3_1293239.png"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/homer_simpson.mp3"
+    "audio_desc": ""
   },
   {
-    "name": "Peppa Pig",
-    "description": "A cheeky little piglet who loves jumping in muddy puddles and is instantly recognizable by her round, red dress and single-color body. The show is deliberately drawn with extremely simple, rounded shapes so that very young children can easily draw her themselves.",
+    "name": "peach",
+    "description": "A round, fuzzy-skinned fruit with sweet golden flesh wrapped around a large, deeply grooved pit. Its smooth-skinned cousin, the nectarine, is actually the very same species, the fuzz controlled by just one gene.",
     "images": [
-      "images_downloaded/cartoons/peppa_pig_1_vS5dRGz5xQg.jpg",
-      "images_downloaded/cartoons/peppa_pig_2_HmocsNZO1hs.jpg",
-      "images_downloaded/cartoons/peppa_pig_3_aWrF2JSd1Ws.jpg",
-      "images_downloaded/cartoons/peppa_pig_4_jR8YGPIN6jA.jpg",
-      "images_downloaded/cartoons/peppa_pig_5_oOrvFpPKkC4.jpg"
+      "images_downloaded/cartoons/peach_1_7434339.jpg",
+      "images_downloaded/cartoons/peach_2_7093399.jpg",
+      "images_downloaded/cartoons/peach_3_8282554.jpg"
     ],
     "videos": [],
-    "audio_desc": "audio/cartoons/peppa_pig.mp3"
+    "audio_desc": ""
+  },
+  {
+    "name": "turtle",
+    "description": "A reptile protected by a bony shell fused to its spine and ribs, so it can never crawl out of it the way cartoons suggest. Turtles breathe by moving muscles that shift organs against the shell, since their ribs are too rigid to expand the chest like other animals.",
+    "images": [
+      "images_downloaded/cartoons/turtle_1_5674356.png",
+      "images_downloaded/cartoons/turtle_2_6722304.png",
+      "images_downloaded/cartoons/turtle_3_3297541.jpg"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "snake",
+    "description": "A limbless reptile that swallows prey whole, its jaw held together by stretchy ligaments rather than a hinge, letting the mouth open far wider than its head. Snakes smell the air by flicking a forked tongue that carries scent particles to a sensory organ on the roof of the mouth.",
+    "images": [
+      "images_downloaded/cartoons/snake_1_4477329.png",
+      "images_downloaded/cartoons/snake_2_9228632.png",
+      "images_downloaded/cartoons/snake_3_159037.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "gecko",
+    "description": "A small, big-eyed lizard whose toes are covered in millions of microscopic hairs that grip surfaces through molecular forces alone, letting it walk straight up glass. Most geckos also lack eyelids and instead lick their own eyeballs clean with their tongue.",
+    "images": [
+      "images_downloaded/cartoons/gecko_1_155365.png",
+      "images_downloaded/cartoons/gecko_2_151203.png",
+      "images_downloaded/cartoons/gecko_3_8926172.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "chameleon",
+    "description": "A slow-moving lizard best known for changing color, which it does mainly to signal mood and temperature rather than to hide. Its eyes swivel independently in almost every direction, letting it watch two completely different things at once, and its tongue can shoot out longer than its own body in a fraction of a second.",
+    "images": [
+      "images_downloaded/cartoons/chameleon_1_8713076.png",
+      "images_downloaded/cartoons/chameleon_2_9171494.png",
+      "images_downloaded/cartoons/chameleon_3_7166246.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "iguana",
+    "description": "A large, spiny-backed lizard with a third, light-sensing \"eye\" on top of its head that helps it track shadows of overhead predators. Iguanas can hold their breath and stay submerged for nearly half an hour to escape danger.",
+    "images": [
+      "images_downloaded/cartoons/iguana_1_642970.png",
+      "images_downloaded/cartoons/iguana_2_1509929.jpg",
+      "images_downloaded/cartoons/iguana_3_155365.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "crocodile",
+    "description": "A powerful ambush predator with a bite force stronger than any other living animal, its eyes and nostrils sit atop its head so it can lurk almost fully submerged. Crocodiles can hold their breath underwater for over an hour and have survived almost unchanged since the age of dinosaurs.",
+    "images": [
+      "images_downloaded/cartoons/crocodile_1_2707229.png",
+      "images_downloaded/cartoons/crocodile_2_7206744.png",
+      "images_downloaded/cartoons/crocodile_3_1458819.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "tortoise",
+    "description": "A land-dwelling relative of the turtle with stumpy, elephant-like legs built for walking rather than swimming. Some giant tortoise species can live well past 150 years, making them among the longest-lived animals on Earth.",
+    "images": [
+      "images_downloaded/cartoons/tortoise_1_8352470.png",
+      "images_downloaded/cartoons/tortoise_2_5431515.png",
+      "images_downloaded/cartoons/tortoise_3_7111275.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "lizard",
+    "description": "A scaly, four-legged reptile found on every continent except Antarctica, ranging from finger-sized geckos to ten-foot monitors. Many lizards can voluntarily detach their own tail when grabbed by a predator, then regrow a new one over the following months.",
+    "images": [
+      "images_downloaded/cartoons/lizard_1_8439292.png",
+      "images_downloaded/cartoons/lizard_2_7014193.png",
+      "images_downloaded/cartoons/lizard_3_24752.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "cobra",
+    "description": "A venomous snake famous for rearing up and flattening its neck ribs into a wide, intimidating hood when threatened. Some cobra species can spit venom accurately at a target's eyes from several feet away as a defense rather than for hunting.",
+    "images": [
+      "images_downloaded/cartoons/cobra_1_158795.png",
+      "images_downloaded/cartoons/cobra_2_6369762.png",
+      "images_downloaded/cartoons/cobra_3_8696587.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
+  },
+  {
+    "name": "python",
+    "description": "A large, non-venomous constrictor that kills by coiling around prey and tightening with each exhale until circulation stops. Pythons can unhinge their jaws so widely that some species are able to swallow prey larger than their own head.",
+    "images": [
+      "images_downloaded/cartoons/python_1_6574540.jpg",
+      "images_downloaded/cartoons/python_2_8603643.png",
+      "images_downloaded/cartoons/python_3_8805972.png"
+    ],
+    "videos": [],
+    "audio_desc": ""
   }
 ]
