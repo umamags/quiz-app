@@ -476,13 +476,16 @@ button {
 }
 .paint-tool-group { display: flex; flex-wrap: wrap; gap: 6px; }
 .paint-tool-button {
-  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
   border: 1px solid var(--border);
   border-radius: 8px;
   background: #fff;
   color: var(--text);
-  font-size: 13px;
-  font-weight: 600;
   cursor: pointer;
 }
 .paint-tool-button:hover { border-color: var(--primary); }
@@ -515,6 +518,23 @@ button {
   border: 1px solid var(--border);
   border-radius: 6px;
 }
+.paint-brush-size-group { display: flex; align-items: center; gap: 6px; }
+.paint-brush-size-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+}
+.paint-brush-size-button:hover { border-color: var(--primary); }
+.paint-brush-size-button.active { background: var(--primary); border-color: var(--primary); }
+.paint-brush-dot { border-radius: 50%; background: var(--text); display: block; }
+.paint-brush-size-button.active .paint-brush-dot { background: #fff; }
 .paint-action-group { display: flex; gap: 8px; margin-left: auto; }
 .paint-action-group button { padding: 8px 14px; font-size: 13px; }
 .paint-canvas-wrap {

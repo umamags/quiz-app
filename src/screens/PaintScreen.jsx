@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Canvas } from 'fabric';
+import { Canvas, PencilBrush } from 'fabric';
 import PaintCategorySidebar from '../components/PaintCategorySidebar.jsx';
 import PaintToolbar from '../components/PaintToolbar.jsx';
 import {
@@ -10,14 +10,16 @@ import {
   exportPng,
   generateFilename,
   downloadDataUrl,
+  isFillableObject,
 } from '../paint/fabricHelpers.js';
 
-const CANVAS_WIDTH = 800;
+const CANVAS_WIDTH = 1040; // 800 * 1.3
 const CANVAS_HEIGHT = 560;
 const DEFAULT_STROKE = '#4361ee';
 const DEFAULT_FILL = '#ffd166';
 const DEFAULT_FONT_FAMILY = 'Arial';
 const DEFAULT_FONT_SIZE = 28;
+const DEFAULT_BRUSH_SIZE = 5;
 
 export default function PaintScreen({ learnManifest, learnItems, paintCategory, dispatch }) {
   const canvasElRef = useRef(null);
@@ -27,24 +29,23 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const [activeTool, setActiveTool] = useState('select');
   const [strokeColor, setStrokeColor] = useState(DEFAULT_STROKE);
   const [fillColor, setFillColor] = useState(DEFAULT_FILL);
-  const [fillEnabled, setFillEnabled] = useState(false);
   const [fontFamily, setFontFamily] = useState(DEFAULT_FONT_FAMILY);
   const [fontSize, setFontSize] = useState(DEFAULT_FONT_SIZE);
+  const [brushSize, setBrushSize] = useState(DEFAULT_BRUSH_SIZE);
   const [hasSelection, setHasSelection] = useState(false);
+  const [canFillSelection, setCanFillSelection] = useState(false);
 
   // Mouse handlers are registered once; refs keep them reading current tool/color state.
   const toolRef = useRef(activeTool);
   const strokeRef = useRef(strokeColor);
-  const fillColorRef = useRef(fillColor);
-  const fillEnabledRef = useRef(fillEnabled);
   const fontFamilyRef = useRef(fontFamily);
   const fontSizeRef = useRef(fontSize);
+  const brushSizeRef = useRef(brushSize);
   toolRef.current = activeTool;
   strokeRef.current = strokeColor;
-  fillColorRef.current = fillColor;
-  fillEnabledRef.current = fillEnabled;
   fontFamilyRef.current = fontFamily;
   fontSizeRef.current = fontSize;
+  brushSizeRef.current = brushSize;
 
   useEffect(() => {
     if (fabricCanvasRef.current) return; // StrictMode double-invoke guard
@@ -55,14 +56,26 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     });
     fabricCanvasRef.current = canvas;
 
-    const updateSelection = () => setHasSelection(canvas.getActiveObjects().length > 0);
+    canvas.freeDrawingBrush = new PencilBrush(canvas);
+    canvas.freeDrawingBrush.color = strokeRef.current;
+    canvas.freeDrawingBrush.width = brushSizeRef.current;
+
+    const updateSelection = () => {
+      const active = canvas.getActiveObjects();
+      setHasSelection(active.length > 0);
+      const fillable = active.length > 0 && active.every(isFillableObject);
+      setCanFillSelection(fillable);
+      if (fillable && active.length === 1 && typeof active[0].fill === 'string' && active[0].fill !== 'transparent') {
+        setFillColor(active[0].fill);
+      }
+    };
     canvas.on('selection:created', updateSelection);
     canvas.on('selection:updated', updateSelection);
     canvas.on('selection:cleared', updateSelection);
 
     canvas.on('mouse:down', opt => {
       const tool = toolRef.current;
-      if (tool === 'select') return;
+      if (tool === 'select' || tool === 'freehand') return; // freehand draws via canvas.isDrawingMode
       const pointer = canvas.getScenePoint(opt.e);
 
       if (tool === 'eraser') {
@@ -86,8 +99,6 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
 
       const shape = buildShape(tool, { x0: pointer.x, y0: pointer.y, x1: pointer.x, y1: pointer.y }, {
         strokeColor: strokeRef.current,
-        fillEnabled: fillEnabledRef.current,
-        fillColor: fillColorRef.current,
       });
       if (!shape) return;
       shape.set({ selectable: false, evented: false });
@@ -102,7 +113,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       const next = buildShape(
         drawing.tool,
         { x0: drawing.startX, y0: drawing.startY, x1: pointer.x, y1: pointer.y },
-        { strokeColor: strokeRef.current, fillEnabled: fillEnabledRef.current, fillColor: fillColorRef.current }
+        { strokeColor: strokeRef.current }
       );
       if (!next) return;
       canvas.remove(drawing.shape);
@@ -134,10 +145,19 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     const canvas = fabricCanvasRef.current;
     if (!canvas) return;
     const drawMode = activeTool !== 'select';
+    canvas.isDrawingMode = activeTool === 'freehand';
     canvas.selection = !drawMode;
     canvas.skipTargetFind = drawMode;
     canvas.defaultCursor = drawMode ? 'crosshair' : 'default';
   }, [activeTool]);
+
+  // Keep the freehand brush's color/width in sync while it's in use.
+  useEffect(() => {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !canvas.freeDrawingBrush) return;
+    canvas.freeDrawingBrush.color = strokeColor;
+    canvas.freeDrawingBrush.width = brushSize;
+  }, [strokeColor, brushSize]);
 
   function handleImageDragStart(e, src) {
     e.dataTransfer.setData('text/plain', src);
@@ -157,6 +177,16 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     const canvas = fabricCanvasRef.current;
     if (!canvas) return;
     addImageAt(canvas, src, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+  }
+
+  function handleFillColorChange(color) {
+    setFillColor(color);
+    const canvas = fabricCanvasRef.current;
+    if (!canvas) return;
+    const active = canvas.getActiveObjects().filter(isFillableObject);
+    if (active.length === 0) return;
+    active.forEach(obj => obj.set('fill', color));
+    canvas.requestRenderAll();
   }
 
   function handleDeleteSelected() {
@@ -201,13 +231,14 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           strokeColor={strokeColor}
           onStrokeColorChange={setStrokeColor}
           fillColor={fillColor}
-          onFillColorChange={setFillColor}
-          fillEnabled={fillEnabled}
-          onFillEnabledChange={setFillEnabled}
+          onFillColorChange={handleFillColorChange}
+          canFillSelection={canFillSelection}
           fontFamily={fontFamily}
           onFontFamilyChange={setFontFamily}
           fontSize={fontSize}
           onFontSizeChange={setFontSize}
+          brushSize={brushSize}
+          onBrushSizeChange={setBrushSize}
           hasSelection={hasSelection}
           onDeleteSelected={handleDeleteSelected}
           onClear={handleClear}

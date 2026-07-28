@@ -40,20 +40,16 @@ import {
   exportPng,
   generateFilename,
   downloadDataUrl,
+  isFillableObject,
 } from './fabricHelpers.js';
 
-const style = { strokeColor: '#111111', fillEnabled: false, fillColor: '#222222' };
+const style = { strokeColor: '#111111' };
 
 describe('buildShape', () => {
-  it('builds a rectangle spanning the drag rectangle, unfilled by default', () => {
+  it('builds a rectangle spanning the drag rectangle, always unfilled', () => {
     const shape = buildShape('rectangle', { x0: 10, y0: 20, x1: 110, y1: 70 }, style);
     expect(shape).toBeInstanceOf(Rect);
     expect(shape).toMatchObject({ left: 10, top: 20, width: 100, height: 50, stroke: '#111111', fill: 'transparent' });
-  });
-
-  it('applies the fill color when fillEnabled is true', () => {
-    const shape = buildShape('rectangle', { x0: 0, y0: 0, x1: 40, y1: 40 }, { ...style, fillEnabled: true });
-    expect(shape.fill).toBe('#222222');
   });
 
   it('handles drags in any direction by normalizing left/top', () => {
@@ -82,6 +78,25 @@ describe('buildShape', () => {
 
   it('returns null for an unknown tool', () => {
     expect(buildShape('select', { x0: 0, y0: 0, x1: 1, y1: 1 }, style)).toBeNull();
+  });
+});
+
+describe('isFillableObject', () => {
+  it('is true for rectangles and circles, which have a bounded interior', () => {
+    expect(isFillableObject({ type: 'rect' })).toBe(true);
+    expect(isFillableObject({ type: 'circle' })).toBe(true);
+  });
+
+  it('is false for lines, freehand paths, text, and images, which do not', () => {
+    expect(isFillableObject({ type: 'line' })).toBe(false);
+    expect(isFillableObject({ type: 'path' })).toBe(false);
+    expect(isFillableObject({ type: 'i-text' })).toBe(false);
+    expect(isFillableObject({ type: 'image' })).toBe(false);
+  });
+
+  it('is false for null/undefined', () => {
+    expect(isFillableObject(null)).toBe(false);
+    expect(isFillableObject(undefined)).toBe(false);
   });
 });
 

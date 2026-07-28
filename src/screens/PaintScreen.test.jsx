@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { act, render, screen } from '@testing-library/react';
+import { act, fireEvent, render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import PaintScreen from './PaintScreen.jsx';
 
@@ -12,14 +12,17 @@ vi.mock('fabric', () => {
       this.handlers = {};
       this.selection = true;
       this.skipTargetFind = false;
+      this.isDrawingMode = false;
+      this.freeDrawingBrush = null;
       this.objects = [];
+      this.activeObjects = [];
       FakeCanvas.instances.push(this);
     }
     on(event, handler) {
       this.handlers[event] = handler;
     }
     getActiveObjects() {
-      return [];
+      return this.activeObjects;
     }
     getObjects() {
       return this.objects;
@@ -54,12 +57,19 @@ vi.mock('fabric', () => {
     enterEditing() {}
   }
 
+  class FakePencilBrush {
+    constructor(canvas) {
+      this.canvas = canvas;
+    }
+  }
+
   return {
     Canvas: FakeCanvas,
     Rect: class {},
     Circle: class {},
     Line: class {},
     IText: FakeIText,
+    PencilBrush: FakePencilBrush,
     FabricImage: { fromURL: vi.fn().mockResolvedValue({ width: 100, height: 100, set: vi.fn() }) },
   };
 });
@@ -162,16 +172,39 @@ describe('PaintScreen', () => {
     expect(screen.getByRole('button', { name: 'Delete' })).toBeDisabled();
   });
 
-  it('disables the fill color picker until "Fill" is checked', async () => {
-    const user = userEvent.setup();
+  it('disables the fill color picker until a fillable shape is selected, then applies fill on change', () => {
     renderScreen();
-    const fillCheckbox = screen.getByRole('checkbox', { name: 'Fill' });
+    const canvas = latestCanvas();
     const colorInputs = document.querySelectorAll('input[type="color"]');
     const fillColorInput = colorInputs[1];
     expect(fillColorInput).toBeDisabled();
 
-    await user.click(fillCheckbox);
+    const rect = { type: 'rect', fill: 'transparent', set(prop, value) { this[prop] = value; } };
+    canvas.add(rect);
+    canvas.activeObjects = [rect];
+    act(() => {
+      canvas.handlers['selection:created']();
+    });
     expect(fillColorInput).toBeEnabled();
+
+    fireEvent.change(fillColorInput, { target: { value: '#00ff00' } });
+    expect(rect.fill).toBe('#00ff00');
+  });
+
+  it('leaves the fill color picker disabled when the selection includes a non-fillable object (e.g. a line)', () => {
+    renderScreen();
+    const canvas = latestCanvas();
+    const colorInputs = document.querySelectorAll('input[type="color"]');
+    const fillColorInput = colorInputs[1];
+
+    const line = { type: 'line', set() {} };
+    canvas.add(line);
+    canvas.activeObjects = [line];
+    act(() => {
+      canvas.handlers['selection:created']();
+    });
+
+    expect(fillColorInput).toBeDisabled();
   });
 
   it('clicking a thumbnail adds the image to the canvas without crashing', async () => {

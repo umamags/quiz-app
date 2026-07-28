@@ -3,11 +3,22 @@ import { Rect, Circle, Line, FabricImage, IText } from 'fabric';
 const MIN_SHAPE_SIZE = 4;
 const IMAGE_MAX_DIMENSION = 220;
 
+// Shape types that enclose an area and can be filled with a color after the
+// fact (via the toolbar's Fill picker once selected). Line/freehand strokes
+// and text are not, since they have no bounded interior.
+const FILLABLE_TYPES = new Set(['rect', 'circle']);
+
+export function isFillableObject(obj) {
+  return !!obj && FILLABLE_TYPES.has(obj.type);
+}
+
 // Builds a fresh shape object spanning the drag rectangle (x0,y0) -> (x1,y1).
 // Called on every mouse:move during a drag, so callers should replace the
 // previous shape with the one returned here rather than mutating in place.
-export function buildShape(tool, { x0, y0, x1, y1 }, { strokeColor, fillEnabled, fillColor }) {
-  const fill = fillEnabled ? fillColor : 'transparent';
+// Shapes are always drawn unfilled; fill is applied afterward via the
+// toolbar once the shape is selected (see isFillableObject).
+export function buildShape(tool, { x0, y0, x1, y1 }, { strokeColor }) {
+  const fill = 'transparent';
   const left = Math.min(x0, x1);
   const top = Math.min(y0, y1);
   const width = Math.max(Math.abs(x1 - x0), MIN_SHAPE_SIZE);
