@@ -6,6 +6,8 @@ import PaintContextMenu from '../components/PaintContextMenu.jsx';
 import {
   buildShape,
   addImageAt,
+  addImageFromFile,
+  pasteImageFromClipboard,
   createText,
   eraseObjectAt,
   findObjectAt,
@@ -27,6 +29,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const canvasElRef = useRef(null);
   const fabricCanvasRef = useRef(null);
   const drawingRef = useRef(null); // { tool, startX, startY, shape } while a drag-to-draw is in progress
+  const fileInputRef = useRef(null);
 
   const [activeTool, setActiveTool] = useState('select');
   const [strokeColor, setStrokeColor] = useState(DEFAULT_STROKE);
@@ -36,7 +39,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const [brushSize, setBrushSize] = useState(DEFAULT_BRUSH_SIZE);
   const [hasSelection, setHasSelection] = useState(false);
   const [canFillSelection, setCanFillSelection] = useState(false);
-  const [contextMenu, setContextMenu] = useState(null); // { x, y, object } in viewport coords, or null when closed
+  const [contextMenu, setContextMenu] = useState(null); // { x, y, object, canvasX, canvasY } in viewport coords, or null when closed
   const contextMenuRef = useRef(null);
 
   // Mouse handlers are registered once; refs keep them reading current tool/color state.
@@ -228,14 +231,16 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     const pointer = canvas.getScenePoint(e);
     const target = findObjectAt(canvas, pointer);
     if (!target) {
-      setContextMenu(null);
-      return; // no object here: let the browser's native context menu show
+      // No object: show context menu with paste option
+      e.preventDefault();
+      setContextMenu({ x: e.clientX, y: e.clientY, object: null, canvasX: pointer.x, canvasY: pointer.y });
+      return;
     }
     e.preventDefault();
     canvas.discardActiveObject();
     canvas.setActiveObject(target);
     canvas.requestRenderAll();
-    setContextMenu({ x: e.clientX, y: e.clientY, object: target });
+    setContextMenu({ x: e.clientX, y: e.clientY, object: target, canvasX: pointer.x, canvasY: pointer.y });
   }
 
   function closeContextMenu() {
@@ -291,6 +296,35 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     downloadDataUrl(exportPng(canvas), generateFilename());
   }
 
+  function handleLoadImageClick() {
+    fileInputRef.current?.click();
+  }
+
+  async function handleFileSelect(e) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const canvas = fabricCanvasRef.current;
+    if (!canvas) return;
+    try {
+      await addImageFromFile(canvas, file, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+    } catch (err) {
+      console.error('Failed to load image:', err);
+    }
+    // Reset the input so the same file can be selected again
+    e.target.value = '';
+  }
+
+  async function handlePaste() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !contextMenu) return;
+    try {
+      await pasteImageFromClipboard(canvas, contextMenu.canvasX, contextMenu.canvasY);
+    } catch (err) {
+      console.error('Failed to paste image:', err);
+    }
+    closeContextMenu();
+  }
+
   return (
     <div className="paint-screen">
       <PaintCategorySidebar
@@ -321,6 +355,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           onDeleteSelected={handleDeleteSelected}
           onClear={handleClear}
           onDownload={handleDownload}
+          onLoadImage={handleLoadImageClick}
         />
 
         <div className="hint">Drag (or click) an image from the left onto the canvas, then draw shapes on top.</div>
@@ -340,12 +375,22 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           ref={contextMenuRef}
           x={contextMenu.x}
           y={contextMenu.y}
+          object={contextMenu.object}
           onBringForward={handleBringForward}
           onSendToBack={handleSendToBack}
           onDuplicate={handleDuplicate}
           onDelete={handleContextDelete}
+          onPaste={handlePaste}
         />
       )}
+
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="image/*"
+        onChange={handleFileSelect}
+        style={{ display: 'none' }}
+      />
     </div>
   );
 }

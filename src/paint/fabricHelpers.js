@@ -94,6 +94,50 @@ export async function addImageAt(canvas, src, x, y) {
   return img;
 }
 
+// Loads an image from a File object and adds it to the canvas centered at (x, y)
+export async function addImageFromFile(canvas, file, x, y) {
+  const reader = new FileReader();
+  return new Promise((resolve, reject) => {
+    reader.onload = async (e) => {
+      try {
+        await addImageAt(canvas, e.target.result, x, y);
+        resolve();
+      } catch (err) {
+        reject(err);
+      }
+    };
+    reader.onerror = () => reject(reader.error);
+    reader.readAsDataURL(file);
+  });
+}
+
+// Pastes an image from the clipboard to the canvas
+export async function pasteImageFromClipboard(canvas, x, y) {
+  try {
+    const items = await navigator.clipboard.read();
+    for (const item of items) {
+      if (item.types.includes('image/png') || item.types.includes('image/jpeg') || item.types.includes('image/webp')) {
+        const blob = await item.getType(item.types.find(t => t.startsWith('image/')));
+        const reader = new FileReader();
+        return new Promise((resolve, reject) => {
+          reader.onload = async (e) => {
+            try {
+              await addImageAt(canvas, e.target.result, x, y);
+              resolve();
+            } catch (err) {
+              reject(err);
+            }
+          };
+          reader.onerror = () => reject(reader.error);
+          reader.readAsDataURL(blob);
+        });
+      }
+    }
+  } catch (err) {
+    console.error('Failed to paste image from clipboard:', err);
+  }
+}
+
 export function exportPng(canvas) {
   return canvas.toDataURL({ format: 'png', multiplier: 2 });
 }

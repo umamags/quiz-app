@@ -5,17 +5,23 @@ const ITEMS = [
   { id: 'delete', label: 'Delete', danger: true },
 ];
 
-export default function PaintContextMenu({ x, y, onBringForward, onSendToBack, onDuplicate, onDelete, ref }) {
+const CANVAS_ITEMS = [
+  { id: 'paste', label: 'Paste' },
+];
+
+export default function PaintContextMenu({ x, y, object, onBringForward, onSendToBack, onDuplicate, onDelete, onPaste, ref }) {
+  const items = object ? ITEMS : CANVAS_ITEMS;
   const handlers = {
     'bring-forward': onBringForward,
     'send-to-back': onSendToBack,
     duplicate: onDuplicate,
     delete: onDelete,
+    paste: onPaste,
   };
 
   return (
     <div ref={ref} className="paint-context-menu" style={{ left: x, top: y }}>
-      {ITEMS.map(item => (
+      {items.map(item => (
         <button
           key={item.id}
           type="button"

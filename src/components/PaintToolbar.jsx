@@ -1,6 +1,9 @@
 const ICON_PROPS = { viewBox: '0 0 24 24', width: 18, height: 18, 'aria-hidden': true };
 const STROKE_ICON_PROPS = { ...ICON_PROPS, fill: 'none', stroke: 'currentColor', strokeWidth: 2, strokeLinecap: 'round', strokeLinejoin: 'round' };
 
+const PRESET_COLORS = ['#ffffff', '#0066cc', '#00aa00', '#ff0000', '#ffff00', '#ff69b4', '#ff00ff', '#8b4513', '#00ffff', '#7f00ff'];
+const PRESET_LABELS = ['White', 'Blue', 'Green', 'Red', 'Yellow', 'Pink', 'Magenta', 'Brown', 'Cyan', 'Violet'];
+
 const ICONS = {
   select: (
     <svg {...ICON_PROPS}>
@@ -81,6 +84,7 @@ export default function PaintToolbar({
   onDeleteSelected,
   onClear,
   onDownload,
+  onLoadImage,
 }) {
   return (
     <div className="paint-toolbar">
@@ -100,23 +104,55 @@ export default function PaintToolbar({
       </div>
 
       <div className="paint-color-row">
-        <label className="paint-color-label">
-          Stroke
-          <input
-            type="color"
-            value={strokeColor}
-            onChange={e => onStrokeColorChange(e.target.value)}
-          />
-        </label>
-        <label className="paint-color-label" title="Select a rectangle, square, or circle to fill it with this color">
-          Fill
-          <input
-            type="color"
-            value={fillColor}
-            onChange={e => onFillColorChange(e.target.value)}
-            disabled={!canFillSelection}
-          />
-        </label>
+        <div className="paint-color-group">
+          <label className="paint-color-label">
+            Stroke
+            <input
+              type="color"
+              value={strokeColor}
+              onChange={e => onStrokeColorChange(e.target.value)}
+            />
+          </label>
+          <div className="paint-color-palette">
+            {PRESET_COLORS.map((color, idx) => (
+              <button
+                key={color}
+                type="button"
+                className="paint-color-swatch"
+                style={{ backgroundColor: color, borderColor: strokeColor === color ? '#333' : 'transparent' }}
+                onClick={() => onStrokeColorChange(color)}
+                title={PRESET_LABELS[idx]}
+                aria-label={`Stroke color: ${PRESET_LABELS[idx]}`}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className="paint-color-group">
+          <label className="paint-color-label" title="Select a rectangle, square, or circle to fill it with this color">
+            Fill
+            <input
+              type="color"
+              value={fillColor}
+              onChange={e => onFillColorChange(e.target.value)}
+              disabled={!canFillSelection}
+            />
+          </label>
+          <div className="paint-color-palette">
+            {PRESET_COLORS.map((color, idx) => (
+              <button
+                key={color}
+                type="button"
+                className="paint-color-swatch"
+                style={{ backgroundColor: color, borderColor: fillColor === color ? '#333' : 'transparent' }}
+                onClick={() => onFillColorChange(color)}
+                title={PRESET_LABELS[idx]}
+                aria-label={`Fill color: ${PRESET_LABELS[idx]}`}
+                disabled={!canFillSelection}
+              />
+            ))}
+          </div>
+        </div>
 
         <div className="paint-brush-size-group" role="group" aria-label="Brush size">
           <span className="paint-color-label">Brush</span>
@@ -160,6 +196,9 @@ export default function PaintToolbar({
       </div>
 
       <div className="paint-action-group">
+        <button type="button" className="btn-secondary" onClick={onLoadImage}>
+          Load Image
+        </button>
         <button type="button" className="btn-secondary" onClick={onDeleteSelected} disabled={!hasSelection}>
           Delete
         </button>

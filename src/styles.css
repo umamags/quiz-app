@@ -490,7 +490,8 @@ button {
 }
 .paint-tool-button:hover { border-color: var(--primary); }
 .paint-tool-button.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-.paint-color-row { display: flex; align-items: center; gap: 10px; }
+.paint-color-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.paint-color-group { display: flex; flex-direction: column; gap: 6px; }
 .paint-color-label { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .paint-color-row input[type="color"] {
   width: 30px;
@@ -500,6 +501,18 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
+.paint-color-palette { display: flex; gap: 4px; flex-wrap: wrap; }
+.paint-color-swatch {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.paint-color-swatch:hover { border-color: var(--muted); }
+.paint-color-swatch:disabled { opacity: 0.45; cursor: not-allowed; }
 .paint-font-select {
   font-family: inherit;
   font-size: 13px;
