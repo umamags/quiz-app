@@ -1,7 +1,10 @@
 /add-item-to-quiz-app insects
 
-1. Add ability to add a local file into the library.
-2. Add ability to save a file into the library.
-3. Add undo and redo (3 levels)
-4. Add paste from clipboard
-5. Add select window and copy to clipboard 
+1. Add ability to add a local file into the library - done
+2. Add ability to save a file into the library - done
+3. Add undo and redo - done
+4. Add paste from clipboard - done
+5. Add select window and copy to clipboard - not necassary
+6. added countries
+
+npm run dev

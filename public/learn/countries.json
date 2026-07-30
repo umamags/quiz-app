@@ -1,0 +1,2987 @@
+[
+  {
+    "name": "algeria",
+    "description": "Algeria (Africa)",
+    "images": [
+      "countries_images/Africa/algeria.gif"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gJ6OvenaKp0",
+        "title": "Discover Algeria: A Journey Through History and Culture",
+        "url": "https://www.youtube.com/embed/gJ6OvenaKp0"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "m6NWMNl5yFU",
+        "title": "Top 10 Places to Visit in Algeria",
+        "url": "https://www.youtube.com/embed/m6NWMNl5yFU"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "angola",
+    "description": "Angola (Africa)",
+    "images": [
+      "countries_images/Africa/angola.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Llq0YtjP81g",
+        "title": "Discover Angola: A Land of Natural Wonders",
+        "url": "https://www.youtube.com/embed/Llq0YtjP81g"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Llq0YtjP81g",
+        "title": "Angola Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/Llq0YtjP81g"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "benin",
+    "description": "Benin (Africa)",
+    "images": [
+      "countries_images/Africa/benin.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Ud9IrSbRCjg",
+        "title": "Discover Benin: Culture, History and Nature",
+        "url": "https://www.youtube.com/embed/Ud9IrSbRCjg"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "jZJeCqbj1Hc",
+        "title": "Top 10 Places to Visit in Benin",
+        "url": "https://www.youtube.com/embed/jZJeCqbj1Hc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "botswana",
+    "description": "Botswana (Africa)",
+    "images": [
+      "countries_images/Africa/botswana.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "WL-6jEbZX9U",
+        "title": "Discover Botswana: The Jewel of Southern Africa",
+        "url": "https://www.youtube.com/embed/WL-6jEbZX9U"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ZQnm_63Fr1I",
+        "title": "Wildlife Safari in Botswana's Okavango Delta",
+        "url": "https://www.youtube.com/embed/ZQnm_63Fr1I"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "burkina_faso",
+    "description": "Burkina Faso (Africa)",
+    "images": [
+      "countries_images/Africa/burkina-faso.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gFe3qVNnhEU",
+        "title": "Burkina Faso: A Country Overview",
+        "url": "https://www.youtube.com/embed/gFe3qVNnhEU"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "itNcvAo39f0",
+        "title": "Exploring Ouagadougou - Capital of Burkina Faso",
+        "url": "https://www.youtube.com/embed/itNcvAo39f0"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "burundi",
+    "description": "Burundi (Africa)",
+    "images": [
+      "countries_images/Africa/burundi.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "FoLg7OxEQBQ",
+        "title": "Discover Burundi: The Heart of Africa",
+        "url": "https://www.youtube.com/embed/FoLg7OxEQBQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "2gQcVmDIrtc",
+        "title": "Burundi National Drummers - Cultural Heritage",
+        "url": "https://www.youtube.com/embed/2gQcVmDIrtc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "cameroon",
+    "description": "Cameroon (Africa)",
+    "images": [
+      "countries_images/Africa/cameroon.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "TNugLK3Ffgs",
+        "title": "Discover Cameroon: Culture, Nature, and People",
+        "url": "https://www.youtube.com/embed/TNugLK3Ffgs"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "M8YW5AopCt8",
+        "title": "Mount Cameroon Hike - Africa's Highest Peak",
+        "url": "https://www.youtube.com/embed/M8YW5AopCt8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "cape_verde",
+    "description": "Cape Verde (Africa)",
+    "images": [
+      "countries_images/Africa/cape-verde.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4wjlZ_RKHk8",
+        "title": "Discover Cape Verde: Islands of Culture and Nature",
+        "url": "https://www.youtube.com/embed/4wjlZ_RKHk8"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "xyGruPlNp7A",
+        "title": "Cape Verde Travel Guide - Top Things to Do",
+        "url": "https://www.youtube.com/embed/xyGruPlNp7A"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "central_african_republic",
+    "description": "Central African Republic (Africa)",
+    "images": [
+      "countries_images/Africa/central-african-republic.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "hYzjCv_iFvw",
+        "title": "Central African Republic: A Country in Crisis",
+        "url": "https://www.youtube.com/embed/hYzjCv_iFvw"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "h9yTwyWdbqM",
+        "title": "Exploring the Wildlife of Central African Republic",
+        "url": "https://www.youtube.com/embed/h9yTwyWdbqM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "chad",
+    "description": "Chad (Africa)",
+    "images": [
+      "countries_images/Africa/chad.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "pkanzKIzEts",
+        "title": "Discover Chad: Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/pkanzKIzEts"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Et-7D_ZI1oA",
+        "title": "Wildlife of Zakouma National Park, Chad",
+        "url": "https://www.youtube.com/embed/Et-7D_ZI1oA"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "comoros",
+    "description": "Comoros (Africa)",
+    "images": [
+      "countries_images/Africa/comoros.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "lTZMaDOe2TE",
+        "title": "Discovering Comoros: Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/lTZMaDOe2TE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "V_u_BNPFCxY",
+        "title": "Comoros Travel Guide - What to See and Do",
+        "url": "https://www.youtube.com/embed/V_u_BNPFCxY"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "democratic_republic_of_the_congo",
+    "description": "Democratic Republic of the Congo (Africa)",
+    "images": [
+      "countries_images/Africa/democratic-republic-of-the-congo.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "43xTvpxWLW4",
+        "title": "Discovering the Democratic Republic of the Congo: Nature and Culture",
+        "url": "https://www.youtube.com/embed/43xTvpxWLW4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4INpgF4YPhA",
+        "title": "The History of the Democratic Republic of the Congo Explained",
+        "url": "https://www.youtube.com/embed/4INpgF4YPhA"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "djibouti",
+    "description": "Djibouti (Africa)",
+    "images": [
+      "countries_images/Africa/djibouti.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "TOsVNjzgjBk",
+        "title": "Discover Djibouti: The Land of Salt and Fire",
+        "url": "https://www.youtube.com/embed/TOsVNjzgjBk"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Eyx-ir7DbYs",
+        "title": "Djibouti Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/Eyx-ir7DbYs"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "egypt",
+    "description": "Egypt (Africa)",
+    "images": [
+      "countries_images/Africa/egypt.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "9cdUxZuarL0",
+        "title": "Discover Egypt: Land of Ancient Wonders",
+        "url": "https://www.youtube.com/embed/9cdUxZuarL0"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "9cdUxZuarL0",
+        "title": "A Journey Through Egypt's History and Culture",
+        "url": "https://www.youtube.com/embed/9cdUxZuarL0"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "equatorial_guinea",
+    "description": "Equatorial Guinea (Africa)",
+    "images": [
+      "countries_images/Africa/equatorial-guinea.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "2UqmiENLnqQ",
+        "title": "Equatorial Guinea: Africa's Oil Rich Nation",
+        "url": "https://www.youtube.com/embed/2UqmiENLnqQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "1ASyul48g1E",
+        "title": "Travel Guide to Equatorial Guinea",
+        "url": "https://www.youtube.com/embed/1ASyul48g1E"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "eritrea",
+    "description": "Eritrea (Africa)",
+    "images": [
+      "countries_images/Africa/eritrea.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "OT6y7Ygj2bc",
+        "title": "Eritrea: The Hidden Gem of the Horn of Africa",
+        "url": "https://www.youtube.com/embed/OT6y7Ygj2bc"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "a8HyHgjazLA",
+        "title": "Asmara: A Modernist City Frozen in Time",
+        "url": "https://www.youtube.com/embed/a8HyHgjazLA"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "eswatini",
+    "description": "Eswatini (Africa)",
+    "images": [
+      "countries_images/Africa/eswatini.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "sYOvJEJHsqc",
+        "title": "Discovering Eswatini: Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/sYOvJEJHsqc"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "YhcI904lL4I",
+        "title": "Eswatini Culture and Traditions Explained",
+        "url": "https://www.youtube.com/embed/YhcI904lL4I"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "ethiopia",
+    "description": "Ethiopia (Africa)",
+    "images": [
+      "countries_images/Africa/ethiopia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "qrRQKW2-HRY",
+        "title": "Ethiopia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/qrRQKW2-HRY"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Bbk54q0Jks8",
+        "title": "The History of Ethiopia Explained",
+        "url": "https://www.youtube.com/embed/Bbk54q0Jks8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "gabon",
+    "description": "Gabon (Africa)",
+    "images": [
+      "countries_images/Africa/gabon.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "VWKx81_AtAo",
+        "title": "Discover Gabon: Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/VWKx81_AtAo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "pcNBOI30vQg",
+        "title": "Gabon Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/pcNBOI30vQg"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "gambia",
+    "description": "Gambia (Africa)",
+    "images": [
+      "countries_images/Africa/gambia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4EAGLJkIos4",
+        "title": "Discover The Gambia: Africa's Smiling Coast",
+        "url": "https://www.youtube.com/embed/4EAGLJkIos4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "RMW2V0xp3Ms",
+        "title": "Gambia Travel Guide - Top Things to Do",
+        "url": "https://www.youtube.com/embed/RMW2V0xp3Ms"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "ghana",
+    "description": "Ghana (Africa)",
+    "images": [
+      "countries_images/Africa/ghana.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "a1GmetlXPBI",
+        "title": "Discover Ghana: A Journey Through Culture and History",
+        "url": "https://www.youtube.com/embed/a1GmetlXPBI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "NfLUotwpY2w",
+        "title": "Top 10 Places to Visit in Ghana",
+        "url": "https://www.youtube.com/embed/NfLUotwpY2w"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "guinea-bissau",
+    "description": "Guinea-Bissau (Africa)",
+    "images": [
+      "countries_images/Africa/guinea-bissau.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gFEpaDilLkI",
+        "title": "Guinea-Bissau: The Hidden Jewel of West Africa",
+        "url": "https://www.youtube.com/embed/gFEpaDilLkI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "CX4n8wj72Is",
+        "title": "Exploring the Bijag\u00f3s Archipelago in Guinea-Bissau",
+        "url": "https://www.youtube.com/embed/CX4n8wj72Is"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "guinea",
+    "description": "Guinea (Africa)",
+    "images": [
+      "countries_images/Africa/guinea.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GB7jbHMOwus",
+        "title": "Discover Guinea: Culture, Nature, and History",
+        "url": "https://www.youtube.com/embed/GB7jbHMOwus"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "xcXMQE0W30U",
+        "title": "Mount Nimba Strict Nature Reserve - Guinea's Natural Treasure",
+        "url": "https://www.youtube.com/embed/xcXMQE0W30U"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "kenya",
+    "description": "Kenya (Africa)",
+    "images": [
+      "countries_images/Africa/kenya.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "o_BJJ90yT9k",
+        "title": "Discover Kenya: A Journey Through the Heart of Africa",
+        "url": "https://www.youtube.com/embed/o_BJJ90yT9k"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "YcOo4hYMeMk",
+        "title": "Kenya Wildlife Safari - Maasai Mara National Reserve",
+        "url": "https://www.youtube.com/embed/YcOo4hYMeMk"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "lesotho",
+    "description": "Lesotho (Africa)",
+    "images": [
+      "countries_images/Africa/lesotho.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "tZmDR_9Xrcw",
+        "title": "Discover Lesotho: The Kingdom in the Sky",
+        "url": "https://www.youtube.com/embed/tZmDR_9Xrcw"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gn0XUoQzcIU",
+        "title": "Lesotho Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/gn0XUoQzcIU"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "liberia",
+    "description": "Liberia (Africa)",
+    "images": [
+      "countries_images/Africa/liberia.jpeg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "bIaw-Clm8HA",
+        "title": "Discover Liberia: History and Culture",
+        "url": "https://www.youtube.com/embed/bIaw-Clm8HA"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "2BdrXXIb9L4",
+        "title": "Liberia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/2BdrXXIb9L4"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "libya",
+    "description": "Libya (Africa)",
+    "images": [
+      "countries_images/Africa/libya.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "fIqdprr7NiQ",
+        "title": "Libya: History, Culture, and Conflict Explained",
+        "url": "https://www.youtube.com/embed/fIqdprr7NiQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "EmF4GT-S-Yw",
+        "title": "Exploring Ancient Roman Ruins in Libya - Leptis Magna",
+        "url": "https://www.youtube.com/embed/EmF4GT-S-Yw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "madagascar",
+    "description": "Madagascar (Africa)",
+    "images": [
+      "countries_images/Africa/madagascar.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "-NpKUCTJOV4",
+        "title": "Madagascar Travel Guide - Top Things to Do & See",
+        "url": "https://www.youtube.com/embed/-NpKUCTJOV4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "hGmxVyyFPb0",
+        "title": "Wildlife of Madagascar - Lemurs and More",
+        "url": "https://www.youtube.com/embed/hGmxVyyFPb0"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "malawi",
+    "description": "Malawi (Africa)",
+    "images": [
+      "countries_images/Africa/malawi.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "0WC1dvpBVqo",
+        "title": "Discover Malawi: The Warm Heart of Africa",
+        "url": "https://www.youtube.com/embed/0WC1dvpBVqo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "_CH09cDM6jQ",
+        "title": "Lake Malawi National Park - Wildlife and Scenery",
+        "url": "https://www.youtube.com/embed/_CH09cDM6jQ"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "mali",
+    "description": "Mali (Africa)",
+    "images": [
+      "countries_images/Africa/mali.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "5TAQLXEkEhE",
+        "title": "Discover Mali: History and Culture",
+        "url": "https://www.youtube.com/embed/5TAQLXEkEhE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "s8W3ifVddZY",
+        "title": "Timbuktu: The City of Gold and Learning",
+        "url": "https://www.youtube.com/embed/s8W3ifVddZY"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "mauritania",
+    "description": "Mauritania (Africa)",
+    "images": [
+      "countries_images/Africa/mauritania.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "8EbQkPwypwc",
+        "title": "Discover Mauritania: Land of Desert and Culture",
+        "url": "https://www.youtube.com/embed/8EbQkPwypwc"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "epgs-c787y8",
+        "title": "Mauritania Travel Guide - Exploring Nouakchott and Beyond",
+        "url": "https://www.youtube.com/embed/epgs-c787y8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "mauritius",
+    "description": "Mauritius (Africa)",
+    "images": [
+      "countries_images/Africa/mauritius.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "UB3dH4Y08DI",
+        "title": "Mauritius Travel Guide - Top Things to Do in Mauritius",
+        "url": "https://www.youtube.com/embed/UB3dH4Y08DI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4gPIBKbwYII",
+        "title": "Mauritius Island - A Paradise in the Indian Ocean",
+        "url": "https://www.youtube.com/embed/4gPIBKbwYII"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "morocco",
+    "description": "Morocco (Africa)",
+    "images": [
+      "countries_images/Africa/morocco.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "VzV9i5AOBsA",
+        "title": "Morocco Travel Guide - Top Things to Do & See",
+        "url": "https://www.youtube.com/embed/VzV9i5AOBsA"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "u_WW4crrBRM",
+        "title": "A Day in Marrakech, Morocco - Travel Vlog",
+        "url": "https://www.youtube.com/embed/u_WW4crrBRM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "mozambique",
+    "description": "Mozambique (Africa)",
+    "images": [
+      "countries_images/Africa/mozambique.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "9TYGJy3cVmA",
+        "title": "Discover Mozambique: A Land of Natural Beauty and Culture",
+        "url": "https://www.youtube.com/embed/9TYGJy3cVmA"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "9TYGJy3cVmA",
+        "title": "Mozambique Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/9TYGJy3cVmA"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "namibia",
+    "description": "Namibia (Africa)",
+    "images": [
+      "countries_images/Africa/namibia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "c2ihgBsEHf4",
+        "title": "Discover Namibia: A Land of Contrasts",
+        "url": "https://www.youtube.com/embed/c2ihgBsEHf4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GbkL3VDMD2Q",
+        "title": "Namibia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/GbkL3VDMD2Q"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "niger",
+    "description": "Niger (Africa)",
+    "images": [
+      "countries_images/Africa/niger.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GKNetEjotS8",
+        "title": "Discover Niger: Land of the Sahara and Sahel",
+        "url": "https://www.youtube.com/embed/GKNetEjotS8"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "lWsfBEr_w4o",
+        "title": "Niger Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/lWsfBEr_w4o"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "nigeria",
+    "description": "Nigeria (Africa)",
+    "images": [
+      "countries_images/Africa/nigeria.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "h4sWFJFge54",
+        "title": "Nigeria: A Country Overview",
+        "url": "https://www.youtube.com/embed/h4sWFJFge54"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "opCsLlRlEa8",
+        "title": "Top 10 Places to Visit in Nigeria",
+        "url": "https://www.youtube.com/embed/opCsLlRlEa8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "republic_of_the_congo",
+    "description": "Republic of the Congo (Africa)",
+    "images": [
+      "countries_images/Africa/republic-of-the-congo.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "nue8deJm3Zo",
+        "title": "Discovering the Republic of the Congo: Culture and Nature",
+        "url": "https://www.youtube.com/embed/nue8deJm3Zo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "2Jsy66qQUrM",
+        "title": "Odzala-Kokoua National Park Wildlife Tour",
+        "url": "https://www.youtube.com/embed/2Jsy66qQUrM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "rwanda",
+    "description": "Rwanda (Africa)",
+    "images": [
+      "countries_images/Africa/rwanda.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "nW0c7CAjJAA",
+        "title": "Discover Rwanda: The Land of a Thousand Hills",
+        "url": "https://www.youtube.com/embed/nW0c7CAjJAA"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "UDX_2SdvSDU",
+        "title": "Rwanda Genocide Explained | History Documentary",
+        "url": "https://www.youtube.com/embed/UDX_2SdvSDU"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "sao_tome_and_principe",
+    "description": "Sao Tome and Principe (Africa)",
+    "images": [
+      "countries_images/Africa/sao-tome-and-principe.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4JBfoVHwi0A",
+        "title": "Discovering S\u00e3o Tom\u00e9 and Pr\u00edncipe: Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/4JBfoVHwi0A"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "TES0tw0MgNw",
+        "title": "S\u00e3o Tom\u00e9 and Pr\u00edncipe Travel Guide",
+        "url": "https://www.youtube.com/embed/TES0tw0MgNw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "senegal",
+    "description": "Senegal (Africa)",
+    "images": [
+      "countries_images/Africa/senegal.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "tX_-YVkcDT4",
+        "title": "Discover Senegal: A Journey Through Culture and Nature",
+        "url": "https://www.youtube.com/embed/tX_-YVkcDT4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "L-Rh98zuP1Q",
+        "title": "Senegal Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/L-Rh98zuP1Q"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "seychelles",
+    "description": "Seychelles (Africa)",
+    "images": [
+      "countries_images/Africa/seychelles.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GqfrwtyLmQI",
+        "title": "Seychelles Travel Guide - Top Things to Do in Seychelles",
+        "url": "https://www.youtube.com/embed/GqfrwtyLmQI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "_jnSAy9i0pU",
+        "title": "Discover Seychelles: Islands of Paradise",
+        "url": "https://www.youtube.com/embed/_jnSAy9i0pU"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "sierra_leone",
+    "description": "Sierra Leone (Africa)",
+    "images": [
+      "countries_images/Africa/sierra-leone.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "dWUlgcvESoo",
+        "title": "Discover Sierra Leone: A Land of Resilience and Culture",
+        "url": "https://www.youtube.com/embed/dWUlgcvESoo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "IUP6VDycCn8",
+        "title": "Sierra Leone Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/IUP6VDycCn8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "somalia",
+    "description": "Somalia (Africa)",
+    "images": [
+      "countries_images/Africa/somalia.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "oL8Ry-pWaTY",
+        "title": "Discovering Somalia: History and Culture",
+        "url": "https://www.youtube.com/embed/oL8Ry-pWaTY"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "vGj5KMuIfEI",
+        "title": "Somalia's Struggle for Peace and Stability",
+        "url": "https://www.youtube.com/embed/vGj5KMuIfEI"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "south_africa",
+    "description": "South Africa (Africa)",
+    "images": [
+      "countries_images/Africa/south-africa.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "RcdAeOG0W-Y",
+        "title": "South Africa Travel Guide - Top Things to Do & See",
+        "url": "https://www.youtube.com/embed/RcdAeOG0W-Y"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ke4kVFycpYY",
+        "title": "History of South Africa - Apartheid and Beyond",
+        "url": "https://www.youtube.com/embed/ke4kVFycpYY"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "south_sudan",
+    "description": "South Sudan (Africa)",
+    "images": [
+      "countries_images/Africa/south-sudan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "pKmM1N0MoC4",
+        "title": "South Sudan: The World's Newest Country Explained",
+        "url": "https://www.youtube.com/embed/pKmM1N0MoC4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GM9Ax72RpWM",
+        "title": "Life in Juba, South Sudan's Capital",
+        "url": "https://www.youtube.com/embed/GM9Ax72RpWM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "sudan",
+    "description": "Sudan (Africa)",
+    "images": [
+      "countries_images/Africa/sudan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "lDfhxMwoyWo",
+        "title": "Sudan: History, Culture, and Conflict Explained",
+        "url": "https://www.youtube.com/embed/lDfhxMwoyWo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "J0Lf1ofmaOo",
+        "title": "Exploring the Pyramids of Mero\u00eb in Sudan",
+        "url": "https://www.youtube.com/embed/J0Lf1ofmaOo"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "tanzania",
+    "description": "Tanzania (Africa)",
+    "images": [
+      "countries_images/Africa/tanzania.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "blaRjrB-llQ",
+        "title": "Discover Tanzania: Wildlife, Culture & Adventure",
+        "url": "https://www.youtube.com/embed/blaRjrB-llQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "XRwrpXf5V6c",
+        "title": "Mount Kilimanjaro Climb - Tanzania's Iconic Peak",
+        "url": "https://www.youtube.com/embed/XRwrpXf5V6c"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "togo",
+    "description": "Togo (Africa)",
+    "images": [
+      "countries_images/Africa/togo.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "bYR-JyqDgGQ",
+        "title": "Discover Togo: West Africa's Hidden Gem",
+        "url": "https://www.youtube.com/embed/bYR-JyqDgGQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "lzJLbOVY86U",
+        "title": "Togo Travel Guide - Top Things to Do in Togo",
+        "url": "https://www.youtube.com/embed/lzJLbOVY86U"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "tunisia",
+    "description": "Tunisia (Africa)",
+    "images": [
+      "countries_images/Africa/tunisia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Jucl8N9vrws",
+        "title": "Discover Tunisia: A Journey Through History and Culture",
+        "url": "https://www.youtube.com/embed/Jucl8N9vrws"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Y4IXF6i_mIM",
+        "title": "Top 10 Places to Visit in Tunisia",
+        "url": "https://www.youtube.com/embed/Y4IXF6i_mIM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "uganda",
+    "description": "Uganda (Africa)",
+    "images": [
+      "countries_images/Africa/uganda.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "QTLmTHAzThw",
+        "title": "Discover Uganda: The Pearl of Africa",
+        "url": "https://www.youtube.com/embed/QTLmTHAzThw"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4oAtw0U3DJw",
+        "title": "Wildlife and Nature in Uganda's National Parks",
+        "url": "https://www.youtube.com/embed/4oAtw0U3DJw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "western_sahara",
+    "description": "Western Sahara (Africa)",
+    "images": [
+      "countries_images/Africa/western-sahara.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "4SakRNO_SMY",
+        "title": "Western Sahara Explained: History and Conflict",
+        "url": "https://www.youtube.com/embed/4SakRNO_SMY"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "JVZki7GfMjw",
+        "title": "Life in Western Sahara Refugee Camps",
+        "url": "https://www.youtube.com/embed/JVZki7GfMjw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "zambia",
+    "description": "Zambia (Africa)",
+    "images": [
+      "countries_images/Africa/zambia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "6XVHh12v59Q",
+        "title": "Discover Zambia: Victoria Falls and Wildlife Safari",
+        "url": "https://www.youtube.com/embed/6XVHh12v59Q"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Qa6ph1kOLeY",
+        "title": "Zambia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/Qa6ph1kOLeY"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "zimbabwe",
+    "description": "Zimbabwe (Africa)",
+    "images": [
+      "countries_images/Africa/zimbabwe.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gPQRObKvGe4",
+        "title": "Discover Zimbabwe: Victoria Falls and Beyond",
+        "url": "https://www.youtube.com/embed/gPQRObKvGe4"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "AK7uCgD46bs",
+        "title": "The History of Zimbabwe Explained",
+        "url": "https://www.youtube.com/embed/AK7uCgD46bs"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "antarctica",
+    "description": "Antarctica (Antarctica)",
+    "images": [
+      "countries_images/Antarctica/antarctica.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Vrtbxvefnjs",
+        "title": "Exploring Antarctica: The Frozen Continent",
+        "url": "https://www.youtube.com/embed/Vrtbxvefnjs"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gQ3_gZ3ZS_4",
+        "title": "Life at the South Pole Research Station",
+        "url": "https://www.youtube.com/embed/gQ3_gZ3ZS_4"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "afghanistan",
+    "description": "Afghanistan (Asia)",
+    "images": [
+      "countries_images/Asia/afghanistan.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "T6usr-C3lcQ",
+        "title": "Afghanistan: A Historical Overview",
+        "url": "https://www.youtube.com/embed/T6usr-C3lcQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "_L41t_9oXcw",
+        "title": "Culture and Traditions of Afghanistan",
+        "url": "https://www.youtube.com/embed/_L41t_9oXcw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "armenia",
+    "description": "Armenia (Asia)",
+    "images": [
+      "countries_images/Asia/armenia.jpeg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "K1BqwcVVoag",
+        "title": "Discover Armenia: The Land of Ancient Culture and Stunning Landscapes",
+        "url": "https://www.youtube.com/embed/K1BqwcVVoag"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "GWqGFpRD8Pc",
+        "title": "Armenia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/GWqGFpRD8Pc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "azerbaijan",
+    "description": "Azerbaijan (Asia)",
+    "images": [
+      "countries_images/Asia/azerbaijan.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "zo8-jpKnfSM",
+        "title": "Azerbaijan Travel Guide - Top Things to Do in Azerbaijan",
+        "url": "https://www.youtube.com/embed/zo8-jpKnfSM"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "vA9kZiHbuwk",
+        "title": "History of Azerbaijan - From Ancient Times to Present",
+        "url": "https://www.youtube.com/embed/vA9kZiHbuwk"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "bahrain",
+    "description": "Bahrain (Asia)",
+    "images": [
+      "countries_images/Asia/bahrain.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "rT2y7a1NtGg",
+        "title": "Discover Bahrain: A Journey Through History and Culture",
+        "url": "https://www.youtube.com/embed/rT2y7a1NtGg"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "HK_ywTgAaxE",
+        "title": "Top 10 Places to Visit in Bahrain",
+        "url": "https://www.youtube.com/embed/HK_ywTgAaxE"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "bangladesh",
+    "description": "Bangladesh (Asia)",
+    "images": [
+      "countries_images/Asia/bangladesh.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "3nRnz_oIx5M",
+        "title": "Discover Bangladesh: Land of Rivers and Culture",
+        "url": "https://www.youtube.com/embed/3nRnz_oIx5M"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Z44fFqBQQtg",
+        "title": "Bangladesh Travel Guide | Top Places to Visit",
+        "url": "https://www.youtube.com/embed/Z44fFqBQQtg"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "bhutan",
+    "description": "Bhutan (Asia)",
+    "images": [
+      "countries_images/Asia/bhutan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "pIfBVSf1CZE",
+        "title": "Discover Bhutan: The Last Himalayan Kingdom",
+        "url": "https://www.youtube.com/embed/pIfBVSf1CZE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "opVcSLYj6zU",
+        "title": "Bhutan Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/opVcSLYj6zU"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "brunei",
+    "description": "Brunei (Asia)",
+    "images": [
+      "countries_images/Asia/brunei.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "eWAv7qc5DzQ",
+        "title": "Discover Brunei: The Hidden Jewel of Borneo",
+        "url": "https://www.youtube.com/embed/eWAv7qc5DzQ"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "a8gZ3HfZNZc",
+        "title": "Brunei Travel Guide | Top Things to Do in Brunei",
+        "url": "https://www.youtube.com/embed/a8gZ3HfZNZc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "cambodia",
+    "description": "Cambodia (Asia)",
+    "images": [
+      "countries_images/Asia/cambodia.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "C5jpbwizxBs",
+        "title": "Discover Cambodia: Angkor Wat and Beyond",
+        "url": "https://www.youtube.com/embed/C5jpbwizxBs"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gGEmq-vO03U",
+        "title": "A Day in Phnom Penh, Cambodia",
+        "url": "https://www.youtube.com/embed/gGEmq-vO03U"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "china",
+    "description": "China (Asia)",
+    "images": [
+      "countries_images/Asia/china.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "6V3cRFkRGzs",
+        "title": "China: A Country of Contrasts and Change",
+        "url": "https://www.youtube.com/embed/6V3cRFkRGzs"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ZU_ToQpLxjc",
+        "title": "The Great Wall of China - History and Facts",
+        "url": "https://www.youtube.com/embed/ZU_ToQpLxjc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "georgia",
+    "description": "Georgia (Asia)",
+    "images": [
+      "countries_images/Asia/georgia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "kq7dvzZ3ygs",
+        "title": "Discover Georgia: The Land of Ancient Culture and Stunning Landscapes",
+        "url": "https://www.youtube.com/embed/kq7dvzZ3ygs"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "OtRwSvQhRi8",
+        "title": "Top 10 Places to Visit in Georgia",
+        "url": "https://www.youtube.com/embed/OtRwSvQhRi8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "india",
+    "description": "India (Asia)",
+    "images": [
+      "countries_images/Asia/india.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "K18nEQf8i9c",
+        "title": "India Travel Guide - Top Places to Visit in India",
+        "url": "https://www.youtube.com/embed/K18nEQf8i9c"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "atVaS-cHyoY",
+        "title": "The History of India in 10 Minutes",
+        "url": "https://www.youtube.com/embed/atVaS-cHyoY"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "indonesia",
+    "description": "Indonesia (Asia)",
+    "images": [
+      "countries_images/Asia/indonesia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "WK3clL6eG4s",
+        "title": "Indonesia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/WK3clL6eG4s"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "PA7gFnYfBqo",
+        "title": "The History of Indonesia Explained",
+        "url": "https://www.youtube.com/embed/PA7gFnYfBqo"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "iran",
+    "description": "Iran (Asia)",
+    "images": [
+      "countries_images/Asia/iran.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "0v7cOe1FSUE",
+        "title": "Iran Travel Guide - Top Places to Visit in Iran",
+        "url": "https://www.youtube.com/embed/0v7cOe1FSUE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "x4-EkQNHE3c",
+        "title": "History of Iran - From Ancient Persia to Modern Day",
+        "url": "https://www.youtube.com/embed/x4-EkQNHE3c"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "iraq",
+    "description": "Iraq (Asia)",
+    "images": [
+      "countries_images/Asia/iraq.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "-XRiX_QgnbI",
+        "title": "Iraq: History, Culture, and Modern Challenges",
+        "url": "https://www.youtube.com/embed/-XRiX_QgnbI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "BrYpSqmveM0",
+        "title": "Exploring Ancient Babylon - Iraq's Historical Treasure",
+        "url": "https://www.youtube.com/embed/BrYpSqmveM0"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "israel",
+    "description": "Israel (Asia)",
+    "images": [
+      "countries_images/Asia/israel.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "mMW9JVhSZ1A",
+        "title": "Israel Travel Guide - Top Things to Do and See",
+        "url": "https://www.youtube.com/embed/mMW9JVhSZ1A"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "m19F4IHTVGc",
+        "title": "History of Israel Explained",
+        "url": "https://www.youtube.com/embed/m19F4IHTVGc"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "japan",
+    "description": "Japan (Asia)",
+    "images": [
+      "countries_images/Asia/japan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "jTOfOew316s",
+        "title": "Japan Travel Guide - Top Things to Do in Japan",
+        "url": "https://www.youtube.com/embed/jTOfOew316s"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Mh5LY4Mz15o",
+        "title": "History of Japan in 10 Minutes",
+        "url": "https://www.youtube.com/embed/Mh5LY4Mz15o"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "jordan",
+    "description": "Jordan (Asia)",
+    "images": [
+      "countries_images/Asia/jordan.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "SZ5JjLdzQ1o",
+        "title": "Discover Jordan: The Land of Ancient Wonders",
+        "url": "https://www.youtube.com/embed/SZ5JjLdzQ1o"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "SZ5JjLdzQ1o",
+        "title": "Exploring Petra - Jordan's Rose City",
+        "url": "https://www.youtube.com/embed/SZ5JjLdzQ1o"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "kazakhstan",
+    "description": "Kazakhstan (Asia)",
+    "images": [
+      "countries_images/Asia/kazakhstan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "kVDLM8DfNFE",
+        "title": "Kazakhstan Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/kVDLM8DfNFE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "fesLbWZcR4Q",
+        "title": "History of Kazakhstan Explained",
+        "url": "https://www.youtube.com/embed/fesLbWZcR4Q"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "kuwait",
+    "description": "Kuwait (Asia)",
+    "images": [
+      "countries_images/Asia/kuwait.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "FGytudg5uDU",
+        "title": "Discover Kuwait: A Journey Through the Land of the Gulf",
+        "url": "https://www.youtube.com/embed/FGytudg5uDU"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "w20SVlSQBgI",
+        "title": "Kuwait City Tour - Top Attractions and Culture",
+        "url": "https://www.youtube.com/embed/w20SVlSQBgI"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "kyrgyzstan",
+    "description": "Kyrgyzstan (Asia)",
+    "images": [
+      "countries_images/Asia/kyrgyzstan.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "husuUwtA-Gc",
+        "title": "Discover Kyrgyzstan: The Land of Nomads and Mountains",
+        "url": "https://www.youtube.com/embed/husuUwtA-Gc"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "WDc144SnT18",
+        "title": "Top 10 Places to Visit in Kyrgyzstan",
+        "url": "https://www.youtube.com/embed/WDc144SnT18"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "laos",
+    "description": "Laos (Asia)",
+    "images": [
+      "countries_images/Asia/laos.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "6H-bc3r-LCI",
+        "title": "Discover Laos: The Land of a Million Elephants",
+        "url": "https://www.youtube.com/embed/6H-bc3r-LCI"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "BuE78EiOGkk",
+        "title": "Top 10 Places to Visit in Laos",
+        "url": "https://www.youtube.com/embed/BuE78EiOGkk"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "lebanon",
+    "description": "Lebanon (Asia)",
+    "images": [
+      "countries_images/Asia/lebanon.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "jT8JXTL8ELo",
+        "title": "Discover Lebanon: A Journey Through History and Culture",
+        "url": "https://www.youtube.com/embed/jT8JXTL8ELo"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "8z2EfYmIV3g",
+        "title": "Lebanon Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/8z2EfYmIV3g"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "malaysia",
+    "description": "Malaysia (Asia)",
+    "images": [
+      "countries_images/Asia/malaysia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "bPbCItKgwfY",
+        "title": "Discover Malaysia: Culture, Food, and Travel Guide",
+        "url": "https://www.youtube.com/embed/bPbCItKgwfY"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "EVG-IH8cMYs",
+        "title": "Top 10 Places to Visit in Malaysia",
+        "url": "https://www.youtube.com/embed/EVG-IH8cMYs"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "maldives",
+    "description": "Maldives (Asia)",
+    "images": [
+      "countries_images/Asia/maldives.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ROnulQUdvfY",
+        "title": "Discover Maldives: Paradise on Earth",
+        "url": "https://www.youtube.com/embed/ROnulQUdvfY"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "3FM1waTeTDE",
+        "title": "Maldives Travel Guide 2023",
+        "url": "https://www.youtube.com/embed/3FM1waTeTDE"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "mongolia",
+    "description": "Mongolia (Asia)",
+    "images": [
+      "countries_images/Asia/mongolia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "DwMV9ZTqF68",
+        "title": "Discover Mongolia: Land of the Eternal Blue Sky",
+        "url": "https://www.youtube.com/embed/DwMV9ZTqF68"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ABRtpEH4p1U",
+        "title": "Mongolia Travel Guide - Top Places to Visit",
+        "url": "https://www.youtube.com/embed/ABRtpEH4p1U"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "myanmar",
+    "description": "Myanmar (Asia)",
+    "images": [
+      "countries_images/Asia/myanmar.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "kyaH1SgGXbk",
+        "title": "Myanmar: A Land of Golden Pagodas and Rich Culture",
+        "url": "https://www.youtube.com/embed/kyaH1SgGXbk"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "uhOV4fVJVAg",
+        "title": "The History and Politics of Myanmar Explained",
+        "url": "https://www.youtube.com/embed/uhOV4fVJVAg"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "nepal",
+    "description": "Nepal (Asia)",
+    "images": [
+      "countries_images/Asia/nepal.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "KnzyzTfH3Mg",
+        "title": "Discover Nepal: Land of the Himalayas",
+        "url": "https://www.youtube.com/embed/KnzyzTfH3Mg"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "TYLZG9tv0Yw",
+        "title": "Mount Everest: The Roof of the World",
+        "url": "https://www.youtube.com/embed/TYLZG9tv0Yw"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "north_korea",
+    "description": "North Korea (Asia)",
+    "images": [
+      "countries_images/Asia/north-korea.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "eLCdsXRiouE",
+        "title": "North Korea: Inside the Secretive State",
+        "url": "https://www.youtube.com/embed/eLCdsXRiouE"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "Ca33qjZYd-8",
+        "title": "Life in North Korea: A Rare Glimpse",
+        "url": "https://www.youtube.com/embed/Ca33qjZYd-8"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "oman",
+    "description": "Oman (Asia)",
+    "images": [
+      "countries_images/Asia/oman.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "MIaRdGbf5mU",
+        "title": "Discover Oman: A Journey Through the Land of Frankincense",
+        "url": "https://www.youtube.com/embed/MIaRdGbf5mU"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "ZavW9eZa2R0",
+        "title": "Top 10 Places to Visit in Oman",
+        "url": "https://www.youtube.com/embed/ZavW9eZa2R0"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "pakistan",
+    "description": "Pakistan (Asia)",
+    "images": [
+      "countries_images/Asia/pakistan.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "0fJBbSTfZ7Q",
+        "title": "Discover Pakistan: Land of Diversity and Culture",
+        "url": "https://www.youtube.com/embed/0fJBbSTfZ7Q"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "gL6gjJWiMvE",
+        "title": "Top 10 Places to Visit in Pakistan",
+        "url": "https://www.youtube.com/embed/gL6gjJWiMvE"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "philippines",
+    "description": "Philippines (Asia)",
+    "images": [
+      "countries_images/Asia/philippines.jpg"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "7tAep71PBSU",
+        "title": "Philippines Travel Guide - Top Things to Do & See",
+        "url": "https://www.youtube.com/embed/7tAep71PBSU"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "P-I4Bay5SXo",
+        "title": "History of the Philippines in 10 Minutes",
+        "url": "https://www.youtube.com/embed/P-I4Bay5SXo"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "qatar",
+    "description": "Qatar (Asia)",
+    "images": [
+      "countries_images/Asia/qatar.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "10Ns1jWmtZU",
+        "title": "Discover Qatar: A Journey Through the Desert and City",
+        "url": "https://www.youtube.com/embed/10Ns1jWmtZU"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "C-0CebFpF_s",
+        "title": "Qatar 2022 FIFA World Cup: Stadiums and Preparations",
+        "url": "https://www.youtube.com/embed/C-0CebFpF_s"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "saudi_arabia",
+    "description": "Saudi Arabia (Asia)",
+    "images": [
+      "countries_images/Asia/saudi-arabia.png"
+    ],
+    "videos": [
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "nqzd_id1iqM",
+        "title": "Saudi Arabia: Land of the Two Holy Mosques",
+        "url": "https://www.youtube.com/embed/nqzd_id1iqM"
+      },
+      {
+        "source": "youtube",
+        "type": "youtube",
+        "video_id": "YPfQOQM37EM",
+        "title": "Inside Saudi Arabia's Vision 2030",
+        "url": "https://www.youtube.com/embed/YPfQOQM37EM"
+      }
+    ],
+    "audio_desc": null
+  },
+  {
+    "name": "singapore",
+    "description": "Singapore (Asia)",
+    "images": [
+      "countries_images/Asia/singapore.gif"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "south_korea",
+    "description": "South Korea (Asia)",
+    "images": [
+      "countries_images/Asia/south-korea.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "sri_lanka",
+    "description": "Sri Lanka (Asia)",
+    "images": [
+      "countries_images/Asia/sri-lanka.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "syria",
+    "description": "Syria (Asia)",
+    "images": [
+      "countries_images/Asia/syria.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "taiwan",
+    "description": "Taiwan (Asia)",
+    "images": [
+      "countries_images/Asia/taiwan.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "tajikistan",
+    "description": "Tajikistan (Asia)",
+    "images": [
+      "countries_images/Asia/tajikistan.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "thailand",
+    "description": "Thailand (Asia)",
+    "images": [
+      "countries_images/Asia/thailand.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "timor-leste",
+    "description": "Timor-Leste (Asia)",
+    "images": [
+      "countries_images/Asia/timor-leste.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "turkmenistan",
+    "description": "Turkmenistan (Asia)",
+    "images": [
+      "countries_images/Asia/turkmenistan.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "united_arab_emirates",
+    "description": "United Arab Emirates (Asia)",
+    "images": [
+      "countries_images/Asia/united-arab-emirates.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "vietnam",
+    "description": "Vietnam (Asia)",
+    "images": [
+      "countries_images/Asia/vietnam.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "yemen",
+    "description": "Yemen (Asia)",
+    "images": [
+      "countries_images/Asia/yemen.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "american_samoa",
+    "description": "American Samoa (Australia)",
+    "images": [
+      "countries_images/Australia/american-samoa.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "australia",
+    "description": "Australia (Australia)",
+    "images": [
+      "countries_images/Australia/australia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "christmas_island",
+    "description": "Christmas Island (Australia)",
+    "images": [
+      "countries_images/Australia/christmas-island.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "cook_islands",
+    "description": "Cook Islands (Australia)",
+    "images": [
+      "countries_images/Australia/cook-islands.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "federated_states_of_micronesia",
+    "description": "Federated States of Micronesia (Australia)",
+    "images": [
+      "countries_images/Australia/federated-states-of-micronesia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "fiji",
+    "description": "Fiji (Australia)",
+    "images": [
+      "countries_images/Australia/fiji.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "french_polynesia",
+    "description": "French Polynesia (Australia)",
+    "images": [
+      "countries_images/Australia/french-polynesia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "guam",
+    "description": "Guam (Australia)",
+    "images": [
+      "countries_images/Australia/guam.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "kiribati",
+    "description": "Kiribati (Australia)",
+    "images": [
+      "countries_images/Australia/kiribati.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "marshall_islands",
+    "description": "Marshall Islands (Australia)",
+    "images": [
+      "countries_images/Australia/marshall-islands.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "nauru",
+    "description": "Nauru (Australia)",
+    "images": [
+      "countries_images/Australia/nauru.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "new_caledonia",
+    "description": "New Caledonia (Australia)",
+    "images": [
+      "countries_images/Australia/new-caledonia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "new_zealand",
+    "description": "New Zealand (Australia)",
+    "images": [
+      "countries_images/Australia/new-zealand.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "niue",
+    "description": "Niue (Australia)",
+    "images": [
+      "countries_images/Australia/niue.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "papua_new_guinea",
+    "description": "Papua New Guinea (Australia)",
+    "images": [
+      "countries_images/Australia/papua-new-guinea.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "samoa",
+    "description": "Samoa (Australia)",
+    "images": [
+      "countries_images/Australia/samoa.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "solomon_islands",
+    "description": "Solomon Islands (Australia)",
+    "images": [
+      "countries_images/Australia/solomon-islands.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "tonga",
+    "description": "Tonga (Australia)",
+    "images": [
+      "countries_images/Australia/tonga.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "tuvalu",
+    "description": "Tuvalu (Australia)",
+    "images": [
+      "countries_images/Australia/tuvalu.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "vanuatu",
+    "description": "Vanuatu (Australia)",
+    "images": [
+      "countries_images/Australia/vanuatu.gif"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "albania",
+    "description": "Albania (Europe)",
+    "images": [
+      "countries_images/Europe/albania.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "andorra",
+    "description": "Andorra (Europe)",
+    "images": [
+      "countries_images/Europe/andorra.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "austria",
+    "description": "Austria (Europe)",
+    "images": [
+      "countries_images/Europe/austria.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "belarus",
+    "description": "Belarus (Europe)",
+    "images": [
+      "countries_images/Europe/belarus.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "belgium",
+    "description": "Belgium (Europe)",
+    "images": [
+      "countries_images/Europe/belgium.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "bosnia_and_herzegovina",
+    "description": "Bosnia and Herzegovina (Europe)",
+    "images": [
+      "countries_images/Europe/bosnia-and-herzegovina.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "bulgaria",
+    "description": "Bulgaria (Europe)",
+    "images": [
+      "countries_images/Europe/bulgaria.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "croatia",
+    "description": "Croatia (Europe)",
+    "images": [
+      "countries_images/Europe/croatia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "cyprus",
+    "description": "Cyprus (Europe)",
+    "images": [
+      "countries_images/Europe/cyprus.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "czech_republic",
+    "description": "Czech Republic (Europe)",
+    "images": [
+      "countries_images/Europe/czech-republic.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "denmark",
+    "description": "Denmark (Europe)",
+    "images": [
+      "countries_images/Europe/denmark.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "estonia",
+    "description": "Estonia (Europe)",
+    "images": [
+      "countries_images/Europe/estonia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "finland",
+    "description": "Finland (Europe)",
+    "images": [
+      "countries_images/Europe/finland.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "france",
+    "description": "France (Europe)",
+    "images": [
+      "countries_images/Europe/france.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "germany",
+    "description": "Germany (Europe)",
+    "images": [
+      "countries_images/Europe/germany.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "greece",
+    "description": "Greece (Europe)",
+    "images": [
+      "countries_images/Europe/greece.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "hungary",
+    "description": "Hungary (Europe)",
+    "images": [
+      "countries_images/Europe/hungary.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "iceland",
+    "description": "Iceland (Europe)",
+    "images": [
+      "countries_images/Europe/iceland.svg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "ireland",
+    "description": "Ireland (Europe)",
+    "images": [
+      "countries_images/Europe/ireland.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "italy",
+    "description": "Italy (Europe)",
+    "images": [
+      "countries_images/Europe/italy.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "kosovo",
+    "description": "Kosovo (Europe)",
+    "images": [
+      "countries_images/Europe/kosovo.svg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "latvia",
+    "description": "Latvia (Europe)",
+    "images": [
+      "countries_images/Europe/latvia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "liechtenstein",
+    "description": "Liechtenstein (Europe)",
+    "images": [
+      "countries_images/Europe/liechtenstein.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "lithuania",
+    "description": "Lithuania (Europe)",
+    "images": [
+      "countries_images/Europe/lithuania.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "luxembourg",
+    "description": "Luxembourg (Europe)",
+    "images": [
+      "countries_images/Europe/luxembourg.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "malta",
+    "description": "Malta (Europe)",
+    "images": [
+      "countries_images/Europe/malta.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "moldova",
+    "description": "Moldova (Europe)",
+    "images": [
+      "countries_images/Europe/moldova.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "monaco",
+    "description": "Monaco (Europe)",
+    "images": [
+      "countries_images/Europe/monaco.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "montenegro",
+    "description": "Montenegro (Europe)",
+    "images": [
+      "countries_images/Europe/montenegro.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "netherlands",
+    "description": "Netherlands (Europe)",
+    "images": [
+      "countries_images/Europe/netherlands.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "north_macedonia",
+    "description": "North Macedonia (Europe)",
+    "images": [
+      "countries_images/Europe/north-macedonia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "norway",
+    "description": "Norway (Europe)",
+    "images": [
+      "countries_images/Europe/norway.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "poland",
+    "description": "Poland (Europe)",
+    "images": [
+      "countries_images/Europe/poland.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "portugal",
+    "description": "Portugal (Europe)",
+    "images": [
+      "countries_images/Europe/portugal.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "romania",
+    "description": "Romania (Europe)",
+    "images": [
+      "countries_images/Europe/romania.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "russia",
+    "description": "Russia (Europe)",
+    "images": [
+      "countries_images/Europe/russia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "san_marino",
+    "description": "San Marino (Europe)",
+    "images": [
+      "countries_images/Europe/san-marino.gif"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "serbia",
+    "description": "Serbia (Europe)",
+    "images": [
+      "countries_images/Europe/serbia.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "slovakia",
+    "description": "Slovakia (Europe)",
+    "images": [
+      "countries_images/Europe/slovakia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "slovenia",
+    "description": "Slovenia (Europe)",
+    "images": [
+      "countries_images/Europe/slovenia.gif"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "spain",
+    "description": "Spain (Europe)",
+    "images": [
+      "countries_images/Europe/spain.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "sweden",
+    "description": "Sweden (Europe)",
+    "images": [
+      "countries_images/Europe/sweden.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "switzerland",
+    "description": "Switzerland (Europe)",
+    "images": [
+      "countries_images/Europe/switzerland.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "turkey",
+    "description": "Turkey (Europe)",
+    "images": [
+      "countries_images/Europe/turkey.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "ukraine",
+    "description": "Ukraine (Europe)",
+    "images": [
+      "countries_images/Europe/ukraine.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "united_kingdom",
+    "description": "United Kingdom (Europe)",
+    "images": [
+      "countries_images/Europe/united-kingdom.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "vatican_city",
+    "description": "Vatican City (Europe)",
+    "images": [
+      "countries_images/Europe/vatican-city.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "bahamas",
+    "description": "Bahamas (North America)",
+    "images": [
+      "countries_images/North America/bahamas.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "canada",
+    "description": "Canada (North America)",
+    "images": [
+      "countries_images/North America/canada.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "cuba",
+    "description": "Cuba (North America)",
+    "images": [
+      "countries_images/North America/cuba.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "guatemala",
+    "description": "Guatemala (North America)",
+    "images": [
+      "countries_images/North America/guatemala.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "mexico",
+    "description": "Mexico (North America)",
+    "images": [
+      "countries_images/North America/mexico.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "united_states_of_america",
+    "description": "United States of America (North America)",
+    "images": [
+      "countries_images/North America/united-states-of-america.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "argentina",
+    "description": "Argentina (South America)",
+    "images": [
+      "countries_images/South America/argentina.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "bolivia",
+    "description": "Bolivia (South America)",
+    "images": [
+      "countries_images/South America/bolivia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "brazil",
+    "description": "Brazil (South America)",
+    "images": [
+      "countries_images/South America/brazil.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "chile",
+    "description": "Chile (South America)",
+    "images": [
+      "countries_images/South America/chile.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "colombia",
+    "description": "Colombia (South America)",
+    "images": [
+      "countries_images/South America/colombia.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "ecuador",
+    "description": "Ecuador (South America)",
+    "images": [
+      "countries_images/South America/ecuador.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "guyana",
+    "description": "Guyana (South America)",
+    "images": [
+      "countries_images/South America/guyana.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "paraguay",
+    "description": "Paraguay (South America)",
+    "images": [
+      "countries_images/South America/paraguay.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "peru",
+    "description": "Peru (South America)",
+    "images": [
+      "countries_images/South America/peru.jpg"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "suriname",
+    "description": "Suriname (South America)",
+    "images": [
+      "countries_images/South America/suriname.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "uruguay",
+    "description": "Uruguay (South America)",
+    "images": [
+      "countries_images/South America/uruguay.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  },
+  {
+    "name": "venezuela",
+    "description": "Venezuela (South America)",
+    "images": [
+      "countries_images/South America/venezuela.png"
+    ],
+    "videos": [],
+    "audio_desc": null
+  }
+]

@@ -21,6 +21,10 @@
       "file": "learn/colors.json"
     },
     {
+      "title": "Countries",
+      "file": "learn/countries.json"
+    },
+    {
       "title": "Dinosaurs",
       "file": "learn/dinosaurs.json"
     },
