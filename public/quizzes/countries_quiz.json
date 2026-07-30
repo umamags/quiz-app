@@ -5,84 +5,70 @@
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/Australia/federated-states-of-micronesia.jpg"
+        "countries_images/Asia/maldives.png"
       ],
       "choiceType": "text",
       "choices": [
-        "New Caledonia (Australia)",
-        "Peru (South America)",
-        "Federated States of Micronesia (Australia)",
-        "Seychelles (Africa)"
-      ],
-      "correctAnswer": "c"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Africa/rwanda.jpg"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Moldova (Europe)",
-        "Rwanda (Africa)",
-        "Marshall Islands (Australia)",
-        "Chad (Africa)"
-      ],
-      "correctAnswer": "b"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Europe/montenegro.jpg"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Seychelles (Africa)",
-        "Paraguay (South America)",
-        "China (Asia)",
-        "Montenegro (Europe)"
+        "Algeria (Africa)",
+        "Turkmenistan (Asia)",
+        "Netherlands (Europe)",
+        "Maldives (Asia)"
       ],
       "correctAnswer": "d"
     },
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/Africa/south-sudan.png"
+        "countries_images/Africa/benin.png"
       ],
       "choiceType": "text",
       "choices": [
-        "Kuwait (Asia)",
-        "South Sudan (Africa)",
-        "Brazil (South America)",
-        "Luxembourg (Europe)"
-      ],
-      "correctAnswer": "b"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Europe/greece.jpg"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Samoa (Australia)",
-        "Greece (Europe)",
         "Central African Republic (Africa)",
-        "Myanmar (Asia)"
+        "Switzerland (Europe)",
+        "Benin (Africa)",
+        "South Korea (Asia)"
       ],
-      "correctAnswer": "b"
+      "correctAnswer": "c"
     },
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/Australia/papua-new-guinea.png"
+        "countries_images/Asia/kazakhstan.png"
       ],
       "choiceType": "text",
       "choices": [
-        "Djibouti (Africa)",
-        "Papua New Guinea (Australia)",
-        "Morocco (Africa)",
-        "Paraguay (South America)"
+        "Gabon (Africa)",
+        "Chile (South America)",
+        "Lesotho (Africa)",
+        "Kazakhstan (Asia)"
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Africa/cameroon.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Cameroon (Africa)",
+        "Malaysia (Asia)",
+        "Luxembourg (Europe)",
+        "Rwanda (Africa)"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Asia/yemen.jpg"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Senegal (Africa)",
+        "Yemen (Asia)",
+        "Angola (Africa)",
+        "Austria (Europe)"
       ],
       "correctAnswer": "b"
     },
@@ -93,124 +79,138 @@
       ],
       "choiceType": "text",
       "choices": [
-        "Madagascar (Africa)",
-        "Libya (Africa)",
-        "Cameroon (Africa)",
+        "China (Asia)",
+        "Mozambique (Africa)",
+        "Colombia (South America)",
+        "Madagascar (Africa)"
+      ],
+      "correctAnswer": "d"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Africa/djibouti.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Djibouti (Africa)",
+        "Samoa (Australia)",
+        "Gambia (Africa)",
+        "Ghana (Africa)"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Australia/guam.jpg"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Guam (Australia)",
+        "Ethiopia (Africa)",
+        "Netherlands (Europe)",
+        "Italy (Europe)"
+      ],
+      "correctAnswer": "a"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Africa/malawi.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Lithuania (Europe)",
+        "Malawi (Africa)",
+        "Guam (Australia)",
+        "Luxembourg (Europe)"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/South America/venezuela.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Malaysia (Asia)",
+        "Japan (Asia)",
+        "Norway (Europe)",
         "Venezuela (South America)"
       ],
-      "correctAnswer": "a"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Asia/jordan.jpg"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Jordan (Asia)",
-        "Sierra Leone (Africa)",
-        "India (Asia)",
-        "Burkina Faso (Africa)"
-      ],
-      "correctAnswer": "a"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Europe/finland.png"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Namibia (Africa)",
-        "Finland (Europe)",
-        "Tanzania (Africa)",
-        "Equatorial Guinea (Africa)"
-      ],
-      "correctAnswer": "b"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Asia/iran.jpg"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Turkmenistan (Asia)",
-        "San Marino (Europe)",
-        "Iran (Asia)",
-        "Argentina (South America)"
-      ],
-      "correctAnswer": "c"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/South America/paraguay.png"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Brunei (Asia)",
-        "Japan (Asia)",
-        "Federated States of Micronesia (Australia)",
-        "Paraguay (South America)"
-      ],
       "correctAnswer": "d"
     },
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/Asia/cambodia.jpg"
+        "countries_images/Africa/eswatini.png"
       ],
       "choiceType": "text",
       "choices": [
-        "Cambodia (Asia)",
-        "Western Sahara (Africa)",
-        "Marshall Islands (Australia)",
-        "Cape Verde (Africa)"
-      ],
-      "correctAnswer": "a"
-    },
-    {
-      "questionText": "Which country is this?",
-      "centralImage": [
-        "countries_images/Africa/burkina-faso.png"
-      ],
-      "choiceType": "text",
-      "choices": [
-        "Luxembourg (Europe)",
-        "South Sudan (Africa)",
-        "Burkina Faso (Africa)",
-        "Turkey (Europe)"
+        "Belarus (Europe)",
+        "Canada (North America)",
+        "Eswatini (Africa)",
+        "North Korea (Asia)"
       ],
       "correctAnswer": "c"
     },
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/South America/peru.jpg"
+        "countries_images/North America/cuba.png"
       ],
       "choiceType": "text",
       "choices": [
-        "Bosnia and Herzegovina (Europe)",
+        "Cuba (North America)",
+        "United Kingdom (Europe)",
         "South Africa (Africa)",
-        "Antarctica (Antarctica)",
-        "Peru (South America)"
+        "Ukraine (Europe)"
       ],
-      "correctAnswer": "d"
+      "correctAnswer": "a"
     },
     {
       "questionText": "Which country is this?",
       "centralImage": [
-        "countries_images/South America/guyana.png"
+        "countries_images/Africa/zambia.png"
       ],
       "choiceType": "text",
       "choices": [
-        "American Samoa (Australia)",
-        "Guyana (South America)",
-        "Mali (Africa)",
-        "Vatican City (Europe)"
+        "Montenegro (Europe)",
+        "Zambia (Africa)",
+        "Malaysia (Asia)",
+        "Eritrea (Africa)"
       ],
       "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Africa/namibia.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Andorra (Europe)",
+        "Namibia (Africa)",
+        "Cambodia (Asia)",
+        "Armenia (Asia)"
+      ],
+      "correctAnswer": "b"
+    },
+    {
+      "questionText": "Which country is this?",
+      "centralImage": [
+        "countries_images/Europe/bulgaria.png"
+      ],
+      "choiceType": "text",
+      "choices": [
+        "Ghana (Africa)",
+        "Nigeria (Africa)",
+        "Turkey (Europe)",
+        "Bulgaria (Europe)"
+      ],
+      "correctAnswer": "d"
     },
     {
       "questionText": "Match the country to its map:",
@@ -219,24 +219,24 @@
       "rightType": "image",
       "pairs": [
         {
-          "left": "Portugal (Europe)",
-          "right": "countries_images/Europe/portugal.jpg"
+          "left": "Vatican City (Europe)",
+          "right": "countries_images/Europe/vatican-city.jpg"
         },
         {
-          "left": "Venezuela (South America)",
-          "right": "countries_images/South America/venezuela.png"
+          "left": "Belgium (Europe)",
+          "right": "countries_images/Europe/belgium.png"
         },
         {
-          "left": "New Zealand (Australia)",
-          "right": "countries_images/Australia/new-zealand.png"
+          "left": "Eswatini (Africa)",
+          "right": "countries_images/Africa/eswatini.png"
         },
         {
-          "left": "India (Asia)",
-          "right": "countries_images/Asia/india.png"
+          "left": "Lebanon (Asia)",
+          "right": "countries_images/Asia/lebanon.png"
         },
         {
-          "left": "Romania (Europe)",
-          "right": "countries_images/Europe/romania.png"
+          "left": "Ghana (Africa)",
+          "right": "countries_images/Africa/ghana.jpg"
         }
       ]
     }

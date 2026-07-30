@@ -35,6 +35,17 @@ function LearnVideo({ video }) {
   if (video.type === 'file') {
     return <video className="learn-video-player" controls preload="none" src={video.url} />;
   }
+  if (video.source === 'youtube') {
+    return (
+      <iframe
+        className="learn-video-player"
+        src={video.url}
+        title="YouTube video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    );
+  }
   return (
     <a className="learn-video-link" href={video.pageUrl} target="_blank" rel="noopener noreferrer">
       Watch on {capitalize(video.source)} ↗

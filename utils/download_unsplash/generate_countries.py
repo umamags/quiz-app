@@ -61,8 +61,8 @@ def extract_videos(country_data):
                 videos.append({
                     "source": "youtube",
                     "type": "page",
-                    "pageUrl": f"https://www.youtube.com/watch?v={video_item['video_id']}",
-                    "url": f"https://www.youtube.com/watch?v={video_item['video_id']}"
+                    "url": f"https://www.youtube.com/embed/{video_item['video_id']}",
+                    "pageUrl": f"https://www.youtube.com/watch?v={video_item['video_id']}"
                 })
     return videos
 
