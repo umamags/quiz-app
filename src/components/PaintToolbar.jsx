@@ -5,6 +5,16 @@ const PRESET_COLORS = ['#ffffff', '#0066cc', '#00aa00', '#ff0000', '#ffff00', '#
 const PRESET_LABELS = ['White', 'Blue', 'Green', 'Red', 'Yellow', 'Pink', 'Magenta', 'Brown', 'Cyan', 'Violet'];
 
 const ICONS = {
+  undo: (
+    <svg {...STROKE_ICON_PROPS}>
+      <path d="M3 7v6h6M21 17a8 8 0 0 1-8 8 8 8 0 0 1-8-8" />
+    </svg>
+  ),
+  redo: (
+    <svg {...STROKE_ICON_PROPS}>
+      <path d="M21 7v6h-6M3 17a8 8 0 0 0 8 8 8 8 0 0 0 8-8" />
+    </svg>
+  ),
   select: (
     <svg {...ICON_PROPS}>
       <path d="M3 11 21 3l-8 18-2-8z" fill="currentColor" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
@@ -66,6 +76,8 @@ const FONT_FAMILIES = ['Arial', 'Times New Roman', 'Georgia', 'Courier New', 'Ve
 
 const BRUSH_SIZES = [2, 5, 10, 16, 24];
 
+import { useState, useRef, useEffect } from 'react';
+
 export default function PaintToolbar({
   activeTool,
   onToolChange,
@@ -85,7 +97,31 @@ export default function PaintToolbar({
   onClear,
   onDownload,
   onLoadImage,
+  canUndo,
+  onUndo,
+  canRedo,
+  onRedo,
 }) {
+  const [strokePaletteOpen, setStrokePaletteOpen] = useState(false);
+  const [fillPaletteOpen, setFillPaletteOpen] = useState(false);
+  const strokePaletteRef = useRef(null);
+  const fillPaletteRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (strokePaletteRef.current && !strokePaletteRef.current.contains(e.target)) {
+        setStrokePaletteOpen(false);
+      }
+      if (fillPaletteRef.current && !fillPaletteRef.current.contains(e.target)) {
+        setFillPaletteOpen(false);
+      }
+    }
+    if (strokePaletteOpen || fillPaletteOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => document.removeEventListener('mousedown', handleClickOutside);
+    }
+  }, [strokePaletteOpen, fillPaletteOpen]);
+
   return (
     <div className="paint-toolbar">
       <div className="paint-tool-group">
@@ -104,54 +140,89 @@ export default function PaintToolbar({
       </div>
 
       <div className="paint-color-row">
-        <div className="paint-color-group">
-          <label className="paint-color-label">
-            Stroke
-            <input
-              type="color"
-              value={strokeColor}
-              onChange={e => onStrokeColorChange(e.target.value)}
-            />
-          </label>
-          <div className="paint-color-palette">
-            {PRESET_COLORS.map((color, idx) => (
-              <button
-                key={color}
-                type="button"
-                className="paint-color-swatch"
-                style={{ backgroundColor: color, borderColor: strokeColor === color ? '#333' : 'transparent' }}
-                onClick={() => onStrokeColorChange(color)}
-                title={PRESET_LABELS[idx]}
-                aria-label={`Stroke color: ${PRESET_LABELS[idx]}`}
+        <div className="paint-color-group" ref={strokePaletteRef}>
+          <div className="paint-color-input-row">
+            <label className="paint-color-label">
+              Stroke
+              <input
+                type="color"
+                value={strokeColor}
+                onChange={e => onStrokeColorChange(e.target.value)}
+                onClick={() => setStrokePaletteOpen(!strokePaletteOpen)}
               />
-            ))}
+            </label>
+            <button
+              type="button"
+              className="paint-palette-toggle"
+              onClick={() => setStrokePaletteOpen(!strokePaletteOpen)}
+              aria-label="Toggle stroke color palette"
+              title="Show color palette"
+            >
+              ▼
+            </button>
           </div>
+          {strokePaletteOpen && (
+            <div className="paint-color-palette">
+              {PRESET_COLORS.map((color, idx) => (
+                <button
+                  key={color}
+                  type="button"
+                  className="paint-color-swatch"
+                  style={{ backgroundColor: color, borderColor: strokeColor === color ? '#333' : 'transparent' }}
+                  onClick={() => {
+                    onStrokeColorChange(color);
+                    setStrokePaletteOpen(false);
+                  }}
+                  title={PRESET_LABELS[idx]}
+                  aria-label={`Stroke color: ${PRESET_LABELS[idx]}`}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
-        <div className="paint-color-group">
-          <label className="paint-color-label" title="Select a rectangle, square, or circle to fill it with this color">
-            Fill
-            <input
-              type="color"
-              value={fillColor}
-              onChange={e => onFillColorChange(e.target.value)}
-              disabled={!canFillSelection}
-            />
-          </label>
-          <div className="paint-color-palette">
-            {PRESET_COLORS.map((color, idx) => (
-              <button
-                key={color}
-                type="button"
-                className="paint-color-swatch"
-                style={{ backgroundColor: color, borderColor: fillColor === color ? '#333' : 'transparent' }}
-                onClick={() => onFillColorChange(color)}
-                title={PRESET_LABELS[idx]}
-                aria-label={`Fill color: ${PRESET_LABELS[idx]}`}
+        <div className="paint-color-group" ref={fillPaletteRef}>
+          <div className="paint-color-input-row">
+            <label className="paint-color-label" title="Select a rectangle, square, or circle to fill it with this color">
+              Fill
+              <input
+                type="color"
+                value={fillColor}
+                onChange={e => onFillColorChange(e.target.value)}
+                onClick={() => setFillPaletteOpen(!fillPaletteOpen)}
                 disabled={!canFillSelection}
               />
-            ))}
+            </label>
+            <button
+              type="button"
+              className="paint-palette-toggle"
+              onClick={() => setFillPaletteOpen(!fillPaletteOpen)}
+              aria-label="Toggle fill color palette"
+              title="Show color palette"
+              disabled={!canFillSelection}
+            >
+              ▼
+            </button>
           </div>
+          {fillPaletteOpen && (
+            <div className="paint-color-palette">
+              {PRESET_COLORS.map((color, idx) => (
+                <button
+                  key={color}
+                  type="button"
+                  className="paint-color-swatch"
+                  style={{ backgroundColor: color, borderColor: fillColor === color ? '#333' : 'transparent' }}
+                  onClick={() => {
+                    onFillColorChange(color);
+                    setFillPaletteOpen(false);
+                  }}
+                  title={PRESET_LABELS[idx]}
+                  aria-label={`Fill color: ${PRESET_LABELS[idx]}`}
+                  disabled={!canFillSelection}
+                />
+              ))}
+            </div>
+          )}
         </div>
 
         <div className="paint-brush-size-group" role="group" aria-label="Brush size">
@@ -196,6 +267,26 @@ export default function PaintToolbar({
       </div>
 
       <div className="paint-action-group">
+        <button
+          type="button"
+          className="paint-tool-button"
+          onClick={onUndo}
+          disabled={!canUndo}
+          aria-label="Undo"
+          title="Undo (Ctrl+Z)"
+        >
+          {ICONS.undo}
+        </button>
+        <button
+          type="button"
+          className="paint-tool-button"
+          onClick={onRedo}
+          disabled={!canRedo}
+          aria-label="Redo"
+          title="Redo (Ctrl+Y)"
+        >
+          {ICONS.redo}
+        </button>
         <button type="button" className="btn-secondary" onClick={onLoadImage}>
           Load Image
         </button>

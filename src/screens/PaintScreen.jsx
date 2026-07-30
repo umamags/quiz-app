@@ -41,6 +41,10 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   const [canFillSelection, setCanFillSelection] = useState(false);
   const [contextMenu, setContextMenu] = useState(null); // { x, y, object, canvasX, canvasY } in viewport coords, or null when closed
   const contextMenuRef = useRef(null);
+  const [canUndo, setCanUndo] = useState(false);
+  const [canRedo, setCanRedo] = useState(false);
+  const undoStackRef = useRef([]);
+  const redoStackRef = useRef([]);
 
   // Mouse handlers are registered once; refs keep them reading current tool/color state.
   const toolRef = useRef(activeTool);
@@ -53,6 +57,46 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   fontFamilyRef.current = fontFamily;
   fontSizeRef.current = fontSize;
   brushSizeRef.current = brushSize;
+
+  function saveCanvasState() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas) return;
+    const state = JSON.stringify(canvas);
+    undoStackRef.current.push(state);
+    redoStackRef.current = [];
+    setCanUndo(true);
+    setCanRedo(false);
+  }
+
+  function handleUndo() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || undoStackRef.current.length === 0) return;
+
+    const currentState = JSON.stringify(canvas);
+    redoStackRef.current.push(currentState);
+    setCanRedo(true);
+
+    const previousState = undoStackRef.current.pop();
+    canvas.loadFromJSON(previousState, () => {
+      canvas.requestRenderAll();
+      setCanUndo(undoStackRef.current.length > 0);
+    });
+  }
+
+  function handleRedo() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || redoStackRef.current.length === 0) return;
+
+    const currentState = JSON.stringify(canvas);
+    undoStackRef.current.push(currentState);
+    setCanUndo(true);
+
+    const nextState = redoStackRef.current.pop();
+    canvas.loadFromJSON(nextState, () => {
+      canvas.requestRenderAll();
+      setCanRedo(redoStackRef.current.length > 0);
+    });
+  }
 
   useEffect(() => {
     if (fabricCanvasRef.current) return; // StrictMode double-invoke guard
@@ -140,6 +184,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       drawingRef.current = null;
       setActiveTool('select');
       canvas.requestRenderAll();
+      saveCanvasState();
     });
 
     return () => {
@@ -192,19 +237,21 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     e.dataTransfer.effectAllowed = 'copy';
   }
 
-  function handleCanvasDrop(e) {
+  async function handleCanvasDrop(e) {
     e.preventDefault();
     const src = e.dataTransfer.getData('text/plain');
     const canvas = fabricCanvasRef.current;
     if (!src || !canvas || !canvasElRef.current) return;
     const rect = canvasElRef.current.getBoundingClientRect();
-    addImageAt(canvas, src, e.clientX - rect.left, e.clientY - rect.top);
+    await addImageAt(canvas, src, e.clientX - rect.left, e.clientY - rect.top);
+    saveCanvasState();
   }
 
-  function handleImageClick(src) {
+  async function handleImageClick(src) {
     const canvas = fabricCanvasRef.current;
     if (!canvas) return;
-    addImageAt(canvas, src, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+    await addImageAt(canvas, src, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+    saveCanvasState();
   }
 
   function handleFillColorChange(color) {
@@ -215,6 +262,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     if (active.length === 0) return;
     active.forEach(obj => obj.set('fill', color));
     canvas.requestRenderAll();
+    saveCanvasState();
   }
 
   function handleDeleteSelected() {
@@ -223,6 +271,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.getActiveObjects().forEach(obj => canvas.remove(obj));
     canvas.discardActiveObject();
     canvas.requestRenderAll();
+    saveCanvasState();
   }
 
   function handleContextMenu(e) {
@@ -253,6 +302,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.bringObjectForward(contextMenu.object);
     canvas.requestRenderAll();
     closeContextMenu();
+    saveCanvasState();
   }
 
   function handleSendToBack() {
@@ -261,6 +311,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.sendObjectBackwards(contextMenu.object);
     canvas.requestRenderAll();
     closeContextMenu();
+    saveCanvasState();
   }
 
   async function handleDuplicate() {
@@ -273,6 +324,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.add(clone);
     canvas.setActiveObject(clone);
     canvas.requestRenderAll();
+    saveCanvasState();
   }
 
   function handleContextDelete() {
@@ -286,6 +338,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.clear();
     canvas.backgroundColor = '#ffffff';
     canvas.requestRenderAll();
+    saveCanvasState();
   }
 
   function handleDownload() {
@@ -307,6 +360,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     if (!canvas) return;
     try {
       await addImageFromFile(canvas, file, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+      saveCanvasState();
     } catch (err) {
       console.error('Failed to load image:', err);
     }
@@ -319,6 +373,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     if (!canvas || !contextMenu) return;
     try {
       await pasteImageFromClipboard(canvas, contextMenu.canvasX, contextMenu.canvasY);
+      saveCanvasState();
     } catch (err) {
       console.error('Failed to paste image:', err);
     }
@@ -356,6 +411,10 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           onClear={handleClear}
           onDownload={handleDownload}
           onLoadImage={handleLoadImageClick}
+          canUndo={canUndo}
+          onUndo={handleUndo}
+          canRedo={canRedo}
+          onRedo={handleRedo}
         />
 
         <div className="hint">Drag (or click) an image from the left onto the canvas, then draw shapes on top.</div>

@@ -490,8 +490,9 @@ button {
 }
 .paint-tool-button:hover { border-color: var(--primary); }
 .paint-tool-button.active { background: var(--primary); border-color: var(--primary); color: #fff; }
-.paint-color-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
-.paint-color-group { display: flex; flex-direction: column; gap: 6px; }
+.paint-color-row { display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap; }
+.paint-color-group { display: flex; flex-direction: column; gap: 6px; position: relative; }
+.paint-color-input-row { display: flex; align-items: center; gap: 4px; }
 .paint-color-label { display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
 .paint-color-row input[type="color"] {
   width: 30px;
@@ -501,17 +502,44 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-.paint-color-palette { display: flex; gap: 4px; flex-wrap: wrap; }
+.paint-palette-toggle {
+  padding: 4px 6px;
+  font-size: 12px;
+  color: var(--muted);
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1;
+}
+.paint-palette-toggle:hover:not(:disabled) { border-color: var(--primary); }
+.paint-palette-toggle:disabled { opacity: 0.45; cursor: not-allowed; }
+.paint-color-palette {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  min-width: 180px;
+}
 .paint-color-swatch {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   padding: 0;
   border: 2px solid transparent;
   border-radius: 4px;
   cursor: pointer;
-  transition: border-color 0.15s;
+  transition: border-color 0.15s, transform 0.15s;
 }
-.paint-color-swatch:hover { border-color: var(--muted); }
+.paint-color-swatch:hover:not(:disabled) { border-color: var(--muted); transform: scale(1.05); }
 .paint-color-swatch:disabled { opacity: 0.45; cursor: not-allowed; }
 .paint-font-select {
   font-family: inherit;
