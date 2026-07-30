@@ -60,10 +60,9 @@ def extract_videos(country_data):
             if isinstance(video_item, dict) and "video_id" in video_item:
                 videos.append({
                     "source": "youtube",
-                    "type": "youtube",
-                    "video_id": video_item["video_id"],
-                    "title": video_item.get("title", ""),
-                    "url": f"https://www.youtube.com/embed/{video_item['video_id']}"
+                    "type": "page",
+                    "pageUrl": f"https://www.youtube.com/watch?v={video_item['video_id']}",
+                    "url": f"https://www.youtube.com/watch?v={video_item['video_id']}"
                 })
     return videos
 
@@ -158,7 +157,11 @@ def generate_learn_json(countries_data):
 
 def generate_quiz(countries_data):
     """Generate countries quiz with 15 MC and 5 matching questions."""
-    quiz = {"questions": []}
+    quiz = {
+        "quizTitle": "Countries Quiz",
+        "showCorrectAnswer": "Y",
+        "questions": []
+    }
 
     # Filter countries that have images for the quiz
     valid_countries = [c for c in countries_data if c["images"]]
@@ -176,31 +179,37 @@ def generate_quiz(countries_data):
             min(3, len(valid_countries) - 1)
         )
 
-        question = {
-            "type": "image-choice",
-            "question": f"Which country is this?",
-            "image": country["images"][0],
-            "choices": [country["display_name"]] + wrong_answers,
-            "correct_index": 0,
-            "explanation": f"This is {country['display_name']}."
-        }
+        choices = [country["display_name"]] + wrong_answers
+        random.shuffle(choices)
 
-        # Shuffle choices
-        correct_choice = country["display_name"]
-        random.shuffle(question["choices"])
-        question["correct_index"] = question["choices"].index(correct_choice)
+        correct_letter = chr(ord('a') + choices.index(country["display_name"]))
+
+        question = {
+            "questionText": "Which country is this?",
+            "centralImage": [country["images"][0]],
+            "choiceType": "text",
+            "choices": choices,
+            "correctAnswer": correct_letter
+        }
 
         quiz["questions"].append(question)
 
     # Generate 5 matching questions
     match_countries = random.sample(valid_countries, min(5, len(valid_countries)))
 
+    pairs = []
+    for country in match_countries:
+        pairs.append({
+            "left": country["display_name"],
+            "right": country["images"][0]
+        })
+
     matching_question = {
-        "type": "match",
-        "question": "Match the country to its map:",
-        "left": [c["display_name"] for c in match_countries],
-        "right_images": [c["images"][0] for c in match_countries],
-        "right_indices": list(range(len(match_countries)))  # Will be shuffled in display
+        "questionText": "Match the country to its map:",
+        "choiceType": "match",
+        "leftType": "text",
+        "rightType": "image",
+        "pairs": pairs
     }
 
     quiz["questions"].append(matching_question)
@@ -214,7 +223,7 @@ def generate_quiz(countries_data):
         json.dump(quiz, f, indent=2)
         f.write("\n")
 
-    print(f"Generated {quiz_path} with {len(quiz['questions']) - 1} MC questions and 1 matching question")
+    print(f"Generated {quiz_path} with 15 MC questions and 1 matching question (5 pairs)")
     return quiz_path
 
 
