@@ -201,9 +201,8 @@ h2 { font-size: 18px; margin: 0 0 20px; color: var(--muted); font-weight: 500; }
 .lightbox-close:hover { color: #ccc; }
 .learn-video-list { display: flex; flex-wrap: wrap; gap: 12px; }
 .learn-video-player {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
+  width: 200px;
+  height: 130px;
   border-radius: 8px;
   border: 1px solid var(--border);
   background: #000;
