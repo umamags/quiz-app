@@ -267,25 +267,11 @@ export default function PaintToolbar({
       </div>
 
       <div className="paint-action-group">
-        <button
-          type="button"
-          className="paint-tool-button"
-          onClick={onUndo}
-          disabled={!canUndo}
-          aria-label="Undo"
-          title="Undo (Ctrl+Z)"
-        >
-          {ICONS.undo}
+        <button type="button" className="btn-secondary" onClick={onUndo} disabled={!canUndo}>
+          Undo
         </button>
-        <button
-          type="button"
-          className="paint-tool-button"
-          onClick={onRedo}
-          disabled={!canRedo}
-          aria-label="Redo"
-          title="Redo (Ctrl+Y)"
-        >
-          {ICONS.redo}
+        <button type="button" className="btn-secondary" onClick={onRedo} disabled={!canRedo}>
+          Redo
         </button>
         <button type="button" className="btn-secondary" onClick={onLoadImage}>
           Load Image
