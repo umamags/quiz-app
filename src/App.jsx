@@ -3,6 +3,7 @@ import { initialState, quizReducer } from './quizState.js';
 import HomeScreen from './screens/HomeScreen.jsx';
 import QuizScreen from './screens/QuizScreen.jsx';
 import ResultsScreen from './screens/ResultsScreen.jsx';
+import Footer from './components/Footer.jsx';
 
 export default function App() {
   const [state, dispatch] = useReducer(quizReducer, initialState);
@@ -55,15 +56,18 @@ export default function App() {
 
   return (
     <div className="app">
-      {state.screen === 'menu' && (
-        <HomeScreen state={state} dispatch={dispatch} onSelectQuiz={startQuiz} />
-      )}
-      {state.screen === 'quiz' && state.quiz && (
-        <QuizScreen state={state} dispatch={dispatch} />
-      )}
-      {state.screen === 'results' && state.quiz && (
-        <ResultsScreen state={state} dispatch={dispatch} />
-      )}
+      <div className="screen-container">
+        {state.screen === 'menu' && (
+          <HomeScreen state={state} dispatch={dispatch} onSelectQuiz={startQuiz} />
+        )}
+        {state.screen === 'quiz' && state.quiz && (
+          <QuizScreen state={state} dispatch={dispatch} />
+        )}
+        {state.screen === 'results' && state.quiz && (
+          <ResultsScreen state={state} dispatch={dispatch} />
+        )}
+      </div>
+      <Footer />
     </div>
   );
 }
