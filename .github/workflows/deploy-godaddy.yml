@@ -50,30 +50,13 @@ jobs:
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts 2>/dev/null
 
-      - name: Check if quiz-app directory exists
-        id: check_dir
+      - name: Deploy to GoDaddy
         run: |
-          if ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} [ -d "/home/fbmerf3ynq50/public_html/quiz-app" ]; then
-            echo "exists=true" >> $GITHUB_OUTPUT
-          else
-            echo "exists=false" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Deploy to GoDaddy (git pull if exists)
-        if: steps.check_dir.outputs.exists == 'true'
-        run: |
-          ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-            echo "Quiz-app directory exists. Pulling latest changes..."
-            cd /home/fbmerf3ynq50/public_html/quiz-app
-            git pull origin master
-          EOF
-
-      - name: Deploy to GoDaddy (initial deployment via SCP)
-        if: steps.check_dir.outputs.exists == 'false'
-        run: |
+          # Remove existing files in target directory and deploy new ones
           ssh -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-            "mkdir -p /home/fbmerf3ynq50/public_html/quiz-app"
+            "rm -rf /home/fbmerf3ynq50/public_html/quiz-app/* && mkdir -p /home/fbmerf3ynq50/public_html/quiz-app"
 
+          # Copy new files using SCP
           scp -r -P ${{ secrets.SSH_PORT }} ./dist/* ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/fbmerf3ynq50/public_html/quiz-app/
 
       - name: Verify deployment
