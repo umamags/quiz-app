@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:prod": "DEPLOY_ENV=production vite build",
     "preview": "vite preview",
+    "preview:prod": "DEPLOY_ENV=production vite build && vite preview",
     "test": "vitest run",
     "sync:learn": "python3 utils/download_unsplash/sync_learn.py"
   },

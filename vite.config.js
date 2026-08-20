@@ -1,16 +1,47 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import fs from 'fs';
+import path from 'path';
 
-// Served from https://umamags.github.io/quiz-app/ (a project subpath, not the
-// domain root), so built asset URLs need that prefix -- otherwise the browser
-// requests /assets/... instead of /quiz-app/assets/... and gets 404s, which
-// is what caused the blank page. Dev server keeps using '/' unaffected.
-export default defineConfig(({ command }) => ({
-  plugins: [react()],
-  base: command === 'build' ? '/quiz-app/' : '/',
-  test: {
-    environment: 'jsdom',
-    setupFiles: './src/setupTests.js',
-    globals: true,
-  },
-}));
+// Exclude large media directories from production builds.
+// These assets are served from https://ai-lab.in/data/quiz-app/ in production,
+// and used locally from public/ during development.
+function copyWithExclusionsPlugin() {
+  const mediaDirsToExclude = ['audio', 'images', 'images_downloaded', 'countries_images'];
+
+  return {
+    name: 'copy-with-exclusions',
+    apply: 'build',
+    writeBundle(options) {
+      const distDir = options.dir;
+
+      // Remove media directories from dist
+      for (const dir of mediaDirsToExclude) {
+        const dirPath = path.join(distDir, dir);
+        if (fs.existsSync(dirPath)) {
+          fs.rmSync(dirPath, { recursive: true, force: true });
+          console.log(`[build] Excluded ${dir} from production build`);
+        }
+      }
+    },
+  };
+}
+
+export default defineConfig(({ command }) => {
+  // For production deployment on ai-lab.in, use /quiz-app/ base
+  // For local dev/preview, use / base
+  let base = '/';
+  if (command === 'build' && process.env.DEPLOY_ENV === 'production') {
+    base = '/quiz-app/';
+  }
+
+  return {
+    plugins: [react(), copyWithExclusionsPlugin()],
+    base,
+    test: {
+      environment: 'jsdom',
+      setupFiles: './src/setupTests.js',
+      globals: true,
+    },
+  };
+});

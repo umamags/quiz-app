@@ -1,4 +1,4 @@
-import { Rect, Circle, Line, FabricImage, IText } from 'fabric';
+import { Rect, Circle, Line, FabricImage, IText, Path } from 'fabric';
 
 const MIN_SHAPE_SIZE = 4;
 const IMAGE_MAX_DIMENSION = 220;
@@ -6,10 +6,70 @@ const IMAGE_MAX_DIMENSION = 220;
 // Shape types that enclose an area and can be filled with a color after the
 // fact (via the toolbar's Fill picker once selected). Line/freehand strokes
 // and text are not, since they have no bounded interior.
-const FILLABLE_TYPES = new Set(['rect', 'circle']);
+const FILLABLE_TYPES = new Set(['rect', 'circle', 'path']);
 
 export function isFillableObject(obj) {
   return !!obj && FILLABLE_TYPES.has(obj.type);
+}
+
+export function setObjectFill(obj, color) {
+  if (obj) obj.set({ fill: color });
+}
+
+export function getObjectFill(obj) {
+  return obj ? obj.fill : null;
+}
+
+function createStarPath(width, height) {
+  const cx = width / 2;
+  const cy = height / 2;
+  const outerRadius = Math.min(width, height) / 2 * 0.85;
+  const innerRadius = outerRadius * 0.35;
+
+  let path = '';
+  for (let i = 0; i < 10; i++) {
+    const isOuter = i % 2 === 0;
+    const r = isOuter ? outerRadius : innerRadius;
+    const angle = (i * Math.PI) / 5 - Math.PI / 2;
+    const x = cx + r * Math.cos(angle);
+    const y = cy + r * Math.sin(angle);
+
+    if (i === 0) {
+      path = `M ${x} ${y}`;
+    } else {
+      path += ` L ${x} ${y}`;
+    }
+  }
+  path += ' Z';
+  return path;
+}
+
+function createBalloonPath(width, height) {
+  const cx = width / 2;
+  const cy = height / 2;
+  const balloonW = width * 0.35;
+  const topH = height * 0.08;
+  const widthH = height * 0.38;
+  const narrowH = height * 0.60;
+  const tailH = height * 0.95;
+
+  // Start at apex (top point)
+  let path = `M ${cx} ${cy - topH}`;
+
+  // Right side curves out to widest point, then tapers to tail
+  path += ` Q ${cx + balloonW * 1.3} ${cy + widthH * 0.2} ${cx + balloonW * 0.7} ${cy + widthH}`;
+
+  // Right continues tapering smoothly to tail point
+  path += ` Q ${cx + balloonW * 0.25} ${cy + narrowH} ${cx} ${cy + tailH}`;
+
+  // Left continues tapering smoothly from tail point
+  path += ` Q ${cx - balloonW * 0.25} ${cy + narrowH} ${cx - balloonW * 0.7} ${cy + widthH}`;
+
+  // Left side tapers back up with smooth curve to apex
+  path += ` Q ${cx - balloonW * 1.3} ${cy + widthH * 0.2} ${cx} ${cy - topH}`;
+
+  path += ' Z';
+  return path;
 }
 
 // Builds a fresh shape object spanning the drag rectangle (x0,y0) -> (x1,y1).
@@ -42,6 +102,28 @@ export function buildShape(tool, { x0, y0, x1, y1 }, { strokeColor }) {
     case 'circle': {
       const radius = Math.max(width, height) / 2;
       return new Circle({ left, top, radius, stroke: strokeColor, fill, strokeWidth: 2 });
+    }
+
+    case 'star': {
+      const pathData = createStarPath(width, height);
+      return new Path(pathData, {
+        left,
+        top,
+        stroke: strokeColor,
+        fill,
+        strokeWidth: 2,
+      });
+    }
+
+    case 'balloon': {
+      const pathData = createBalloonPath(width, height);
+      return new Path(pathData, {
+        left,
+        top,
+        stroke: strokeColor,
+        fill,
+        strokeWidth: 2,
+      });
     }
 
     default:
@@ -79,19 +161,33 @@ export function eraseObjectAt(canvas, pointer) {
 
 // Loads an image from `src` and adds it to the canvas centered at (x, y),
 // scaled down so oversized source photos don't dwarf the canvas.
+// Includes timeout protection for remote URLs.
 export async function addImageAt(canvas, src, x, y) {
-  const img = await FabricImage.fromURL(src);
-  const scale = Math.min(1, IMAGE_MAX_DIMENSION / Math.max(img.width || IMAGE_MAX_DIMENSION, img.height || IMAGE_MAX_DIMENSION));
-  img.set({
-    left: x - (img.width * scale) / 2,
-    top: y - (img.height * scale) / 2,
-    scaleX: scale,
-    scaleY: scale,
-  });
-  canvas.add(img);
-  canvas.setActiveObject(img);
-  canvas.requestRenderAll();
-  return img;
+  try {
+    // Add timeout protection for remote image loading
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+
+    const img = await FabricImage.fromURL(src);
+    clearTimeout(timeoutId);
+
+    const scale = Math.min(1, IMAGE_MAX_DIMENSION / Math.max(img.width || IMAGE_MAX_DIMENSION, img.height || IMAGE_MAX_DIMENSION));
+    img.set({
+      left: x - (img.width * scale) / 2,
+      top: y - (img.height * scale) / 2,
+      scaleX: scale,
+      scaleY: scale,
+    });
+    canvas.add(img);
+    canvas.setActiveObject(img);
+    canvas.requestRenderAll();
+    return img;
+  } catch (error) {
+    if (error.name === 'AbortError') {
+      throw new Error(`Image load timeout: ${src}`);
+    }
+    throw error;
+  }
 }
 
 // Loads an image from a File object and adds it to the canvas centered at (x, y)

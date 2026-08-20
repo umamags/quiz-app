@@ -3,3 +3,8 @@ dist/
 .DS_Store
 *.log
 .env
+
+# Media files are committed to git for local development but excluded from production deployments.
+# In production, these assets are served from https://ai-lab.in/data/quiz-app/
+# Keep these in git for local testing, but exclude from dist/ build output.
+# This is handled by the build process, not .gitignore, so these remain tracked in git.

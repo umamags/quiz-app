@@ -9,13 +9,15 @@ import {
   addImageFromFile,
   pasteImageFromClipboard,
   createText,
-  eraseObjectAt,
   findObjectAt,
   exportPng,
   generateFilename,
   downloadDataUrl,
   isFillableObject,
+  setObjectFill,
+  getObjectFill,
 } from '../paint/fabricHelpers.js';
+import { getImageUrl, getCountryImageUrl } from '../config/assetUrls.js';
 
 const CANVAS_WIDTH = 1040; // 800 * 1.3
 const CANVAS_HEIGHT = 560;
@@ -117,8 +119,11 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       setHasSelection(active.length > 0);
       const fillable = active.length > 0 && active.every(isFillableObject);
       setCanFillSelection(fillable);
-      if (fillable && active.length === 1 && typeof active[0].fill === 'string' && active[0].fill !== 'transparent') {
-        setFillColor(active[0].fill);
+      if (fillable && active.length === 1) {
+        const fill = getObjectFill(active[0]);
+        if (typeof fill === 'string' && fill !== 'transparent') {
+          setFillColor(fill);
+        }
       }
     };
     canvas.on('selection:created', updateSelection);
@@ -128,13 +133,8 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     canvas.on('mouse:down', opt => {
       if (opt.e.button !== undefined && opt.e.button !== 0) return; // ignore right/middle-click; left-click drawing only
       const tool = toolRef.current;
-      if (tool === 'select' || tool === 'freehand') return; // freehand draws via canvas.isDrawingMode
+      if (tool === 'select' || tool === 'freehand' || tool === 'eraser') return; // freehand and eraser draw via canvas.isDrawingMode
       const pointer = canvas.getScenePoint(opt.e);
-
-      if (tool === 'eraser') {
-        if (eraseObjectAt(canvas, pointer)) canvas.requestRenderAll();
-        return;
-      }
 
       if (tool === 'text') {
         const text = createText(pointer.x, pointer.y, {
@@ -182,7 +182,6 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
       drawing.shape.set({ selectable: true, evented: true });
       canvas.setActiveObject(drawing.shape);
       drawingRef.current = null;
-      setActiveTool('select');
       canvas.requestRenderAll();
       saveCanvasState();
     });
@@ -199,7 +198,7 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
     const canvas = fabricCanvasRef.current;
     if (!canvas) return;
     const drawMode = activeTool !== 'select';
-    canvas.isDrawingMode = activeTool === 'freehand';
+    canvas.isDrawingMode = activeTool === 'freehand' || activeTool === 'eraser';
     canvas.selection = !drawMode;
     canvas.skipTargetFind = drawMode;
     canvas.defaultCursor = drawMode ? 'crosshair' : 'default';
@@ -209,9 +208,11 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   useEffect(() => {
     const canvas = fabricCanvasRef.current;
     if (!canvas || !canvas.freeDrawingBrush) return;
-    canvas.freeDrawingBrush.color = strokeColor;
+    // When eraser is active, use white; otherwise use stroke color
+    const brushColor = activeTool === 'eraser' ? '#ffffff' : strokeColor;
+    canvas.freeDrawingBrush.color = brushColor;
     canvas.freeDrawingBrush.width = brushSize;
-  }, [strokeColor, brushSize]);
+  }, [strokeColor, brushSize, activeTool]);
 
   // Close the right-click object menu on an outside click or Escape.
   useEffect(() => {
@@ -233,7 +234,9 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   }, [contextMenu]);
 
   function handleImageDragStart(e, src) {
-    e.dataTransfer.setData('text/plain', src);
+    // Transform relative path to absolute URL (local or remote)
+    const imageUrl = src.includes('countries_images') ? getCountryImageUrl(src) : getImageUrl(src);
+    e.dataTransfer.setData('text/plain', imageUrl);
     e.dataTransfer.effectAllowed = 'copy';
   }
 
@@ -248,9 +251,11 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   }
 
   async function handleImageClick(src) {
+    // Transform relative path to absolute URL (local or remote)
+    const imageUrl = src.includes('countries_images') ? getCountryImageUrl(src) : getImageUrl(src);
     const canvas = fabricCanvasRef.current;
     if (!canvas) return;
-    await addImageAt(canvas, src, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
+    await addImageAt(canvas, imageUrl, CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
     saveCanvasState();
   }
 
@@ -330,6 +335,15 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
   function handleContextDelete() {
     handleDeleteSelected();
     closeContextMenu();
+  }
+
+  function handleContextFill() {
+    const canvas = fabricCanvasRef.current;
+    if (!canvas || !contextMenu || !contextMenu.object) return;
+    setObjectFill(contextMenu.object, fillColor);
+    canvas.requestRenderAll();
+    closeContextMenu();
+    saveCanvasState();
   }
 
   function handleClear() {
@@ -435,11 +449,13 @@ export default function PaintScreen({ learnManifest, learnItems, paintCategory, 
           x={contextMenu.x}
           y={contextMenu.y}
           object={contextMenu.object}
+          isFillable={contextMenu.object && isFillableObject(contextMenu.object)}
           onBringForward={handleBringForward}
           onSendToBack={handleSendToBack}
           onDuplicate={handleDuplicate}
           onDelete={handleContextDelete}
           onPaste={handlePaste}
+          onFill={handleContextFill}
         />
       )}
 

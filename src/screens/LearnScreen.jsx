@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { filterLearnItems } from '../quizState.js';
 import Lightbox from '../components/Lightbox.jsx';
+import { getAudioUrl, getImageUrl, getCountryImageUrl } from '../config/assetUrls.js';
 
 const SEARCH_DEBOUNCE_MS = 200;
 
@@ -55,7 +56,8 @@ function LearnVideo({ video }) {
 
 function LearnCard({ item, onImageClick }) {
   function playAudio() {
-    new Audio(item.audio_desc).play();
+    const audioUrl = getAudioUrl(item.audio_desc);
+    new Audio(audioUrl).play();
   }
 
   return (
@@ -82,16 +84,20 @@ function LearnCard({ item, onImageClick }) {
       </div>
       {item.images?.length > 0 && (
         <div className="learn-card-images">
-          {item.images.map(src => (
-            <button
-              key={src}
-              type="button"
-              className="learn-image-button"
-              onClick={() => onImageClick(src, item.name)}
-            >
-              <img className="learn-card-image" src={src} alt={item.name} loading="lazy" />
-            </button>
-          ))}
+          {item.images.map(src => {
+            // Transform relative image path to correct URL (local or remote)
+            const imageUrl = src.includes('countries_images') ? getCountryImageUrl(src) : getImageUrl(src);
+            return (
+              <button
+                key={src}
+                type="button"
+                className="learn-image-button"
+                onClick={() => onImageClick(imageUrl, item.name)}
+              >
+                <img className="learn-card-image" src={imageUrl} alt={item.name} loading="lazy" />
+              </button>
+            );
+          })}
         </div>
       )}
       {item.videos?.length > 0 && (

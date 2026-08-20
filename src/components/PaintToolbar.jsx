@@ -52,6 +52,18 @@ const ICONS = {
       <circle cx="12" cy="12" r="8" />
     </svg>
   ),
+  star: (
+    <svg {...STROKE_ICON_PROPS}>
+      <path d="M12 2 L15.09 10.26 L24 10.26 L17.45 15.74 L19.54 24 L12 18.52 L4.46 24 L6.55 15.74 L0 10.26 L8.91 10.26 Z" />
+    </svg>
+  ),
+  balloon: (
+    <svg {...STROKE_ICON_PROPS}>
+      <circle cx="12" cy="8" r="6" />
+      <path d="M12 14 Q14 16 14 18 L10 18 Q10 16 12 14" />
+      <line x1="12" y1="18" x2="12" y2="22" />
+    </svg>
+  ),
   eraser: (
     <svg {...STROKE_ICON_PROPS}>
       <path d="M6 19 3.5 16.5a2 2 0 0 1 0-2.8l7-7a2 2 0 0 1 2.8 0l4.5 4.5a2 2 0 0 1 0 2.8L13.5 19" />
@@ -69,6 +81,8 @@ const TOOLS = [
   { id: 'text', label: 'Text' },
   { id: 'square', label: 'Square' },
   { id: 'circle', label: 'Circle' },
+  { id: 'star', label: 'Star' },
+  { id: 'balloon', label: 'Balloon' },
   { id: 'eraser', label: 'Eraser' },
 ];
 
@@ -124,19 +138,42 @@ export default function PaintToolbar({
 
   return (
     <div className="paint-toolbar">
-      <div className="paint-tool-group">
-        {TOOLS.map(t => (
-          <button
-            key={t.id}
-            type="button"
-            className={`paint-tool-button${activeTool === t.id ? ' active' : ''}`}
-            onClick={() => onToolChange(t.id)}
-            aria-label={t.label}
-            title={t.label}
-          >
-            {ICONS[t.id]}
+      <div className="paint-first-row">
+        <div className="paint-tool-group">
+          {TOOLS.map(t => (
+            <button
+              key={t.id}
+              type="button"
+              className={`paint-tool-button${activeTool === t.id ? ' active' : ''}`}
+              onClick={() => onToolChange(t.id)}
+              aria-label={t.label}
+              title={t.label}
+            >
+              {ICONS[t.id]}
+            </button>
+          ))}
+        </div>
+
+        <div className="paint-action-group">
+          <button type="button" className="btn-secondary" onClick={onUndo} disabled={!canUndo} title="Undo">
+            Undo
           </button>
-        ))}
+          <button type="button" className="btn-secondary" onClick={onRedo} disabled={!canRedo} title="Redo">
+            Redo
+          </button>
+          <button type="button" className="btn-secondary" onClick={onLoadImage} title="Load Image">
+            Load Image
+          </button>
+          <button type="button" className="btn-secondary" onClick={onDeleteSelected} disabled={!hasSelection} title="Delete selected object">
+            Delete
+          </button>
+          <button type="button" className="btn-secondary" onClick={onClear} title="Clear canvas">
+            Clear
+          </button>
+          <button type="button" className="btn-primary" onClick={onDownload} title="Download as PNG">
+            Download
+          </button>
+        </div>
       </div>
 
       <div className="paint-color-row">
@@ -264,27 +301,6 @@ export default function PaintToolbar({
             onChange={e => onFontSizeChange(Number(e.target.value))}
           />
         </label>
-      </div>
-
-      <div className="paint-action-group">
-        <button type="button" className="btn-secondary" onClick={onUndo} disabled={!canUndo}>
-          Undo
-        </button>
-        <button type="button" className="btn-secondary" onClick={onRedo} disabled={!canRedo}>
-          Redo
-        </button>
-        <button type="button" className="btn-secondary" onClick={onLoadImage}>
-          Load Image
-        </button>
-        <button type="button" className="btn-secondary" onClick={onDeleteSelected} disabled={!hasSelection}>
-          Delete
-        </button>
-        <button type="button" className="btn-secondary" onClick={onClear}>
-          Clear
-        </button>
-        <button type="button" className="btn-primary" onClick={onDownload}>
-          Download
-        </button>
       </div>
     </div>
   );

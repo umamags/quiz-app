@@ -5,18 +5,24 @@ const ITEMS = [
   { id: 'delete', label: 'Delete', danger: true },
 ];
 
+const FILLABLE_ITEMS = [
+  { id: 'fill', label: 'Fill', highlight: true },
+  ...ITEMS,
+];
+
 const CANVAS_ITEMS = [
   { id: 'paste', label: 'Paste' },
 ];
 
-export default function PaintContextMenu({ x, y, object, onBringForward, onSendToBack, onDuplicate, onDelete, onPaste, ref }) {
-  const items = object ? ITEMS : CANVAS_ITEMS;
+export default function PaintContextMenu({ x, y, object, isFillable, onBringForward, onSendToBack, onDuplicate, onDelete, onPaste, onFill, ref }) {
+  const items = !object ? CANVAS_ITEMS : (isFillable ? FILLABLE_ITEMS : ITEMS);
   const handlers = {
     'bring-forward': onBringForward,
     'send-to-back': onSendToBack,
     duplicate: onDuplicate,
     delete: onDelete,
     paste: onPaste,
+    fill: onFill,
   };
 
   return (
@@ -25,7 +31,7 @@ export default function PaintContextMenu({ x, y, object, onBringForward, onSendT
         <button
           key={item.id}
           type="button"
-          className={`paint-context-menu-item${item.danger ? ' danger' : ''}`}
+          className={`paint-context-menu-item${item.danger ? ' danger' : ''}${item.highlight ? ' highlight' : ''}`}
           onClick={handlers[item.id]}
         >
           {item.label}
