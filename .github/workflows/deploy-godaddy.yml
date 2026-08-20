@@ -24,7 +24,7 @@ jobs:
         run: npm install
 
       - name: Build application
-        run: npm run build
+        run: DEPLOY_ENV=production npm run build:prod
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
