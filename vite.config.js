@@ -13,14 +13,18 @@ function copyWithExclusionsPlugin() {
     name: 'copy-with-exclusions',
     apply: 'build',
     writeBundle(options) {
-      const distDir = options.dir;
+      // Only exclude media if DEPLOY_ENV=production (for ai-lab.in)
+      // For local preview testing, keep media files in dist
+      if (process.env.DEPLOY_ENV === 'production') {
+        const distDir = options.dir;
 
-      // Remove media directories from dist
-      for (const dir of mediaDirsToExclude) {
-        const dirPath = path.join(distDir, dir);
-        if (fs.existsSync(dirPath)) {
-          fs.rmSync(dirPath, { recursive: true, force: true });
-          console.log(`[build] Excluded ${dir} from production build`);
+        // Remove media directories from dist
+        for (const dir of mediaDirsToExclude) {
+          const dirPath = path.join(distDir, dir);
+          if (fs.existsSync(dirPath)) {
+            fs.rmSync(dirPath, { recursive: true, force: true });
+            console.log(`[build] Excluded ${dir} from production build`);
+          }
         }
       }
     },
